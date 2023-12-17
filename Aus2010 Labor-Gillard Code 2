@@ -1,0 +1,217 @@
+e = campaignTrail_temp
+
+e.global_parameter_json = [
+  {
+      "model": "campaign_trail.global_parameter",
+      "pk": 1,
+      "fields": {
+        "vote_variable": 1.125,
+        "max_swing": 0.12,
+        "start_point": 0.94,
+        "candidate_issue_weight": 10,
+        "running_mate_issue_weight": 3,
+        "issue_stance_1_max": -0.71,
+        "issue_stance_2_max": -0.3,
+        "issue_stance_3_max": -0.125,
+        "issue_stance_4_max": 0.125,
+        "issue_stance_5_max": 0.3,
+        "issue_stance_6_max": 0.71,
+        "global_variance": 0.01,
+        "state_variance": 0.005,
+        "question_count": 25,
+        "default_map_color_hex": "#C9C9C9",
+        "no_state_map_color_hex": "#999999"
+      }
+    }
+  ]
+  
+ e.questions_json = [
+     {
+       "model": "campaign_trail.question",
+       "pk": 1000,
+       "fields": {
+         "priority": 1,
+         "description": "[24th June, 2010] Kevin Rudd’s leadership is in tatters at the current moment. Polls are showing a dip in Labor’s Primary support before the election. Mrs. Gillard, the time has come. Are you willing to announce a Leadership Challenge against Prime Minister Kevin Rudd?",
+         "likelihood": 1
+       }
+     },
+
+     {
+      "model": "campaign_trail.question",
+      "pk": 1001,
+      "fields": {
+        "priority": 1,
+        "description": "[24th June, 2010] Mrs Gillard, you’ve been elected unopposed as leader of the Federal Labor Party and subsequently, the first Female Prime Minister of Australia. Mr. Rudd has already tendered his resignation to the Governor General. Now, you have been officially sworn in and now stand in front of the Parliament Press Room as Prime Minister. What do you have to say about this win?",
+        "likelihood": 1
+      }
+    },
+
+    {
+      "model": "campaign_trail.question",
+      "pk": 1002,
+      "fields": {
+        "priority": 1,
+        "description": "Current opinion polling is placing you and Tony Abbott Neck and Neck at the current time. This goes the same with Opinion Polling as Labor’s popularity has dropped, and the Coalition has made some gains in the polls. What is your plan to rectify Labor’s polls and to win the upcoming election?",
+        "likelihood": 1
+      }
+    },
+
+    {
+      "model": "campaign_trail.question",
+      "pk": 1003,
+      "fields": {
+        "priority": 1,
+        "description": "You’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for an official election. The date you had in mind? Saturday, the 21st of August. It’s now crunch time, Mrs. Gillard.",
+        "likelihood": 1
+      }
+    },
+
+    {
+      "model": "campaign_trail.question",
+      "pk": 1004,
+      "fields": {
+        "priority": 1,
+        "description": "As you have called the election, you’ll need to emphasise on your theme of campaign in order to win voters. What will be your message to voters leading up to the August Election?",
+        "likelihood": 1
+      }
+    },
+
+    {
+      "model": "campaign_trail.question",
+      "pk": 1005,
+      "fields": {
+        "priority": 1,
+        "description": "",
+        "likelihood": 1
+      }
+    },
+
+     
+  
+       
+     ]
+ 
+   campaignTrail_temp.answers_json = [
+     {
+       "model": "campaign_trail.answer",
+       "pk": 5000,
+       "fields": {
+         "question": 1000,
+         "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
+         "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
+         "issue_effect": [104, 0.7, 2], // format: [issue, issue score, issue importance]
+         "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
+       }
+     },
+ 
+     {
+       "model": "campaign_trail.answer",
+       "pk": 5001,
+       "fields": {
+         "question": 1000,
+         "feedback": "This didn’t go over well considering you’ve backed out of a potential contest to dethrone Mr. Rudd. Your loss.",
+         "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+         "description": "I believe at the current time that a leadership contest should not commence. Mr. Rudd has been doing a perfect job at leading Australia at the current time. I believe Mr. Rudd can go on and win the election."
+       }
+     },
+
+     {
+      "model": "campaign_trail.answer",
+      "pk": 5002,
+      "fields": {
+        "question": 1001,
+        "feedback": "Great speech, but some people aren’t buying it with the whole “Unite the Party Base” message. Especially with what happened only Hours ago.",
+        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Australia needs unity at the current time and a leader that is able to unite the people of Australia. I will be a leader that will listen to the people and will have to hear what they have to say. I understand the current ripples within the Labor Party Caucus, but I believe I can unite the Party."
+      }
+    },
+
+    {
+      "model": "campaign_trail.answer",
+      "pk": 5003,
+      "fields": {
+        "question": 1001,
+        "feedback": "",
+        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": ""
+      }
+    },
+
+    {
+      "model": "campaign_trail.answer",
+      "pk": 5004,
+      "fields": {
+        "question": 1001,
+        "feedback": "",
+        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": ""
+      }
+    },
+ 
+ 
+
+  
+ 
+   ]
+ 
+ 
+ 
+ campaignTrail_temp.candidate_image_url = 'https://cdn.discordapp.com/attachments/827378337894236170/1147373908694147142/image.png?ex=658f8fb9&is=657d1ab9&hm=ac267c269d6d5b0a9b8f265c6bd723d27540aa9f62e0b6d6b0f077968cd34193&';
+ campaignTrail_temp.running_mate_image_url = 'https://cdn.discordapp.com/attachments/827378337894236170/1147370370236698644/Julia-Gillard-2012.png?ex=658f8c6d&is=657d176d&hm=14201726bc91240fbc100b201616ac872ba43598d3488a72c768c4797340b6de&';
+ campaignTrail_temp.candidate_last_name = 'Labor';
+ campaignTrail_temp.running_mate_last_name = 'Gillard';
+ campaignTrail_temp.running_mate_state_id = '1013'; // this will need to change
+ campaignTrail_temp.player_answers = [];
+ campaignTrail_temp.player_visits = [];
+ 
+ e.answer_feedback_json = []
+ e.answer_score_global_json = []
+ campaignTrail_temp.answer_score_issue_json = []
+ 
+ for (let _i = 0; _i < e.answers_json.length; _i++) {
+ if (e.answers_json[_i].fields.feedback) {
+   let feedback_temp = {
+       "model": "campaign_trail.answer_feedback",
+       "pk": _i*10,
+       "fields": {
+         "answer": e.answers_json[_i].pk,
+         "candidate": e.candidate_id,
+         "answer_feedback": e.answers_json[_i].fields.feedback
+       }
+     }
+   
+   e.answer_feedback_json.push(feedback_temp)
+ }
+ if (e.answers_json[_i].fields.global_effect) {
+   let global_temp = {
+       "model": "campaign_trail.answer_score_global",
+       "pk": _i*100,
+       "fields": {
+         "answer": e.answers_json[_i].pk,
+         "candidate": e.candidate_id,
+         "affected_candidate": e.answers_json[_i].fields.global_effect[0],
+         "global_multiplier": e.answers_json[_i].fields.global_effect[1]
+       }
+     }
+     e.answer_score_global_json.push(global_temp)
+ }
+ if (e.answers_json[_i].fields.issue_effect) {
+   let issue_temp = {
+       "model": "campaign_trail.answer_score_issue",
+       "pk": _i*69,
+       "fields": {
+         "answer": e.answers_json[_i].pk,
+         "issue": e.answers_json[_i].fields.issue_effect[0],
+         "issue_score": e.answers_json[_i].fields.issue_effect[1],
+         "issue_importance": e.answers_json[_i].fields.issue_effect[2]
+       }
+     }
+     e.answer_score_global_json.push(issue_temp)
+ }
+ }
+
+ 
