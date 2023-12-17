@@ -18,7 +18,7 @@ e.global_parameter_json = [
         "issue_stance_6_max": 0.71,
         "global_variance": 0.01,
         "state_variance": 0.005,
-        "question_count": 5,
+        "question_count": 3,
         "default_map_color_hex": "#C9C9C9",
         "no_state_map_color_hex": "#999999"
       }
@@ -144,13 +144,38 @@ e.global_parameter_json = [
       "model": "campaign_trail.answer",
       "pk": 5004,
       "fields": {
-        "question": 1001,
-        "feedback": "",
+        "question": 1002,
+        "feedback": "This goes well over supporters, and you’ve made some ground in the polls. The pressure will be on.",
         "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-        "description": ""
+        "description": "This is quite concerning to hear. I will emphasise on Labor’s achievements over the past 3 years. Most significantly, the economy and how Labor managed to save the Australian Economy from the Great Financial Crisis."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5005,
+      "fields": {
+        "question": 1002,
+        "feedback": "Good speech emphasising how you are the first female PM. Most Australian women feel the same and this will hopefully boost your support amongst female voters.",
+        "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I will talk about how I am the first Female Prime Minister and how I can relate to to any women in Australia. Despite the fact I am a woman, I always come back stronger, even when faced with sexism and misogyny."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5006,
+      "fields": {
+        "question": 1002,
+        "feedback": "Solid attack. However, the Coalition keeps blasting on the severe instability of the Labor Party. The attack sticks, but slides right off.",
+        "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": " Lets talk about the Opposition Leader, Tony Abbott. Mr. Abbott doesn’t care for the working or middle class people of Australia. Let alone his record as Minister for Health under John Howard. Mr. Abbott nearly destroyed medicare. Would you let him become Prime Minister?"
+      }
+    },
+
  
  
 
