@@ -18,7 +18,7 @@ e.global_parameter_json = [
         "issue_stance_6_max": 0.71,
         "global_variance": 0.01,
         "state_variance": 0.005,
-        "question_count": 25,
+        "question_count": 5,
         "default_map_color_hex": "#C9C9C9",
         "no_state_map_color_hex": "#999999"
       }
@@ -122,7 +122,7 @@ e.global_parameter_json = [
       "fields": {
         "question": 1001,
         "feedback": "Great speech, but some people aren’t buying it with the whole “Unite the Party Base” message. Especially with what happened only Hours ago.",
-        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "global_effect": [201, -0.2], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "Australia needs unity at the current time and a leader that is able to unite the people of Australia. I will be a leader that will listen to the people and will have to hear what they have to say. I understand the current ripples within the Labor Party Caucus, but I believe I can unite the Party."
       }
@@ -133,10 +133,10 @@ e.global_parameter_json = [
       "pk": 5003,
       "fields": {
         "question": 1001,
-        "feedback": "",
-        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "feedback": "This speech energises the core Labor base. However, the distaste over the leadership contest lingers. It seems it won’t go away.",
+        "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-        "description": ""
+        "description": "As the election draws near, I want to remind voters of Labor’s successes over the past 3 years in office. We’ve established a National Broadband Network, saved the Australian economy from near disaster back in 2008 along with various reforms and investments that have made Australia better off. Why would we want to go back to the days of the Coalition?"
       }
     },
 
@@ -146,7 +146,7 @@ e.global_parameter_json = [
       "fields": {
         "question": 1001,
         "feedback": "",
-        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": ""
       }
