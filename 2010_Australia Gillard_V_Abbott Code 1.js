@@ -4,6 +4,10 @@ quotes = [
     `"Short-term thinking is the greatest enemy of good government." - Anthony Albanese`,
 ]
 
+selQuote = quotes[Math.round(Math.random()*(quotes.length - 1))]
+corrr = `<h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>` + selQuote + `</em></font>`
+$("#theme_picker")[0].style.display = "none"
+$("#bottomBar")[0].style.display = "none"
 
 styling = document.createElement("style");
 document.head.appendChild(styling);
