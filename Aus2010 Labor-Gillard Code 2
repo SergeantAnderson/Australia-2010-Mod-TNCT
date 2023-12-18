@@ -172,7 +172,55 @@ e.global_parameter_json = [
         "feedback": "Solid attack. However, the Coalition keeps blasting on the severe instability of the Labor Party. The attack sticks, but slides right off.",
         "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-        "description": " Lets talk about the Opposition Leader, Tony Abbott. Mr. Abbott doesn’t care for the working or middle class people of Australia. Let alone his record as Minister for Health under John Howard. Mr. Abbott nearly destroyed medicare. Would you let him become Prime Minister?"
+        "description": "Lets talk about the Opposition Leader, Tony Abbott. Mr. Abbott doesn’t care for the working or middle class people of Australia. Let alone his record as Minister for Health under John Howard. Mr. Abbott nearly destroyed medicare. Would you let him become Prime Minister?"
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5007,
+      "fields": {
+        "question": 1003,
+        "feedback": "Your spirits are high and thats for certain, Mrs. Gillard. However, you’re gonna have to make some ground if you want to retain your majority in Parliament.",
+        "global_effect": [201, -0.1], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I believe that we can win this election and keep going with the good work that Labor has done over the past 3 years. It will be a tough election to handle, but I believe that we can do it. "
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5008,
+      "fields": {
+        "question": 1004,
+        "feedback": "This seems like you’re shoring up Kevin Rudd’s past achievements and this move does cop some criticism from the Media. But this move might just work.",
+        "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "As a party, we will emphasise on the 3 years of achievements of what Labor has done. The Australian people trusted us with the economy during the Great Financial Crisis and Australia managed to sail through the crisis. We will heavily emphasise on the past 3 years of Policy."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5009,
+      "fields": {
+        "question": 1004,
+        "feedback": "This could be the move that will stick to Mr. Abbott, Julia. However, the Coalition does respond back with their own attack regarding the Leadership controversy.",
+        "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We will need to go on the attack if we want to win. We need to remind the public of Tony Abbott’s past record as holding several Cabinet Positions under John Howard. Especially with his moves with Medicare and WorkChoices."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5010,
+      "fields": {
+        "question": 1004,
+        "feedback": "I wouldn’t call your campaign “Disciplined” at the current time, Mrs. Gillard considering what is happening behind closed doors.",
+        "global_effect": [201, -0.6], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "The message we will need to run is a disciplined campaign. I know that the party is facing some rough bumps at the current time. But I believe that we can get through this issue as a united party and win this election. I’m sure the Australian People can Trust Labor once again."
       }
     },
 
