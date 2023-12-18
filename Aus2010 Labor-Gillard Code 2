@@ -91,10 +91,21 @@ e.global_parameter_json = [
       "pk": 1006,
       "fields": {
         "priority": 1,
+        "description": "It’s the 11th of August. You’ve been invited to a Community forum to debate the future of this nation. An audience of voters will be present. Of course, you’re up against Tony Abbott. The forum is taking place in the Western Suburbs of Sydney. Are you willing to attend?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1007,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
     },
+
 
      
   
@@ -267,6 +278,54 @@ e.global_parameter_json = [
         "global_effect": [201, 0.4], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "Healthcare. Labor has protected Medicare and always will protect it for Australians to receive free Healthcare. Mr. Abbott nearly purged Medicare out of existence. It shows that the Liberal/National’s cannot be trusted with the Health of our nation."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5014,
+      "fields": {
+        "question": 1006,
+        "feedback": "You seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
+        "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5015,
+      "fields": {
+        "question": 1006,
+        "feedback": "You seemed desperate to win against Mr. Abbott and it was reflected in what you said. Overall, the audience voted in favour of Mr. Abbott",
+        "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5016,
+      "fields": {
+        "question": 1006,
+        "feedback": "It was a squeaker of a debate. Voters were split on who to vote for and who won the debate. Overall, it was a draw.",
+        "global_effect": [201, 0.2], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5017,
+      "fields": {
+        "question": 1006,
+        "feedback": "Why wouldn’t you attend this forum? Many voters are disappointed in your actions. The Coalition’s support has increased thanks to this move.",
+        "global_effect": [201, -0.15], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": " As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
       }
     },
 
