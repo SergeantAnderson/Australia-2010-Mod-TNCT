@@ -81,6 +81,16 @@ e.global_parameter_json = [
       "pk": 1005,
       "fields": {
         "priority": 1,
+        "description": "The Liberal/National Campaign has begun throwing attack after attack in regards to your leadership and overall campaign. With the current caucus mess within the Labor Party, how will you defend yourself and the campaign against Mr. Abbott?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1006,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
@@ -223,6 +233,43 @@ e.global_parameter_json = [
         "description": "The message we will need to run is a disciplined campaign. I know that the party is facing some rough bumps at the current time. But I believe that we can get through this issue as a united party and win this election. I’m sure the Australian People can Trust Labor once again."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5011,
+      "fields": {
+        "question": 1005,
+        "feedback": "The attacks seem to work against Mr. Abbott. However, it’s mixed approval over the Australian people, as some are still concerned about the Caucus.",
+        "global_effect": [201, 0.3], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Australia must not forget the dangers of WorkChoices under the Liberal/National Government under John Howard. We will run ads on Mr. Abbott’s involvement in WorkChoices and attack him over his time as Minister for Employment."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5012,
+      "fields": {
+        "question": 1005,
+        "feedback": "You are right. However, Interest Rates have peaked since the last quarter. This attack may have backfired against you.",
+        "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": " Economic Management. Under the Previous Liberal Government, Mr. Howard said that interest rates will not be raised. He said “Who do you trust to keep Interest Rates low?” How can we trust Mr. Abbott that interest rates will be low as well if he is to win?"
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5013,
+      "fields": {
+        "question": 1005,
+        "feedback": "This seems to work, as no one wants any cuts to Medicare. The attacks do stick and work well. Coalition support has dipped slightly.",
+        "global_effect": [201, 0.4], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Healthcare. Labor has protected Medicare and always will protect it for Australians to receive free Healthcare. Mr. Abbott nearly purged Medicare out of existence. It shows that the Liberal/National’s cannot be trusted with the Health of our nation."
+      }
+    },
+
 
  
  
