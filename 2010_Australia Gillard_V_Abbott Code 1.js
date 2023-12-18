@@ -1,3 +1,10 @@
+quotes = [
+    `"I will not be lectured about Sexism and Misogyny by this man, I will not!." - Julia Gillard`,
+    `"HAHAHAHA, Shit Happens." - Tony Abbott`,
+    `"Short-term thinking is the greatest enemy of good government." - Anthony Albanese`,
+]
+
+
 styling = document.createElement("style");
 document.head.appendChild(styling);
 
