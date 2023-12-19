@@ -2,6 +2,9 @@ quotes = [
     `"I will not be lectured about Sexism and Misogyny by this man, I will not!" - Julia Gillard`,
     `"HAHAHAHA, Shit Happens." - Tony Abbott`,
     `"Short-term thinking is the greatest enemy of good government." - Anthony Albanese`,
+    `"If we boost productivity, we can improve economic growth." - Tony Abbott`,
+    `"Julia Gillard in 2010!"`,
+    `"Tony Abbott in 2010!"`,
 ]
 
 selQuote = quotes[Math.round(Math.random()*(quotes.length - 1))]
