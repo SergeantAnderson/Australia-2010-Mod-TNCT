@@ -111,10 +111,31 @@ e.global_parameter_json = [
       "pk": 1008,
       "fields": {
         "priority": 1,
+        "description": "You’ve said that this campaign that you have wanted to run is a “Disciplined” campaign. However, This move has seemed to have backfired, as the Coalition has run out a series of attack ads on your Campaign. How will you respond to this?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1009,
+      "fields": {
+        "priority": 1,
+        "description": "With the Labor Caucus in shambles after the ousting of Kevin Rudd, its shown the cracks within the party being divided between You, Mrs. Gillard, and the Former Prime Minister, Kevin Rudd. How can you unite the party in order to win the election?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1010,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
     },
+
 
 
      
@@ -386,6 +407,69 @@ e.global_parameter_json = [
         "description": "As much as we need to save our colleagues' seats, I have unfortunate doubts that many will fall when the August Election rolls around."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5022,
+      "fields": {
+        "question": 1008,
+        "feedback": "Yet, the instability within the Labor ranks still shows its ugly end. Nothing will go unnoticed this election.",
+        "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I back what I said. We will continue to run a disciplined campaign for the remainder of the election. I’m sure the people of Australia will see how we intend to do this. "
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5023,
+      "fields": {
+        "question": 1008,
+        "feedback": "This seems like the right idea to do. Many within the caucus have sided with you, however, the side backing Kevin Rudd still remains. Hopefully after the election you can be on good terms.",
+        "global_effect": [201, 0.2], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "If we want to run a disciplined campaign, we need to get the caucus in line and to show that we are ready to continue governing this country. I will organise a meeting and a party agenda. Hopefully this will settle the debacle."
+      }
+    },
+
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5024,
+      "fields": {
+        "question": 1008,
+        "feedback": "The Caucus damage still shows its ugly head and will continue to be the pressing issue of the election, no matter how many times you deflect, Julia.",
+        "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We need to instead focus on the Coalition. They went through 2 other leaders before they settled on Tony Abbott. Brendan Nelson and Malcolm Turnbull. And don’t even get me started on Tony Abbott’s choices when he was Minister under John Howard."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5025,
+      "fields": {
+        "question": 1009,
+        "feedback": "This sounds… unheard of in Australian Politics. But hey, if you're willing to make amends, go ahead. Let's hope this doesn’t backfire badly.",
+        "global_effect": [201, 0.2], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I believe the best possible solution is for me to campaign along side Kevin Rudd in the national campaign. We can also get Kevin to talk about his work as Prime Minister and for me to carry on the torch of the Labor Party. I believe we can do this in all states and territories."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5026,
+      "fields": {
+        "question": 1009,
+        "feedback": "Let’s hope it’s not your resignation after the election, Mrs. Gillard.",
+        "global_effect": [201, -0.2], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Despite it being run as a “Disciplined” campaign, I will need to meet with the Labor caucus to talk about what we can do to achieve party unity. I know there will be things we will not agree on, but it’s for the sake of the party"
+      }
+    },
+
+
 
 
 
