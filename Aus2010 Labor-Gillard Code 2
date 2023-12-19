@@ -101,6 +101,16 @@ e.global_parameter_json = [
       "pk": 1007,
       "fields": {
         "priority": 1,
+        "description": "Since the 2007 election, there have been many seats, particularly in New South Wales and Queensland that are under threat. Polls are saying that key marginal seats may change hands at the next election. Do you believe it’s best to save as many seats in these two states?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1008,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
@@ -325,9 +335,58 @@ e.global_parameter_json = [
         "feedback": "Why wouldn’t you attend this forum? Many voters are disappointed in your actions. The Coalition’s support has increased thanks to this move.",
         "global_effect": [201, -0.15], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-        "description": " As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
+        "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5018,
+      "fields": {
+        "question": 1007,
+        "feedback": "Good thinking travelling between both Queensland and New South Wales. This will definitely increase your support in these states.",
+        "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "This is concerning to hear. As Prime Minister, I will travel extensively in New South Wales and Queensland to save as many seats as I can. My colleagues' seats are on the line and I can’t afford to lose them if we want to retain our majority."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5019,
+      "fields": {
+        "question": 1007,
+        "feedback": "I like the thinking of travelling to Sydney, Mrs. Gillard. However, the Queensland Labor Branch is a little disappointed that you didn’t consider travelling there.",
+        "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in the Sydney Metro Area and the surrounding suburbs, as they contain key seats that will determine the election."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5020,
+      "fields": {
+        "question": 1007,
+        "feedback": "I like the thinking of travelling to Brisbane, Mrs. Gillard. However, the New South Wales Labor Branch is a little disappointed that you didn’t consider travelling there.",
+        "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in Brisbane and the Upper Coast there, as they contain key seats that will determine the election."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5021,
+      "fields": {
+        "question": 1007,
+        "feedback": "Why would you say that? This makes it very awkward and the Coalition takes the lead in key seats in these states. Not a smart move.",
+        "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "As much as we need to save our colleagues' seats, I have unfortunate doubts that many will fall when the August Election rolls around."
+      }
+    },
+
 
 
  
