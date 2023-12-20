@@ -131,6 +131,16 @@ e.global_parameter_json = [
       "pk": 1010,
       "fields": {
         "priority": 1,
+        "description": "Considering that former Prime Minister Kevin Rudd is from Queensland and holds the seat of Griffith, we are expecting seats to swing towards the newly formed Liberal National Party, an extended branch of the Coalition only in Queensland. With Mr. Rudd gone, how will you try to save as many seats in Queensland as possible?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1011,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
@@ -465,9 +475,46 @@ e.global_parameter_json = [
         "feedback": "Let’s hope it’s not your resignation after the election, Mrs. Gillard.",
         "global_effect": [201, -0.2], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-        "description": "Despite it being run as a “Disciplined” campaign, I will need to meet with the Labor caucus to talk about what we can do to achieve party unity. I know there will be things we will not agree on, but it’s for the sake of the party"
+        "description": "Despite it being run as a “Disciplined” campaign, I will need to meet with the Labor caucus to talk about what we can do to achieve party unity. I know there will be things we will not agree on, but it’s for the sake of the party."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5027,
+      "fields": {
+        "question": 1010,
+        "feedback": "This seems to be the trick. You do hold onto some rural seats as well and you can’t neglect them as well, right?",
+        "global_effect": [201, 0.6], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We will need to go on a Campaign Blitz across the Brisbane Metro Area. We hold seats that flipped at the last election that are willing to flip back to the Liberals. I believe that this will help boost Labor’s support in Queensland."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5028,
+      "fields": {
+        "question": 1010,
+        "feedback": "This seems like a good tactic, however you hold onto more Brisbane Metro seats than rural. You can’t neglect them, Mrs. Gillard.",
+        "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We saw at the last election that rural Queensland seats had gone towards the Labor column. I will travel in the rural Queensland seats that we currently hold. We can’t let them fold."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5029,
+      "fields": {
+        "question": 1010,
+        "feedback": "You’re the Prime Minister. Not Kevin Rudd. Remember that.",
+        "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Mr. Rudd is fairly popular in Queensland and especially his seat. Hopefully he can campaign on our message of a disciplined Campaign. Maybe the people of Queensland will see that message come across."
+      }
+    },
+
 
 
 
