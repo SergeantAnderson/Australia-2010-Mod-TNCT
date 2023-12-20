@@ -146,6 +146,16 @@ e.global_parameter_json = [
       }
     },
 
+{
+      "model": "campaign_trail.question",
+      "pk": 1012,
+      "fields": {
+        "priority": 1,
+        "description": "Bad news for your campaign, Mrs. Gillard. There have been leaks from your campaign during your time as Deputy Prime Minister about you telling Mr. Rudd when he was Prime Minister to “Reverse the Polling Trend.” What do you have to say about this?",
+        "likelihood": 1
+      }
+    },
+
 
 
      
@@ -512,6 +522,44 @@ e.global_parameter_json = [
         "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "Mr. Rudd is fairly popular in Queensland and especially his seat. Hopefully he can campaign on our message of a disciplined Campaign. Maybe the people of Queensland will see that message come across."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5030,
+      "fields": {
+        "question": 1011,
+        "feedback": "Honesty is best. However, you’ll face a severe drop in the polls thanks to your response. ",
+        "global_effect": [201, -0.15], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "The people of Australia deserve honesty. I had clearly explained to Mr. Rudd, as I was Deputy Prime Minister at the time that we needed to reverse the severe polling trend that we were facing. So yes, I did tell him that."
+      }
+    },
+
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5031,
+      "fields": {
+        "question": 1011,
+        "feedback": "This seemed like the interesting approach that you took. But it won’t help your cause.",
+        "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Rest assured, these talks between me and Kevin Rudd never happened. This is nothing but gossip and rumours that are false. "
+      }
+    },
+
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5032,
+      "fields": {
+        "question": 1011,
+        "feedback": "Your silence to this matter raised many eyebrows, especially within the Labor Caucus. Expect a drop in the polls.",
+        "global_effect": [201, -0.20], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I have no comment in regards to this matter."
       }
     },
 
