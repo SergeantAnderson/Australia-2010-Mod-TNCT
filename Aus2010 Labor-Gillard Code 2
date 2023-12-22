@@ -141,7 +141,7 @@ e.global_parameter_json = [
       "pk": 1011,
       "fields": {
         "priority": 1,
-        "description": "",
+        "description": "Bad news for your campaign, Mrs. Gillard. There have been leaks from your campaign during your time as Deputy Prime Minister about you telling Mr. Rudd when he was Prime Minister to “Reverse the Polling Trend.” What do you have to say about this?",
         "likelihood": 1
       }
     },
@@ -151,7 +151,7 @@ e.global_parameter_json = [
       "pk": 1012,
       "fields": {
         "priority": 1,
-        "description": "Bad news for your campaign, Mrs. Gillard. There have been leaks from your campaign during your time as Deputy Prime Minister about you telling Mr. Rudd when he was Prime Minister to “Reverse the Polling Trend.” What do you have to say about this?",
+        "description": "",
         "likelihood": 1
       }
     },
