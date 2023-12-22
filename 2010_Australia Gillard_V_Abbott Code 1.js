@@ -274,15 +274,31 @@ clamp = function(a, max, min, overflow=true) {
 
 var soundtracks = {
   0: {
-    name: "Gillards Greatests",
+    name: "The Hits of Australia",
     tracklist: [
       {
-        "name": "",
-        "url": ""
+        "name": "Guy Sebastian - Like It Like That",
+        "url": "https://audio.jukehost.co.uk/2XJmO8iFf6kuXbxyMLm41fPVACeEijCb"
       },
       {
         "name": "",
         "url": ""
+      },
+    ]
+  }
+}
+
+var soundtracks = {
+  1: {
+    name: "Hits of the New Decade",
+    tracklist: [
+      {
+        "name": "Katy Perry - California Gurls Feat. Snoop Dogg",
+        "url": "https://audio.jukehost.co.uk/zRTT3FtJCNoJBJNm4IRgfpplsxcK9p20"
+      },
+      {
+        "name": "Taio Cruz - Dynamite",
+        "url": "https://audio.jukehost.co.uk/975oC94jUKRrUeqkkSBFdommAseWnLoF"
       },
     ]
   }
