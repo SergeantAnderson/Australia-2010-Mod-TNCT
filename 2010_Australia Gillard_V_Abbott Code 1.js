@@ -285,10 +285,7 @@ var soundtracks = {
         "url": "https://audio.jukehost.co.uk/u93IvDODcBiUKwg9CRv3gnZFOfc7yvdZ"
       },
     ]
-  }
-}
-
-var soundtracks = {
+  },
   1: {
     name: "Hits of the New Decade",
     tracklist: [
