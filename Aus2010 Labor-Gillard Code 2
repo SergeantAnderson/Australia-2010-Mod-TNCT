@@ -151,10 +151,21 @@ e.global_parameter_json = [
       "pk": 1012,
       "fields": {
         "priority": 1,
+        "description": "During the tenure of when Kevin Rudd was Prime Minister, one piece of legislation which led to his inevitable fall was the “Mining Tax.” Considering you are Prime Minister, will you go ahead with such a proposal?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1013,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
     },
+
 
 
 
@@ -560,6 +571,30 @@ e.global_parameter_json = [
         "global_effect": [201, -0.20], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "I have no comment in regards to this matter."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5033,
+      "fields": {
+        "question": 1012,
+        "feedback": "Smart thinking trying to not become like Kevin Rudd. However, there is criticism from the Greens and environmentalists considering your actions. ",
+        "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I am my own leader. I don’t believe that the Mining Tax needs to be passed, or even in the near future. We will leave it as it is and not touch it with a ten foot pole. It’s what led to Rudd’s demise."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5034,
+      "fields": {
+        "question": 1012,
+        "feedback": "Mining Industries across Australia come out in anger and protest this proposal of yours. This move gives the Coalition a boost in support. ",
+        "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We can do better than the Mining Tax. If Labor wins the election, I will propose to the Parliament a “Minerals Resource Rent Tax.” We will place a tax on profits generated from the mining of non-renewable resources in Australia by 30%."
       }
     },
 
