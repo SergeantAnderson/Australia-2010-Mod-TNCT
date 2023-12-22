@@ -284,19 +284,36 @@ var soundtracks = {
         "name": "Jessica Mauboy - Burn",
         "url": "https://audio.jukehost.co.uk/u93IvDODcBiUKwg9CRv3gnZFOfc7yvdZ"
       },
+         {
+        "name": "Birds of Tokyo - Plans",
+        "url": "https://audio.jukehost.co.uk/RvS0hzjTiZmmfewmGwUEYprL4P3vxXAQ"
+      },
+         {
+        "name": "Yolanda Be Cool & DCUP - We No Speak Americano",
+        "url": "https://audio.jukehost.co.uk/ENHEPuEvKLYSy7PfG9FC0K3C6KgYp0K9"
+      },
     ]
   },
   1: {
     name: "Hits of the New Decade",
     tracklist: [
+         {
+        "name": "Maroon 5 - Misery",
+        "url": "https://audio.jukehost.co.uk/2uQ7ZLAV1MWkqtGTWd8sVKSqEVTGzWiN"
+      },
       {
-        "name": "Katy Perry - California Gurls Feat. Snoop Dogg",
+        "name": "Katy Perry - California Gurls (Feat. Snoop Dogg)",
         "url": "https://audio.jukehost.co.uk/zRTT3FtJCNoJBJNm4IRgfpplsxcK9p20"
       },
       {
         "name": "Taio Cruz - Dynamite",
         "url": "https://audio.jukehost.co.uk/975oC94jUKRrUeqkkSBFdommAseWnLoF"
       },
+        {
+        "name": "Moves Like Jagger - Maroon 5 (Feat. Christina Aguilera)",
+        "url": "https://audio.jukehost.co.uk/QbtK91y9OCgURhsybsHEAMpJerOqq7PH"
+      },
+       
     ]
   }
 }
