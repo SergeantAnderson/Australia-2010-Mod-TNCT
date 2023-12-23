@@ -18,7 +18,7 @@ e.global_parameter_json = [
         "issue_stance_6_max": 0.71,
         "global_variance": 0.01,
         "state_variance": 0.005,
-        "question_count": 13,
+        "question_count": 14,
         "default_map_color_hex": "#C9C9C9",
         "no_state_map_color_hex": "#999999"
       }
@@ -161,10 +161,21 @@ e.global_parameter_json = [
       "pk": 1013,
       "fields": {
         "priority": 1,
+        "description": "It’s the 18th of August. You’ve been invited to a Second Community forum to debate the future of this nation. An audience of voters will be present. Of course, you’re up against once again Tony Abbott. The forum is taking place in Brisbane. Are you willing to attend?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1014,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
     },
+
 
 
 
@@ -591,12 +602,61 @@ e.global_parameter_json = [
       "pk": 5034,
       "fields": {
         "question": 1012,
-        "feedback": "Mining Industries across Australia come out in anger and protest this proposal of yours. This move gives the Coalition a boost in support. ",
+        "feedback": "Mining Industries across Australia come out in anger and protest this proposal of yours. This move gives the Coalition a boost in support.",
         "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "We can do better than the Mining Tax. If Labor wins the election, I will propose to the Parliament a “Minerals Resource Rent Tax.” We will place a tax on profits generated from the mining of non-renewable resources in Australia by 30%."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5035,
+      "fields": {
+        "question": 1013,
+        "feedback": "Once more, you seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
+        "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5036,
+      "fields": {
+        "question": 1013,
+        "feedback": "Second time around, you seemed desperate to win against Mr. Abbott and it was reflected in what you said. Mr. Abbott won the forum.",
+        "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5037,
+      "fields": {
+        "question": 1013,
+        "feedback": "Voters were split on who to vote for and who won the debate. Overall, it was a draw. Not bad, Julia",
+        "global_effect": [201, 0.2], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5038,
+      "fields": {
+        "question": 1013,
+        "feedback": "Really, Julia? Why wouldn’t you attend the forum? Especially in Queensland! This would have boosted your support there! Now we expect a drop in the polls!",
+        "global_effect": [201, -0.15], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
+      }
+    },
+
 
 
 
