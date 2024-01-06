@@ -705,7 +705,7 @@ e.global_parameter_json = [
       "model": "campaign_trail.answer",
       "pk": 5041,
       "fields": {
-        "question": 1014,
+        "question": 1015,
         "feedback": "The press conference was a little… shaky. You seemed to stumble from time to time and some weren’t buying it. This isn’t good, especially if the Coalition is now attacking.",
         "global_effect": [201, -0.20], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
