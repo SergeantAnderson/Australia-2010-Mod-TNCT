@@ -171,10 +171,30 @@ e.global_parameter_json = [
       "pk": 1014,
       "fields": {
         "priority": 1,
+        "description": "Mrs. Gillard, there have been speculated rumours of a so-called “Carbon Tax” making the rounds. Considering Australia’s bolstering mining industry and yet increasing CO2 levels. Are the rumours real and will such a thing be proposed?",
+        "likelihood": 1
+      }
+    },
+{
+      "model": "campaign_trail.question",
+      "pk": 1015,
+      "fields": {
+        "priority": 1,
+        "description": "Mrs. Gillard, there’s been another confirmed leak from the Labor Caucus, this time this is much more damaging. Leaks report that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. The leaker is unknown at this time, but many are suggesting it was Kein Rudd. The Media already have their hands on this. What now?",
+        "likelihood": 1
+      }
+    },
+{
+      "model": "campaign_trail.question",
+      "pk": 1016,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
     },
+
+
 
 
 
@@ -656,6 +676,68 @@ e.global_parameter_json = [
         "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5039,
+      "fields": {
+        "question": 1014,
+        "feedback": "A sigh of relief is heard across the mining industry and Australia overall. However, there is an uproar from environmentalists and the Greens. ",
+        "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "I can assure the people of Australia that there will be no Carbon tax in the tenure of my Government. These rumours are false as we will do no such thing."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5040,
+      "fields": {
+        "question": 1014,
+        "feedback": "Yes, you may have sided with environmentalists on this issue, but everyone else is not happy at this response and the Coalition blasts you on this response. ",
+        "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "These rumours are, in fact, true. We will be proposing a Carbon Tax that will seek to place a levy on the amount of Carbon Emissions being produced on Goods and Services, along with transportation and factories. This doesn’t exclude the mining industry."
+      }
+
+    },
+{
+      "model": "campaign_trail.answer",
+      "pk": 5041,
+      "fields": {
+        "question": 1014,
+        "feedback": "The press conference was a little… shaky. You seemed to stumble from time to time and some weren’t buying it. This isn’t good, especially if the Coalition is now attacking.",
+        "global_effect": [201, -0.20], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "As if things couldn’t get any worse. Shit. This wasn’t supposed to happen. I’ll release a media conference saying that this is all rumours and false speculations. We need to be in full damage control now. "
+      }
+    },
+
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5042,
+      "fields": {
+        "question": 1015,
+        "feedback": "It was the most bitter shouting match in Parliament. Rudd confessed his innocence but you continue to hammer him and it was ugly.",
+        "global_effect": [201, -0.25], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "It was that rat bastard Kevin, wasn’t it? He’s just doing this because I axed him! He knew he was going to lose the election. Let me talk with him, the bastard. "
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5043,
+      "fields": {
+        "question": 1015,
+        "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks. Strange coincidence…",
+        "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him. Wasn’t he an ambassador during his time in Queensland? Okay, now I have an idea…"
+      }
+    },
+
 
 
 
