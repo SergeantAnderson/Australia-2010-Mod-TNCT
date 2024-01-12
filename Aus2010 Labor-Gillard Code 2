@@ -18,7 +18,7 @@ e.global_parameter_json = [
         "issue_stance_6_max": 0.71,
         "global_variance": 0.01,
         "state_variance": 0.005,
-        "question_count": 16,
+        "question_count": 17,
         "default_map_color_hex": "#C9C9C9",
         "no_state_map_color_hex": "#999999"
       }
@@ -189,10 +189,21 @@ e.global_parameter_json = [
       "pk": 1016,
       "fields": {
         "priority": 1,
+        "description": "Mrs Gillard, in a recent TV interview, Former Prime Minister Kevin Rudd did say he admitted to the first leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. What are your thoughts on this?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1017,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
     },
+
 
 
 
@@ -737,6 +748,31 @@ e.global_parameter_json = [
         "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him. Wasn’t he an ambassador during his time in Queensland? Okay, now I have an idea…"
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5044,
+      "fields": {
+        "question": 1016,
+        "feedback": "An investigation is launched, but after a while, there is nothing that points to any cabinet members leaking the information.",
+        "global_effect": [201, -0.03], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "This is certainly the strangest of circumstances. I want to launch an investigation on who leaked this information. Someone from within the cabinet must have done it."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5045,
+      "fields": {
+        "question": 1016,
+        "feedback": "You’ve managed to minimise the fallout of this, but however there are still scathing attacks regarding the leaks from the Coalition. ",
+        "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Firstly, I applaud Kevin Rudd to have the decency to admit the first leak. Secondly, the previous leak concerns me very much as there is no plausible conclusion as to who leaked the information from the cabinet. We need to be in full damage control."
+      }
+    },
+
 
 
 
