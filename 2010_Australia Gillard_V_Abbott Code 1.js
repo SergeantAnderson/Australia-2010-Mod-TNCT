@@ -8,7 +8,7 @@ quotes = [
 ]
 
 selQuote = quotes[Math.round(Math.random()*(quotes.length - 1))]
-corrr = `<h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>` + selQuote + `</em></font>`
+corrr = `<h2>THE DOWN UNDER TRAIL, 2010</h2><font id="wittyquote" size="4" color="white"><em>` + selQuote + `</em></font>`
 $("#theme_picker")[0].style.display = "none"
 $("#bottomBar")[0].style.display = "none"
 
@@ -352,8 +352,8 @@ campaignTrail_temp.candidate_json = [
       "state": "Canberra",
       "priority": 1,
       "description": "<p>After 11 years in opposition, Labor was swept into power at the 2007 election under Kevin Rudd, defeating John Howard and the Liberal/National Coalition. Things seemed to go well, until the Rudd Government was facing turmoil over senate blockages thanks to the Liberals and the Greens. With this, Rudd’s leadership was in tatters, and a leadership vote was called for, resulting in Julia Gillard being elected Labor leader, and the first female Prime Minister of Australia.<p/><p>In only 3 years of Government, the party's reputation is going down the drain fast, and Labor under Gillard needs to save the party to win at the 2010 election she called. However, this will be proven difficult with a leaker at hand. With Labor narrowly leading, the party must find ways to win.<p>",
-      "color_hex": "#E34F49",
-      "secondary_color_hex": "#E34F49",
+      "color_hex": "#D12B2B",
+      "secondary_color_hex": "#D12B2B",
       "is_active": 1,
       "image_url": "https://media.discordapp.net/attachments/827378337894236170/1147373908694147142/image.png",
       "electoral_victory_message": "<h3></h3><p><p/>",
@@ -374,8 +374,8 @@ campaignTrail_temp.candidate_json = [
       "state": "Canberra",
       "priority": 2,
       "description": "<p>After 11 years of Government, it came to a screeching holt with John Howard losing the election and Labor winning the 2007 election. Since then, Brendan Nelson, Malcolm Turnbull have lead the Liberal/National Coalition within those 3 years, and finally resting upon Tony Abbott to lead them into the 2010 election. Abbott’s main focus in the campaign will be the instability of the Labor Party and the Government.</p><p>The polls are too close to call, and the Liberals are just under Labor in the polls. The Liberals under Tony Abbott will need to focus on Coalition policies and attack the Labor party for their disastrous 3 years in power and instability. With a leaker in Labor, Abbott can take advantage of the proven leads which will either provide fatal or handy.</p>",
-      "color_hex": "#0055A5",
-      "secondary_color_hex": "#0055A5",
+      "color_hex": "#2045B9",
+      "secondary_color_hex": "#2045B9",
       "is_active": 1,
       "image_url": "https://cdn.discordapp.com/attachments/818130397706846242/1052911533069447208/libLogo.png",
       "electoral_victory_message": "<h3></h3><p></p> ",
@@ -396,8 +396,8 @@ campaignTrail_temp.candidate_json = [
       "state": "Canberra",
       "priority": 3,
       "description": "'",
-      "color_hex": "#ddd175",
-      "secondary_color_hex": "#ddd175",
+      "color_hex": "#22E33C",
+      "secondary_color_hex": "#22E33C",
       "is_active": 0,
       "image_url": "'",
       "electoral_victory_message": "'",
@@ -554,8 +554,8 @@ campaignTrail_temp.temp_election_list = [
 campaignTrail_temp.credits = 'SergeantAnderson'
 
 document.getElementById("header").src = "https://media.discordapp.net/attachments/1036555980445597737/1158367000335228959/Australia_2010_Banner_Revamp.jpg?ex=65520a56&is=653f9556&hm=10ebfe6f48a358add9a0e1f48ed80b90a1a74fd51594a48e5a35d3da0e609876&="
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#010a1c"
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#013766"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#343585"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B96060"
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
-$(".container")[0].style.backgroundColor = "#ac0e28"
-document.body.background = "https://media.discordapp.net/attachments/941097823900942366/1053117600684593182/HOR-I-002_130438_581_Reps.png?width=614&height=408" 
+$(".container")[0].style.backgroundColor = "#A43333"
+document.body.background = "https://img.kiosko.net/2010/08/12/au/au_daily_telegraph.750.jpg" 
