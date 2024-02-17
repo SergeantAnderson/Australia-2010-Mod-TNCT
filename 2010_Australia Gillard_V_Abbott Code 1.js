@@ -553,7 +553,7 @@ campaignTrail_temp.temp_election_list = [
 ]
 campaignTrail_temp.credits = 'SergeantAnderson'
 
-document.getElementById("header").src = "https://media.discordapp.net/attachments/1036555980445597737/1158367000335228959/Australia_2010_Banner_Revamp.jpg?ex=65520a56&is=653f9556&hm=10ebfe6f48a358add9a0e1f48ed80b90a1a74fd51594a48e5a35d3da0e609876&="
+document.getElementById("header").src = "https://cdn.discordapp.com/attachments/1207853324380934184/1208254100538662912/NCT_Banner_2010.png?ex=65e29d51&is=65d02851&hm=0b68e71d1b0e3d60e59e562a843c1d4e586afc85035a0f603b2cb005b3d703d8&"
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#343585"
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B96060"
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
