@@ -355,7 +355,7 @@ campaignTrail_temp.candidate_json = [
       "color_hex": "#D12B2B",
       "secondary_color_hex": "#D12B2B",
       "is_active": 1,
-      "image_url": "https://media.discordapp.net/attachments/827378337894236170/1147373908694147142/image.png",
+      "image_url": "https://imgur.com/K17Wilc",
       "electoral_victory_message": "<h3></h3><p><p/>",
       "electoral_loss_message": "<h3></h3><p></p>",
       "no_electoral_majority_message": "<h3></h3><p></p>",
