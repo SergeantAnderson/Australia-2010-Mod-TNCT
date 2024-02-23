@@ -791,7 +791,7 @@ e.global_parameter_json = [
  
  
  campaignTrail_temp.candidate_image_url = 'https://cdn.discordapp.com/attachments/827378337894236170/1147373908694147142/image.png?ex=658f8fb9&is=657d1ab9&hm=ac267c269d6d5b0a9b8f265c6bd723d27540aa9f62e0b6d6b0f077968cd34193&';
- campaignTrail_temp.running_mate_image_url = 'https://cdn.discordapp.com/attachments/827378337894236170/1147370370236698644/Julia-Gillard-2012.png?ex=658f8c6d&is=657d176d&hm=14201726bc91240fbc100b201616ac872ba43598d3488a72c768c4797340b6de&';
+ campaignTrail_temp.running_mate_image_url = '';
  campaignTrail_temp.candidate_last_name = 'Labor';
  campaignTrail_temp.running_mate_last_name = 'Gillard';
  campaignTrail_temp.running_mate_state_id = '1013'; // this will need to change
