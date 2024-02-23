@@ -333,7 +333,7 @@ campaignTrail_temp.election_json = [
       "summary": "<div style='overflow-y:scroll;height:200px;'><p>Since Labor was swept into office in 2007, there has been much controversy surrounding the time of Kevin Rudd’s tenure. Now, it has gotten to the point of a leadership spill in the party. Rudd’s most loyal deputy, Julia Gillard was elected leader of Labor, and the first Female Prime Minister. Now, Gillard has made the decision to call an election, and polls are saying it will be a tight race between her, and controversial Liberal Opposition leader, Tony Abbott.</p><p><ul><li>Labor lead under Julia Gillard must fight through the controversies and darkness of the Labor factions to unite the party to win an overall majority, but that will prove difficult with a leaker.</li><li>The Liberal/National Coalition lead by Tony Abbott will need to emphasise the point of the instability within Labor, and highlight Liberal/National policy and unite the base after their 2007 loss.</li></ul><p>This election is make or break for both parties.</p></div>",
       "image_url": "https://i.imgur.com/m2oElBN.jpeg",
       "winning_electoral_vote_number": 76,
-      "advisor_url": "https://cdn.discordapp.com/attachments/1163767211698163743/1186269145084461116/Screenshot_20231218_200341_Chrome.jpg?ex=6592a23c&is=65802d3c&hm=a2c4c241e650838f58b982624e61933149f44cdd4f11462d1c5c76ea9401f0fa&",
+      "advisor_url": "https://content.api.news/v3/images/bin/af91695117ab7054734ce091627ca175",
       "recommended_reading": "",
       "has_visits": 1,
       "no_electoral_majority_image": ""
