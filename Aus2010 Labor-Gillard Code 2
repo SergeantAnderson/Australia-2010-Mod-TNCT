@@ -199,6 +199,16 @@ e.global_parameter_json = [
       "pk": 1017,
       "fields": {
         "priority": 1,
+        "description": "Mrs. Gillard, there is some bad news for Labor recently as Primary support is dipping, along with a slip in Two-Party Preferred and your overall approval rating as Prime Minister. How will you be able to reverse this and promote yourself as a capable leader?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1018,
+      "fields": {
+        "priority": 1,
         "description": "",
         "likelihood": 1
       }
@@ -770,6 +780,42 @@ e.global_parameter_json = [
         "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "Firstly, I applaud Kevin Rudd to have the decency to admit the first leak. Secondly, the previous leak concerns me very much as there is no plausible conclusion as to who leaked the information from the cabinet. We need to be in full damage control."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5046,
+      "fields": {
+        "question": 1017,
+        "feedback": "Nice little talk you did. However, most aren’t buying it.",
+        "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "With everything that is going on, I can assure the people of Australia that I will be a Prime Minister that will listen to what they have to say. I am a leader that will not back down and will not give up. It’s strength that motivates a leader, and I will do exactly that."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5047,
+      "fields": {
+        "question": 1017,
+        "feedback": "Solid attack! These will definitely hurt the Coalition in the polls. A boost is headed your way.",
+        "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We need to re-emphasize our disciplined campaign and how I am willing to lead Australia into the 2010’s. We need to also attack the Coalition and Tony Abbott over his involvement in Workchoice’s and wanting to rid Medicare. Can we really afford that?"
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5048,
+      "fields": {
+        "question": 1017,
+        "feedback": "Nice way to emphasise economic management. However, many noticed your pause when mentioning Kevin Rudd. It was an awkward moment to say.",
+        "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "In 2008, the world was hit by one of the worst global recessions since the Great Depression. Who was in power? Labor. We managed to save the economy thanks to the economic genius of Wayne Swan and leadership of… Kevin Rudd. Our economic management shows that we are capable of running an economy, whilst the Coalition can’t."
       }
     },
 
