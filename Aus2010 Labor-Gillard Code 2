@@ -801,7 +801,7 @@ e.global_parameter_json = [
       "fields": {
         "question": 1017,
         "feedback": "Solid attack! These will definitely hurt the Coalition in the polls. A boost is headed your way.",
-        "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
+        "global_effect": [201, 0.4], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
         "description": "We need to re-emphasize our disciplined campaign and how I am willing to lead Australia into the 2010’s. We need to also attack the Coalition and Tony Abbott over his involvement in Workchoice’s and wanting to rid Medicare. Can we really afford that?"
       }
