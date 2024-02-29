@@ -430,6 +430,31 @@ campaignTrail_temp.candidate_json = [
     }
   },
 
+    {
+    "model": "campaign_trail.candidate",
+    "pk": 205,
+    "fields": {
+      "first_name": "WA Nationals - ",
+      "last_name": "WA NAT",
+      "election": 20,
+      "party": "Non-Alligned",
+      "state": "Canberra",
+      "priority": 4,
+      "description": "'",
+      "color_hex": "#204F0B",
+      "secondary_color_hex": "#204F0B",
+      "is_active": 0,
+      "image_url": "'",
+      "electoral_victory_message": "'",
+      "electoral_loss_message": "'",
+      "no_electoral_majority_message": "'",
+      "description_as_running_mate": "'",
+      "candidate_score": 1
+    }
+  },
+
+    
+
 
 
   
