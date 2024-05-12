@@ -573,7 +573,7 @@ campaignTrail_temp.temp_election_list = [
     "id": 20,
     "year": 2016,
     "is_premium": 0,
-    "display_year": "2010Aus"
+    "display_year": "2010 - Australia"
   }
 ]
 campaignTrail_temp.credits = 'SergeantAnderson'
