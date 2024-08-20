@@ -880,10 +880,10 @@ e.global_parameter_json = [
       "pk": 5051,
       "fields": {
         "question": 1019,
-        "feedback": "As we move forward into the 2010’s, we must look towards which party will truly deliver for Australians. Either us in Labor who managed to save Australia from the 2008 Global Recession and improved working conditions, or the alternative, who wish to bring back Workplace and scrap the progress we’ve made. The choice is clear.",
+        "feedback": "Good answer, Mrs. Gillard. The Coalition does however after this, attack your campaign. Be cautious.",
         "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
         "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-        "description": "Good answer, Mrs. Gillard. The Coalition does however after this, attack your campaign. Be cautious."
+        "description": "As we move forward into the 2010’s, we must look towards which party will truly deliver for Australians. Either us in Labor who managed to save Australia from the 2008 Global Recession and improved working conditions, or the alternative, who wish to bring back Workplace and scrap the progress we’ve made. The choice is clear."
       }
     },
 
