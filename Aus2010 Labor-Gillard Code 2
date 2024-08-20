@@ -18,7 +18,7 @@ e.global_parameter_json = [
         "issue_stance_6_max": 0.71,
         "global_variance": 0.01,
         "state_variance": 0.005,
-        "question_count": 18,
+        "question_count": 22,
         "default_map_color_hex": "#C9C9C9",
         "no_state_map_color_hex": "#999999"
       }
@@ -209,10 +209,42 @@ e.global_parameter_json = [
       "pk": 1018,
       "fields": {
         "priority": 1,
-        "description": "",
+        "description": "In an recent interview, Mr. Abbott has distanced himself away from the former Liberal Government’s Work Choice legislation. Considering Mr. Abbott was a supporter of this legislation, what do you have to say?",
         "likelihood": 1
       }
     },
+
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1019,
+      "fields": {
+        "priority": 1,
+        "description": "For this election, Mrs. Gillard, you’ve chosen the slogan, Let's move Australia Forward. After the previous 3 tumultuous years, why would Australians vote for you once more?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1020,
+      "fields": {
+        "priority": 1,
+        "description": "There has been some concern in the election with how much election promises will cost if either You or the Coalition form Government. Especially after the 2008 Recession. Can you promise to the Australian people that you won’t pledge for any big spending pledges?",
+        "likelihood": 1
+      }
+    },
+
+{
+      "model": "campaign_trail.question",
+      "pk": 1021,
+      "fields": {
+        "priority": 1,
+        "description": "After the 2008 Recession, the Government has recorded some of the worst deficits in recent times. Even after Rudd mitigated off worse effects, Australia still suffers a bit. What can you say to the Australian people regarding Labor’s economic responsibility?",
+        "likelihood": 1
+      }
+    },
+
 
 
 
@@ -818,6 +850,130 @@ e.global_parameter_json = [
         "description": "In 2008, the world was hit by one of the worst global recessions since the Great Depression. Who was in power? Labor. We managed to save the economy thanks to the economic genius of Wayne Swan and leadership of… Kevin Rudd. Our economic management shows that we are capable of running an economy, whilst the Coalition can’t."
       }
     },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5049,
+      "fields": {
+        "question": 1018,
+        "feedback": "Mr. Abbott is in a bit of a tough spot thanks to your response. However, his response to you was bland.",
+        "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Workchoices was something that Labor got rid of the moment we stepped into office. We can’t have Mr. Abbott to become Australia’s next Prime Minister if he backs such legislation like this. Mark my words, Workplace will come back if Abbott is elected."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5050,
+      "fields": {
+        "question": 1018,
+        "feedback": "One could say exactly that to you, Mrs Gillard. Considering some U-Turns from your previous leader.",
+        "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "This is blatant flip-flopping on the issue. He’s like a fish on dry land. A leader is either committed to one road, or the other. Which way is it, Mr. Abbott?"
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5051,
+      "fields": {
+        "question": 1019,
+        "feedback": "As we move forward into the 2010’s, we must look towards which party will truly deliver for Australians. Either us in Labor who managed to save Australia from the 2008 Global Recession and improved working conditions, or the alternative, who wish to bring back Workplace and scrap the progress we’ve made. The choice is clear.",
+        "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Good answer, Mrs. Gillard. The Coalition does however after this, attack your campaign. Be cautious."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5052,
+      "fields": {
+        "question": 1019,
+        "feedback": "I wouldn’t be calling Labor the party of strength, especially after the brutal spill of Rudd and factional warfare within.",
+        "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We are the party of true strength and fresh ideas. We are the party that brought forward Medicare and superannuation, all of which the Coalition wants to Privatise. Let us move forward as a nation together."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5053,
+      "fields": {
+        "question": 1019,
+        "feedback": "I do like the thinking behind it. However, after a big budget downturn, it is a hurting point for you.",
+        "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "The Coalition says they want to propose Real Change, but what is that change exactly? It’ll just be dismantling everything this Labor Government has achieved. We cannot risk this. We can’t swap horses midstream, Australia."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5054,
+      "fields": {
+        "question": 1020,
+        "feedback": "Not a bad answer. This seems to resonate with the Australian people.",
+        "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Now, after the 2008 recession, the Australian economy is still recovering. We need to be wise on our spending pledges. We won’t make any big promises for the election."
+      }
+    },
+
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5055,
+      "fields": {
+        "question": 1020,
+        "feedback": "Are you trying to run the next budget into an even worse deficit?",
+        "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "If we spend big, we will create new projects for Australia. And for that, we create new jobs and new prosperity for Australia. That is what we want for the nation."
+      }
+    },
+
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5056,
+      "fields": {
+        "question": 1020,
+        "feedback": "You’ve tried to thread the needle carefully on this issue, but poked yourself lightly with it.",
+        "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "We need to carefully calculate how much our projects will spend. It’ll be nice to spend a bit on major projects to benefit Australia, but we will need to be careful with costing. Especially after the recession."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5057,
+      "fields": {
+        "question": 1021,
+        "feedback": "A solid answer. But  this does allow the Coalition to attack. But they don’t stick.",
+        "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "If it wasn’t for the brains of  Wayne Swan and… Kevin Rudd, Australia would be in a much worse spot today. Labor saved the Australian economy from imminent danger. Sure we had budget deficits, but it was for the greater good."
+      }
+    },
+
+{
+      "model": "campaign_trail.answer",
+      "pk": 5058,
+      "fields": {
+        "question": 1021,
+        "feedback": "Interest Rates are still on the rise, Mrs. Gillard. And Inflation is starting to rise.",
+        "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
+        "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+        "description": "Let’s look at the Coalition’s economic responsibility. Since 2004, interest rates continued to rise 0.25% every quarter under John Howard, and Australians were doing tough. Why allow Tony Abbott to lead Australia if that's the Coalition's economic record?"
+      }
+    },
+ 
+ 
  
    ]
 
