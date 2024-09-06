@@ -583,4 +583,4 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#7C7C7C"
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B4B4B4"
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
 $(".container")[0].style.backgroundColor = "#444444"
-document.body.background = "https://live-production.wcms.abc-cdn.net.au/27d989953a6a2aa2369cb11960126ef7?impolicy=wcms_crop_resize&cropH=1396&cropW=2101&xPos=6&yPos=0&width=862&height=575" 
+document.body.background = "https://live-production.wcms.abc-cdn.net.au/b2cac6abc72319058a76ebe408fb0f11?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575" 
