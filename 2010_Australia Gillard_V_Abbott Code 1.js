@@ -578,7 +578,7 @@ campaignTrail_temp.temp_election_list = [
 ]
 campaignTrail_temp.credits = 'SergeantAnderson'
 
-document.getElementById("header").src = "https://i.imgur.com/qbBhGX9.png"
+document.getElementById("header").src = "https://i.imgur.com/kEHwlHH.png"
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#343585"
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B96060"
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
