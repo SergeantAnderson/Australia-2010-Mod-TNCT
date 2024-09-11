@@ -989,7 +989,7 @@ campaignTrail_temp.states_json = [
             "name": "Lingiari",
             "abbr": "Lingiari",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 46,409,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1003,7 +1003,7 @@ campaignTrail_temp.states_json = [
             "name": "Durack",
             "abbr": "Durack",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 75,676,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1017,7 +1017,7 @@ campaignTrail_temp.states_json = [
             "name": "Leichhardt",
             "abbr": "Leichhardt",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 84,829,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1031,7 +1031,7 @@ campaignTrail_temp.states_json = [
             "name": "Maranoa",
             "abbr": "Maranoa",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 91,675,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1045,7 +1045,7 @@ campaignTrail_temp.states_json = [
             "name": "Mayo",
             "abbr": "Mayo",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 96,317,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1059,7 +1059,7 @@ campaignTrail_temp.states_json = [
             "name": "Wakefield",
             "abbr": "Wakefield",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 93,850,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1073,7 +1073,7 @@ campaignTrail_temp.states_json = [
             "name": "Denison",
             "abbr": "Denison",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 67,294,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1087,7 +1087,7 @@ campaignTrail_temp.states_json = [
             "name": "Brand",
             "abbr": "Brand",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 82,332,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
