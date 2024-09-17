@@ -1154,7 +1154,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 20784,
         "fields": {
-            "name": "O'Connor",
+            "name": "O Connor",
             "abbr": "OConnor",
             "electoral_votes": 1,
             "popular_votes": 86216,
@@ -1241,7 +1241,7 @@ campaignTrail_temp.states_json = [
             "name": "Parkes",
             "abbr": "Parkes",
             "electoral_votes": 1,
-            "popular_votes": 89735	,
+            "popular_votes": 89735,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1269,7 +1269,7 @@ campaignTrail_temp.states_json = [
             "name": "Hinkler",
             "abbr": "Hinkler",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 85528,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": 20
@@ -1574,7 +1574,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 21084,
         "fields": {
-            "name": "Eden-Monaro",
+            "name": "Eden Monaro",
             "abbr": "EdenMonaro",
             "electoral_votes": 1,
             "popular_votes": 91053,
