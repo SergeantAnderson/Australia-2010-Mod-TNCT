@@ -16412,6 +16412,123 @@ campaignTrail_temp.jet_data = [{
  }
  }
 
+e.issues_json = [
+    {
+        "model":"campaign_trail.issue",
+        "pk":100,
+        "fields": {
+            "name":"Ideology",
+            "description":"'",
+            "stance_1":"Very Conservative",
+            "stance_desc_1":"'",
+            "stance_2":"Conservative",
+            "stance_desc_2":"'",
+            "stance_3":"Leans Conservative",
+            "stance_desc_3":"'",
+            "stance_4":"Centrist",
+            "stance_desc_4":"'",
+            "stance_5":"Leans Liberal",
+            "stance_desc_5":"'",
+            "stance_6":"Liberal",
+            "stance_desc_6":"'",
+            "stance_7":"Very Liberal",
+            "stance_desc_7":"'",
+            "election":20
+        }
+    },
+    {
+        "model":"campaign_trail.issue",
+        "pk":101,
+        "fields": {
+            "name":"Environmentalism",
+            "description":"'",
+            "stance_1":"Strongly Against",
+            "stance_desc_1":"'",
+            "stance_2":"Against",
+            "stance_desc_2":"'",
+            "stance_3":"Slightly Against",
+            "stance_desc_3":"'",
+            "stance_4":"Neutral",
+            "stance_desc_4":"'",
+            "stance_5":"Slightly Supports",
+            "stance_desc_5":"'",
+            "stance_6":"Supports",
+            "stance_desc_6":"'",
+            "stance_7":"Strongly Supports",
+            "stance_desc_7":"'",
+            "election":20
+        }
+    },
+    {
+        "model":"campaign_trail.issue",
+        "pk":102,
+        "fields": {
+            "name":"Mining Tax",
+            "description":"'",
+            "stance_1":"Supports the Tax",
+            "stance_desc_1":"'",
+            "stance_2":"Leans towards Tax",
+            "stance_desc_2":"'",
+            "stance_3":"Neutral on Tax",
+            "stance_desc_3":"'",
+            "stance_4":"Leans Against Tax",
+            "stance_desc_4":"'",
+            "stance_5":"Against the Tax",
+            "stance_desc_5":"'",
+            "stance_6":"Against the GST",
+            "stance_desc_6":"'",
+            "stance_7":"Against the GST",
+            "stance_desc_7":"'",
+            "election":20
+        }
+    },
+    {
+        "model":"campaign_trail.issue",
+        "pk":103,
+        "fields": {
+            "name":"Government Approval",
+            "description":"'",
+            "stance_1":"Strong Approval",
+            "stance_desc_1":"'",
+            "stance_2":"Approves",
+            "stance_desc_2":"'",
+            "stance_3":"Leans Approve",
+            "stance_desc_3":"'",
+            "stance_4":"Neutral",
+            "stance_desc_4":"'",
+            "stance_5":"Leans Disapproval",
+            "stance_desc_5":"'",
+            "stance_6":"Disapproves",
+            "stance_desc_6":"'",
+            "stance_7":"Strong Disapproval",
+            "stance_desc_7":"'",
+            "election":20
+        }
+    },
+    {
+        "model":"campaign_trail.issue",
+        "pk":104,
+        "fields": {
+            "name":"Immigration",
+            "description":"'",
+            "stance_1":"Very Conservative",
+            "stance_desc_1":"'",
+            "stance_2":"Conservative",
+            "stance_desc_2":"'",
+            "stance_3":"Leans Conservative",
+            "stance_desc_3":"'",
+            "stance_4":"Moderate",
+            "stance_desc_4":"'",
+            "stance_5":"Leans Liberal",
+            "stance_desc_5":"'",
+            "stance_6":"Liberal",
+            "stance_desc_6":"'",
+            "stance_7":"Very Liberal",
+            "stance_desc_7":"'",
+            "election":20
+        }
+    }
+]
 
 
  
