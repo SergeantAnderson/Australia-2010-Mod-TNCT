@@ -1154,7 +1154,7 @@
             "model": "campaign_trail.state",
             "pk": 20784,
             "fields": {
-                "name": "O Connor",
+                "name": "O'Connor",
                 "abbr": "OConnor",
                 "electoral_votes": 1,
                 "popular_votes": 86216,
@@ -1574,7 +1574,7 @@
             "model": "campaign_trail.state",
             "pk": 21084,
             "fields": {
-                "name": "Eden Monaro",
+                "name": "Eden-Monaro",
                 "abbr": "EdenMonaro",
                 "electoral_votes": 1,
                 "popular_votes": 91053,
