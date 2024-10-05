@@ -586,7 +586,7 @@ jet_data = {
   "containerColor": "#444444",
   "innerWindowColor": "#B4B4B4",
   "bannerImageUrl": "https://imgur.com/LmEllAJ.png",
-  "backgroundImageUrl": "https://live-production.wcms.abc-cdn.net.au/b2cac6abc72319058a76ebe408fb0f11?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575,
+  "backgroundImageUrl": "https://live-production.wcms.abc-cdn.net.au/b2cac6abc72319058a76ebe408fb0f11?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575",
   "endingTextColor": "#ffffff",
 }
 
