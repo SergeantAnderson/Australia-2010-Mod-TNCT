@@ -578,9 +578,36 @@ campaignTrail_temp.temp_election_list = [
 ]
 campaignTrail_temp.credits = 'SergeantAnderson'
 
-document.getElementById("header").src = "https://i.imgur.com/kEHwlHH.png"
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#7C7C7C"
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B4B4B4"
-document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
-$(".container")[0].style.backgroundColor = "#444444"
-document.body.background = "https://live-production.wcms.abc-cdn.net.au/b2cac6abc72319058a76ebe408fb0f11?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575" 
+
+
+jet_data = {
+  "headerColor": "#7C7C7C",
+  "windowColor": "#B4B4B4",
+  "containerColor": "#444444",
+  "innerWindowColor": "#B4B4B4",
+  "bannerImageUrl": "https://imgur.com/LmEllAJ.png",
+  "backgroundImageUrl": "https://live-production.wcms.abc-cdn.net.au/b2cac6abc72319058a76ebe408fb0f11?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575,
+  "endingTextColor": "#ffffff",
+}
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#7C7C7C";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B4B4B4";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#444444";
+
+document.getElementById("header").src = "https://i.imgur.com/kEHwlHH.png";
+
+document.body.background = "https://live-production.wcms.abc-cdn.net.au/b2cac6abc72319058a76ebe408fb0f11?impolicy=wcms_crop_resize&cropH=2000&cropW=2997&xPos=1&yPos=0&width=862&height=575";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#444444!important;}</style>";
+
+//#endcode
+
+
