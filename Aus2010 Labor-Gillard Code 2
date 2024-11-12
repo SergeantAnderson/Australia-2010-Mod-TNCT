@@ -247,8 +247,86 @@
             "likelihood": 1
           }
         },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1022,
+          "fields": {
+            "priority": 1,
+            "description": "Parental Leave and the National Broadband Network are beginning to be at front with the minds of voters. If re-elected back into Government, what will be your primary focus?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1023,
+          "fields": {
+            "priority": 1,
+            "description": "Word has gotten out that if you were to secure Labor a second term in Government, you’d appoint Kevin Rudd as the new Foreign Minister. Is this to-be appointment true?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1024,
+          "fields": {
+            "priority": 1,
+            "description": "It would seem suspicious now that the leaks within the party have stopped ever since you’ve appointed Kevin Rudd as Foreign Minister. Do you have reason to suspect that Rudd was the main leaker?",
+            "likelihood": 1
+          }
+        },
     
-    
+{
+          "model": "campaign_trail.question",
+          "pk": 1025,
+          "fields": {
+            "priority": 1,
+            "description": "Betting on who will win the election has grown this election. Markets have Labor at $1.75 and the Coalition at $2.70. Despite this, gambling and pokie reforms are an issue on voters' minds. Will there be any changes to the aforementioned issues?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1026,
+          "fields": {
+            "priority": 1,
+            "description": "It appears that there has been a major leak in the Coalition's budget costing. They have discovered an $840 Million hole and have stopped policy submissions to the Treasury. Will you attack the Coalition on this?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1027,
+          "fields": {
+            "priority": 1,
+            "description": "There has been concern amongst your Campaign’s image in the final stretch. Abbott’s image as a popular campaigner and overall fitness is being noticed by the electorate. What will you do to boost Labor’s campaign image?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1028,
+          "fields": {
+            "priority": 1,
+            "description": "The final stretch of the campaign is upon us. Polls still remain at a tight 50/50, with potentially no winner in sight, and a Hung Parliament inbound. To retain your majority, what message will you give to Australian voters to give their first preference to Labor?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1029,
+          "fields": {
+            "priority": 1,
+            "description": "It’s Saturday, the 21st of August. You’ve finished voting in your seat of Lalor in Victoria. Now you have the opportunity to visit any other place before returning back. What city will you visit on your last campaign stop?",
+            "likelihood": 1
+          }
+        },
     
     
     
