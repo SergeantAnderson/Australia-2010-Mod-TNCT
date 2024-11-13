@@ -21,7 +21,7 @@
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 22,
+            "question_count": 26,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
           }
@@ -1053,6 +1053,105 @@
             "description": "Let’s look at the Coalition’s economic responsibility. Since 2004, interest rates continued to rise 0.25% every quarter under John Howard, and Australians were doing tough. Why allow Tony Abbott to lead Australia if that's the Coalition's economic record?"
           }
         },
+
+  {
+          "model": "campaign_trail.answer",
+          "pk": 5059,
+          "fields": {
+            "question": 1022,
+            "feedback": "This goes well with inter-city tech wizzes, but you mostly alienate a lot of parents in the nation.",
+            "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "We believe that having a strong internet in this nation is a must. That is why we will put money towards increasing the NBN in order to make Australia’s internet secure and fast."
+          }
+        },
+
+  {
+          "model": "campaign_trail.answer",
+          "pk": 5060,
+          "fields": {
+            "question": 1022,
+            "feedback": "Good talking points, Mrs. Gillard. Parents across the nation will surely be happy about this.",
+            "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "We must increase benefits for parents in our country. A re-elected Labor Government will increase paid parental leave for workers and increase paid benefits for workers as well."
+          }
+        },
+
+ {
+          "model": "campaign_trail.answer",
+          "pk": 5061,
+          "fields": {
+            "question": 1023,
+            "feedback": "Former Rudd supporters, in Parliament and Public, are pleased by this news. But be careful as this may allow for him to work in the shadows to get the leadership back.",
+            "global_effect": [201, 0.10], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "Rudd has shown excellent skills during his time as an Ambassador to China and Shadow Foreign Minister under Beazley and Latham. I welcome him into the Cabinet to strengthen Australia’s global relations."
+          }
+        },
+
+ {
+          "model": "campaign_trail.answer",
+          "pk": 5062,
+          "fields": {
+            "question": 1024,
+            "feedback": "Strange coincidence indeed. We won’t know for sure if Rudd was the true leaker.",
+            "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "I have the utmost respect for Kevin. I have no reason to believe that he is the leaker. I believe that this is just a strange coincidence."
+          }
+        },
+
+ {
+          "model": "campaign_trail.answer",
+          "pk": 5063,
+          "fields": {
+            "question": 1024,
+            "feedback": "Rudd defends himself in your talk. You can see he is offended to think you suspected him to be the main leaker.",
+            "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "This is certainly strange. I will talk with Kevin to see if he is the mastermind behind these leaks."
+          }
+        },
+
+ {
+          "model": "campaign_trail.answer",
+          "pk": 5064,
+          "fields": {
+            "question": 1025,
+            "feedback": "This issue does seem to alienate voters. But this is a good stance.",
+            "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "I’m not one to gamble, firstly. I believe we can win this election. And when we do, I will discuss reforms to the gambling industry and put forward a commission and inquiry to tackle this issue."
+          }
+        },
+
+ {
+          "model": "campaign_trail.answer",
+          "pk": 5065,
+          "fields": {
+            "question": 1025,
+            "feedback": "Many are saying this is a missed opportunity. This however puts off voters as they wanted commitment on this issue.",
+            "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "We shouldn’t touch this issue as many people are against it. I will see what the wider consensus is before we even talk about it."
+          }
+        },
+
+ {
+          "model": "campaign_trail.answer",
+          "pk": 5066,
+          "fields": {
+            "question": 1025,
+            "feedback": "Not a good answer. Many people thanks to this are flocking to Independents and the Greens",
+            "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "There will be no changes to any gambling or pokie issues. If people want to gamble, that is their own decision and their decision to make."
+          }
+        },
+     
+     
+     
      
      
      
