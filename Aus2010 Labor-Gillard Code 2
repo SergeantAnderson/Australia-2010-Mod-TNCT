@@ -21,7 +21,7 @@
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 26,
+            "question_count": 30,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
           }
@@ -1143,10 +1143,166 @@
           "pk": 5066,
           "fields": {
             "question": 1025,
-            "feedback": "Not a good answer. Many people thanks to this are flocking to Independents and the Greens",
+            "feedback": "Not a good answer. Many people thanks to this are flocking to Independents and the Greens.",
             "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
             "description": "There will be no changes to any gambling or pokie issues. If people want to gamble, that is their own decision and their decision to make."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5067,
+          "fields": {
+            "question": 1026,
+            "feedback": "Even though the economy is not in good shape right now, it’s still a strong attack.",
+            "global_effect": [201, 0.06], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "The Coalition is not responsible enough to run the economy. Their policy will put the Budget into a major deficit and they will have to cut services. We can’t go back to the Coalition."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5068,
+          "fields": {
+            "question": 1026,
+            "feedback": "Safe call. But too much of a safe call.",
+            "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "I don’t think it will be best to attack the Coalition. The economy is not doing well and they could use our attack against us."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5069,
+          "fields": {
+            "question": 1027,
+            "feedback": "The Coalition does respond back about the high interest rates and budget deficits. But Australians do remember mitigating the worst of the GFC",
+            "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "I want to remind voters that Labor was the party that managed to save the Australian economy and mitigated the worst effects. We are the party of economic recovery."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5070,
+          "fields": {
+            "question": 1027,
+            "feedback": "Good answer. This strikes with the core base of the party. Expect the woman vote to flock to you.",
+            "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "We are the party of equality. I am Australia’s first Female Prime Minister and first female leader of the Labor Party. I want to remind the electorate we are the party of progress and equality and we will strive for it every day."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5071,
+          "fields": {
+            "question": 1027,
+            "feedback": "This answer was to backfire. Sky News is having a field day with this answer.",
+            "global_effect": [201, -0.2], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "It’s about unity. Our party is united to face the challenges that Australia will face. And I will make sure when we’re re-elected, we will overcome any barriers we will face."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5072,
+          "fields": {
+            "question": 1028,
+            "feedback": "A solid final message. However, the Coalition does attack you on the economy.",
+            "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "abor was the party that saved Australia from the worst of the GFC. Our economy will rebound once more under a second term. Give us the chance and we will ensure that more jobs will be created for this nation, and more opportunities for all Australians. Let us move forward."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5073,
+          "fields": {
+            "question": 1028,
+            "feedback": "A good message with strong emphasis. This will resonate and bolster worker and union support.",
+            "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "Tony Abbott is unfit to serve as our nation's Prime Minister. He wants to bring back WorkChoice, cut Medicare and Education, and make you worse off. Remember the days of John Howard? We can’t go back."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5074,
+          "fields": {
+            "question": 1028,
+            "feedback": "A strong message that will resonate with the LGBTQ community and Womens Group in the nation.",
+            "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "We are the party of progress. We are united to move our nation forward in a second Labor term. As Australia’s first female Prime Minister, I will ensure that the rights of people, no matter what religious affiliation, gender, social status, are met."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5075,
+          "fields": {
+            "question": 1028,
+            "feedback": "Not the best finishing message since you brutally turned against Kevin Rudd.",
+            "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "It’s about unity. We have proven to the public that our campaign that has been disciplined has worked. I want to remind the public that Labor is committed to serve once more for a second term, united around a new leader."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5076,
+          "fields": {
+            "question": 1029,
+            "feedback": "Sydney is an important city. Labor supporters are eager to help you on the final push there… ",
+            "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "Sydney. There are a few seats that we can still take that are marginal. If we are to form Government, seats in Sydney hold the key."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5077,
+          "fields": {
+            "question": 1029,
+            "feedback": "Brisbane is an important city. Labor supporters are eager to help you on the final push there…",
+            "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "Brisbane is the most important place. There are too many seats that are just too close. We must retain those seats if we’re to win."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5078,
+          "fields": {
+            "question": 1029,
+            "feedback": "Melbourne is an important city. Labor supporters are eager to help you on the final push there…",
+            "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "Melbourne is a must. The Greens are gaining traction there. It’s best we visit close seats that we can retain."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5079,
+          "fields": {
+            "question": 1029,
+            "feedback": "Perth is an important city. Labor supporters are eager to help you on the final push there…",
+            "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "description": "We have a shot in Perth. We may have lost a couple of seats there last election, but I am certain we can pull them back."
           }
         },
      
