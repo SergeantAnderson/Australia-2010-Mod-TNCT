@@ -3435,7 +3435,7 @@
             "fields": {
                 "state": 20664,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": 0.2,
                 "weight": 1.5
             }
         },
@@ -3445,7 +3445,7 @@
             "fields": {
                 "state": 20664,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": -0.4,
                 "weight": 1.5
             }
         },
@@ -3455,7 +3455,7 @@
             "fields": {
                 "state": 20664,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": -0.2,
                 "weight": 1.5
             }
         },
@@ -3465,7 +3465,7 @@
             "fields": {
                 "state": 20664,
                 "issue": 104,
-                "state_issue_score": 0,
+                "state_issue_score": -0.2,
                 "weight": 1.5
             }
         },
@@ -3475,7 +3475,7 @@
             "fields": {
                 "state": 20674,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": -0.8,
                 "weight": 1.5
             }
         },
@@ -3485,7 +3485,7 @@
             "fields": {
                 "state": 20674,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -3495,7 +3495,7 @@
             "fields": {
                 "state": 20674,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": 1,
                 "weight": 1.5
             }
         },
@@ -3505,7 +3505,7 @@
             "fields": {
                 "state": 20674,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": 0.6,
                 "weight": 1.5
             }
         },
@@ -3515,7 +3515,7 @@
             "fields": {
                 "state": 20674,
                 "issue": 104,
-                "state_issue_score": 0,
+                "state_issue_score": -0.8,
                 "weight": 1.5
             }
         },
@@ -3525,7 +3525,7 @@
             "fields": {
                 "state": 20684,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": -0.2,
                 "weight": 1.5
             }
         },
@@ -3535,7 +3535,7 @@
             "fields": {
                 "state": 20684,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": -0.4,
                 "weight": 1.5
             }
         },
@@ -3545,7 +3545,7 @@
             "fields": {
                 "state": 20684,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": 0.6,
                 "weight": 1.5
             }
         },
@@ -3555,7 +3555,7 @@
             "fields": {
                 "state": 20684,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": 0.2,
                 "weight": 1.5
             }
         },
@@ -3565,7 +3565,7 @@
             "fields": {
                 "state": 20684,
                 "issue": 104,
-                "state_issue_score": 0,
+                "state_issue_score": -0.4,
                 "weight": 1.5
             }
         },
@@ -3575,7 +3575,7 @@
             "fields": {
                 "state": 20694,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": -0.8,
                 "weight": 1.5
             }
         },
@@ -3585,7 +3585,7 @@
             "fields": {
                 "state": 20694,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": -1,
                 "weight": 1.5
             }
         },
@@ -3595,7 +3595,7 @@
             "fields": {
                 "state": 20694,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": 0.6,
                 "weight": 1.5
             }
         },
@@ -3605,7 +3605,7 @@
             "fields": {
                 "state": 20694,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": 1,
                 "weight": 1.5
             }
         },
@@ -3615,7 +3615,7 @@
             "fields": {
                 "state": 20694,
                 "issue": 104,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -16691,9 +16691,9 @@
                 "stance_desc_4":"'",
                 "stance_5":"Against the Tax",
                 "stance_desc_5":"'",
-                "stance_6":"Against the GST",
+                "stance_6":"Get Rid of it",
                 "stance_desc_6":"'",
-                "stance_7":"Against the GST",
+                "stance_7":"",
                 "stance_desc_7":"'",
                 "election":20
             }
@@ -16727,19 +16727,19 @@
             "fields": {
                 "name":"Immigration",
                 "description":"'",
-                "stance_1":"Very Conservative",
+                "stance_1":"Close the Border",
                 "stance_desc_1":"'",
-                "stance_2":"Conservative",
+                "stance_2":"Limited Immigration",
                 "stance_desc_2":"'",
-                "stance_3":"Leans Conservative",
+                "stance_3":"Moderate on Limitations",
                 "stance_desc_3":"'",
-                "stance_4":"Moderate",
+                "stance_4":"Balanced Approach",
                 "stance_desc_4":"'",
-                "stance_5":"Leans Liberal",
+                "stance_5":"Increase Current Flow",
                 "stance_desc_5":"'",
-                "stance_6":"Liberal",
+                "stance_6":"Increase Immigration",
                 "stance_desc_6":"'",
-                "stance_7":"Very Liberal",
+                "stance_7":"Open Border",
                 "stance_desc_7":"'",
                 "election":20
             }
