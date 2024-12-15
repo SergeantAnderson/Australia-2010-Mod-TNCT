@@ -5575,7 +5575,7 @@
             "fields": {
                 "state": 21094,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -5585,7 +5585,7 @@
             "fields": {
                 "state": 21094,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -5595,7 +5595,7 @@
             "fields": {
                 "state": 21094,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": 0.8,
                 "weight": 1.5
             }
         },
@@ -5605,7 +5605,7 @@
             "fields": {
                 "state": 21094,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": 0.6,
                 "weight": 1.5
             }
         },
@@ -5615,7 +5615,7 @@
             "fields": {
                 "state": 21094,
                 "issue": 104,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -5625,7 +5625,7 @@
             "fields": {
                 "state": 21104,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": -0.4,
                 "weight": 1.5
             }
         },
@@ -5635,7 +5635,7 @@
             "fields": {
                 "state": 21104,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -5645,7 +5645,7 @@
             "fields": {
                 "state": 21104,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": 0.8,
                 "weight": 1.5
             }
         },
@@ -5655,7 +5655,7 @@
             "fields": {
                 "state": 21104,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": 0.6,
                 "weight": 1.5
             }
         },
@@ -5665,7 +5665,7 @@
             "fields": {
                 "state": 21104,
                 "issue": 104,
-                "state_issue_score": 0,
+                "state_issue_score": -0.6,
                 "weight": 1.5
             }
         },
@@ -5675,7 +5675,7 @@
             "fields": {
                 "state": 21114,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": 0.4,
                 "weight": 1.5
             }
         },
@@ -5685,7 +5685,7 @@
             "fields": {
                 "state": 21114,
                 "issue": 101,
-                "state_issue_score": 0,
+                "state_issue_score": 0.4,
                 "weight": 1.5
             }
         },
@@ -5695,7 +5695,7 @@
             "fields": {
                 "state": 21114,
                 "issue": 102,
-                "state_issue_score": 0,
+                "state_issue_score": -0.2,
                 "weight": 1.5
             }
         },
@@ -5705,7 +5705,7 @@
             "fields": {
                 "state": 21114,
                 "issue": 103,
-                "state_issue_score": 0,
+                "state_issue_score": -0.4,
                 "weight": 1.5
             }
         },
