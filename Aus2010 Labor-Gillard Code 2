@@ -347,7 +347,7 @@
              "question": 1000,
              "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
              "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.7, 2], // format: [issue, issue score, issue importance]
+             "issue_effect": [100, 101, 102, 103, 104, 0.5, 1], // format: [issue, issue score, issue importance]
              "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
            }
          },
@@ -359,7 +359,7 @@
              "question": 1000,
              "feedback": "This didn’t go over well considering you’ve backed out of a potential contest to dethrone Mr. Rudd. Your loss.",
              "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+             "issue_effect": [104, 0.3, -0.5], // format: [issue, issue score, issue importance]
              "description": "I believe at the current time that a leadership contest should not commence. Mr. Rudd has been doing a perfect job at leading Australia at the current time. I believe Mr. Rudd can go on and win the election."
            }
          },
