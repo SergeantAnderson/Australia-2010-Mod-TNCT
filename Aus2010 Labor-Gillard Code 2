@@ -347,7 +347,7 @@
              "question": 1000,
              "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
              "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.5, 0.4], // format: [issue, issue score, issue importance]
+             "issue_effect": [104, 0.5, -0.4], // format: [issue, issue score, issue importance]
              "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
            }
          },
@@ -419,7 +419,7 @@
             "question": 1002,
             "feedback": "Solid attack. However, the Coalition keeps blasting on the severe instability of the Labor Party. The attack sticks, but slides right off.",
             "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 0.5], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, -0.5], // format: [issue, issue score, issue importance]
             "description": "Lets talk about the Opposition Leader, Tony Abbott. Mr. Abbott doesn’t care for the working or middle class people of Australia. Let alone his record as Minister for Health under John Howard. Mr. Abbott nearly destroyed medicare. Would you let him become Prime Minister?"
           }
         },
@@ -431,7 +431,7 @@
             "question": 1003,
             "feedback": "Your spirits are high and thats for certain, Mrs. Gillard. However, you’re gonna have to make some ground if you want to retain your majority in Parliament.",
             "global_effect": [201, -0.1], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, -0.4], // format: [issue, issue score, issue importance]
             "description": "I believe that we can win this election and keep going with the good work that Labor has done over the past 3 years. It will be a tough election to handle, but I believe that we can do it. "
           }
         },
