@@ -1,3 +1,19 @@
+const introTitle = document.querySelector("#inner_window_1 h3");
+if (introTitle) {
+	introTitle.textContent = "Do you have what it takes to win the 2010 Federal Election?";
+  }
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Can you win the 2010 Australian Federal Election?</li><li>Heading into the race, you'll face off against either the Incumbent Australian Labor Party or the Liberal/National Coalition, depending who you choose to play as.</li><li>The answers you choose along the Campaign Trail will affect your popularity with the public for better or for worse.</li><li>Appeal to the people across Australia to get them to put their first preference for your party.</li><li>Defy the polls and either form a Majority Government, or if not, form a strong Minority Government with Crossbench MP's</li>`;
+document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 0 0 0.5em !important;padding-top: 0.5em !important;}", 0);
+document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 0 .7em 0.5em !important;padding-top: 0.3em !important;}", 0);
+document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
+
+campaignTrail_temp.show_premium = true;
+campaignTrail_temp.premier_ab_test_version = -1;
+
+let style = document.createElement('style');style.innerHTML = `#overall_result {overflow: auto;}`;document.head.appendChild(style);
+
+
 quotes = [
     `"I will not be lectured about Sexism and Misogyny by this man, I will not!" - Julia Gillard`,
     `"HAHAHAHA, Shit Happens." - Tony Abbott`,
