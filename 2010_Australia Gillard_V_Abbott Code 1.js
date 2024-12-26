@@ -594,6 +594,13 @@ campaignTrail_temp.temp_election_list = [
 ]
 campaignTrail_temp.credits = 'SergeantAnderson'
 
+HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
+//        HistHexcolour=["#000065","#7F0000","#AAAAAA","#DCD472"]; //matching banner
+        HistName=[" Australian Labor Party - ALP"," Liberal/National Coalition - L/NP"," Independents - IND"," Australian Greens - GRN"];
+        HistEV=[72,72,5,1];
+        HistPV=["4,711,363","5,365,529","312,496","1,458,998"];
+        HistPVP=["37.99%%","43.32%","2.52%","11.76%"];
+
 
 
 jet_data = {
