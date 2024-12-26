@@ -347,7 +347,7 @@
              "question": 1000,
              "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
              "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-             "issue_effect": [100, 101, 102, 103, 104, 0.5, 1], // format: [issue, issue score, issue importance]
+             "issue_effect": [100, 101, 102, 103, 104, 0.5, ], // format: [issue, issue score, issue importance]
              "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
            }
          },
