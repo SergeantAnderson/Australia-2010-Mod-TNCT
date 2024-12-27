@@ -346,8 +346,8 @@
            "fields": {
              "question": 1000,
              "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
-             "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.5, -0.4], // format: [issue, issue score, issue importance]
+             "global_effect": [201, 0.7], // format: [candidate pk, amount of global effect]
+             "issue_effect": [104, 0.4, 0.3], // format: [issue, issue score, issue importance]
              "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
            }
          },
@@ -359,7 +359,7 @@
              "question": 1000,
              "feedback": "This didn’t go over well considering you’ve backed out of a potential contest to dethrone Mr. Rudd. Your loss.",
              "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.3, -0.5], // format: [issue, issue score, issue importance]
+             "issue_effect": [104, -0.3, 0.2], // format: [issue, issue score, issue importance]
              "description": "I believe at the current time that a leadership contest should not commence. Mr. Rudd has been doing a perfect job at leading Australia at the current time. I believe Mr. Rudd can go on and win the election."
            }
          },
@@ -371,7 +371,7 @@
             "question": 1001,
             "feedback": "Great speech, but some people aren’t buying it with the whole “Unite the Party Base” message. Especially with what happened only Hours ago.",
             "global_effect": [201, -0.2], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, -0.2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.3, -0.1], // format: [issue, issue score, issue importance]
             "description": "Australia needs unity at the current time and a leader that is able to unite the people of Australia. I will be a leader that will listen to the people and will have to hear what they have to say. I understand the current ripples within the Labor Party Caucus, but I believe I can unite the Party."
           }
         },
@@ -383,7 +383,7 @@
             "question": 1001,
             "feedback": "This speech energises the core Labor base. However, the distaste over the leadership contest lingers. It seems it won’t go away.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 0.5], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.4, 0.07], // format: [issue, issue score, issue importance]
             "description": "As the election draws near, I want to remind voters of Labor’s successes over the past 3 years in office. We’ve established a National Broadband Network, saved the Australian economy from near disaster back in 2008 along with various reforms and investments that have made Australia better off. Why would we want to go back to the days of the Coalition?"
           }
         },
@@ -407,7 +407,7 @@
             "question": 1002,
             "feedback": "Good speech emphasising how you are the first female PM. Most Australian women feel the same and this will hopefully boost your support amongst female voters.",
             "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 0.4], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.6, 0.4], // format: [issue, issue score, issue importance]
             "description": "I will talk about how I am the first Female Prime Minister and how I can relate to to any women in Australia. Despite the fact I am a woman, I always come back stronger, even when faced with sexism and misogyny."
           }
         },
@@ -419,7 +419,7 @@
             "question": 1002,
             "feedback": "Solid attack. However, the Coalition keeps blasting on the severe instability of the Labor Party. The attack sticks, but slides right off.",
             "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, -0.5], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, -0.3, -0.5], // format: [issue, issue score, issue importance]
             "description": "Lets talk about the Opposition Leader, Tony Abbott. Mr. Abbott doesn’t care for the working or middle class people of Australia. Let alone his record as Minister for Health under John Howard. Mr. Abbott nearly destroyed medicare. Would you let him become Prime Minister?"
           }
         },
@@ -443,7 +443,7 @@
             "question": 1004,
             "feedback": "This seems like you’re shoring up Kevin Rudd’s past achievements and this move does cop some criticism from the Media. But this move might just work.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, 0.05], // format: [issue, issue score, issue importance]
             "description": "As a party, we will emphasise on the 3 years of achievements of what Labor has done. The Australian people trusted us with the economy during the Great Financial Crisis and Australia managed to sail through the crisis. We will heavily emphasise on the past 3 years of Policy."
           }
         },
@@ -455,7 +455,7 @@
             "question": 1004,
             "feedback": "This could be the move that will stick to Mr. Abbott, Julia. However, the Coalition does respond back with their own attack regarding the Leadership controversy.",
             "global_effect": [201, -0.7], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, -0.7], // format: [issue, issue score, issue importance]
             "description": "We will need to go on the attack if we want to win. We need to remind the public of Tony Abbott’s past record as holding several Cabinet Positions under John Howard. Especially with his moves with Medicare and WorkChoices."
           }
         },
@@ -467,7 +467,7 @@
             "question": 1004,
             "feedback": "I wouldn’t call your campaign “Disciplined” at the current time, Mrs. Gillard considering what is happening behind closed doors.",
             "global_effect": [201, -0.6], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, -0.6], // format: [issue, issue score, issue importance]
             "description": "The message we will need to run is a disciplined campaign. I know that the party is facing some rough bumps at the current time. But I believe that we can get through this issue as a united party and win this election. I’m sure the Australian People can Trust Labor once again."
           }
         },
@@ -479,7 +479,7 @@
             "question": 1005,
             "feedback": "The attacks seem to work against Mr. Abbott. However, it’s mixed approval over the Australian people, as some are still concerned about the Caucus.",
             "global_effect": [201, 0.3], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, 0.3], // format: [issue, issue score, issue importance]
             "description": "Australia must not forget the dangers of WorkChoices under the Liberal/National Government under John Howard. We will run ads on Mr. Abbott’s involvement in WorkChoices and attack him over his time as Minister for Employment."
           }
         },
@@ -491,7 +491,7 @@
             "question": 1005,
             "feedback": "You are right. However, Interest Rates have peaked since the last quarter. This attack may have backfired against you.",
             "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, -0.10], // format: [issue, issue score, issue importance]
             "description": " Economic Management. Under the Previous Liberal Government, Mr. Howard said that interest rates will not be raised. He said “Who do you trust to keep Interest Rates low?” How can we trust Mr. Abbott that interest rates will be low as well if he is to win?"
           }
         },
@@ -503,7 +503,7 @@
             "question": 1005,
             "feedback": "This seems to work, as no one wants any cuts to Medicare. The attacks do stick and work well. Coalition support has dipped slightly.",
             "global_effect": [201, 0.4], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, 0.4], // format: [issue, issue score, issue importance]
             "description": "Healthcare. Labor has protected Medicare and always will protect it for Australians to receive free Healthcare. Mr. Abbott nearly purged Medicare out of existence. It shows that the Liberal/National’s cannot be trusted with the Health of our nation."
           }
         },
@@ -515,7 +515,7 @@
             "question": 1006,
             "feedback": "You seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
             "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.8, 0.8], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
