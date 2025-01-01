@@ -562,8 +562,8 @@
           "fields": {
             "question": 1007,
             "feedback": "Good thinking travelling between both Queensland and New South Wales. This will definitely increase your support in these states.",
-            "global_effect": [201, 0.8], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.04, 0.02], // format: [issue, issue score, issue importance]
             "description": "This is concerning to hear. As Prime Minister, I will travel extensively in New South Wales and Queensland to save as many seats as I can. My colleagues' seats are on the line and I can’t afford to lose them if we want to retain our majority."
           }
         },
@@ -574,8 +574,8 @@
           "fields": {
             "question": 1007,
             "feedback": "I like the thinking of travelling to Sydney, Mrs. Gillard. However, the Queensland Labor Branch is a little disappointed that you didn’t consider travelling there.",
-            "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.03, 0.06], // format: [issue, issue score, issue importance]
             "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in the Sydney Metro Area and the surrounding suburbs, as they contain key seats that will determine the election."
           }
         },
@@ -586,8 +586,8 @@
           "fields": {
             "question": 1007,
             "feedback": "I like the thinking of travelling to Brisbane, Mrs. Gillard. However, the New South Wales Labor Branch is a little disappointed that you didn’t consider travelling there.",
-            "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.04, 0/03], // format: [issue, issue score, issue importance]
             "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in Brisbane and the Upper Coast there, as they contain key seats that will determine the election."
           }
         },
@@ -598,8 +598,8 @@
           "fields": {
             "question": 1007,
             "feedback": "Why would you say that? This makes it very awkward and the Coalition takes the lead in key seats in these states. Not a smart move.",
-            "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.010], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.07, 0.09], // format: [issue, issue score, issue importance]
             "description": "As much as we need to save our colleagues' seats, I have unfortunate doubts that many will fall when the August Election rolls around."
           }
         },
