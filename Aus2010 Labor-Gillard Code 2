@@ -610,8 +610,8 @@
           "fields": {
             "question": 1008,
             "feedback": "Yet, the instability within the Labor ranks still shows its ugly end. Nothing will go unnoticed this election.",
-            "global_effect": [201, -0.5], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.08, 0.06], // format: [issue, issue score, issue importance]
             "description": "I back what I said. We will continue to run a disciplined campaign for the remainder of the election. I’m sure the people of Australia will see how we intend to do this. "
           }
         },
@@ -622,8 +622,8 @@
           "fields": {
             "question": 1008,
             "feedback": "This seems like the right idea to do. Many within the caucus have sided with you, however, the side backing Kevin Rudd still remains. Hopefully after the election you can be on good terms.",
-            "global_effect": [201, 0.2], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.04, ], // format: [issue, issue score, issue importance]
             "description": "If we want to run a disciplined campaign, we need to get the caucus in line and to show that we are ready to continue governing this country. I will organise a meeting and a party agenda. Hopefully this will settle the debacle."
           }
         },
@@ -634,9 +634,9 @@
           "pk": 5024,
           "fields": {
             "question": 1008,
-            "feedback": "The Caucus damage still shows its ugly head and will continue to be the pressing issue of the election, no matter how many times you deflect, Julia.",
-            "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "feedback": "The Caucus damage still shows its ugly head and will continue to be the pressing issue of the election, no matter how many times you deflect.",
+            "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.03, 0.5], // format: [issue, issue score, issue importance]
             "description": "We need to instead focus on the Coalition. They went through 2 other leaders before they settled on Tony Abbott. Brendan Nelson and Malcolm Turnbull. And don’t even get me started on Tony Abbott’s choices when he was Minister under John Howard."
           }
         },
@@ -647,8 +647,8 @@
           "fields": {
             "question": 1009,
             "feedback": "This sounds… unheard of in Australian Politics. But hey, if you're willing to make amends, go ahead. Let's hope this doesn’t backfire badly.",
-            "global_effect": [201, 0.2], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.002, 0.03], // format: [issue, issue score, issue importance]
             "description": "I believe the best possible solution is for me to campaign along side Kevin Rudd in the national campaign. We can also get Kevin to talk about his work as Prime Minister and for me to carry on the torch of the Labor Party. I believe we can do this in all states and territories."
           }
         },
@@ -659,8 +659,8 @@
           "fields": {
             "question": 1009,
             "feedback": "Let’s hope it’s not your resignation after the election, Mrs. Gillard.",
-            "global_effect": [201, -0.2], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.005, 0.03], // format: [issue, issue score, issue importance]
             "description": "Despite it being run as a “Disciplined” campaign, I will need to meet with the Labor caucus to talk about what we can do to achieve party unity. I know there will be things we will not agree on, but it’s for the sake of the party."
           }
         },
@@ -671,8 +671,8 @@
           "fields": {
             "question": 1010,
             "feedback": "This seems to be the trick. You do hold onto some rural seats as well and you can’t neglect them as well, right?",
-            "global_effect": [201, 0.6], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, 0.06], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.005, 0.04], // format: [issue, issue score, issue importance]
             "description": "We will need to go on a Campaign Blitz across the Brisbane Metro Area. We hold seats that flipped at the last election that are willing to flip back to the Liberals. I believe that this will help boost Labor’s support in Queensland."
           }
         },
@@ -683,8 +683,8 @@
           "fields": {
             "question": 1010,
             "feedback": "This seems like a good tactic, however you hold onto more Brisbane Metro seats than rural. You can’t neglect them, Mrs. Gillard.",
-            "global_effect": [201, 0.5], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.001, 0.02], // format: [issue, issue score, issue importance]
             "description": "We saw at the last election that rural Queensland seats had gone towards the Labor column. I will travel in the rural Queensland seats that we currently hold. We can’t let them fold."
           }
         },
@@ -695,8 +695,8 @@
           "fields": {
             "question": 1010,
             "feedback": "You’re the Prime Minister. Not Kevin Rudd. Remember that.",
-            "global_effect": [201, -0.10], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.05, 0.04], // format: [issue, issue score, issue importance]
             "description": "Mr. Rudd is fairly popular in Queensland and especially his seat. Hopefully he can campaign on our message of a disciplined Campaign. Maybe the people of Queensland will see that message come across."
           }
         },
@@ -707,8 +707,8 @@
           "fields": {
             "question": 1011,
             "feedback": "Honesty is best. However, you’ll face a severe drop in the polls thanks to your response. ",
-            "global_effect": [201, -0.15], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.09], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.08, 0.08], // format: [issue, issue score, issue importance]
             "description": "The people of Australia deserve honesty. I had clearly explained to Mr. Rudd, as I was Deputy Prime Minister at the time that we needed to reverse the severe polling trend that we were facing. So yes, I did tell him that."
           }
         },
@@ -720,8 +720,8 @@
           "fields": {
             "question": 1011,
             "feedback": "This seemed like the interesting approach that you took. But it won’t help your cause.",
-            "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.003], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.03, 2], // format: [issue, issue score, issue importance]
             "description": "Rest assured, these talks between me and Kevin Rudd never happened. This is nothing but gossip and rumours that are false. "
           }
         },
@@ -733,8 +733,8 @@
           "fields": {
             "question": 1011,
             "feedback": "Your silence to this matter raised many eyebrows, especially within the Labor Caucus. Expect a drop in the polls.",
-            "global_effect": [201, -0.20], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.08, -0.04], // format: [issue, issue score, issue importance]
             "description": "I have no comment in regards to this matter."
           }
         },
