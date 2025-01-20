@@ -174,7 +174,7 @@
           "pk": 1014,
           "fields": {
             "priority": 1,
-            "description": "Mrs. Gillard, there have been speculated rumours of a so-called “Carbon Tax” making the rounds. Considering Australia’s bolstering mining industry and yet increasing CO2 levels. Are the rumours real and will such a thing be proposed?",
+            "description": "Mrs. Gillard, there have been speculated rumours of a so-called “Carbon Tax” making the rounds. Kevin Rudd had considered taxing mining industries which lead to his downfall over rising C02 levels, is the Government propising a possible Carbon Tax or not?",
             "likelihood": 1
           }
         },
@@ -183,7 +183,7 @@
           "pk": 1015,
           "fields": {
             "priority": 1,
-            "description": "Mrs. Gillard, there’s been another confirmed leak from the Labor Caucus, this time this is much more damaging. Leaks report that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. The leaker is unknown at this time, but many are suggesting it was Kein Rudd. The Media already have their hands on this. What now?",
+            "description": "Mrs. Gillard, there’s been another confirmed leak from the Labor Caucus, this time this is much more damaging. Leaks report that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. The leaker is unknown at this time, but many are suggesting it was Kein Rudd. The Media already have their hands on this. How are you going to downplay this?",
             "likelihood": 1
           }
         },
@@ -192,7 +192,7 @@
           "pk": 1016,
           "fields": {
             "priority": 1,
-            "description": "Mrs Gillard, in a recent TV interview, Former Prime Minister Kevin Rudd did say he admitted to the first leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. What are your thoughts on this?",
+            "description": "In a recent TV interview, Former Prime Minister Kevin Rudd has finally dropped the bomb he's been hiding. He has admitted that he was respincible for the first internal party leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. Considering Rudd's professed innocence, do you believe someone in Cabinet leaked this information?",
             "likelihood": 1
           }
         },
@@ -223,7 +223,7 @@
           "pk": 1019,
           "fields": {
             "priority": 1,
-            "description": "For this election, Mrs. Gillard, you’ve chosen the slogan, Let's move Australia Forward. After the previous 3 tumultuous years, why would Australians vote for you once more?",
+            "description": "For this election, Mrs. Gillard, Labor have chosen the slogan, Let's move Australia Forward. After the previous 3 tumultuous years, and rising costs and interest rates putting pressure on Australians, why should Australians re-elect Labor into a second term?",
             "likelihood": 1
           }
         },
@@ -233,7 +233,7 @@
           "pk": 1020,
           "fields": {
             "priority": 1,
-            "description": "There has been some concern in the election with how much election promises will cost if either You or the Coalition form Government. Especially after the 2008 Recession. Can you promise to the Australian people that you won’t pledge for any big spending pledges?",
+            "description": "There has been some concern in the election with how much election promises will cost if either Labor or the Coalition form Government. Consideirng Australia mitigated the worst of the 2008 Recession, the economy took a hit. Will you pledge to the people that your policies will not cause more economic hurt in spending?",
             "likelihood": 1
           }
         },
@@ -243,7 +243,7 @@
           "pk": 1021,
           "fields": {
             "priority": 1,
-            "description": "After the 2008 Recession, the Government has recorded some of the worst deficits in recent times. Even after Rudd mitigated off worse effects, Australia still suffers a bit. What can you say to the Australian people regarding Labor’s economic responsibility?",
+            "description": "After the 2008 Recession, the Rudd Government had recorded some of the worst budget deficits in recent times. Even if the economy did mitigate the worst, it took a major hit. How can you prove to the Australian people that Labor can be trusted with the economy for the next three years??",
             "likelihood": 1
           }
         },
@@ -253,7 +253,7 @@
           "pk": 1022,
           "fields": {
             "priority": 1,
-            "description": "Parental Leave and the National Broadband Network are beginning to be at front with the minds of voters. If re-elected back into Government, what will be your primary focus?",
+            "description": "An issue that is going around the electorate is over Parental Leave and the National Broadband Network, which are beginning to be at front with the minds of voters. With Election Day nearing, what will be your primary focus?",
             "likelihood": 1
           }
         },
@@ -263,7 +263,7 @@
           "pk": 1023,
           "fields": {
             "priority": 1,
-            "description": "Word has gotten out that if you were to secure Labor a second term in Government, you’d appoint Kevin Rudd as the new Foreign Minister. Is this to-be appointment true?",
+            "description": "There has been a rumor that is circulating parliament, and in the media. If you were to secure a second term in Government, you’d appoint Kevin Rudd as the new Foreign Minister to enrure party stability. Is this to-be appointment true?",
             "likelihood": 1
           }
         },
@@ -273,7 +273,7 @@
           "pk": 1024,
           "fields": {
             "priority": 1,
-            "description": "It would seem suspicious now that the leaks within the party have stopped ever since you’ve appointed Kevin Rudd as Foreign Minister. Do you have reason to suspect that Rudd was the main leaker?",
+            "description": "After all the internal leaks, it finally came to a stop. But it seems suspicious that when you promised Rudd the role of Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responcible for the internal party leakis?",
             "likelihood": 1
           }
         },
@@ -283,7 +283,7 @@
           "pk": 1025,
           "fields": {
             "priority": 1,
-            "description": "Betting on who will win the election has grown this election. Markets have Labor at $1.75 and the Coalition at $2.70. Despite this, gambling and pokie reforms are an issue on voters' minds. Will there be any changes to the aforementioned issues?",
+            "description": "The betting on who will win the election has grown this election. Markets have Labor at $1.75 and the Coalition at $2.70. Despite this, gambling and pokie reforms are an issue on voters' minds, with Independents and Green Party Candidates calling for immediate reforms to the industry. Will there be any changes to the aforementioned issues?",
             "likelihood": 1
           }
         },
@@ -293,7 +293,7 @@
           "pk": 1026,
           "fields": {
             "priority": 1,
-            "description": "It appears that there has been a major leak in the Coalition's budget costing. They have discovered an $840 Million hole and have stopped policy submissions to the Treasury. Will you attack the Coalition on this?",
+            "description": "For once, it's not Labor's internal party leaks being spread out. It appears that there has been a major leak in the Coalition's budget costing for election promises. The discovery of an $840 Million hole have stopped policy submissions to the Treasury from the Opposition. Will you use this potential oppotunity to attack the Coalition on their budget estimates?",
             "likelihood": 1
           }
         },
@@ -303,7 +303,7 @@
           "pk": 1027,
           "fields": {
             "priority": 1,
-            "description": "There has been concern amongst your Campaign’s image in the final stretch. Abbott’s image as a popular campaigner and overall fitness is being noticed by the electorate. What will you do to boost Labor’s campaign image?",
+            "description": "There has been concern amongst your Campaign’s image in the final stretch of the election. Abbott’s is now being seen amongst the public as a popular campaigner and also emphasising his overall fitness, which is being noticed by the electorate. To ensure your public image amomgst the nation, What will you do to boost Labor's and your, campaign image?",
             "likelihood": 1
           }
         },
@@ -313,7 +313,7 @@
           "pk": 1028,
           "fields": {
             "priority": 1,
-            "description": "The final stretch of the campaign is upon us. Polls still remain at a tight 50/50, with potentially no winner in sight, and a Hung Parliament inbound. To retain your majority, what message will you give to Australian voters to give their first preference to Labor?",
+            "description": "The final stretch of the campaign is upon us. Polls still remain at a tight 50/50, with potentially no winner in sight, and a Hung Parliament inbound with no clear sight aas to who will be the largest party. To retain your majority, what message will you give to Australian voters to give their first preference to Labor?",
             "likelihood": 1
           }
         },
@@ -323,7 +323,7 @@
           "pk": 1029,
           "fields": {
             "priority": 1,
-            "description": "It’s Saturday, the 21st of August. You’ve finished voting in your seat of Lalor in Victoria. Now you have the opportunity to visit any other place before returning back. What city will you visit on your last campaign stop?",
+            "description": "It's the final week of the campaign. The oppotunity is now to get any last minute undecided voters to give their first preference to Labor. Now you have the opportunity to visit one final place that can decide the outcome of this election. What city will you visit to ensure Labor secures a winning majority?",
             "likelihood": 1
           }
         },
@@ -514,8 +514,8 @@
           "fields": {
             "question": 1006,
             "feedback": "You seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
-            "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.06, 0.005], // format: [issue, issue score, issue importance]
+            "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.06, -0.005], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -865,7 +865,7 @@
           "pk": 5043,
           "fields": {
             "question": 1015,
-            "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks. Strange coincidence…",
+            "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks.",
             "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, -0.05, -0.05], // format: [issue, issue score, issue importance]
             "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him. Wasn’t he an ambassador during his time in Queensland? Okay, now I have an idea…"
@@ -877,7 +877,7 @@
           "pk": 5044,
           "fields": {
             "question": 1016,
-            "feedback": "An investigation is launched, but after a while, there is nothing that points to any cabinet members leaking the information.",
+            "feedback": "An internal party investigation is launched, but after a while, there is nothing that points to any cabinet members leaking the information.",
             "global_effect": [201, -0.03], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.05, 0.07], // format: [issue, issue score, issue importance]
             "description": "This is certainly the strangest of circumstances. I want to launch an investigation on who leaked this information. Someone from within the cabinet must have done it."
@@ -890,8 +890,8 @@
           "fields": {
             "question": 1016,
             "feedback": "You’ve managed to minimise the fallout of this, but however there are still scathing attacks regarding the leaks from the Coalition. ",
-            "global_effect": [201, -0.8], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.08, 0.04], // format: [issue, issue score, issue importance]
             "description": "Firstly, I applaud Kevin Rudd to have the decency to admit the first leak. Secondly, the previous leak concerns me very much as there is no plausible conclusion as to who leaked the information from the cabinet. We need to be in full damage control."
           }
         },
@@ -913,9 +913,9 @@
           "pk": 5047,
           "fields": {
             "question": 1017,
-            "feedback": "Solid attack! These will definitely hurt the Coalition in the polls. A boost is headed your way.",
-            "global_effect": [201, 0.4], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "feedback": "It is a solid attack like that will put the Coalition on their heels. This definately gives you a small boost is headed your way.",
+            "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.002, -0.003], // format: [issue, issue score, issue importance]
             "description": "We need to re-emphasize our disciplined campaign and how I am willing to lead Australia into the 2010’s. We need to also attack the Coalition and Tony Abbott over his involvement in Workchoice’s and wanting to rid Medicare. Can we really afford that?"
           }
         },
@@ -925,9 +925,9 @@
           "pk": 5048,
           "fields": {
             "question": 1017,
-            "feedback": "Nice way to emphasise economic management. However, many noticed your pause when mentioning Kevin Rudd. It was an awkward moment to say.",
-            "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "feedback": "Empahzising your Governments record on economic management is always important. However, many noticed your pause when mentioning Kevin Rudd, which gained traction across the headlines. Especially Sky News.",
+            "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.8, 2], // format: [issue, issue score, issue importance]
             "description": "In 2008, the world was hit by one of the worst global recessions since the Great Depression. Who was in power? Labor. We managed to save the economy thanks to the economic genius of Wayne Swan and leadership of… Kevin Rudd. Our economic management shows that we are capable of running an economy, whilst the Coalition can’t."
           }
         },
@@ -937,10 +937,10 @@
           "pk": 5049,
           "fields": {
             "question": 1018,
-            "feedback": "Mr. Abbott is in a bit of a tough spot thanks to your response. However, his response to you was bland.",
-            "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-            "description": "Workchoices was something that Labor got rid of the moment we stepped into office. We can’t have Mr. Abbott to become Australia’s next Prime Minister if he backs such legislation like this. Mark my words, Workplace will come back if Abbott is elected."
+            "feedback": "Mr. Abbott is in a bit of a tough spot thanks to your response, and the Liberals are reported to have a slight dip in the polls.",
+            "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, -0.003, 0.04], // format: [issue, issue score, issue importance]
+            "description": "Workchoices was something that Labor got rid of the moment we stepped into office. We can’t have Mr. Abbott to become Australia’s next Prime Minister if he backs such legislation like this. Mark my words, Workplace will come back if Abbott is elected. We can't afford a Coalition Government."
           }
         },
     
@@ -949,10 +949,10 @@
           "pk": 5050,
           "fields": {
             "question": 1018,
-            "feedback": "One could say exactly that to you, Mrs Gillard. Considering some U-Turns from your previous leader.",
+            "feedback": "One could say exactly that to you, Mrs Gillard. Considering some U-Turns the Government has now taken over policy position.",
             "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-            "description": "This is blatant flip-flopping on the issue. He’s like a fish on dry land. A leader is either committed to one road, or the other. Which way is it, Mr. Abbott?"
+            "issue_effect": [104, 0.06, 0.05], // format: [issue, issue score, issue importance]
+            "description": "This is blatant flip-flopping on the issue. Mr. Abbott clearly doesn't hold a clear position on these issues. We need a leader who will stick to one side of the issues that matter to the Australian people."
           }
         },
     
@@ -973,10 +973,10 @@
           "pk": 5052,
           "fields": {
             "question": 1019,
-            "feedback": "I wouldn’t be calling Labor the party of strength, especially after the brutal spill of Rudd and factional warfare within.",
-            "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-            "description": "We are the party of true strength and fresh ideas. We are the party that brought forward Medicare and superannuation, all of which the Coalition wants to Privatise. Let us move forward as a nation together."
+            "feedback": "With Factional Warfare and the brutal spill of Kevin Rudd, I wouldn't be saying Labor is the party of strenght now. The Coalition is certain to capitalize on this stance.",
+            "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
+            "issue_effect": [104, 0.05, 0.03], // format: [issue, issue score, issue importance]
+            "description": "Labor is the party of true strength and fresh ideas that ensures that Australia moves forward. Let's not forget it was Labor that introduced Medicare and superannuation, all of which the Coalition opposses. Let us move forward as a nation together."
           }
         },
     
@@ -985,10 +985,10 @@
           "pk": 5053,
           "fields": {
             "question": 1019,
-            "feedback": "I do like the thinking behind it. However, after a big budget downturn, it is a hurting point for you.",
+            "feedback": "After several budget downturns and deficits, the economy is to be a hurting point for the campaign.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
-            "description": "The Coalition says they want to propose Real Change, but what is that change exactly? It’ll just be dismantling everything this Labor Government has achieved. We cannot risk this. We can’t swap horses midstream, Australia."
+            "issue_effect": [104, 0.07, 0.06], // format: [issue, issue score, issue importance]
+            "description": "The Coalition have stated they want to propose Real Change, but what is that change exactly? Our Government managed to mitigate the worst of the Recession. The Coalition, if elected, will dismantle what we have built. A Coalition Government, right now, is something Australia can't afford."
           }
         },
     
