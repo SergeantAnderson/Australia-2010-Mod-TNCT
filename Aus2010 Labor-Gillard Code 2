@@ -347,7 +347,7 @@
              "question": 1000,
              "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
              "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
            }
          },
@@ -359,7 +359,7 @@
              "question": 1000,
              "feedback": "This didn’t go over well considering you’ve backed out of a potential contest to dethrone Mr. Rudd. Your loss.",
              "global_effect": [201, -0.07], // format: [candidate pk, amount of global effect]
-             "issue_effect": [104, 0.03, 0.02], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.03, 0.02], // format: [issue, issue score, issue importance]
              "description": "I believe at the current time that a leadership contest should not commence. Mr. Rudd has been doing a perfect job at leading Australia at the current time. I believe Mr. Rudd can go on and win the election."
            }
          },
@@ -371,7 +371,7 @@
             "question": 1001,
             "feedback": "Great speech, but some people aren’t buying it with the whole “Unite the Party Base” message. Especially with what happened only Hours ago.",
             "global_effect": [201, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.03, 0.01], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.03, 0.01], // format: [issue, issue score, issue importance]
             "description": "Australia needs unity at the current time and a leader that is able to unite the people of Australia. I will be a leader that will listen to the people and will have to hear what they have to say. I understand the current ripples within the Labor Party Caucus, but I believe I can unite the Party."
           }
         },
@@ -383,7 +383,7 @@
             "question": 1001,
             "feedback": "This speech energises the core Labor base. However, the distaste over the leadership contest lingers. It seems it won’t go away.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.04, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.04, 0.07], // format: [issue, issue score, issue importance]
             "description": "As the election draws near, I want to remind voters of Labor’s successes over the past 3 years in office. We’ve established a National Broadband Network, saved the Australian economy from near disaster back in 2008 along with various reforms and investments that have made Australia better off. Why would we want to go back to the days of the Coalition?"
           }
         },
@@ -395,7 +395,7 @@
             "question": 1002,
             "feedback": "This goes well over supporters, and you’ve made some ground in the polls. The pressure will be on.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.04], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.04], // format: [issue, issue score, issue importance]
             "description": "This is quite concerning to hear. I will emphasise on Labor’s achievements over the past 3 years. Most significantly, the economy and how Labor managed to save the Australian Economy from the Great Financial Crisis."
           }
         },
@@ -407,7 +407,7 @@
             "question": 1002,
             "feedback": "Good speech emphasising how you are the first female PM. Most Australian women feel the same and this will hopefully boost your support amongst female voters.",
             "global_effect": [201, -0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.06, 0.04], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.04], // format: [issue, issue score, issue importance]
             "description": "I will talk about how I am the first Female Prime Minister and how I can relate to to any women in Australia. Despite the fact I am a woman, I always come back stronger, even when faced with sexism and misogyny."
           }
         },
@@ -419,7 +419,7 @@
             "question": 1002,
             "feedback": "Solid attack. However, the Coalition keeps blasting on the severe instability of the Labor Party. The attack sticks, but don't do much damage.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.003, 0.005], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.003, 0.005], // format: [issue, issue score, issue importance]
             "description": "Lets talk about the Opposition Leader, Tony Abbott. Mr. Abbott doesn’t care for the working or middle class people of Australia. Let alone his record as Minister for Health under John Howard. Mr. Abbott nearly destroyed medicare. Would you let him become Prime Minister?"
           }
         },
@@ -431,7 +431,7 @@
             "question": 1003,
             "feedback": "Your spirits are high and thats for certain, Mrs. Gillard. However, you’re gonna have to make some ground if you want to retain your majority in Parliament.",
             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.002, -0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.002, -0.004], // format: [issue, issue score, issue importance]
             "description": "I believe that we can win this election and keep going with the good work that Labor has done over the past 3 years. It will be a tough election to handle, but I believe that we can do it. "
           }
         },
@@ -443,7 +443,7 @@
             "question": 1004,
             "feedback": "This seems like you’re shoring up Kevin Rudd’s past achievements and this move does cop some criticism from the Media. But this move might just work.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.08, -0.05], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.08, -0.05], // format: [issue, issue score, issue importance]
             "description": "As a party, we will emphasise on the 3 years of achievements of what Labor has done. The Australian people trusted us with the economy during the Great Financial Crisis and Australia managed to sail through the crisis. We will heavily emphasise on the past 3 years of Policy."
           }
         },
@@ -455,7 +455,7 @@
             "question": 1004,
             "feedback": "This could be the move that will stick to Mr. Abbott, Julia. However, the Coalition does respond back with their own attack regarding the Leadership controversy.",
             "global_effect": [201, -0.07], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "We will need to go on the attack if we want to win. We need to remind the public of Tony Abbott’s past record as holding several Cabinet Positions under John Howard. Especially with his moves with Medicare and WorkChoices."
           }
         },
@@ -467,7 +467,7 @@
             "question": 1004,
             "feedback": "I wouldn’t call your campaign “Disciplined” at the current time, Mrs. Gillard considering what is happening behind closed doors.",
             "global_effect": [201, -0.06], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.06], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.08, 0.06], // format: [issue, issue score, issue importance]
             "description": "The message we will need to run is a disciplined campaign. I know that the party is facing some rough bumps at the current time. But I believe that we can get through this issue as a united party and win this election. I’m sure the Australian People can Trust Labor once again."
           }
         },
@@ -479,7 +479,7 @@
             "question": 1005,
             "feedback": "The attacks seem to work against Mr. Abbott. However, it’s mixed approval over the Australian people, as some are still concerned about the Caucus.",
             "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.008, 0.3], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.008, 0.3], // format: [issue, issue score, issue importance]
             "description": "Australia must not forget the dangers of WorkChoices under the Liberal/National Government under John Howard. We will run ads on Mr. Abbott’s involvement in WorkChoices and attack him over his time as Minister for Employment."
           }
         },
@@ -503,7 +503,7 @@
             "question": 1005,
             "feedback": "This seems to work, as no one wants any cuts to Medicare. The attacks do stick and work well. Coalition support has dipped slightly.",
             "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.05, -0.04], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.05, -0.04], // format: [issue, issue score, issue importance]
             "description": "Healthcare. Labor has protected Medicare and always will protect it for Australians to receive free Healthcare. Mr. Abbott nearly purged Medicare out of existence. It shows that the Liberal/National’s cannot be trusted with the Health of our nation."
           }
         },
@@ -515,7 +515,7 @@
             "question": 1006,
             "feedback": "You seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
             "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.06, -0.005], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.06, -0.005], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -527,7 +527,7 @@
             "question": 1006,
             "feedback": "You seemed desperate to win against Mr. Abbott and it was reflected in what you said. Overall, the audience voted in favour of Mr. Abbott",
             "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.03, -0.007], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.03, -0.007], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -539,7 +539,7 @@
             "question": 1006,
             "feedback": "It was a squeaker of a debate. Voters were split on who to vote for and who won the debate. Overall, it was a draw.",
             "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.008, -0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.008, -0.003], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -551,7 +551,7 @@
             "question": 1006,
             "feedback": "Why wouldn’t you attend this forum? Many voters are disappointed in your actions. The Coalition’s support has increased thanks to this move.",
             "global_effect": [201, 0.015], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.09, -0.08], // format: [issue, issue score, issue importance]
             "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
           }
         },
@@ -561,9 +561,9 @@
           "pk": 5018,
           "fields": {
             "question": 1007,
-            "feedback": "Good thinking travelling between both Queensland and New South Wales. This will definitely increase your support in these states.",
+            "feedback": "Good thinking travelling between both Queensland and New South Wales. This will definitely increase your support in these states, but strains time between the two.",
             "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.04, -0.02], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.04, -0.02], // format: [issue, issue score, issue importance]
             "description": "This is concerning to hear. As Prime Minister, I will travel extensively in New South Wales and Queensland to save as many seats as I can. My colleagues' seats are on the line and I can’t afford to lose them if we want to retain our majority."
           }
         },
@@ -575,7 +575,7 @@
             "question": 1007,
             "feedback": "I like the thinking of travelling to Sydney, Mrs. Gillard. However, the Queensland Labor Branch is a little disappointed that you didn’t consider travelling there.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.03, -0.006], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.03, -0.006], // format: [issue, issue score, issue importance]
             "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in the Sydney Metro Area and the surrounding suburbs, as they contain key seats that will determine the election."
           }
         },
@@ -587,7 +587,7 @@
             "question": 1007,
             "feedback": "I like the thinking of travelling to Brisbane, Mrs. Gillard. However, the New South Wales Labor Branch is a little disappointed that you didn’t consider travelling there.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.04, 0.03], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.04, 0.03], // format: [issue, issue score, issue importance]
             "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in Brisbane and the Upper Coast there, as they contain key seats that will determine the election."
           }
         },
@@ -599,7 +599,7 @@
             "question": 1007,
             "feedback": "Why would you say that? This makes it very awkward and the Coalition takes the lead in key seats in these states. Not a smart move.",
             "global_effect": [201, -0.010], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.07, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.07, 0.09], // format: [issue, issue score, issue importance]
             "description": "As much as we need to save our colleagues' seats, I have unfortunate doubts that many will fall when the August Election rolls around."
           }
         },
@@ -611,7 +611,7 @@
             "question": 1008,
             "feedback": "Yet, the instability within the Labor ranks still shows its ugly end. Nothing will go unnoticed this election.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.06], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.06], // format: [issue, issue score, issue importance]
             "description": "I back what I said. We will continue to run a disciplined campaign for the remainder of the election. I’m sure the people of Australia will see how we intend to do this. "
           }
         },
@@ -623,7 +623,7 @@
             "question": 1008,
             "feedback": "This seems like the right idea to do. Many within the caucus have sided with you. However, the side backing Kevin Rudd still remains. Hopefully after the election you can be on good terms.",
             "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.04, -0.06], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.04, -0.06], // format: [issue, issue score, issue importance]
             "description": "If we want to run a disciplined campaign, we need to get the caucus in line and to show that we are ready to continue governing this country. I will organise a meeting and a party agenda. Hopefully this will settle the debacle."
           }
         },
@@ -636,7 +636,7 @@
             "question": 1008,
             "feedback": "The Caucus damage still shows its ugly head and will continue to be the pressing issue of the election, no matter how many times you deflect.",
             "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.03, 0.05], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.03, 0.05], // format: [issue, issue score, issue importance]
             "description": "We need to instead focus on the Coalition. They went through 2 other leaders before they settled on Tony Abbott. Brendan Nelson and Malcolm Turnbull. And don’t even get me started on Tony Abbott’s choices when he was Minister under John Howard."
           }
         },
@@ -648,7 +648,7 @@
             "question": 1009,
             "feedback": "This sounds… unheard of in Australian Politics to campaign with the one you axed. If you're willing to make amends, go ahead. Let's hope this doesn’t backfire badly.",
             "global_effect": [201, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.002, 0.03], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.002, 0.03], // format: [issue, issue score, issue importance]
             "description": "I believe the best possible solution is for me to campaign along side Kevin Rudd in the national campaign. We can also get Kevin to talk about his work as Prime Minister and for me to carry on the torch of the Labor Party. I believe we can do this in all states and territories."
           }
         },
@@ -660,7 +660,7 @@
             "question": 1009,
             "feedback": "Let’s hope it’s not your resignation after the election, Mrs. Gillard.",
             "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.005, 0.03], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.005, 0.03], // format: [issue, issue score, issue importance]
             "description": "Despite it being run as a “Disciplined” campaign, I will need to meet with the Labor caucus to talk about what we can do to achieve party unity. I know there will be things we will not agree on, but it’s for the sake of the party."
           }
         },
@@ -672,7 +672,7 @@
             "question": 1010,
             "feedback": "This seems to be the trick. You do hold onto some rural seats as well and you can’t neglect them as well, right?",
             "global_effect": [201, 0.06], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.05, -0.04], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.05, -0.04], // format: [issue, issue score, issue importance]
             "description": "We will need to go on a Campaign Blitz across the Brisbane Metro Area. We hold seats that flipped at the last election that are willing to flip back to the Liberals. I believe that this will help boost Labor’s support in Queensland."
           }
         },
@@ -684,7 +684,7 @@
             "question": 1010,
             "feedback": "This seems like a good tactic, however you hold onto more Brisbane Metro seats than rural. You can’t neglect them, Mrs. Gillard.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.001, 0.02], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.001, 0.02], // format: [issue, issue score, issue importance]
             "description": "We saw at the last election that rural Queensland seats had gone towards the Labor column. I will travel in the rural Queensland seats that we currently hold. We can’t let them fold."
           }
         },
@@ -696,7 +696,7 @@
             "question": 1010,
             "feedback": "You’re the Prime Minister. Not Kevin Rudd. Remember that.",
             "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
             "description": "Mr. Rudd is fairly popular in Queensland and especially his seat. Hopefully he can campaign on our message of a disciplined Campaign. Maybe the people of Queensland will see that message come across."
           }
         },
@@ -708,7 +708,7 @@
             "question": 1011,
             "feedback": "Honesty is best. However, you’re now facing a severe drop in the polls thanks to your response.",
             "global_effect": [201, -0.09], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.08], // format: [issue, issue score, issue importance]
             "description": "The people of Australia deserve honesty. I had clearly explained to Mr. Rudd, as I was Deputy Prime Minister at the time that we needed to reverse the severe polling trend that we were facing. So yes, I did tell him that."
           }
         },
@@ -721,7 +721,7 @@
             "question": 1011,
             "feedback": "This seemed like the interesting approach that you took. But it won’t help your cause.",
             "global_effect": [201, -0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.03, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.03, 2], // format: [issue, issue score, issue importance]
             "description": "Rest assured, these talks between me and Kevin Rudd never happened. This is nothing but gossip and rumours that are false. "
           }
         },
@@ -734,7 +734,7 @@
             "question": 1011,
             "feedback": "Your silence to this matter raised many eyebrows, especially within the Labor Caucus. Expect a drop in the polls.",
             "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.08, -0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.08, -0.004], // format: [issue, issue score, issue importance]
             "description": "I have no comment in regards to this matter."
           }
         },
@@ -746,7 +746,7 @@
             "question": 1012,
             "feedback": "Smart thinking trying to not become like Kevin Rudd. However, there is criticism from the Greens and environmentalists within Labor over your actions. ",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.008, 0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [102, 0.008, 0.003], // format: [issue, issue score, issue importance]
             "description": "I am my own leader. I don’t believe that the Mining Tax needs to be passed, or even in the near future. We will leave it as it is and not touch it with a ten foot pole. It’s what led to Rudd’s demise."
           }
         },
@@ -758,7 +758,7 @@
             "question": 1012,
             "feedback": "Mining Industries across Australia come out in anger and protest this proposal of yours. This move gives the Coalition a boost in support.",
             "global_effect": [201, -0.010], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.09, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [102, 0.09, 0.09], // format: [issue, issue score, issue importance]
             "description": "We can do better than the Mining Tax. If Labor wins the election, I will propose to the Parliament a “Minerals Resource Rent Tax.” We will place a tax on profits generated from the mining of non-renewable resources in Australia by 30%."
           }
         },
@@ -770,7 +770,7 @@
             "question": 1013,
             "feedback": "Once more, you seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
             "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.05, -0.03], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.05, -0.03], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
           }
         },
@@ -782,7 +782,7 @@
             "question": 1013,
             "feedback": "Second time around, you seemed desperate to win against Mr. Abbott and it was reflected in what you said. Mr. Abbott won the forum.",
             "global_effect": [201, -0.06], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.04, 0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.04, 0.004], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
           }
         },
@@ -794,7 +794,7 @@
             "question": 1013,
             "feedback": "Voters were split on who to vote for and who won the debate. Overall, it was a draw. Not bad, Julia",
             "global_effect": [201, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.001, -0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.001, -0.003], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
           }
         },
@@ -806,7 +806,7 @@
             "question": 1013,
             "feedback": "Really, Julia? Why wouldn’t you attend the forum? Especially in Queensland! This would have boosted your support there! Now we expect a drop in the polls!",
             "global_effect": [201, -0.015], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
             "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
           }
         },
@@ -816,9 +816,9 @@
           "pk": 5039,
           "fields": {
             "question": 1014,
-            "feedback": "A sigh of relief is heard across the mining industry and Australia overall. However, there is an uproar from environmentalists and the Greens. ",
+            "feedback": "A sigh of relief is heard across the mining industry and Australia overall. However, there is an uproar from environmentalists and the Greens.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.03, -0.02], // format: [issue, issue score, issue importance]
+            "issue_effect": [102, -0.03, -0.02], // format: [issue, issue score, issue importance]
             "description": "I can assure the people of Australia that there will be no Carbon tax in the tenure of my Government. These rumours are false as we will do no such thing."
           }
         },
@@ -830,7 +830,7 @@
             "question": 1014,
             "feedback": "Yes, you may have sided with environmentalists on this issue, but everyone else is not happy at this response and the Coalition blasts you on this response. ",
             "global_effect": [201, -0.010], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [102, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "These rumours are, in fact, true. We will be proposing a Carbon Tax that will seek to place a levy on the amount of Carbon Emissions being produced on Goods and Services, along with transportation and factories. This doesn’t exclude the mining industry."
           }
     
@@ -842,7 +842,7 @@
             "question": 1015,
             "feedback": "The press conference was a little… shaky. You seemed to stumble from time to time and some weren’t buying it. This isn’t good, especially if the Coalition is now attacking.",
             "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "As if things couldn’t get any worse. Shit. This wasn’t supposed to happen. I’ll release a media conference saying that this is all rumours and false speculations. We need to be in full damage control now. "
           }
         },
@@ -855,7 +855,7 @@
             "question": 1015,
             "feedback": "Rudd confessed his innocence but you don't seem convinced by his words.",
             "global_effect": [201, -0.09], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "It was Kevin, wasn’t it? I believe He knew he was going to lose the election, and is trying to sabotage the campaign. Let me talk with him. "
           }
         },
@@ -867,7 +867,7 @@
             "question": 1015,
             "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks.",
             "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.05, -0.05], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.05, -0.05], // format: [issue, issue score, issue importance]
             "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him. Wasn’t he an ambassador during his time in Queensland? Okay, now I have an idea…"
           }
         },
@@ -879,7 +879,7 @@
             "question": 1016,
             "feedback": "An internal party investigation is launched, but after a while, there is nothing that points to any cabinet members leaking the information.",
             "global_effect": [201, -0.03], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.05, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.05, 0.07], // format: [issue, issue score, issue importance]
             "description": "This is certainly the strangest of circumstances. I want to launch an investigation on who leaked this information. Someone from within the cabinet must have done it."
           }
         },
@@ -891,7 +891,7 @@
             "question": 1016,
             "feedback": "You’ve managed to minimise the fallout of this, but however there are still scathing attacks regarding the leaks from the Coalition. ",
             "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.04], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.04], // format: [issue, issue score, issue importance]
             "description": "Firstly, I applaud Kevin Rudd to have the decency to admit the first leak. Secondly, the previous leak concerns me very much as there is no plausible conclusion as to who leaked the information from the cabinet. We need to be in full damage control."
           }
         },
@@ -903,7 +903,7 @@
             "question": 1017,
             "feedback": "Nice little talk you did. However, most aren’t buying it.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.8, 2], // format: [issue, issue score, issue importance]
             "description": "With everything that is going on, I can assure the people of Australia that I will be a Prime Minister that will listen to what they have to say. I am a leader that will not back down and will not give up. It’s strength that motivates a leader, and I will do exactly that."
           }
         },
@@ -915,7 +915,7 @@
             "question": 1017,
             "feedback": "It is a solid attack like that will put the Coalition on their heels. This definately gives you a small boost is headed your way.",
             "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.002, -0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.002, -0.003], // format: [issue, issue score, issue importance]
             "description": "We need to re-emphasize our disciplined campaign and how I am willing to lead Australia into the 2010’s. We need to also attack the Coalition and Tony Abbott over his involvement in Workchoice’s and wanting to rid Medicare. Can we really afford that?"
           }
         },
@@ -951,7 +951,7 @@
             "question": 1018,
             "feedback": "One could say exactly that to you, Mrs Gillard. Considering some U-Turns the Government has now taken over policy position.",
             "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.06, 0.05], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.05], // format: [issue, issue score, issue importance]
             "description": "This is blatant flip-flopping on the issue. Mr. Abbott clearly doesn't hold a clear position on these issues. We need a leader who will stick to one side of the issues that matter to the Australian people."
           }
         },
@@ -963,7 +963,7 @@
             "question": 1019,
             "feedback": "Good answer, Mrs. Gillard. The Coalition does however after this, attack your campaign. Be cautious.",
             "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.8, 2], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.8, 2], // format: [issue, issue score, issue importance]
             "description": "As we move forward into the 2010’s, we must look towards which party will truly deliver for Australians. Either us in Labor who managed to save Australia from the 2008 Global Recession and improved working conditions, or the alternative, who wish to bring back Workplace and scrap the progress we’ve made. The choice is clear."
           }
         },
@@ -975,7 +975,7 @@
             "question": 1019,
             "feedback": "With Factional Warfare and the brutal spill of Kevin Rudd, I wouldn't be saying Labor is the party of strenght now. The Coalition is certain to capitalize on this stance.",
             "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.05, 0.03], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.05, 0.03], // format: [issue, issue score, issue importance]
             "description": "Labor is the party of true strength and fresh ideas that ensures that Australia moves forward. Let's not forget it was Labor that introduced Medicare and superannuation, all of which the Coalition opposses. Let us move forward as a nation together."
           }
         },
@@ -1085,7 +1085,7 @@
             "question": 1023,
             "feedback": "Former Rudd supporters, in Parliament and Public, are pleased by this news. But be careful as this may allow for him to work in the shadows to get the leadership back.",
             "global_effect": [201, 0.06], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.08, -0.04], // format: [issue, issue score, issue importance]
+            "issue_effect": [102, -0.08, -0.04], // format: [issue, issue score, issue importance]
             "description": "Rudd has shown excellent skills during his time as an Ambassador to China and Shadow Foreign Minister under Beazley and Latham. I welcome him into the Cabinet to strengthen Australia’s global relations."
           }
         },
@@ -1097,7 +1097,7 @@
             "question": 1024,
             "feedback": "Strange coincidence indeed. We won’t know for sure if Rudd was the true leaker.",
             "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.02, -0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.02, -0.003], // format: [issue, issue score, issue importance]
             "description": "I have the utmost respect for Kevin. I have no reason to believe that he is the leaker in all this. I believe that this is just a strange coincidence."
           }
         },
@@ -1109,7 +1109,7 @@
             "question": 1024,
             "feedback": "Rudd defends himself in your talk. You can see he is offended to think you suspected him to be the main leaker.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.03], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.03], // format: [issue, issue score, issue importance]
             "description": "This is certainly strange. I will talk with Kevin to see if he is the mastermind behind these leaks."
           }
         },
@@ -1121,7 +1121,7 @@
             "question": 1025,
             "feedback": "This issue does seem to alienate voters who are against poker reforms. But this is a good stance to take.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.03, -0.05], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, -0.03, -0.05], // format: [issue, issue score, issue importance]
             "description": "I’m not one to gamble, firstly. I believe we can win this election. And when we do, I will discuss reforms to the gambling industry and put forward a commission and inquiry to tackle this issue."
           }
         },
@@ -1133,7 +1133,7 @@
             "question": 1025,
             "feedback": "Many are saying this is a missed opportunity. This however puts off voters as they wanted commitment on this issue.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.04, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.04, 0.07], // format: [issue, issue score, issue importance]
             "description": "We shouldn’t touch this issue as many people are against the Poker industry being reformed. I will see what the wider consensus is before the cabinet takes an official stance on this."
           }
         },
@@ -1145,7 +1145,7 @@
             "question": 1025,
             "feedback": "Not a good answer. Many people thanks to this are flocking to Independents and the Greens.",
             "global_effect": [201, -0.09], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.08, 0.08], // format: [issue, issue score, issue importance]
             "description": "There will be no reforms in the Poker and Gambling industry. I don't believe the Government should interviene in people's choices. If people want to gamble, that is their own decision and their decision to make."
           }
         },
@@ -1193,7 +1193,7 @@
             "question": 1027,
             "feedback": "Good answer. This strikes with the core base of the party. Expect the woman vote to flock to you.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.04, -0.05], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.04, -0.05], // format: [issue, issue score, issue importance]
             "description": "We are the party of equality. I am Australia’s first Female Prime Minister and first female leader of the Labor Party. I want to remind the electorate we are the party of progress and equality and we will strive for it every day."
           }
         },
@@ -1205,7 +1205,7 @@
             "question": 1027,
             "feedback": "This answer was to backfire badly. Sky News is having a field day with this answer.",
             "global_effect": [201, -0.08], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.06, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.07], // format: [issue, issue score, issue importance]
             "description": "It’s about unity. Our party is united to face the challenges that Australia will face. And I will make sure when we’re re-elected, we will overcome any barriers we will face."
           }
         },
@@ -1218,7 +1218,7 @@
             "feedback": "A solid final message. However, the Coalition does attack you on the economy.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, -0.005, -0.005], // format: [issue, issue score, issue importance]
-            "description": "abor was the party that saved Australia from the worst of the GFC. Our economy will rebound once more under a second term. Give us the chance and we will ensure that more jobs will be created for this nation, and more opportunities for all Australians. Let us move forward."
+            "description": "Labor was the party that saved Australia from the worst of the GFC. Our economy will rebound once more under a second term. Give us the chance and we will ensure that more jobs will be created for this nation, and more opportunities for all Australians. Let us move forward."
           }
         },
 
@@ -1241,7 +1241,7 @@
             "question": 1028,
             "feedback": "A strong message that will resonate with the LGBTQ community and Womens Group in the nation.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.003, -0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.003, -0.003], // format: [issue, issue score, issue importance]
             "description": "We are the party of progress. We are united to move our nation forward in a second Labor term. As Australia’s first female Prime Minister, I will ensure that the rights of people, no matter what religious affiliation, gender, social status, are met."
           }
         },
@@ -1253,7 +1253,7 @@
             "question": 1028,
             "feedback": "Not the best finishing message since you brutally turned against Kevin Rudd.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.04, 0.07], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.04, 0.07], // format: [issue, issue score, issue importance]
             "description": "It’s about unity. We have proven to the public that our campaign that has been disciplined has worked. I want to remind the public that Labor is committed to serve once more for a second term, united around a new leader."
           }
         },
@@ -1265,7 +1265,7 @@
             "question": 1029,
             "feedback": "Sydney is an important city. Labor supporters are eager to help you on the final push there… ",
             "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.004, -0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
             "description": "Sydney. There are a few seats that we can still take that are marginal. If we are to form Government, seats in Sydney hold the key."
           }
         },
@@ -1277,7 +1277,7 @@
             "question": 1029,
             "feedback": "Brisbane is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.004, -0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
             "description": "Brisbane is the most important place. There are too many seats that are just too close. We must retain those seats if we’re to win."
           }
         },
@@ -1289,7 +1289,7 @@
             "question": 1029,
             "feedback": "Melbourne is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.004, -0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
             "description": "Melbourne is a must. The Greens are gaining traction there. It’s best we visit close seats that we can retain."
           }
         },
@@ -1301,7 +1301,7 @@
             "question": 1029,
             "feedback": "Perth is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.004, -0.004], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
             "description": "We have a shot in Perth. We may have lost a couple of seats there last election, but I am certain we can pull them back."
           }
         },
