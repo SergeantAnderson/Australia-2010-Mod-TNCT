@@ -34,7 +34,7 @@
            "pk": 1000,
            "fields": {
              "priority": 1,
-             "description": "[24th June, 2010] Kevin Rudd’s leadership is in tatters at the current moment. Polls are showing a dip in Labor’s Primary support before the election. Mrs. Gillard, the time has come. Are you willing to announce a Leadership Challenge against Prime Minister Kevin Rudd?",
+             "description": "[24th June, 2010] Kevin Rudd’s leadership is in tatters at the current moment. Polls are showing a dip in Labor’s Primary support, and the Coalition leading in Two-Party Preferred before the election. Mrs. Gillard, the time has come. Are you willing to announce a Leadership Challenge against Prime Minister Kevin Rudd?",
              "likelihood": 1
            }
          },
@@ -44,7 +44,7 @@
           "pk": 1001,
           "fields": {
             "priority": 1,
-            "description": "[24th June, 2010] Mrs Gillard, you’ve been elected unopposed as leader of the Federal Labor Party and subsequently, the first Female Prime Minister of Australia. Mr. Rudd has already tendered his resignation to the Governor General. Now, you have been officially sworn in and now stand in front of the Parliament Press Room as Prime Minister. What do you have to say about this win?",
+            "description": "[24th June, 2010] Mrs Gillard, you’ve been elected unopposed as leader of the Federal Labor Party and subsequently, the first Female Prime Minister of Australia. Mr. Rudd has already tendered his resignation to the Governor General. Now, you have been officially sworn in and now stand in front of the Parliament Press Room as Prime Minister. What will you say as this nations new Prime Minister?",
             "likelihood": 1
           }
         },
@@ -54,7 +54,7 @@
           "pk": 1002,
           "fields": {
             "priority": 1,
-            "description": "Current opinion polling is placing you and Tony Abbott Neck and Neck at the current time. This goes the same with Opinion Polling as Labor’s popularity has dropped, and the Coalition has made some gains in the polls. What is your plan to rectify Labor’s polls and to win the upcoming election?",
+            "description": "Current opinion polling is placing you and Tony Abbott Neck and Neck at the current time. This goes the same with Opinion Polling as Labor’s vote-share has dropped from the last election, and the Coalition has made some gains in the polls. What is your plan to rectify Labor’s polling numbers and to secure a second term for the Labor Party?",
             "likelihood": 1
           }
         },
@@ -64,7 +64,7 @@
           "pk": 1003,
           "fields": {
             "priority": 1,
-            "description": "You’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for an official election. The date you had in mind? Saturday, the 21st of August. It’s now crunch time, Mrs. Gillard.",
+            "description": "Like any Prime Minister after 3 years, you’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for an official election. The date you had in mind? Saturday, the 21st of August. It’s now crunch time, Mrs. Gillard.",
             "likelihood": 1
           }
         },
@@ -74,7 +74,7 @@
           "pk": 1004,
           "fields": {
             "priority": 1,
-            "description": "As you have called the election, you’ll need to emphasise on your theme of campaign in order to win voters. What will be your message to voters leading up to the August Election?",
+            "description": "The date is set. August 21st will be when Australians cast their ballot to decide this nations fate. As you have called the election, many internally are suggesting to go down the path of promoting Labor as 'Disiplined'. It is your choice. What will be your message to voters leading up to the August Election?",
             "likelihood": 1
           }
         },
@@ -84,7 +84,7 @@
           "pk": 1005,
           "fields": {
             "priority": 1,
-            "description": "The Liberal/National Campaign has begun throwing attack after attack in regards to your leadership and overall campaign. With the current caucus mess within the Labor Party, how will you defend yourself and the campaign against Mr. Abbott?",
+            "description": "The Liberal/National Campaign has begun, like any other party in opposition, attacking your Government due to fractures in the leadership and overall campaign. With the current caucus mess within the Labor Party, how can Labor possibly correct it's course and weather these attacks?",
             "likelihood": 1
           }
         },
@@ -104,7 +104,7 @@
           "pk": 1007,
           "fields": {
             "priority": 1,
-            "description": "Since the 2007 election, there have been many seats, particularly in New South Wales and Queensland that are under threat. Polls are saying that key marginal seats may change hands at the next election. Do you believe it’s best to save as many seats in these two states?",
+            "description": "Since the 2007 election, there have been many seats, particularly in New South Wales and Queensland that are under threat, flipped from Liberal to Labor. Polls are saying that key marginal seats may change hands at the next election, and will decide who will be in Government. Which state has more priority in your vision?",
             "likelihood": 1
           }
         },
@@ -114,7 +114,7 @@
           "pk": 1008,
           "fields": {
             "priority": 1,
-            "description": "You’ve said that this campaign that you have wanted to run is a “Disciplined” campaign. However, This move has seemed to have backfired, as the Coalition has run out a series of attack ads on your Campaign. How will you respond to this?",
+            "description": "This election, as stated previously, is being ran as a “Disciplined” campaign. However, many do not see this as diciplined, and the attacks continue to dogpile on your Government. Is it safe to say that your campaign isn't disiplied as you'd like?",
             "likelihood": 1
           }
         },
@@ -124,7 +124,7 @@
           "pk": 1009,
           "fields": {
             "priority": 1,
-            "description": "With the Labor Caucus in shambles after the ousting of Kevin Rudd, its shown the cracks within the party being divided between You, Mrs. Gillard, and the Former Prime Minister, Kevin Rudd. How can you unite the party in order to win the election?",
+            "description": "The brutal backstap from you against your predecessor, Kevin Rudd, continues to show cracks and rifts within the party. There is a stark divide between you and Kevin Rudd. What will be the best possible way to unite the party before the election?",
             "likelihood": 1
           }
         },
@@ -134,7 +134,7 @@
           "pk": 1010,
           "fields": {
             "priority": 1,
-            "description": "Considering that former Prime Minister Kevin Rudd is from Queensland and holds the seat of Griffith, we are expecting seats to swing towards the newly formed Liberal National Party, an extended branch of the Coalition only in Queensland. With Mr. Rudd gone, how will you try to save as many seats in Queensland as possible?",
+            "description": "With Kevin Rudd, a Queenslander who was Prime Minister, and consideraly swung the state to Labor, is now under threat. The newly formed branch of the Coalition, the 'Liberal National Party of Queensland' is expected to have a swing in its favour and gain seats. What will be your Governments course to save Labor seats up in the Sunshine state?",
             "likelihood": 1
           }
         },
@@ -144,7 +144,7 @@
           "pk": 1011,
           "fields": {
             "priority": 1,
-            "description": "Bad news for your campaign, Mrs. Gillard. There have been leaks from your campaign during your time as Deputy Prime Minister about you telling Mr. Rudd when he was Prime Minister to “Reverse the Polling Trend.” What do you have to say about this?",
+            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you, telling Mr. Rudd months before the election to "Reverse the Polling Trend." This is being labled as desperate from the Murdoch Press, and Tony Abbott is critising you on this move. What are your comments?",
             "likelihood": 1
           }
         },
@@ -154,7 +154,7 @@
           "pk": 1012,
           "fields": {
             "priority": 1,
-            "description": "During the tenure of when Kevin Rudd was Prime Minister, one piece of legislation which led to his inevitable fall was the “Mining Tax.” Considering you are Prime Minister, will you go ahead with such a proposal?",
+            "description": "Rudd as Prime Minister has always backed the environment, including yourself. However, the domino that collapse, which started this all, was the proposal of a "Mining Tax" a super-profits tax on Carbon from mining corperations. Considering that the Greens in inner-city seats across the nation are seeing a rise in support, will you consider passing something similar?",
             "likelihood": 1
           }
         },
@@ -174,7 +174,7 @@
           "pk": 1014,
           "fields": {
             "priority": 1,
-            "description": "Mrs. Gillard, there have been speculated rumours of a so-called “Carbon Tax” making the rounds. Kevin Rudd had considered taxing mining industries which lead to his downfall over rising C02 levels, is the Government propising a possible Carbon Tax or not?",
+            "description": "If the Mining Tax was legislation to think upon, there has been runmor's circulating around that a propsed "Carbon Tax" which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a "Disaster." Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
             "likelihood": 1
           }
         },
@@ -183,7 +183,7 @@
           "pk": 1015,
           "fields": {
             "priority": 1,
-            "description": "Mrs. Gillard, there’s been another confirmed leak from the Labor Caucus, this time this is much more damaging. Leaks report that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. The leaker is unknown at this time, but many are suggesting it was Kein Rudd. The Media already have their hands on this. How are you going to downplay this?",
+            "description": "If the first leak internally didn't cause damage, this one certainly will. Leaks have reported to the media that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. It is unknown how it got to the media at this time, however, speculation is rising that Kevin Rudd was behind this in a so-called "revenge plan". How are you going to downplay this?",
             "likelihood": 1
           }
         },
@@ -202,7 +202,7 @@
           "pk": 1017,
           "fields": {
             "priority": 1,
-            "description": "Mrs. Gillard, there is some bad news for Labor recently as Primary support is dipping, along with a slip in Two-Party Preferred and your overall approval rating as Prime Minister. How will you be able to reverse this and promote yourself as a capable leader?",
+            "description": "With leaks, proposals from you and Mr. Abbott, it isn't enough to turn your polling numbers favorubily, with the Coalition now tipped to win the election, and Labor now behind. Personal approval has taken a hit, and the party's Two-Party Preferred numbers have taken a hit. How will you be able to reverse this and promote yourself as a capable leader for the next 3 years?",
             "likelihood": 1
           }
         },
@@ -212,7 +212,7 @@
           "pk": 1018,
           "fields": {
             "priority": 1,
-            "description": "In an recent interview, Mr. Abbott has distanced himself away from the former Liberal Government’s Work Choice legislation. Considering Mr. Abbott was a supporter of this legislation, what do you have to say?",
+            "description": "First a Minister who supported it, now will be a Prime Minister who will distance himself from it. Tony Abbott has stated that Workchoices, policy of the previous Coalition Government lead by John Howard, will not be implemented if the Coalition is to be elected. Considering this turn-around from the Opposition, what is the best route to take regarding his statement?",
             "likelihood": 1
           }
         },
@@ -223,7 +223,7 @@
           "pk": 1019,
           "fields": {
             "priority": 1,
-            "description": "For this election, Mrs. Gillard, Labor have chosen the slogan, Let's move Australia Forward. After the previous 3 tumultuous years, and rising costs and interest rates putting pressure on Australians, why should Australians re-elect Labor into a second term?",
+            "description": "For Labor, the slogan of "Lets Move Australia Forward" is being plasted on Commercials, Billboards and Corflutes across the nation. With Australia now getting out of the GFC slowly, and rising costs and interest rates putting pressure on Australian families, what is your reasoning for Australians to give Labor their first preference, and not preference your party last?",
             "likelihood": 1
           }
         },
@@ -233,7 +233,7 @@
           "pk": 1020,
           "fields": {
             "priority": 1,
-            "description": "There has been some concern in the election with how much election promises will cost if either Labor or the Coalition form Government. Consideirng Australia mitigated the worst of the 2008 Recession, the economy took a hit. Will you pledge to the people that your policies will not cause more economic hurt in spending?",
+            "description": "The issue of spending pledges is gaining traction amongst the Australian public, with people now concerned about the economic outlook for the future, and if more spending will put the budget in a further decifit. Consideirng Australia mitigated the worst of the 2008 Recession, will you pledge to the people that your policies will not cause more economic hurt in spending?",
             "likelihood": 1
           }
         },
@@ -243,7 +243,7 @@
           "pk": 1021,
           "fields": {
             "priority": 1,
-            "description": "After the 2008 Recession, the Rudd Government had recorded some of the worst budget deficits in recent times. Even if the economy did mitigate the worst, it took a major hit. How can you prove to the Australian people that Labor can be trusted with the economy for the next three years??",
+            "description": "The Economy and the Budget is something that Australian's put as their most concerned issue. Despite Australia managing to mitigate the worst effects of the Financial Crisis, the issue is now on the budget. Since 2008, the budget has recorded deficit after deficit, and is projected to go higher. How can you prove to the Australian people that Labor can be trusted with the economy for the next three years?",
             "likelihood": 1
           }
         },
@@ -253,7 +253,7 @@
           "pk": 1022,
           "fields": {
             "priority": 1,
-            "description": "An issue that is going around the electorate is over Parental Leave and the National Broadband Network, which are beginning to be at front with the minds of voters. With Election Day nearing, what will be your primary focus?",
+            "description": "Parental Leave is on the fore-front of every parents mind, as well as the new National Broadband Network being rolled out by your predecessor. These issues are now beginning to take traction amongst some Australian voters. What will be this Government's primary focus out of these two if re-elected?",
             "likelihood": 1
           }
         },
@@ -263,7 +263,7 @@
           "pk": 1023,
           "fields": {
             "priority": 1,
-            "description": "There has been a rumor that is circulating parliament, and in the media. If you were to secure a second term in Government, you’d appoint Kevin Rudd as the new Foreign Minister to enrure party stability. Is this to-be appointment true?",
+            "description": "This election what could only be described as a "Horror Show" for your campaign. However, there has been something circulating. Something that could potentially ensure party unity. Sources say that if Labor was to be re-elected, you would appoint Kevin Rudd as Australia's Foreign Minister. Is this to-be appointment true?",
             "likelihood": 1
           }
         },
@@ -273,7 +273,7 @@
           "pk": 1024,
           "fields": {
             "priority": 1,
-            "description": "After all the internal leaks, it finally came to a stop. But it seems suspicious that when you promised Rudd the role of Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responcible for the internal party leakis?",
+            "description": "Internal leaking, it's come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responcible for the internal party leaks?",
             "likelihood": 1
           }
         },
@@ -283,7 +283,7 @@
           "pk": 1025,
           "fields": {
             "priority": 1,
-            "description": "The betting on who will win the election has grown this election. Markets have Labor at $1.75 and the Coalition at $2.70. Despite this, gambling and pokie reforms are an issue on voters' minds, with Independents and Green Party Candidates calling for immediate reforms to the industry. Will there be any changes to the aforementioned issues?",
+            "description": "With Labor's polling slowly going in it's favour, the outcome is projected to be a hung parliament, with the Corssbench to grow in size, and the Two major parties no where past 76 seats for a majority. With the Greens projected to gain a seat, and Independents in Rural New South Wales and Queensland, the question arises, if a hung parliament is to occur, will you work with these Members of Parliament?",
             "likelihood": 1
           }
         },
