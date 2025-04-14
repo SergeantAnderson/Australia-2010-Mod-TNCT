@@ -283,7 +283,7 @@
           "pk": 1025,
           "fields": {
             "priority": 1,
-            "description": "With Labor's polling slowly going in it's favour, the outcome is projected to be a hung parliament, with the Corssbench to grow in size, and the Two major parties no where past 76 seats for a majority. With the Greens projected to gain a seat, and Independents in Rural New South Wales and Queensland, the question arises, if a hung parliament is to occur, will you work with these Members of Parliament?",
+            "description": "With Labor's polling slowly going in it's favour, the outcome is projected to be a hung parliament, with the Crossssbench to grow in size, and the Two major parties no where past 76 seats for a majority. With the Greens projected to gain a seat, and Independents in Rural New South Wales and Queensland, the question arises, if a hung parliament is to occur, will you work with these Members of Parliament?",
             "likelihood": 1
           }
         },
@@ -1119,10 +1119,10 @@
           "pk": 5064,
           "fields": {
             "question": 1025,
-            "feedback": "This issue does seem to alienate voters who are against poker reforms. But this is a good stance to take.",
-            "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.03, -0.05], // format: [issue, issue score, issue importance]
-            "description": "I’m not one to gamble, firstly. I believe we can win this election. And when we do, I will discuss reforms to the gambling industry and put forward a commission and inquiry to tackle this issue."
+            "feedback": "This answer seems a bit arrogant, and does nothing to solve any sort of political bitterness this nation is in",
+            "global_effect": [201, -0.003], // format: [candidate pk, amount of global effect]
+            "issue_effect": [103, 0.03, 0.05], // format: [issue, issue score, issue importance]
+            "description": "I just want to say this, Labor will win this election. I have every belief that we will be able to win a second term and win a majority Government once more to pass legislation through the house."
           }
         },
 
@@ -1131,10 +1131,10 @@
           "pk": 5065,
           "fields": {
             "question": 1025,
-            "feedback": "Many are saying this is a missed opportunity. This however puts off voters as they wanted commitment on this issue.",
+            "feedback": "A striking balance is noted going on the tightrope here, but it's best to potentially make concessions if this is the election outcome.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.04, 0.07], // format: [issue, issue score, issue importance]
-            "description": "We shouldn’t touch this issue as many people are against the Poker industry being reformed. I will see what the wider consensus is before the cabinet takes an official stance on this."
+            "description": "In case of a Hung Parliament, we may be looking to work with Independents and the Greens if they are elected to the lower house. However, I will not be concedding Labor Party policies that the people will elect us to do."
           }
         },
 
@@ -1143,10 +1143,10 @@
           "pk": 5066,
           "fields": {
             "question": 1025,
-            "feedback": "Not a good answer. Many people thanks to this are flocking to Independents and the Greens.",
+            "feedback": "This only causes further rifts between Labor, Independents, and the Greens. This will effect how people will preference as well come election day.",
             "global_effect": [201, -0.09], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.08], // format: [issue, issue score, issue importance]
-            "description": "There will be no reforms in the Poker and Gambling industry. I don't believe the Government should interviene in people's choices. If people want to gamble, that is their own decision and their decision to make."
+            "description": "I am concerned that we will form a Hung Parliament, but we will not cave into the demands of the Greens or Independents this election if they are elected to the lower house. We may be in a hung parliament, but I will not be in Coalition with them."
           }
         },
 
