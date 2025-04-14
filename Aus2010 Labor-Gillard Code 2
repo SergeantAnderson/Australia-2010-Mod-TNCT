@@ -144,7 +144,7 @@
           "pk": 1011,
           "fields": {
             "priority": 1,
-            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you, telling Mr. Rudd months before the election to "Reverse the Polling Trend." This is being labled as desperate from the Murdoch Press, and Tony Abbott is critising you on this move. What are your comments?",
+            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you, telling Mr. Rudd months before the election to 'Reverse the Polling Trend'. This is being labled as desperate from the Murdoch Press, and Tony Abbott is critising you on this move. What are your comments?",
             "likelihood": 1
           }
         },
@@ -154,7 +154,7 @@
           "pk": 1012,
           "fields": {
             "priority": 1,
-            "description": "Rudd as Prime Minister has always backed the environment, including yourself. However, the domino that collapse, which started this all, was the proposal of a "Mining Tax" a super-profits tax on Carbon from mining corperations. Considering that the Greens in inner-city seats across the nation are seeing a rise in support, will you consider passing something similar?",
+            "description": "Rudd as Prime Minister has always backed the environment, including yourself. However, the domino that collapse, which started this all, was the proposal of a 'Mining Tax' a super-profits tax on Carbon from mining corperations. Considering that the Greens in inner-city seats across the nation are seeing a rise in support, will you consider passing something similar?",
             "likelihood": 1
           }
         },
@@ -174,7 +174,7 @@
           "pk": 1014,
           "fields": {
             "priority": 1,
-            "description": "If the Mining Tax was legislation to think upon, there has been runmor's circulating around that a propsed "Carbon Tax" which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a "Disaster." Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
+            "description": "If the Mining Tax was legislation to think upon, there has been runmor's circulating around that a propsed 'Carbon Tax' which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a 'Disaster'. Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
             "likelihood": 1
           }
         },
@@ -183,7 +183,7 @@
           "pk": 1015,
           "fields": {
             "priority": 1,
-            "description": "If the first leak internally didn't cause damage, this one certainly will. Leaks have reported to the media that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. It is unknown how it got to the media at this time, however, speculation is rising that Kevin Rudd was behind this in a so-called "revenge plan". How are you going to downplay this?",
+            "description": "If the first leak internally didn't cause damage, this one certainly will. Leaks have reported to the media that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. It is unknown how it got to the media at this time, however, speculation is rising that Kevin Rudd was behind this in a so-called 'revenge plan'. How are you going to downplay this?",
             "likelihood": 1
           }
         },
@@ -223,7 +223,7 @@
           "pk": 1019,
           "fields": {
             "priority": 1,
-            "description": "For Labor, the slogan of "Lets Move Australia Forward" is being plasted on Commercials, Billboards and Corflutes across the nation. With Australia now getting out of the GFC slowly, and rising costs and interest rates putting pressure on Australian families, what is your reasoning for Australians to give Labor their first preference, and not preference your party last?",
+            "description": "For Labor, the slogan of 'Lets Move Australia Forward' is being plasted on Commercials, Billboards and Corflutes across the nation. With Australia now getting out of the GFC slowly, and rising costs and interest rates putting pressure on Australian families, what is your reasoning for Australians to give Labor their first preference, and not preference your party last?",
             "likelihood": 1
           }
         },
@@ -263,7 +263,7 @@
           "pk": 1023,
           "fields": {
             "priority": 1,
-            "description": "This election what could only be described as a "Horror Show" for your campaign. However, there has been something circulating. Something that could potentially ensure party unity. Sources say that if Labor was to be re-elected, you would appoint Kevin Rudd as Australia's Foreign Minister. Is this to-be appointment true?",
+            "description": "This election what could only be described as a 'Horror Show' for your campaign. However, there has been something circulating. Something that could potentially ensure party unity. Sources say that if Labor was to be re-elected, you would appoint Kevin Rudd as Australia's Foreign Minister. Is this to-be appointment true?",
             "likelihood": 1
           }
         },
