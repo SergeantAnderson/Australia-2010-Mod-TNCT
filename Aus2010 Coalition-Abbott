@@ -28,6 +28,17 @@
         }
       ]
 
+ e.questions_json = [
+         {
+           "model": "campaign_trail.question",
+           "pk": 1000,
+           "fields": {
+             "priority": 1,
+             "description": "[24th June, 2010] Fresh News out of Parliament. The Parliamentary Labor Caucus are now voting to remove Kevin Rudd as Deputy Prime Minister Julia Gillard readies herself to become the next Prime Minister. With the polls showing a potential victory for the Coalition, what do you have to say about the rifts within the Government?",
+             "likelihood": 1
+           }
+         },
+
 
 
 
