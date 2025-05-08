@@ -39,6 +39,58 @@
            }
          },
 
+{
+           "model": "campaign_trail.question",
+           "pk": 1001,
+           "fields": {
+             "priority": 1,
+             "description": "[24th June, 2010] It has become official. You will no longer be facing Kevin Rudd anymore. Instead, the Labor Deputy, now the first woman Prime Minister of Australia, Julia Gillard, has been elected the leader of the Parliamentary Labor Party, and subsequently, Prime Minister. With an election to be called soon, what are your thoughts on this?",
+             "likelihood": 1
+           }
+         },
+
+    
+         ]
+     
+       campaignTrail_temp.answers_json = [
+         {
+           "model": "campaign_trail.answer",
+           "pk": 5000,
+           "fields": {
+             "question": 1000,
+             "feedback": "This is the right tone to hit, Mr. Abbott. However, some pundits have questioned if it was a bit too aggressive on the Government.",
+             "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "This just goes to show the instability within the Labor Party ranks. They know they are bound to lose, that’s why they axed Kevin Rudd and replaced him with Julian Gillard. The instability within Labor is showing, and the Australian voters will reject it, and elect a stable, Coalition Government."
+           }
+         },
+
+        {
+           "model": "campaign_trail.answer",
+           "pk": 5000,
+           "fields": {
+             "question": 1001,
+             "feedback": "A good striking tone for bipartisanship with the election to be called soon. ",
+             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Firstly, I’d like to congratulate Mrs. Gillard on becoming the First Female Prime Minister of Australia, and I look forward to being on the Campaign Trail soon."
+           }
+         },
+
+      {
+           "model": "campaign_trail.answer",
+           "pk": 5000,
+           "fields": {
+             "question": 1002,
+             "feedback": "Pundits have noticed your tougher stance on a new Government, and overconfidence in winning the election",
+             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": " I am concerned with the instability within the Labor Party that is showing itself to the Australian people. We need a new Government that is united to face the challenges ahead. I am confident in our chances of winning, and ready to stand up for Australia."
+           }
+         },
+
+
+
 
 
 
