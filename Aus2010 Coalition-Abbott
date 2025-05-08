@@ -81,7 +81,7 @@
            "model": "campaign_trail.answer",
            "pk": 5000,
            "fields": {
-             "question": 1002,
+             "question": 1001,
              "feedback": "Pundits have noticed your tougher stance on a new Government, and overconfidence in winning the election",
              "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
@@ -89,7 +89,7 @@
            }
          },
 
-
+]
 
 
 
