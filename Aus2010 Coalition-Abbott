@@ -49,6 +49,16 @@
            }
          },
 
+{
+           "model": "campaign_trail.question",
+           "pk": 1002,
+           "fields": {
+             "priority": 1,
+             "description": "With the election to be called any day now, the Coalition has begun to make subsequent gains in Two-Party Preferred and in the Primary Vote, showing voters are moving to a more unified Government, instead of an unstable Labor Government. How are you going to capitalise on this momentum?",
+             "likelihood": 1
+           }
+         },
+
     
          ]
      
@@ -82,12 +92,37 @@
            "pk": 5000,
            "fields": {
              "question": 1001,
-             "feedback": "Pundits have noticed your tougher stance on a new Government, and overconfidence in winning the election",
+             "feedback": "Pundits have noticed your tougher stance on a new Government, and overconfidence in winning the election.",
              "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
-             "description": " I am concerned with the instability within the Labor Party that is showing itself to the Australian people. We need a new Government that is united to face the challenges ahead. I am confident in our chances of winning, and ready to stand up for Australia."
+             "description": "I am concerned with the instability within the Labor Party that is showing itself to the Australian people. We need a new Government that is united to face the challenges ahead. I am confident in our chances of winning, and ready to stand up for Australia."
            }
          },
+
+        {
+           "model": "campaign_trail.answer",
+           "pk": 5000,
+           "fields": {
+             "question": 1002,
+             "feedback": "Strong talking points captivating the economy, but after the recession, things are slowly beginning to go back to normal. Maybe this can work for you?",
+             "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "Voters are begging for change from thos Government. Our economy is suffering over the economic legislation that has had massive implications on Australian families. It’s simply not fair. It’s time for a change of Government, one that will make our country stronger."
+           }
+         },
+
+        {
+           "model": "campaign_trail.answer",
+           "pk": 5000,
+           "fields": {
+             "question": 1002,
+             "feedback": "Political pundits and even the Labor Party are creating a strong contrast between you and former Prime Minister John Howard. This could be for the better or for the worst.",
+             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "description": "I will lead a Government that will ensure that Australians can thrive. Remember the days of the Coalition Government under John Howard? We need change for the better in this nation. We are not better off under Labor. We will be better off under a Coalition Government."
+           }
+         },
+
 
 ]
 
