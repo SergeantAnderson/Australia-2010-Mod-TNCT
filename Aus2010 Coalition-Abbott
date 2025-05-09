@@ -77,10 +77,10 @@
 
         {
            "model": "campaign_trail.answer",
-           "pk": 5000,
+           "pk": 5001,
            "fields": {
              "question": 1001,
-             "feedback": "A good striking tone for bipartisanship with the election to be called soon. ",
+             "feedback": "A good striking tone for bipartisanship with the election to be called soon.",
              "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
              "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
              "description": "Firstly, I’d like to congratulate Mrs. Gillard on becoming the First Female Prime Minister of Australia, and I look forward to being on the Campaign Trail soon."
@@ -89,7 +89,7 @@
 
       {
            "model": "campaign_trail.answer",
-           "pk": 5000,
+           "pk": 5002,
            "fields": {
              "question": 1001,
              "feedback": "Pundits have noticed your tougher stance on a new Government, and overconfidence in winning the election.",
@@ -101,7 +101,7 @@
 
         {
            "model": "campaign_trail.answer",
-           "pk": 5000,
+           "pk": 5003,
            "fields": {
              "question": 1002,
              "feedback": "Strong talking points captivating the economy, but after the recession, things are slowly beginning to go back to normal. Maybe this can work for you?",
@@ -113,7 +113,7 @@
 
         {
            "model": "campaign_trail.answer",
-           "pk": 5000,
+           "pk": 5004,
            "fields": {
              "question": 1002,
              "feedback": "Political pundits and even the Labor Party are creating a strong contrast between you and former Prime Minister John Howard. This could be for the better or for the worst.",
