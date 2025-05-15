@@ -174,7 +174,7 @@
           "pk": 1014,
           "fields": {
             "priority": 1,
-            "description": "If the Mining Tax was legislation to think upon, there has been runmor's circulating around that a propsed 'Carbon Tax' which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a 'Disaster'. Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
+            "description": "If the Mining Tax was legislation to think upon, there has been rumor's circulating around that a propsed 'Carbon Tax' which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a 'Disaster'. Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
             "likelihood": 1
           }
         },
@@ -202,7 +202,7 @@
           "pk": 1017,
           "fields": {
             "priority": 1,
-            "description": "With leaks, proposals from you and Mr. Abbott, it isn't enough to turn your polling numbers favorubily, with the Coalition now tipped to win the election, and Labor now behind. Personal approval has taken a hit, and the party's Two-Party Preferred numbers have taken a hit. How will you be able to reverse this and promote yourself as a capable leader for the next 3 years?",
+            "description": "Increased boat arrivals from asylum seekers have sparked a national debate. The Coalition accuses Labor of weakening border protection, while human rights groups urge compassion and regional cooperation. How will your government address the growing number of asylum seekers arriving by boat, and do you believe offshore processing is the right solution?",
             "likelihood": 1
           }
         },
@@ -901,10 +901,10 @@
           "pk": 5046,
           "fields": {
             "question": 1017,
-            "feedback": "Nice little talk you did. However, most aren’t buying it.",
+            "feedback": "This is an extreme Conservative stance you're taking. Greens and Independents see a surge in inner-city seats, whilst comparing you to Tony Abbott.",
             "global_effect": [201, -0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.8, 2], // format: [issue, issue score, issue importance]
-            "description": "With everything that is going on, I can assure the people of Australia that I will be a Prime Minister that will listen to what they have to say. I am a leader that will not back down and will not give up. It’s strength that motivates a leader, and I will do exactly that."
+            "description": "We will restore strong border protection policies, including offshore processing and turning back boats where safe to do so. This isn't about cruelty—it's about deterrence and protecting lives by stopping dangerous journeys."
           }
         },
     
@@ -913,10 +913,10 @@
           "pk": 5047,
           "fields": {
             "question": 1017,
-            "feedback": "It is a solid attack like that will put the Coalition on their heels. This definately gives you a small boost is headed your way.",
-            "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.002, -0.003], // format: [issue, issue score, issue importance]
-            "description": "We need to re-emphasize our disciplined campaign and how I am willing to lead Australia into the 2010’s. We need to also attack the Coalition and Tony Abbott over his involvement in Workchoice’s and wanting to rid Medicare. Can we really afford that?"
+            "feedback": "A very Progressive answer on your part, but it easily allows for a full broadside attack from the Coalition.",
+            "global_effect": [201, -0.004], // format: [candidate pk, amount of global effect]
+            "issue_effect": [103, 0.002, 0.003], // format: [issue, issue score, issue importance]
+            "description": "I want to make it clear, seeking asylum is not a crime. We will end offshore detention and process asylum seekers onshore with dignity, in line with our international obligations and Australian values. We are a compassionate nation, and we welcome migrants into our nation."
           }
         },
     
@@ -925,10 +925,10 @@
           "pk": 5048,
           "fields": {
             "question": 1017,
-            "feedback": "Empahzising your Governments record on economic management is always important. However, many noticed your pause when mentioning Kevin Rudd, which gained traction across the headlines. Especially Sky News.",
+            "feedback": "This is a standard approach to this in order to not rock the boat, but does alianete more progressive voters.",
             "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.8, 2], // format: [issue, issue score, issue importance]
-            "description": "In 2008, the world was hit by one of the worst global recessions since the Great Depression. Who was in power? Labor. We managed to save the economy thanks to the economic genius of Wayne Swan and leadership of… Kevin Rudd. Our economic management shows that we are capable of running an economy, whilst the Coalition can’t."
+            "issue_effect": [104, -0.8, -0.004], // format: [issue, issue score, issue importance]
+            "description": "We believe in a regional solution that is both compassionate and firm. We'll pursue offshore processing in cooperation with our neighbours, mainly in Papua New Guinea to ensure orderly migration into Australia."
           }
         },
     
