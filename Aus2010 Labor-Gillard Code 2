@@ -11627,7 +11627,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 20794,
-                "state_multiplier": 0.34
+                "state_multiplier": 0.33
             }
         },
         {
@@ -11636,7 +11636,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 20794,
-                "state_multiplier": 0.25
+                "state_multiplier": 0.20
             }
         },
         {
@@ -11645,7 +11645,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20794,
-                "state_multiplier": 0.36
+                "state_multiplier": 0.32
             }
         },
         {
