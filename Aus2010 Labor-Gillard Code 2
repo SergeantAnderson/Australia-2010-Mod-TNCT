@@ -3426,7 +3426,7 @@
                 "state": 20664,
                 "issue": 100,
                 "state_issue_score": 0,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3436,7 +3436,7 @@
                 "state": 20664,
                 "issue": 101,
                 "state_issue_score": 0.2,
-                "weight": 1.5
+                "weight": 0.3
             }
         },
         {
@@ -3446,7 +3446,7 @@
                 "state": 20664,
                 "issue": 102,
                 "state_issue_score": -0.4,
-                "weight": 1.5
+                "weight": 0.4
             }
         },
         {
@@ -3456,7 +3456,7 @@
                 "state": 20664,
                 "issue": 103,
                 "state_issue_score": -0.2,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3466,7 +3466,7 @@
                 "state": 20664,
                 "issue": 104,
                 "state_issue_score": -0.2,
-                "weight": 1.5
+                "weight": 0.2
             }
         },
         {
@@ -3476,7 +3476,7 @@
                 "state": 20674,
                 "issue": 100,
                 "state_issue_score": -0.8,
-                "weight": 1.5
+                "weight": 0.6
             }
         },
         {
@@ -3486,7 +3486,7 @@
                 "state": 20674,
                 "issue": 101,
                 "state_issue_score": -0.6,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3495,8 +3495,8 @@
             "fields": {
                 "state": 20674,
                 "issue": 102,
-                "state_issue_score": 1,
-                "weight": 1.5
+                "state_issue_score": 0.8,
+                "weight": 0.5
             }
         },
         {
@@ -3506,7 +3506,7 @@
                 "state": 20674,
                 "issue": 103,
                 "state_issue_score": 0.6,
-                "weight": 1.5
+                "weight": 0.7
             }
         },
         {
@@ -3516,7 +3516,7 @@
                 "state": 20674,
                 "issue": 104,
                 "state_issue_score": -0.8,
-                "weight": 1.5
+                "weight": 0.8
             }
         },
         {
