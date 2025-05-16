@@ -3426,7 +3426,7 @@
             "fields": {
                 "state": 20664,
                 "issue": 100,
-                "state_issue_score": ,
+                "state_issue_score": 0,
                 "weight": 0.5
             }
         },
