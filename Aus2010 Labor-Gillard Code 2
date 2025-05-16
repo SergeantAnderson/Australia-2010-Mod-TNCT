@@ -13,7 +13,7 @@
             "start_point": 0.94,
             "candidate_issue_weight": 1.5,
             "running_mate_issue_weight": 3,
-            issue_stance_1_max": -0.71,
+            "issue_stance_1_max": -0.71,
             "issue_stance_2_max": -0.3,
             "issue_stance_3_max": -0.125,
             "issue_stance_4_max": 0.125,
