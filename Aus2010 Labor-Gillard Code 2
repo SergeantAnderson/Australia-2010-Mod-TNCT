@@ -3419,13 +3419,14 @@
     
     
     campaignTrail_temp.state_issue_score_json = [
+        
         {
             "model": "campaign_trail.state_issue_score",
             "pk": 20669,
             "fields": {
                 "state": 20664,
                 "issue": 100,
-                "state_issue_score": 0,
+                "state_issue_score": ,
                 "weight": 0.5
             }
         },
@@ -3436,7 +3437,7 @@
                 "state": 20664,
                 "issue": 101,
                 "state_issue_score": 0.2,
-                "weight": 0.3
+                "weight": 0.75
             }
         },
         {
@@ -3446,7 +3447,7 @@
                 "state": 20664,
                 "issue": 102,
                 "state_issue_score": -0.4,
-                "weight": 0.4
+                "weight": 0.5
             }
         },
         {
@@ -3466,7 +3467,7 @@
                 "state": 20664,
                 "issue": 104,
                 "state_issue_score": -0.2,
-                "weight": 0.2
+                "weight": 1
             }
         },
         {
@@ -3476,7 +3477,7 @@
                 "state": 20674,
                 "issue": 100,
                 "state_issue_score": -0.8,
-                "weight": 0.6
+                "weight": 1
             }
         },
         {
@@ -3486,7 +3487,7 @@
                 "state": 20674,
                 "issue": 101,
                 "state_issue_score": -0.6,
-                "weight": 0.5
+                "weight": 0.75
             }
         },
         {
@@ -3506,7 +3507,7 @@
                 "state": 20674,
                 "issue": 103,
                 "state_issue_score": 0.6,
-                "weight": 0.7
+                "weight": 0.75
             }
         },
         {
@@ -3516,7 +3517,7 @@
                 "state": 20674,
                 "issue": 104,
                 "state_issue_score": -0.8,
-                "weight": 0.8
+                "weight": 1
             }
         },
         {
@@ -3526,7 +3527,7 @@
                 "state": 20684,
                 "issue": 100,
                 "state_issue_score": -0.2,
-                "weight": 1.5
+                "weight": 0.75
             }
         },
         {
@@ -3536,7 +3537,7 @@
                 "state": 20684,
                 "issue": 101,
                 "state_issue_score": -0.4,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3546,7 +3547,7 @@
                 "state": 20684,
                 "issue": 102,
                 "state_issue_score": 0.6,
-                "weight": 1.5
+                "weight": 1
             }
         },
         {
@@ -3556,7 +3557,7 @@
                 "state": 20684,
                 "issue": 103,
                 "state_issue_score": 0.2,
-                "weight": 1.5
+                "weight": 0.75
             }
         },
         {
@@ -3566,7 +3567,7 @@
                 "state": 20684,
                 "issue": 104,
                 "state_issue_score": -0.4,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3576,7 +3577,7 @@
                 "state": 20694,
                 "issue": 100,
                 "state_issue_score": -0.8,
-                "weight": 1.5
+                "weight": 1
             }
         },
         {
@@ -3596,7 +3597,7 @@
                 "state": 20694,
                 "issue": 102,
                 "state_issue_score": 0.6,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3606,7 +3607,7 @@
                 "state": 20694,
                 "issue": 103,
                 "state_issue_score": 1,
-                "weight": 1.5
+                "weight": 0.5
             }
         },
         {
@@ -3616,7 +3617,7 @@
                 "state": 20694,
                 "issue": 104,
                 "state_issue_score": -0.6,
-                "weight": 1.5
+                "weight": 1
             }
         },
         {
@@ -11101,7 +11102,7 @@
                 "issue": 104,
                 "issue_score": 0.7
             }
-        }
+        },
     ]
     
     campaignTrail_temp.running_mate_issue_score_json = [
@@ -11149,7 +11150,7 @@
                 "issue": 104,
                 "issue_score": -0.35
             }
-        }
+        },
     ]
     
     campaignTrail_temp.candidate_state_multiplier_json = [
