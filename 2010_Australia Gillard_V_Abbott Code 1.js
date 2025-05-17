@@ -427,8 +427,8 @@ campaignTrail_temp.candidate_json = [
     "model": "campaign_trail.candidate",
     "pk": 203,
     "fields": {
-      "first_name": "Independents - ",
-      "last_name": "IND",
+      "first_name": "Independents/Others - ",
+      "last_name": "IND/OTH",
       "election": 20,
       "party": "Non-Alligned",
       "state": "Canberra",
