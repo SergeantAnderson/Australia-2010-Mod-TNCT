@@ -16519,7 +16519,204 @@
          e.answer_score_global_json.push(issue_temp)
      }
      }
-    
+
+// Astro's Ending Template
+
+// Template 2 - 1v1 races, with ending (or endings) based on specific answer
+
+//out = "win", "loss", or "tie" for your candidate
+//totv = total votes in entire election
+//aa = all final overall results data
+//quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+
+//quickstats[0] is the default, and it tracks your electoral vote count.
+
+// player_answers starts counting at 0, so it's checking for the answer on Question 25 here. 
+
+// If answer for question 25 is 8090, and you get at least 270 Electoral votes, and your running mate's last name is specified here, it'll give you this special ending. I used this for the 'A truce, not a compromise' ending in 1876.
+
+if (campaignTrail_temp.player_answers[24] == 8090 && quickstats[0] >= 270 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "Image URL goes here.";
+            }
+        }, 100);
+    }
+    // to here!
+   return "<h3>Special Ending!</h3><p>Did you do something? Sell out the nation? Make a deal with the devil? and Win? This ending's for you.</p>";
+} else if (campaignTrail_temp.player_answers[24] == 8090 && quickstats[0]<269 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/pY0ZoeW.png";
+            }
+        }, 100);
+    }
+    // to here!
+
+return "<h3>Special Ending?</h3><p>Yes</p><p>A special ending.</p>"
+} else if (aa[0].electoral_votes == 150 && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://nla.gov.au/nla.obj-146647592/image?WID=500";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3>.</h3><p></p>"
+} else if (quickstats[0] <= 0) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://nla.gov.au/nla.obj-146647592/image?WID=500";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3></h3><p></p>"
+} else if (aa[0].electoral_votes >= 150 && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://nla.gov.au/nla.obj-146647592/image?WID=500";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3></h3><p></p>"
+} else if (aa[0].electoral_votes >= 86 && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://nla.gov.au/nla.obj-146647592/image?WID=500";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3>Labor makes series of gains, Coalition set to lose</h3><p>This is a huge loss for your campaign. Labor has formed a government and with a large majority as well. Coalition seats fall one after another in every state. You can't help but hang your head in shame as you see this. You later call Kim Beazley and concede.</p><p>You arrive at the Wentworth Hotel, sad and deflated, but your supproters are still enthusiastic, almost trying to lighten the mood. You try to talk, but the crowd shouts out 'We still love you, Johnny!', 'You're the best there is, John!' and the crowd cheers at those words. You can't help but shed a single tear. You announce you'll step down as Liberal leader. It's more than likely Costello will be the next Coalition leader.</p><p>You arrive back at Kirribilli House. Now you have to pack up and move out as Beazley is moving in. It was a good 5 years. Now, you wait for your work to be torn down.</p>"
+} else if (aa[0].electoral_votes >= 81 && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://nla.gov.au/nla.obj-146647592/image?WID=500";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3></h3><p></p>"
+} else if (aa[0].electoral_votes >= 76  && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://nla.gov.au/nla.obj-146647592/image?WID=500";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3></h3><p></p>"
+} else if (quickstats[0] == 75) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/DsKTeB8.png";
+            }
+        }, 100);
+    }
+return "<h3>Gillard and Labor Re-Elected with a reduced Majority Government</h3><p>An incredible win for the true believers of the Labor Party. From projecting to lose Government only weeks ago, to now holding on, but with a reduced majority. It's just enough to get legislation passed in the Lower House.</p><p>Opposition leader, Tony Abbott calls to concede the election, wishing you the best of luck in this Parliament. The work only begins from here on out. You have been democratically elected the first female Prime Minister of Australia by the electorate. It's history in the making.</p><p>The real work begins. As you give a jubilant victory speech to supporters in Melbourne, nothing but celebrations fill the room. Now, with an economy needing work, budget downturns, and several other things that need improvements, the time is now to move Australia forward."
+} else if (quickstats[0]<94) {
+ //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/ap/australia%20election--768034548_v2.jpg";
+            }
+        }, 100);
+    }
+    // to here!
+
+return "<h3>Howard claims victory as majority increases in Parliament</h3><p>Kirribilli House roars with exitement as now you've officially increased your overall majority in the House. It's not like what you achieved in 1996, but it's certainly a huge win! You can't help but smile as you look back on the campaign that you experienced. From being behind in the polls to securing an overall majority larger than your previous one.</p><p>You later recieve a phone call. It's Kim Beazley. The Opposition leader calls to concede the election to you and gives his speech to disappointed Labor members. It's also said that he will be resigning from the leadership. It's more than likely going to go to the Deputy Labor Leader, Simon Crean. As you arrive at the Wentworth Rydges Hotel, the crowd explodes in cheers. Many begin to chant 'Howard! Howard! Howard!' You can't help but smile. Don't forget with your increased majority, you can pass any legislative reforms your party wishes. Speaking of helping, you're gonna need to help deploy more Australian troops in Afghanistan to get rid of the Taliban and help the USA and UK in their efforts.</p><p> Good luck in your 3rd term, Mr. Howard!</p>"
+} else if (quickstats[0]<150) {
+    setMusic("https://audio.jukehost.co.uk/yrFwbMBODjep4jiIwbIjtzjyp82PGtcn")
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/pY0ZoeW.png";
+            }
+        }, 100);
+    }
+    // to here!    
+	
+return "<h3>Hat-trick Howard pulls off crushing election win against Labor!</h3><p>Wow, what a win you managed to pull off! This result is even larger than your 1996 majority! You cheer as the results come in. You've trounced Labor and Kim Beazley and have won another term for the Coalition. Even Malcolm Fraser is astonished as you beat his 1975 result.</p><p>Beazley calls to concede and gives his speech to a crowd of silent Labor supporters, whilst you give your speech to a jubilant, loud crowd as they chant '3 More Years!' over and over. You can't help but smile and wave. From trailing Labor in the polls to crushing them utterly. Papers are calling your spectacular comeback the 'Triumph of the Millenium'.</p><p>Now with this mega majority, you can get any legislation passed in the House without worrying about Labor. Senate results are yet to come, but it's more than likely the Coalition will hold power in the chamber. Now it's time to help the USA and UK out in the Middle East. This will be an easy 3 years in power, just don't pass anything that'll cost you in the polls.</p><p>Good luck, Mr. Howard.</p>"
+} else if (quickstats[0] >= 150) {
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/pY0ZoeW.png";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3>Coalition wins every seat in Parliament! Crossbench and Labor wiped out of the House!</h3><p>No... This can't be right. Right? Yes! It is! All seats in the House, from Brisbane to Stirling. From Denison to Solomon. All blue. Not a splodge of red for Labor or grey for Independents. You've done what no other leader has done. Win every seat in Parliament. This can't be right! Surely not!</p><p>Beazley is shell shocked and concedes to you. He lost Brand. A safe Labor Seat. Simon Crean as well. Every Labor member is gone. Now, the ruling party is the Coalition in the Lower House. The Senate is going to be a Coalition win, but Labor will survive there. With you having every seat, there will be no challenge, no confidence votes whatsoever. Passing any legislation without an opposition party or the crossbench will be a piece of cake. Even your supporters are shocked. Labor members even think that the vote is somehow rigged.</p><p>But whatever happened, voters flocked in their thousands. A turnout like no other to vote for you, Mr. Howard. You're the first Liberal Leader and Prime Minister to do this. Even globally in a democratic country like Australia. You can't help but... smile.</p>"
+} else {
+return "<h3>Good morning, Australia. This is ABC Morning News at 6.</h3><p>Good morning, Australia. This is ABC Morning Breakfast News. This morning's top stor- Excuse me? Oh that's not good. Sorry to interrupt to viewers at home, but we are experiencing technical issues here. Please contact SergeantAnderson about this issue and it'll be fixed.</p>"
+}
+
+}
+
+e.multiple_endings=true
+
+function changechart() {
+    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
+    for(let id of elementIDs) {
+        let element = document.getElementById(id);
+        if (element) {
+            let overallthing = element.innerHTML;
+            overallthing = overallthing.replace("Electoral Votes","Seats Won");
+            overallthing = overallthing.replace("Candidate","Party");
+            element.innerHTML = overallthing;
+
+        }
+    }
+}
+
+
     e.issues_json = [
         {
             "model":"campaign_trail.issue",
