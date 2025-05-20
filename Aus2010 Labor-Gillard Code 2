@@ -1213,7 +1213,7 @@
                 "abbr": "Lingiari",
                 "electoral_votes": 1,
                 "popular_votes": 46409,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1227,7 +1227,7 @@
                 "abbr": "Durack",
                 "electoral_votes": 1,
                 "popular_votes": 75676,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1241,7 +1241,7 @@
                 "abbr": "Leichhardt",
                 "electoral_votes": 1,
                 "popular_votes": 84829,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1255,7 +1255,7 @@
                 "abbr": "Maranoa",
                 "electoral_votes": 1,
                 "popular_votes": 91675,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1269,7 +1269,7 @@
                 "abbr": "Mayo",
                 "electoral_votes": 1,
                 "popular_votes": 96317,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1283,7 +1283,7 @@
                 "abbr": "Wakefield",
                 "electoral_votes": 1,
                 "popular_votes": 93850,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1297,7 +1297,7 @@
                 "abbr": "Denison",
                 "electoral_votes": 1,
                 "popular_votes": 67294,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1311,7 +1311,7 @@
                 "abbr": "Brand",
                 "electoral_votes": 1,
                 "popular_votes": 82332,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1325,7 +1325,7 @@
                 "abbr": "Pearce",
                 "electoral_votes": 1,
                 "popular_votes": 83403,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1339,7 +1339,7 @@
                 "abbr": "Canning",
                 "electoral_votes": 1,
                 "popular_votes": 83916,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1353,7 +1353,7 @@
                 "abbr": "Forrest",
                 "electoral_votes": 1,
                 "popular_votes": 84444,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
