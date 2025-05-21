@@ -1381,7 +1381,7 @@
                 "abbr": "OConnor",
                 "electoral_votes": 1,
                 "popular_votes": 86216,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1395,7 +1395,7 @@
                 "abbr": "Melbourne",
                 "electoral_votes": 1,
                 "popular_votes": 92683,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1409,7 +1409,7 @@
                 "abbr": "Throsby",
                 "electoral_votes": 1,
                 "popular_votes": 89768,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1423,7 +1423,7 @@
                 "abbr": "Grey",
                 "electoral_votes": 1,
                 "popular_votes": 93489,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1437,7 +1437,7 @@
                 "abbr": "Barker",
                 "electoral_votes": 1,
                 "popular_votes": 97783,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1451,7 +1451,7 @@
                 "abbr": "Farrer",
                 "electoral_votes": 1,
                 "popular_votes": 88558,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1465,7 +1465,7 @@
                 "abbr": "Parkes",
                 "electoral_votes": 1,
                 "popular_votes": 89735,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1521,7 +1521,7 @@
                 "abbr": "Riverina",
                 "electoral_votes": 1,
                 "popular_votes": 93367,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1535,7 +1535,7 @@
                 "abbr": "NewEngland",
                 "electoral_votes": 1,
                 "popular_votes": 94519,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1549,7 +1549,7 @@
                 "abbr": "Dawson",
                 "electoral_votes": 1,
                 "popular_votes": 88019,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1563,7 +1563,7 @@
                 "abbr": "Mallee",
                 "electoral_votes": 1,
                 "popular_votes": 85047,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1577,7 +1577,7 @@
                 "abbr": "Cowper",
                 "electoral_votes": 1,
                 "popular_votes": 89025,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1591,7 +1591,7 @@
                 "abbr": "WideBay",
                 "electoral_votes": 1,
                 "popular_votes": 86032,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1633,7 +1633,7 @@
                 "abbr": "Lyne",
                 "electoral_votes": 1,
                 "popular_votes": 88261,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1647,7 +1647,7 @@
                 "abbr": "Paterson",
                 "electoral_votes": 1,
                 "popular_votes": 87310,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1703,7 +1703,7 @@
                 "abbr": "Hunter",
                 "electoral_votes": 1,
                 "popular_votes": 86387,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1717,7 +1717,7 @@
                 "abbr": "Page",
                 "electoral_votes": 1,
                 "popular_votes": 89302,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1731,7 +1731,7 @@
                 "abbr": "Richmond",
                 "electoral_votes": 1,
                 "popular_votes": 85587,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1745,7 +1745,7 @@
                 "abbr": "Macquarie",
                 "electoral_votes": 1,
                 "popular_votes": 92472,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1759,7 +1759,7 @@
                 "abbr": "Calare",
                 "electoral_votes": 1,
                 "popular_votes": 93873,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1773,7 +1773,7 @@
                 "abbr": "Hume",
                 "electoral_votes": 1,
                 "popular_votes": 92780,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1787,7 +1787,7 @@
                 "abbr": "Gilmore",
                 "electoral_votes": 1,
                 "popular_votes": 91157,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1801,7 +1801,7 @@
                 "abbr": "EdenMonaro",
                 "electoral_votes": 1,
                 "popular_votes": 91053,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1815,7 +1815,7 @@
                 "abbr": "Gippsland",
                 "electoral_votes": 1,
                 "popular_votes": 92208,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1829,7 +1829,7 @@
                 "abbr": "Flinders",
                 "electoral_votes": 1,
                 "popular_votes": 94396,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1843,7 +1843,7 @@
                 "abbr": "Ballarat",
                 "electoral_votes": 1,
                 "popular_votes": 92895,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1857,7 +1857,7 @@
                 "abbr": "Indi",
                 "electoral_votes": 1,
                 "popular_votes": 88120,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1871,7 +1871,7 @@
                 "abbr": "Wannon",
                 "electoral_votes": 1,
                 "popular_votes": 87927,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1885,7 +1885,7 @@
                 "abbr": "Murray",
                 "electoral_votes": 1,
                 "popular_votes": 85534,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1899,7 +1899,7 @@
                 "abbr": "Bendigo",
                 "electoral_votes": 1,
                 "popular_votes": 95853,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1913,7 +1913,7 @@
                 "abbr": "McEwen",
                 "electoral_votes": 1,
                 "popular_votes": 109950,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1927,7 +1927,7 @@
                 "abbr": "McMillan",
                 "electoral_votes": 1,
                 "popular_votes": 88471,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1941,7 +1941,7 @@
                 "abbr": "Corangamite",
                 "electoral_votes": 1,
                 "popular_votes": 96816,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1955,7 +1955,7 @@
                 "abbr": "Solomon",
                 "electoral_votes": 1,
                 "popular_votes": 53672,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1983,7 +1983,7 @@
                 "abbr": "Fraser",
                 "electoral_votes": 1,
                 "popular_votes": 116712,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -1997,7 +1997,7 @@
                 "abbr": "Canberra",
                 "electoral_votes": 1,
                 "popular_votes": 117911,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2011,7 +2011,7 @@
                 "abbr": "Bass",
                 "electoral_votes": 1,
                 "popular_votes": 68216,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2025,7 +2025,7 @@
                 "abbr": "Braddon",
                 "electoral_votes": 1,
                 "popular_votes": 68466,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2039,7 +2039,7 @@
                 "abbr": "Lyons",
                 "electoral_votes": 1,
                 "popular_votes": 69071,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2053,7 +2053,7 @@
                 "abbr": "Franklin",
                 "electoral_votes": 1,
                 "popular_votes": 67896,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2291,7 +2291,7 @@
                 "abbr": "Watson",
                 "electoral_votes": 1,
                 "popular_votes": 88022,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2305,7 +2305,7 @@
                 "abbr": "Reid",
                 "electoral_votes": 1,
                 "popular_votes": 87308,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2319,7 +2319,7 @@
                 "abbr": "Warringah",
                 "electoral_votes": 1,
                 "popular_votes": 89107,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2333,7 +2333,7 @@
                 "abbr": "NorthSydney",
                 "electoral_votes": 1,
                 "popular_votes": 89695,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2347,7 +2347,7 @@
                 "abbr": "Bennelong",
                 "electoral_votes": 1,
                 "popular_votes": 92504,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2361,7 +2361,7 @@
                 "abbr": "Parramatta",
                 "electoral_votes": 1,
                 "popular_votes": 85735,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2375,7 +2375,7 @@
                 "abbr": "Cook",
                 "electoral_votes": 1,
                 "popular_votes": 95116,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2389,7 +2389,7 @@
                 "abbr": "Blaxland",
                 "electoral_votes": 1,
                 "popular_votes": 85911,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2403,7 +2403,7 @@
                 "abbr": "Grayndler",
                 "electoral_votes": 1,
                 "popular_votes": 89583,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2417,7 +2417,7 @@
                 "abbr": "Sydney",
                 "electoral_votes": 1,
                 "popular_votes": 89768,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2431,7 +2431,7 @@
                 "abbr": "Wentworth",
                 "electoral_votes": 1,
                 "popular_votes": 90761,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2445,7 +2445,7 @@
                 "abbr": "KingsfordSmith",
                 "electoral_votes": 1,
                 "popular_votes": 89309,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2459,7 +2459,7 @@
                 "abbr": "Barton",
                 "electoral_votes": 1,
                 "popular_votes": 87255,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2473,7 +2473,7 @@
                 "abbr": "Banks",
                 "electoral_votes": 1,
                 "popular_votes": 91534,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2487,7 +2487,7 @@
                 "abbr": "Mitchell",
                 "electoral_votes": 1,
                 "popular_votes": 88681,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2501,7 +2501,7 @@
                 "abbr": "Bradfield",
                 "electoral_votes": 1,
                 "popular_votes": 90838,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2515,7 +2515,7 @@
                 "abbr": "Mackellar",
                 "electoral_votes": 1,
                 "popular_votes": 91880,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2529,7 +2529,7 @@
                 "abbr": "Greenway",
                 "electoral_votes": 1,
                 "popular_votes": 88383,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2543,7 +2543,7 @@
                     "abbr": "Chifley",
                     "electoral_votes": 1,
                     "popular_votes": 90468,
-                    "poll_closing_time": 120,
+                    "poll_closing_time": 60,
                     "winner_take_all_flg": 1,
                     "election": 20,
             },
@@ -2557,7 +2557,7 @@
                 "abbr": "McMahon",
                 "electoral_votes": 1,
                 "popular_votes": 89570,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2571,7 +2571,7 @@
                 "abbr": "Lindsay",
                 "electoral_votes": 1,
                 "popular_votes": 90629,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2585,7 +2585,7 @@
                 "abbr": "Fowler",
                 "electoral_votes": 1,
                 "popular_votes": 88196,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2599,7 +2599,7 @@
                 "abbr": "Werriwa",
                 "electoral_votes": 1,
                 "popular_votes": 84006,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2613,7 +2613,7 @@
                 "abbr": "Hughes",
                 "electoral_votes": 1,
                 "popular_votes": 92327,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2627,7 +2627,7 @@
                 "abbr": "Macarthur",
                 "electoral_votes": 1,
                 "popular_votes": 85102,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2641,7 +2641,7 @@
                 "abbr": "Cunningham",
                 "electoral_votes": 1,
                 "popular_votes": 94373,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2655,7 +2655,7 @@
                 "abbr": "Newcastle",
                 "electoral_votes": 1,
                 "popular_votes": 86912,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2669,7 +2669,7 @@
                 "abbr": "Shortland",
                 "electoral_votes": 1,
                 "popular_votes": 89384,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2683,7 +2683,7 @@
                 "abbr": "Charlton",
                 "electoral_votes": 1,
                 "popular_votes": 89256,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2697,7 +2697,7 @@
                 "abbr": "Dobell",
                 "electoral_votes": 1,
                 "popular_votes": 88047,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2711,7 +2711,7 @@
                 "abbr": "Robertson",
                 "electoral_votes": 1,
                 "popular_votes": 91136,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2725,7 +2725,7 @@
                 "abbr": "Berowra",
                 "electoral_votes": 1,
                 "popular_votes": 89847,
-                "poll_closing_time": 120,
+                "poll_closing_time": 60,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2739,7 +2739,7 @@
                 "abbr": "Corlo",
                 "electoral_votes": 1,
                 "popular_votes": 86566,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2753,7 +2753,7 @@
                 "abbr": "Lalor",
                 "electoral_votes": 1,
                 "popular_votes": 110052,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2767,7 +2767,7 @@
                 "abbr": "Calwell",
                 "electoral_votes": 1,
                 "popular_votes": 93668,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2781,7 +2781,7 @@
                 "abbr": "LaTrobe",
                 "electoral_votes": 1,
                 "popular_votes": 92770,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2795,7 +2795,7 @@
                 "abbr": "Casey",
                 "electoral_votes": 1,
                 "popular_votes": 87592,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2809,7 +2809,7 @@
                 "abbr": "Gorton",
                 "electoral_votes": 1,
                 "popular_votes": 105033,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2823,7 +2823,7 @@
                 "abbr": "Dunkley",
                 "electoral_votes": 1,
                 "popular_votes": 89298,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2837,7 +2837,7 @@
                 "abbr": "Isaacs",
                 "electoral_votes": 1,
                 "popular_votes": 95831,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2851,7 +2851,7 @@
                 "abbr": "Holt",
                 "electoral_votes": 1,
                 "popular_votes": 101309,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2865,7 +2865,7 @@
                 "abbr": "Aston",
                 "electoral_votes": 1,
                 "popular_votes": 88671,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2879,7 +2879,7 @@
                 "abbr": "Menzies",
                 "electoral_votes": 1,
                 "popular_votes": 85410,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2893,7 +2893,7 @@
                 "abbr": "Scullin",
                 "electoral_votes": 1,
                 "popular_votes": 84435,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2907,7 +2907,7 @@
                 "abbr": "Jagajaga",
                 "electoral_votes": 1,
                 "popular_votes": 89499,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2921,7 +2921,7 @@
                 "abbr": "Gellibrand",
                 "electoral_votes": 1,
                 "popular_votes": 87641,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2935,7 +2935,7 @@
                 "abbr": "Maribyrnong",
                 "electoral_votes": 1,
                 "popular_votes": 81179,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2949,7 +2949,7 @@
                 "abbr": "Wills",
                 "electoral_votes": 1,
                 "popular_votes": 89791,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2963,7 +2963,7 @@
                 "abbr": "Batman",
                 "electoral_votes": 1,
                 "popular_votes": 81665,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2977,7 +2977,7 @@
                 "abbr": "Higgins",
                 "electoral_votes": 1,
                 "popular_votes": 83690,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -2991,7 +2991,7 @@
                 "abbr": "MelbournePorts",
                 "electoral_votes": 1,
                 "popular_votes": 87669,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3005,7 +3005,7 @@
                 "abbr": "Kooyong",
                 "electoral_votes": 1,
                 "popular_votes": 83613,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3019,7 +3019,7 @@
                 "abbr": "Goldstein",
                 "electoral_votes": 1,
                 "popular_votes": 87293,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3033,7 +3033,7 @@
                 "abbr": "Hotham",
                 "electoral_votes": 1,
                 "popular_votes": 83044,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3047,7 +3047,7 @@
                 "abbr": "Deakin",
                 "electoral_votes": 1,
                 "popular_votes": 82967,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3061,7 +3061,7 @@
                 "abbr": "Bruce",
                 "electoral_votes": 1,
                 "popular_votes": 80967,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3075,7 +3075,7 @@
                 "abbr": "Chisholm",
                 "electoral_votes": 1,
                 "popular_votes": 80330,
-                "poll_closing_time": 120,
+                "poll_closing_time": 0,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3089,7 +3089,7 @@
                 "abbr": "Fremantle",
                 "electoral_votes": 1,
                 "popular_votes": 87060,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3103,7 +3103,7 @@
                 "abbr": "Tangney",
                 "electoral_votes": 1,
                 "popular_votes": 86901,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3117,7 +3117,7 @@
                 "abbr": "Swan",
                 "electoral_votes": 1,
                 "popular_votes": 83528,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3131,7 +3131,7 @@
                 "abbr": "Hasluck",
                 "electoral_votes": 1,
                 "popular_votes": 87423,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3145,7 +3145,7 @@
                 "abbr": "Perth",
                 "electoral_votes": 1,
                 "popular_votes": 84594,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3159,7 +3159,7 @@
                 "abbr": "Cowan",
                 "electoral_votes": 1,
                 "popular_votes": 84374,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3173,7 +3173,7 @@
                 "abbr": "Moore",
                 "electoral_votes": 1,
                 "popular_votes": 85937,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3187,7 +3187,7 @@
                 "abbr": "Stirling",
                 "electoral_votes": 1,
                 "popular_votes": 84866,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3201,7 +3201,7 @@
                 "abbr": "Curtin",
                 "electoral_votes": 1,
                 "popular_votes": 84298,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3215,7 +3215,7 @@
                 "abbr": "Kingston",
                 "electoral_votes": 1,
                 "popular_votes": 96759,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3229,7 +3229,7 @@
                 "abbr": "Boothby",
                 "electoral_votes": 1,
                 "popular_votes": 89507,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3243,7 +3243,7 @@
                 "abbr": "PortAdelaide",
                 "electoral_votes": 1,
                 "popular_votes": 97370,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3257,7 +3257,7 @@
                 "abbr": "Makin",
                 "electoral_votes": 1,
                 "popular_votes": 90765,
-                "poll_closing_time": 120,
+                "poll_closing_time": 240,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3271,7 +3271,7 @@
                 "abbr": "Hindmarsh",
                 "electoral_votes": 1,
                 "popular_votes": 94092,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3285,7 +3285,7 @@
                 "abbr": "Adelaide",
                 "electoral_votes": 1,
                 "popular_votes": 91351,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
@@ -3299,7 +3299,7 @@
                 "abbr": "Sturt",
                 "electoral_votes": 1,
                 "popular_votes": 93301,
-                "poll_closing_time": 120,
+                "poll_closing_time": 180,
                 "winner_take_all_flg": 1,
                 "election": 20
             },
