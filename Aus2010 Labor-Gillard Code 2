@@ -713,8 +713,8 @@
           "pk": 5032,
           "fields": {
             "question": 1011,
-            "feedback": "Really, Julia? Why wouldn’t you attend the forum? Especially in Queensland! This would have boosted your support there! Now we expect a drop in the polls!",
-            "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
+            "feedback": "In a crucial state like Queensland, it was a mistake to not attend the forum there. Expect a nation wide poll drop.",
+            "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
             "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
           }
@@ -726,7 +726,7 @@
           "fields": {
             "question": 1012,
             "feedback": "A sigh of relief is heard across the mining industry and Australia overall. However, there is an uproar from environmentalists and the Greens.",
-            "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+            "global_effect": [202, 0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [102, 0.03, 0.02], // format: [issue, issue score, issue importance]
             "description": "I can assure the people of Australia that there will be no Carbon tax in the tenure of my Government. These rumours are false as we will do no such thing."
           }
@@ -738,7 +738,7 @@
           "fields": {
             "question": 1012,
             "feedback": "Yes, you may have sided with environmentalists on this issue, but everyone else is not happy at this response and the Coalition blasts you on this response. ",
-            "global_effect": [201, 0.009], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, 0.09], // format: [candidate pk, amount of global effect]
             "issue_effect": [102, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "These rumours are, in fact, true. We will be proposing a Carbon Tax that will seek to place a levy on the amount of Carbon Emissions being produced on Goods and Services, along with transportation and factories. This doesn’t exclude the mining industry."
           }
@@ -750,7 +750,7 @@
           "fields": {
             "question": 1013,
             "feedback": "The press conference was a little shaky. You seemed to stumble from time to time and some weren’t buying it. This isn’t good, especially now with the Coalition.",
-            "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "As if things couldn’t get any worse. This wasn’t supposed to happen. I’ll release a media conference saying that this is all rumours and false speculations. We need to be in full damage control now. "
           }
@@ -762,7 +762,7 @@
           "fields": {
             "question": 1013,
             "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks.",
-            "global_effect": [201, -0.002], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, -0.05, -0.05], // format: [issue, issue score, issue importance]
             "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him. Wasn’t he an ambassador during his time in Queensland? Okay, now I have an idea…"
           }
@@ -774,7 +774,7 @@
           "fields": {
             "question": 1014,
             "feedback": "An internal party investigation is launched, but after a while, there is nothing that points to any cabinet members leaking the information.",
-            "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.05, 0.07], // format: [issue, issue score, issue importance]
             "description": "This is certainly the strangest of circumstances that has risen. I believe it is best that we launch an internal investigation on who leaked this information. Someone from within the cabinet must have done it."
           }
@@ -822,7 +822,7 @@
           "fields": {
             "question": 1015,
             "feedback": "This is a standard approach to this in order to not rock the boat, but does alianete more progressive voters.",
-            "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.07], // format: [issue, issue score, issue importance]
             "description": "We believe in a regional solution that is both compassionate and firm. We'll pursue offshore processing in cooperation with our neighbours, mainly in Papua New Guinea to ensure orderly migration into Australia."
           }
@@ -834,7 +834,7 @@
           "fields": {
             "question": 1016,
             "feedback": "Mr. Abbott is in a bit of a tough spot thanks to your response, and the Liberals are reported to have a slight dip in the polls.",
-            "global_effect": [201, -0.004], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.003, 0.04], // format: [issue, issue score, issue importance]
             "description": "Workchoices was something that Labor got rid of the moment we stepped into office. We can’t have Mr. Abbott to become Australia’s next Prime Minister if he backs such legislation like this. Mark my words, Workplace will come back if Abbott is elected. We can't afford a Coalition Government."
           }
@@ -846,7 +846,7 @@
           "fields": {
             "question": 1016,
             "feedback": "One could say exactly that to you. Considering some U-Turns the Government has now taken over policy position.",
-            "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.06, 0.05], // format: [issue, issue score, issue importance]
             "description": "This is blatant flip-flopping on the issue. Mr. Abbott clearly doesn't hold a clear position on these issues. We need a leader who will stick to one side of the issues that matter to the Australian people."
           }
@@ -858,7 +858,7 @@
           "fields": {
             "question": 1017,
             "feedback": "Good answer having to balance out your responce with your record against the Coalitions.",
-            "global_effect": [201, -0.002], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.004, 0.08], // format: [issue, issue score, issue importance]
             "description": "As we move forward into the 2010’s, we must look towards which party will truly deliver for Australians. Either us in Labor who managed to save Australia from the 2008 Global Recession and improved working conditions, or the alternative, who wish to bring back Workplace and scrap the progress we’ve made. The choice is clear."
           }
@@ -870,7 +870,7 @@
           "fields": {
             "question": 1017,
             "feedback": "With Factional Warfare and the brutal spill of Kevin Rudd, I wouldn't be saying Labor is the party of strenght now. The Coalition is certain to capitalize on this stance.",
-            "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
+            "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.05, 0.03], // format: [issue, issue score, issue importance]
             "description": "Labor is the party of true strength and fresh ideas that ensures that Australia moves forward. Let's not forget it was Labor that introduced Medicare and superannuation, all of which the Coalition opposses. Let us move forward as a nation together."
           }
@@ -11068,7 +11068,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20664,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.24
             }
         },
         {
@@ -11104,7 +11104,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20674,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -11176,7 +11176,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20694,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11212,7 +11212,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20704,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11248,7 +11248,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20714,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11320,7 +11320,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20734,
-                "state_multiplier": 0.2
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11356,7 +11356,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20744,
-                "state_multiplier": 0.1
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11392,7 +11392,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20754,
-                "state_multiplier": 0.01
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11401,7 +11401,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20754,
-                "state_multiplier": 0.3
+                "state_multiplier": 0.03
             }
         },
         {
@@ -11428,7 +11428,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20764,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11437,7 +11437,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20764,
-                "state_multiplier": 0.4
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11464,7 +11464,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20774,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.07
             }
         },
         {
@@ -11500,7 +11500,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20784,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.18
             }
         },
         {
@@ -11572,7 +11572,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20804,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11590,7 +11590,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 20814,
-                "state_multiplier": 0.23
+                "state_multiplier": 0.40
             }
         },
         {
@@ -11599,7 +11599,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 20814,
-                "state_multiplier": 0.71
+                "state_multiplier": 0.66
             }
         },
         {
@@ -11608,7 +11608,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20814,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.18
             }
         },
         {
@@ -11644,7 +11644,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20824,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.10
             }
         },
         {
@@ -11653,7 +11653,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20824,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.11
             }
         },
         {
@@ -11680,7 +11680,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20834,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -11698,7 +11698,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 20844,
-                "state_multiplier": 0.34
+                "state_multiplier": 0.40
             }
         },
         {
@@ -11716,7 +11716,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20844,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -11752,7 +11752,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20854,
-                "state_multiplier": 0.01
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11788,7 +11788,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20864,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11824,7 +11824,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20874,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11860,7 +11860,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20884,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11896,7 +11896,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20894,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11932,7 +11932,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20904,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -11968,7 +11968,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20914,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12004,7 +12004,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20924,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12040,7 +12040,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20934,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12076,7 +12076,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20944,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12112,7 +12112,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20954,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12148,7 +12148,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20964,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12184,7 +12184,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20974,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12220,7 +12220,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20984,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12256,7 +12256,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20994,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12292,7 +12292,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21004,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12328,7 +12328,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21014,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12364,7 +12364,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21024,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12400,7 +12400,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21034,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12436,7 +12436,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21044,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12472,7 +12472,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21054,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12508,7 +12508,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21064,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12544,7 +12544,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21074,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12580,7 +12580,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21084,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12616,7 +12616,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21094,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12652,7 +12652,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21104,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12688,7 +12688,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21114,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12724,7 +12724,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21124,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12760,7 +12760,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21134,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12796,7 +12796,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21144,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12832,7 +12832,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21154,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12868,7 +12868,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21164,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12904,7 +12904,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21174,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12940,7 +12940,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21184,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12976,7 +12976,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21194,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.04
             }
         },
         {
@@ -13012,7 +13012,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21204,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13084,7 +13084,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21224,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.18
             }
         },
         {
@@ -13120,7 +13120,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21234,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13156,7 +13156,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21244,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13192,7 +13192,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21254,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13228,7 +13228,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21264,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13264,7 +13264,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21274,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13300,7 +13300,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21284,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13336,7 +13336,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21294,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13372,7 +13372,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21304,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13399,7 +13399,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 21314,
-                "state_multiplier": 0.41
+                "state_multiplier": 0.33
             }
         },
         {
@@ -13408,7 +13408,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21314,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13444,7 +13444,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21324,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13480,7 +13480,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21334,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13516,7 +13516,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21344,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13552,7 +13552,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21354,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13588,7 +13588,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21364,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13624,7 +13624,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21374,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13660,7 +13660,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21384,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13696,7 +13696,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21394,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13732,7 +13732,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21404,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.09
             }
         },
         {
@@ -13768,7 +13768,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21414,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.13
             }
         },
         {
@@ -13804,7 +13804,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21424,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13840,7 +13840,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21434,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.18
             }
         },
         {
@@ -13876,7 +13876,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21444,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13912,7 +13912,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21454,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.09
             }
         },
         {
@@ -13948,7 +13948,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21464,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         },
         {
@@ -13984,7 +13984,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21474,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.10
             }
         },
         {
@@ -14020,7 +14020,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21484,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.14
             }
         },
         {
@@ -14056,7 +14056,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21494,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         },
         {
@@ -14092,7 +14092,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21504,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         },
         {
@@ -14110,7 +14110,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 21514,
-                "state_multiplier": 0.65
+                "state_multiplier": 0.48
             }
         },
         {
@@ -14119,7 +14119,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 21514,
-                "state_multiplier": 0.23
+                "state_multiplier": 0.20
             }
         },
         {
@@ -14128,7 +14128,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21514,
-                "state_multiplier": 0.28
+                "state_multiplier": 0.30
             }
         },
         {
@@ -14164,7 +14164,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21524,
-                "state_multiplier": 0.23
+                "state_multiplier": 0.33
             }
         },
         {
@@ -14200,7 +14200,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21534,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.09
             }
         },
         {
@@ -14236,7 +14236,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21544,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.10
             }
         },
         {
@@ -14272,7 +14272,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21554,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.09
             }
         },
         {
@@ -14344,7 +14344,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21574,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.09
             }
         },
         {
@@ -14380,7 +14380,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21584,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14398,7 +14398,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 21594,
-                "state_multiplier": 0.27
+                "state_multiplier": 0.37
             }
         },
         {
@@ -14416,7 +14416,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21594,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.10
             }
         },
         {
@@ -14425,7 +14425,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21594,
-                "state_multiplier": 0.13
+                "state_multiplier": 0.0
             }
         },
         {
@@ -14443,7 +14443,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 21604,
-                "state_multiplier": 0.36
+                "state_multiplier": 0.44
             }
         },
         {
@@ -14452,7 +14452,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21604,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.20
             }
         },
         {
@@ -14488,7 +14488,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21614,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -14524,7 +14524,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21624,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14560,7 +14560,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21634,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.17
             }
         },
         {
@@ -14596,7 +14596,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21644,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.20
             }
         },
         {
@@ -14632,7 +14632,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21654,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14668,7 +14668,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21664,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -14704,7 +14704,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21674,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14740,7 +14740,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21684,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -14776,7 +14776,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21694,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.14
             }
         },
         {
@@ -14812,7 +14812,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21704,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14848,7 +14848,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21714,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.14
             }
         },
         {
@@ -14875,7 +14875,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 21724,
-                "state_multiplier": 0.42
+                "state_multiplier": 0.35
             }
         },
         {
@@ -14884,7 +14884,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21724,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14920,7 +14920,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21734,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14956,7 +14956,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21744,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.24
             }
         },
         {
@@ -14992,7 +14992,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21754,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15028,7 +15028,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21764,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15064,7 +15064,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21774,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.16
             }
         },
         {
@@ -15100,7 +15100,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21784,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.19
             }
         },
         {
@@ -15136,7 +15136,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21794,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15172,7 +15172,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21804,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.16
             }
         },
         {
@@ -15208,7 +15208,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21814,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15244,7 +15244,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21824,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.14
             }
         },
         {
@@ -15280,7 +15280,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21834,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15316,7 +15316,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21844,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.23
             }
         },
         {
@@ -15352,7 +15352,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21854,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.25
             }
         },
         {
@@ -15388,7 +15388,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21864,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.24
             }
         },
         {
@@ -15424,7 +15424,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21874,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.14
             }
         },
         {
@@ -15460,7 +15460,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21884,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.16
             }
         },
         {
@@ -15496,7 +15496,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21894,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15532,7 +15532,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21904,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15550,7 +15550,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 21914,
-                "state_multiplier": 0.54
+                "state_multiplier": 0.36
             }
         },
         {
@@ -15559,7 +15559,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 21914,
-                "state_multiplier": 0.38
+                "state_multiplier": 0.22
             }
         },
         {
@@ -15568,7 +15568,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21914,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.32
             }
         },
         {
@@ -15604,7 +15604,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21924,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15640,7 +15640,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21934,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.22
             }
         },
         {
@@ -15676,7 +15676,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21944,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15712,7 +15712,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21954,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -15748,7 +15748,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21964,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -15784,7 +15784,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21974,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15820,7 +15820,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21984,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -15856,7 +15856,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21994,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15892,7 +15892,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22004,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.15
             }
         },
         {
@@ -15928,7 +15928,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22014,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.12
             }
         },
         {
@@ -15964,7 +15964,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22024,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.12
             }
         },
         {
@@ -16000,7 +16000,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22034,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16036,7 +16036,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22044,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.14
             }
         },
         {
@@ -16072,7 +16072,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22054,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16108,7 +16108,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22064,
-                "state_multiplier": 0.01
+                "state_multiplier": 0.18
             }
         },
         {
@@ -16144,7 +16144,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22074,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16180,7 +16180,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22084,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16216,7 +16216,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22094,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16252,7 +16252,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22104,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16288,7 +16288,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22114,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.15
             }
         },
         {
@@ -16324,7 +16324,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22124,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.08
             }
         },
         {
@@ -16360,7 +16360,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22134,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.15
             }
         },
         {
@@ -16396,7 +16396,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22144,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.14
             }
         },
         {
@@ -16432,7 +16432,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22154,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.12
             }
         },
         {
