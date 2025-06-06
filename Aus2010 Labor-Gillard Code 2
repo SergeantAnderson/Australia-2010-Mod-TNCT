@@ -16642,7 +16642,135 @@
     ]
 
 
+function changechart(){
+  if (document.getElementById("overall_vote_statistics")!=null) {
+  overallthing=document.getElementById("overall_vote_statistics").innerHTML;
+  overallthing.toString()
+  overallthing=overallthing.replace("Electoral Votes","Seats Won")
+  document.getElementById("overall_vote_statistics").innerHTML=overallthing
+  }
+  }
+  window.setInterval(changechart,200)
 
+  endingPicker = (out, totv, aa, quickstats) => {
+
+    //Ending Codes go here. You can remove this line, but everything else must be kept. Just paste this at the end of your code 2.
+    used=false;
+    orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
+    playerID = campaignTrail_temp.candidate_id;
+    playerEV = quickstats[0]
+        //out = "win", "loss", or "tie" for your candidate
+        //totv = total votes in entire election
+        //aa = all final overall results data
+        if (out == "tie") {
+            if (used != true) {
+                setInterval(function () {
+                    used = true;
+                    imgg = document.getElementsByClassName("person_image")[0];
+                    if (imgg != null) {
+                        imgg.src = "";
+                    }
+                }, 100);
+            }
+   return "<h3></h3><p></p>"
+} else if (aa[0].electoral_votes >= 150 && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "";
+            }
+        }, 100);
+    }
+    // to here!
+return "<h3></h3><p></p>"
+} else if (aa[0].electoral_votes >= 81 && aa[0].candidate == 201) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "";
+            }
+        }, 100);
+    }
+    // to here!
+    
+return "<h3>Hung Parliament looms, as neither parties reach 76</h3><p>This is the moment you, and Tony Abbott have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliement since 1940.</p>"
+} else if (quickstats[0] == 75) {
+//If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/DsKTeB8.png";
+            }
+        }, 100);
+    }
+return "<h3>Gillard and Labor Re-Elected with a reduced Majority Government</h3>""<p>An incredible win for the true believers of the Labor Party. From projecting to lose Government only weeks ago, to now holding on, but with a reduced majority. It's just enough to get legislation passed in the Lower House.</p><p>Opposition leader, Tony Abbott calls to concede the election, wishing you the best of luck in this Parliament. The work only begins from here on out. You have been democratically elected the first female Prime Minister of Australia by the electorate. It's history in the making.</p><p>The real work begins. As you give a jubilant victory speech to supporters in Melbourne, nothing but celebrations fill the room. Now, with an economy needing work, budget downturns, and several other things that need improvements, the time is now to move Australia forward.</p>"
+} else if (quickstats[0]<82) {
+ //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/ap/australia%20election--768034548_v2.jpg";
+            }
+        }, 100);
+    }
+    // to here!
+
+return "<h3>Labor sweeps in decisive landslide, beating Rudd's 2007 record</h3><p>Unbelievable. You did it. Not only did you win a second term for the Labor party, but you beat Kevin Rudd's previous majority of 82 seats in the Parliament. This is a victory for the true believers of the Labor party.</p><p>Abbott calls to concede the election, wishing you the best of luck in your term. You've made history tonight. The first Prime Minister since 1993 for Labor to win a second majority, and the first, democratically elected, female Prime Minister of Australia. Giving your victory speech in Melbourne was truly a momentus moment, with the crowds jubilant as you give your speech.</p><p>The work is only just beginning. The economy, amongst several issues, are at the forefront, including the implementations of your election promises. But with a majority like this, legislation can be easily passed. It's time to move Australiua forward.</p>"
+} else if (quickstats[0]<150) {
+    setMusic("")
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/ap/australia%20election--768034548_v2.jpg";
+            }
+        }, 100);
+    }
+    // to here!    
+	
+return "<h3>Historical First as Labor Sweeps all Seats in Parliament</h3><p>This is simply historical. You're left scratching your head as the red wave of the Australian Labor Party sweeps across the nation. From East to West. North to South. All seats are projectd to all go to the Labor Party.</p><p>A shocked, and confused Tony Abbott seems baffleed about losing his safe Liberal held seat of Warringah. Many members of the Liberal Party cry fowl. But you don't care. You have the mandate.</p><p>With winning all seats in Parliament, and the only opposition to be in the Senate, there will be no blocking of legislation, as you can pass anything with absolute ease.</p><p>Good luck with this majority.</p>"
+} else if (quickstats[0] >= 150) {
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "";
+            }
+        }, 100);
+    }
+    // to here!
+
+e.multiple_endings=true
+
+function changechart() {
+    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
+    for(let id of elementIDs) {
+        let element = document.getElementById(id);
+        if (element) {
+            let overallthing = element.innerHTML;
+            overallthing = overallthing.replace("Electoral Votes","Seats Won");
+            overallthing = overallthing.replace("Candidate","Party");
+            element.innerHTML = overallthing;
+
+        }
+    }
+}
+
+console.log("Ending Picker Triggered:", { out, playerID, topCandidate: aa[0].candidate });}}
 
 
 
