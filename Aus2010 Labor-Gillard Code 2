@@ -11518,7 +11518,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 20794,
-                "state_multiplier": 0.48
+                "state_multiplier": 0.20
             }
         },
         {
@@ -11530,13 +11530,13 @@
                 "state_multiplier": 0.14
             }
         },
-        {
+         {
             "model": "campaign_trail.candidate_state_multiplier",
             "pk": 20797,
             "fields": {
                 "candidate": 202,
                 "state": 20794,
-                "state_multiplier": 0.45
+                "state_multiplier": 0.60
             }
         },
         {
@@ -11545,7 +11545,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20794,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.12
             }
         },
         {
@@ -15622,7 +15622,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 21934,
-                "state_multiplier": 0.55
+                "state_multiplier": 0.40
             }
         },
         {
@@ -15631,7 +15631,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 21934,
-                "state_multiplier": 0.36
+                "state_multiplier": 0.30
             }
         },
         {
@@ -15640,7 +15640,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21934,
-                "state_multiplier": 0.22
+                "state_multiplier": 0.45
             }
         },
         {
