@@ -372,7 +372,7 @@ campaignTrail_temp.candidate_json = [
       "secondary_color_hex": "#FF563E",
       "is_active": 1,
       "image_url": "https://i.imgur.com/K17Wilc.jpg",
-      "electoral_victory_message": "<h3></h3><p><p/>",
+      "electoral_victory_message": "<h3></h3><p></p>",
       "electoral_loss_message": "<h3></h3><p></p>",
       "no_electoral_majority_message": "<h3></h3><p></p>",
       "description_as_running_mate": "'",
