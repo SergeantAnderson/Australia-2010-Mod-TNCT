@@ -16724,109 +16724,127 @@ endingConstructor = (a = 1) => {
 
 endingPicker = (out, totv, aa, quickstats) => {
 
-    //Ending Codes go here. You can remove this line, but everything else must be kept. Just paste this at the end of your code 2.
-    used=false;
-    orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
-    playerID = campaignTrail_temp.candidate_id;
-    playerEV = quickstats[0]
-        //out = "win", "loss", or "tie" for your candidate
-        //totv = total votes in entire election
-        //aa = all final overall results data
-        if (out == "tie") {
-            if (used != true) {
-                setInterval(function () {
-                    used = true;
-                    imgg = document.getElementsByClassName("person_image")[0];
-                    if (imgg != null) {
-                        imgg.src = "";
-                    }
-                }, 100);
-            }
+    endingPicker = (out, totv, aa, quickstats) => {
 
-    return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders look to Crossbench</h3><p>This is the moment you, and Tony Abbott have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliament since 1940. Both you and Mr. Abbott are refusing to concede defeat in the election.</p><p>The sole balance of the House of Representatives is now in the hands of the members of the crossbench. You will need to strike a deal with these members to get their support if you want to be Prime Minister still. Bob katter has expressed interest in siding with the Coalition, which leaves the other members left.</p><p>This will be a long few weeks until parliament officially resumes. Hopefully by the time that happens, you will have a deal to Govern with the crossbench with their full support.</p>"
-} else if (aa[0].electoral_votes >= 75 && aa[0].candidate <= 71 == 200) {
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/F6GnXsX.jpeg";
-            }
-        }, 100);
-    }
-    return "<h3>Gillard and Labor Re-Elected with a reduced Majority Government</h3><p>An incredible win for the true believers of the Labor Party. From projecting to lose Government only weeks ago, to now holding on, but with a reduced majority. It's just enough to get legislation passed in the Lower House.</p><p>Opposition leader, Tony Abbott calls to concede the election, wishing you the best of luck in this Parliament. The work only begins from here on out. You have been democratically elected the first female Prime Minister of Australia by the electorate. It's history in the making.</p><p>The real work begins. As you give a jubilant victory speech to supporters in Melbourne, nothing but celebrations fill the room. Now, with an economy needing work, budget downturns, and several other things that need improvements, the time is now to move Australia forward.</p>"
-} else if (aa[0].electoral_votes >= 76 && aa[0].candidate <= 83 == 200) {
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/De18XnP.jpeg";
-            }
-        }, 100);
-    }
-    return "<h3>Labor sweeps in decisive landslide, beating Rudd's 2007 record</h3><p>Unbelievable. You did it. Not only did you win a second term for the Labor party, but you beat Kevin Rudd's previous majority of 82 seats in the Parliament. This is a victory for the true believers of the Labor party.</p><p>Abbott calls to concede the election, wishing you the best of luck in your term. You've made history tonight. The first Prime Minister since 1993 for Labor to win a second majority, and the first, democratically elected, female Prime Minister of Australia. Giving your victory speech in Melbourne was truly a momentus moment, with the crowds jubilant as you give your speech.</p><p>The work is only just beginning. The economy, amongst several issues, are at the forefront, including the implementations of your election promises. But with a majority like this, legislation can be easily passed. It's time to move Australia forward.</p>"
-} else if (aa[0].electoral_votes >= 84 && aa[0].candidate <= 149 == 200) {
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/De18XnP.jpeg";
-            }
-        }, 100);
-    }
-    return "<h3>History in the making as Gillard and Labor win... Every seat in Parliament!</h3><p>My god, Julia... Not only have you formed a Majority, but... You've won in a super Landslide! You could compare this win to... well nothing in Australian history!</p><p>Pundits across the nation are absolutely stunned of the ripper of a voctory you have pulled. Across the nation, many Labor supportters are on the streets and chanting many songs. Every news channel has called it for you. The ABC have called it the 'Win of the new century'. This is an astounding win, and you have to rub your eyes just to see if you are seeing correctly. You pulled a comeback despite everything not going in your favour over the past few weeks. This is a historic, and resounding victory that the Liberals can't even comprehend. They're leaderless. Only Senate Liberal members are left, but you'll have a majority in the Senate after all the votes are counted.</p><p>It's time to move Australia forward, and you will do it with absolute ease.</p>"
-    } else if (aa[0].electoral_votes >= 150 && aa[0].candidate == 200) {
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/De18XnP.jpeg";
-            }
-        }, 100);
-    }
+used=false
 
-    return "<h3>Gillard to Lose the election to the Coalition in historic loss</h3><p>This was not the night you were hoping for. After a long and hard fought campaign, things did not go your way at all, resulting in this loss, and for the first time since 1931, a Government has been defeated in its only term. The Labor supporters and volunteers are washed over in despair as the work they did to get the Government re-elected fell short.</p><p>You give a concession speech to those in Melbourne, but still cheer you after working so hard to win, even thiugh this was not the result you had wanted. Tony abbott gives a victory speech to those in Sydney and to the Liberal Party members. Now, the future of the Party is in doubt.</p><p>It may be unclear if the Labor Party will have you as their leader, or resort to someone else to lead them. It is still unclear, but you remain determined to stay as leader, and come 2013, win back Government. It's an uphill fight from here to hold Tony Abbott accountable.</p>"
-    } else if (aa[0].electoral_votes >= 70 && aa[0].candidate <= 60 == 201) {
+// Astro's Ending Template
+
+// Template 1 - Simple 1v1 races
+
+//out = "win", "loss", or "tie" for your candidate
+//totv = total votes in entire election
+//aa = all final overall results data
+//quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+
+//quickstats[0] is the default, and it tracks your electoral vote count.
+
+if (quickstats[0] < 3) {
+  //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/M9zksbk.png";
+            imgg.src = "Image URL goes here.";
             }
         }, 100);
     }
-    return "<h3>Labor experience landslide loss against the Coalition</h3><p>The result was not as expected. It was worse. Labor has been completely wiped out in an electoral landslide, and to make matters worse? It was the first time since  that the Government was defeated in its first term. This was not the result you and the party had worked so hard for.</p><p>You concede to Tony Abbott before giving a concession speech to the nation and to the party faithful at your venue in Melbourne. Tony abbott gives his victory speech in Sydney to jubilant crowd of Liberal Party supporters. The election result was one that not many people had expected to see. Now, the future of the party remains in the balance, whether they'll keep you as leader, orhave someone else. But you're confident to remain leader, and come 2013, win back Government.</p><p>Now is the time to focus on Government accounability, and hold Tony Abbott to account, and come 2013, hopefully win back Government. The road ahead is long...</p>"
-    } else if (aa[0].electoral_votes >= 59 && aa[0].candidate <= 1 == 201) {
+    // to here!
+} else if (quickstats[0] == 0 && aa[0].candidate == 201 ) {
     if (used != true) {
         setInterval(function () {
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/M9zksbk.png";
+            imgg.src = "hhttps://i.imgur.com/M9zksbk.png";
             }
         }, 100);
     }
-    return "<h3>LABOR LOSES EVERY SEAT IN PARLIAMENT! HOWARD TO OBTAIN EVERY SEAT!</h3><p>'Holy shit' are the words that come out of your mouth when watching the election program on the ABC. You've lost... Every seat. Including your own seat of Brand. Your shadow cabinet, gone. Members of the House, gone. All are replaced by Liberal and National members across the nation.</p><p>Supporters of Labor are in absolute shock that Howard has pulled off a never seen before election victory in the history of Australia. It has been 100 years since the first Federal election in Australia, and not even Edmund Barton himself could see a result like this play out, but it has.</p><p>Thankfully, there are still surviving members of Labor in the Senate and anyone of them will be glad to take the reigns of the Labor Party. What happens now is your retirement from Politics. You had a good run, Kim."
-} else if (aa[0].electoral_votes >= 0 && aa[0].candidate == 201) {
+return "<h3>Labor have lost every seat in Parliament</h3><p>How could this have happened? From it to be a hung parliament to Labor completely having no seats in the House of Representatives, including your own seat of Lalor in Victoria. This is impossible. Something had to happen.</p><p>Labor supporters and candidates are left bewildered as they either lost their seats or didn't win against an incumbent Liberal. But one thing is certain, the leaderrship is vacant, and only Senate Labor members are left to clean up the mess. South Australian Senator, Penny Wong is considering to take the reigns of the party as only Senate members are left from the Labor Party. But for now, this loss has left Labor shaken to its core, a result unlike any other in Australian political history.</p>";
+
+
+} else if (quickstats[0] >= 1 && aa[0].candidate == 201) {
     if (used != true) {
         setInterval(function () {
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/M9zksbk.png";
+            imgg.src = "https://i.imgur.com/M9zksbk.png";
             }
         }, 100);
     }
-   return 
-  } else {
-    return 
-  }
+return "<h3>Labor experience landslide loss against the Coalition</h3><p>The result was not as expected. It was worse. Labor has been completely wiped out in an electoral landslide, and to make matters worse? It was the first time since  that the Government was defeated in its first term. This was not the result you and the party had worked so hard for.</p><p>You concede to Tony Abbott before giving a concession speech to the nation and to the party faithful at your venue in Melbourne. Tony abbott gives his victory speech in Sydney to jubilant crowd of Liberal Party supporters. The election result was one that not many people had expected to see. Now, the future of the party remains in the balance, whether they'll keep you as leader, or have someone else. But you're confident to remain leader, and come 2013, win back Government.</p><p>Now is the time to focus on Government accountability, and hold Tony Abbott to account, and come 2013, hopefully win back Government. The road ahead is long...</p>"
+
+}else if (quickstats[0] >= 60 && aa[0].candidate == 201) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+            imgg.src = "https://i.imgur.com/M9zksbk.png";
+            }
+        }, 100);
     }
-    ,campaignTrail_temp.multiple_endings=true
+return "<h3>Gillard to lose the election to the Coalition in historic loss</h3><p>This was not the night you were hoping for. After a long and hard-fought campaign, things did not go your way at all, resulting in this loss, and for the first time since 1931, a Government has been defeated in its only term. The Labor supporters and volunteers are washed over in despair as the work they did to get the Government re-elected fell short.</p><p>You give a concession speech to those in Melbourne, but still cheer you after working so hard to win, even though this was not the result you had wanted. Tony Abbott gives a victory speech to those in Sydney and to the Liberal Party members. Now, the future of the Party is in doubt.</p><p>It may be unclear if the Labor Party will have you as their leader, or resort to someone else to lead them. It is still unclear, but you remain determined to stay as leader, and come 2013, win back Government. It's an uphill fight from here to hold Tony Abbott accountable.</p>"
+
+} else if (quickstats[0]<=75) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+            imgg.src = "https://i.imgur.com/F6GnXsX.jpeg";
+            }
+        }, 100);
+    }
+return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders look to Crossbench</h3><p>This is the moment you, and Tony Abbott have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliament since 1940. Both you and Mr. Abbott are refusing to concede defeat in the election.</p><p>The sole balance of the House of Representatives is now in the hands of the members of the crossbench. You will need to strike a deal with these members to get their support if you want to be Prime Minister still. Bob katter has expressed interest in siding with the Coalition, which leaves the other members left.</p><p>This will be a long few weeks until parliament officially resumes. Hopefully by the time that happens, you will have a deal to Govern with the crossbench with their full support.</p>"
+
+} else if (quickstats[0]<83) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+            imgg.src = "https://i.imgur.com/De18XnP.jpeg";
+            }
+        }, 100);
+    }
+return "<h3>Gillard and Labor Re-Elected with a reduced Majority Government</h3><p>An incredible win for the true believers of the Labor Party. From projecting to lose Government only weeks ago, to now holding on, but with a reduced majority. It's just enough to get legislation passed in the Lower House.</p><p>Opposition leader, Tony Abbott calls to concede the election, wishing you the best of luck in this Parliament. The work only begins from here on out. You have been democratically elected the first female Prime Minister of Australia by the electorate. It's history in the making.</p><p>The real work begins. As you give a jubilant victory speech to supporters in Melbourne, nothing but celebrations fill the room. Now, with an economy needing work, budget downturns, and several other things that need improvements, the time is now to move Australia forward.</p>"
+
+} else if (quickstats[0]<149) {
+     if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+            imgg.src = "https://i.imgur.com/De18XnP.jpeg";
+            }
+        }, 100);
+    }
+return "<h3>Labor sweeps in decisive landslide, beating Rudd's 2007 record</h3><p>Unbelievable. You did it. Not only did you win a second term for the Labor party, but you beat Kevin Rudd's previous majority of 82 seats in the Parliament. This is a victory for the true believers of the Labor party.</p><p>Abbott calls to concede the election, wishing you the best of luck in your term. You've made history tonight. The first Prime Minister since 1993 for Labor to win a second majority, and the first, democratically elected, female Prime Minister of Australia. Giving your victory speech in Melbourne was truly a momentus moment, with the crowds jubilant as you give your speech.</p><p>The work is only just beginning. The economy, amongst several issues, are at the forefront, including the implementations of your election promises. But with a majority like this, legislation can be easily passed. It's time to move Australia forward.</p>"
+
+} else if (quickstats[0]== 150) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+            imgg.src = "https://i.imgur.com/De18XnP.jpeg";
+            }
+        }, 100);
+    }
+return "<h3>History in the making as Gillard and Labor win... Every seat in Parliament!</h3><p>My god, Julia... Not only have you formed a Majority, but... You've won in a super Landslide! You could compare this win to... well nothing in Australian history!</p><p>Pundits across the nation are absolutely stunned of the ripper of a voctory you have pulled. Across the nation, many Labor supportters are on the streets and chanting many songs. Every news channel has called it for you. The ABC have called it the 'Win of the new century'. This is an astounding win, and you have to rub your eyes just to see if you are seeing correctly. You pulled a comeback despite everything not going in your favour over the past few weeks. This is a historic, and resounding victory that the Liberals can't even comprehend. They're leaderless. Only Senate Liberal members are left, but you'll have a majority in the Senate after all the votes are counted.</p><p>It's time to move Australia forward, and you will do it with absolute ease.</p>"
+    
+return "<h3>Congratulations! You have won the election!</h3><p>This is possibly expected (or maybe it isn't).</p><p>You will be able to enact your agenda.</p>"
+} else {
+return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
+}
+
+}
+
+campaignTrail_temp.multiple_endings=true
+}
 }
 }
 }
