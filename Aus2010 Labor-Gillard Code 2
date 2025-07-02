@@ -204,7 +204,7 @@
           "pk": 1017,
           "fields": {
             "priority": 1,
-            "description": "For Labor, the slogan of 'Lets Move Australia Forward' is being plasted on Commercials, Billboards and Corflutes across the nation. With Australia now getting out of the GFC slowly, and rising costs and interest rates putting pressure on Australian families, what is your reasoning for Australians to give Labor their first preference, and not preference your party last?",
+            "description": "Since 2003, Australian Troops have been delployed in the Middle East, most notibaly in Afghanistan and Iraq. However, since 2007, 500 troops have returned from Iraq. The United States, now under President Barack Obama, is moving forward with troops being removed by next year. With the Anti-War movement still moving, and multiple Green and Progressive voices urge the Government to perform a full withdraw from Iraq. Will your Government, if re-elected, commit to this and bring Australian Troops back home ?",
             "likelihood": 1
           }
         },
@@ -377,7 +377,7 @@
             "feedback": "This goes well over supporters, and you’ve made some ground in the polls. The pressure will be on.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.04], // format: [issue, issue score, issue importance]
-            "description": "Even though I am now Kevin Rudd, I will emphasise on what I believe is the most significant policy, the economy. I will discuss how Labor managed to mitigate the worst of the Great Financial Crisis."
+            "description": "Even though I am no Kevin Rudd, I will emphasise on what I believe is the most significant policy, the economy. I will discuss how Labor managed to mitigate the worst of the Great Financial Crisis."
           }
         },
     
@@ -857,10 +857,10 @@
           "pk": 5044,
           "fields": {
             "question": 1017,
-            "feedback": "Good answer having to balance out your responce with your record against the Coalitions.",
+            "feedback": "This answer has pleased the more anti-war crowd, but the Coalition does seem to want some involvement, but not a lot.",
             "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.004, 0.08], // format: [issue, issue score, issue importance]
-            "description": "As we move forward into the 2010’s, we must look towards which party will truly deliver for Australians. Either us in Labor who managed to save Australia from the 2008 Global Recession and improved working conditions, or the alternative, who wish to bring back Workplace and scrap the progress we’ve made. The choice is clear."
+            "description": "It is obviously clear that we should have never gotten into the Iraq War in the first place. I commend President Obama for the action of withdrawing American troops, and we will commit to do the same by next year, and end all Australian involvement in Iraq.."
           }
         },
     
@@ -869,10 +869,10 @@
           "pk": 5045,
           "fields": {
             "question": 1017,
-            "feedback": "With Factional Warfare and the brutal spill of Kevin Rudd, I wouldn't be saying Labor is the party of strenght now. The Coalition is certain to capitalize on this stance.",
+            "feedback": "This has gotten attention from those within the Party and has made the rounds in the Media that you want to stay in Iraq, despite Rudd withdrawing a year earlier. Why the switch?.",
             "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.05, 0.03], // format: [issue, issue score, issue importance]
-            "description": "Labor is the party of true strength and fresh ideas that ensures that Australia moves forward. Let's not forget it was Labor that introduced Medicare and superannuation, all of which the Coalition opposses. Let us move forward as a nation together."
+            "description": "Australia must stand by our allies and continue supporting Iraq’s stability. A premature withdrawal may risk undermining the progress we’ve made and could embolden extremists. We’ll keep our commitment until Iraq is secure."
           }
         },
     
@@ -881,10 +881,10 @@
           "pk": 5046,
           "fields": {
             "question": 1017,
-            "feedback": "After several budget downturns and deficits, the economy is to be a hurting point for you on the campaign trail.",
+            "feedback": "This is a sort of medium ground question, that doesn't upset anyone, but doesn't please anyone.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.07, 0.06], // format: [issue, issue score, issue importance]
-            "description": "The Coalition have stated they want to propose Real Change, but what is that change exactly? Our Government managed to mitigate the worst of the Recession. The Coalition, if elected, will dismantle what we have built. A Coalition Government, right now, is something Australia can't afford."
+            "description": "While we’ll end combat operations, Australia should still help Iraq by training their security forces and providing humanitarian aid. This approach balances responsibility to our allies with our commitment to peace"
           }
         },
     
