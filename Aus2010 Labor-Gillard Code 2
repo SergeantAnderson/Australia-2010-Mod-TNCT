@@ -16798,7 +16798,7 @@ return "<h3>Labor experience landslide loss against the Coalition</h3><p>The res
     }
 return "<h3>Gillard to lose the election to the Coalition in historic loss</h3><p>This was not the night you were hoping for. After a long and hard-fought campaign, things did not go your way at all, resulting in this loss, and for the first time since 1931, a Government has been defeated in its only term. The Labor supporters and volunteers are washed over in despair as the work they did to get the Government re-elected fell short.</p><p>You give a concession speech to those in Melbourne, but still cheer you after working so hard to win, even though this was not the result you had wanted. Tony Abbott gives a victory speech to those in Sydney and to the Liberal Party members. Now, the future of the Party is in doubt.</p><p>It may be unclear if the Labor Party will have you as their leader, or resort to someone else to lead them. It is still unclear, but you remain determined to stay as leader, and come 2013, win back Government. It's an uphill fight from here to hold Tony Abbott accountable.</p>"
 
-} else if (quickstats[0]>=75 && quickstats[0]<71) {
+} else if (quickstats[0]>=75) {
     if (used != true) {
         setInterval(function () {
             used = true;
