@@ -173,7 +173,7 @@
           "pk": 1014,
           "fields": {
             "priority": 1,
-            "description": "In a recent TV interview, Former Prime Minister Kevin Rudd has finally dropped the bomb he's been hiding. He has admitted that he was respincible for the first internal party leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. Considering Rudd's professed innocence, do you believe someone in Cabinet leaked this information?",
+            "description": "In a recent TV interview, Former Prime Minister Kevin Rudd has finally dropped the bomb he's been hiding. He has admitted that he was responcible for the first internal party leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. Considering Rudd's professed innocence, do you believe someone in Cabinet leaked this information?",
             "likelihood": 1
           }
         },
@@ -16808,7 +16808,7 @@ return "<h3>Gillard to lose the election to the Coalition in historic loss</h3><
             }
         }, 100);
     }
-return "<h3>>Hung Parliament looms, as neither parties reach 76 as Major Leaders look to Crossbench</h3><p>This is the moment you, and Tony Abbott have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliament since 1940. Both you and Mr. Abbott are refusing to concede defeat in the election.</p><p>The sole balance of the House of Representatives is now in the hands of the members of the crossbench. You will need to strike a deal with these members to get their support if you want to be Prime Minister still. Bob katter has expressed interest in siding with the Coalition, which leaves the other members left.</p><p>This will be a long few weeks until parliament officially resumes. Hopefully by the time that happens, you will have a deal to Govern with the crossbench with their full support.</p>"
+return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders look to Crossbench</h3><p>This is the moment you, and Tony Abbott have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliament since 1940. Both you and Mr. Abbott are refusing to concede defeat in the election.</p><p>The sole balance of the House of Representatives is now in the hands of the members of the crossbench. You will need to strike a deal with these members to get their support if you want to be Prime Minister still. Bob katter has expressed interest in siding with the Coalition, which leaves the other members left.</p><p>This will be a long few weeks until parliament officially resumes. Hopefully by the time that happens, you will have a deal to Govern with the crossbench with their full support.</p>"
 
 } else if (quickstats[0] >=76 ) {
     if (used != true) {
