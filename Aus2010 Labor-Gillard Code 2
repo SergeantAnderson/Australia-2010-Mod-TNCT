@@ -21,7 +21,7 @@
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.01,
-            "question_count": 28,
+            "question_count": 27,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
           }
@@ -125,7 +125,7 @@
           "pk": 1009,
           "fields": {
             "priority": 1,
-            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you, telling Mr. Rudd months before the election to 'Reverse the Polling Trend'. This is being labled as desperate from the Murdoch Press, and Tony Abbott is critising you on this move. What are your comments?",
+            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you telling Mr. Rudd months before the election to 'Reverse the Polling Trend'. This is being labled as desperate from the Murdoch Press, and Tony Abbott is critising you on this move. What are your comments?",
             "likelihood": 1
           }
         },
@@ -244,16 +244,6 @@
           "pk": 1021,
           "fields": {
             "priority": 1,
-            "description": "This election what could only be described as a 'Horror Show' for your campaign. However, there has been something circulating. Something that could potentially ensure party unity. Sources say that if Labor was to be re-elected, you would appoint Kevin Rudd as Australia's Foreign Minister. Is this to-be appointment true?",
-            "likelihood": 1
-          }
-        },
-
-{
-          "model": "campaign_trail.question",
-          "pk": 1022,
-          "fields": {
-            "priority": 1,
             "description": "Internal leaking, it's come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responcible for the internal party leaks?",
             "likelihood": 1
           }
@@ -261,7 +251,7 @@
     
 {
           "model": "campaign_trail.question",
-          "pk": 1023,
+          "pk": 1022,
           "fields": {
             "priority": 1,
             "description": "With Labor's polling slowly going in it's favour, the outcome is projected to be a hung parliament, with the Crossssbench to grow in size, and the Two major parties no where past 76 seats for a majority. With the Greens projected to gain a seat, and Independents in Rural New South Wales and Queensland, the question arises, if a hung parliament is to occur, will you work with these Members of Parliament?",
@@ -271,7 +261,7 @@
 
 {
           "model": "campaign_trail.question",
-          "pk": 1024,
+          "pk": 1023,
           "fields": {
             "priority": 1,
             "description": "For once, it's not Labor's internal party leaks being spread out. It appears that there has been a major leak in the Coalition's budget costing for election promises. The discovery of an $840 Million hole have stopped policy submissions to the Treasury from the Opposition. Will you use this potential oppotunity to attack the Coalition on their budget estimates?",
@@ -281,7 +271,7 @@
 
 {
           "model": "campaign_trail.question",
-          "pk": 1025,
+          "pk": 1024,
           "fields": {
             "priority": 1,
             "description": "There has been concern amongst your Campaign’s image in the final stretch of the election. Abbott’s is now being seen amongst the public as a popular campaigner and also emphasising his overall fitness, which is being noticed by the electorate. To ensure your public image amomgst the nation, What will you do to boost Labor's and your, campaign image?",
@@ -291,7 +281,7 @@
 
 {
           "model": "campaign_trail.question",
-          "pk": 1026,
+          "pk": 1025,
           "fields": {
             "priority": 1,
             "description": "The final stretch of the campaign is upon us. Polls still remain at a tight 50/50, with potentially no winner in sight, and a Hung Parliament inbound with no clear sight aas to who will be the largest party. To retain your majority, what message will you give to Australian voters to give their first preference to Labor?",
@@ -301,7 +291,7 @@
 
 {
           "model": "campaign_trail.question",
-          "pk": 1027,
+          "pk": 1026,
           "fields": {
             "priority": 1,
             "description": "It's the final week of the campaign. The oppotunity is now to get any last minute undecided voters to give their first preference to Labor. Now you have the opportunity to visit one final place that can decide the outcome of this election. What city will you visit to ensure Labor secures a winning majority?",
@@ -764,7 +754,7 @@
             "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks.",
             "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, -0.05, -0.05], // format: [issue, issue score, issue importance]
-            "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him. Wasn’t he an ambassador during his time in Queensland? Okay, now I have an idea…"
+            "description": "If leaks continue, our campaign will go down the drain. If we suspect Kevin Rudd is the one who is doing this, we can maybe discuss a deal with him in order for these leaks to stop. We can bargain to give him the Foreign Affairs portfolio if we do win."
           }
         },
     
@@ -979,18 +969,6 @@
           "pk": 5054,
           "fields": {
             "question": 1021,
-            "feedback": "Former Rudd supporters, in Parliament and Public, are pleased by this news. But be careful as this may allow for him to work in the shadows to get the leadership back.",
-            "global_effect": [201, -0.006], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.008, 0.004], // format: [issue, issue score, issue importance]
-            "description": "Rudd has shown excellent skills during his time as an Ambassador to China and Shadow Foreign Minister under Beazley and Latham. I welcome him into the Cabinet to strengthen Australia’s global relations."
-          }
-        },
-
- {
-          "model": "campaign_trail.answer",
-          "pk": 5055,
-          "fields": {
-            "question": 1022,
             "feedback": "It may have been a strange coincidence, but it doesn't stop the fact that the Cabinet has been shaken over this saga.",
             "global_effect": [201, -0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, -0.002, -0.003], // format: [issue, issue score, issue importance]
@@ -1000,9 +978,9 @@
 
  {
           "model": "campaign_trail.answer",
-          "pk": 5056,
+          "pk": 5055,
           "fields": {
-            "question": 1022,
+            "question": 1021,
             "feedback": "Kevin Rudd concesses his innocence, saying he was only responcible for the first leak, and not the major cabinet leak. This does cool off any suspicion you may have.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.03], // format: [issue, issue score, issue importance]
@@ -1012,9 +990,9 @@
 
  {
           "model": "campaign_trail.answer",
-          "pk": 5057,
+          "pk": 5056,
           "fields": {
-            "question": 1023,
+            "question": 1022,
             "feedback": "This answer seems a bit arrogant, and does nothing to solve any sort of political bitterness this nation is in.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.003, 0.005], // format: [issue, issue score, issue importance]
@@ -1024,9 +1002,9 @@
 
  {
           "model": "campaign_trail.answer",
-          "pk": 5058,
+          "pk": 5057,
           "fields": {
-            "question": 1023,
+            "question": 1022,
             "feedback": "A striking balance is noted going on the tightrope here, but it's best to potentially make concessions if this is the election outcome.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.004, 0.007], // format: [issue, issue score, issue importance]
@@ -1036,9 +1014,9 @@
 
  {
           "model": "campaign_trail.answer",
-          "pk": 5059,
+          "pk": 5058,
           "fields": {
-            "question": 1023,
+            "question": 1022,
             "feedback": "This only causes further rifts between Labor, Independents, and the Greens. This will effect how people will preference as well come election day.",
             "global_effect": [201, 0.009], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.008, 0.004], // format: [issue, issue score, issue importance]
@@ -1048,9 +1026,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5060,
+          "pk": 5059,
           "fields": {
-            "question": 1024,
+            "question": 1023,
             "feedback": "Despite the fact that the economy is not in good shape right now, it’s still a strong attack against the Coalitions previous Economic record.",
             "global_effect": [201, -0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.006, 0.005], // format: [issue, issue score, issue importance]
@@ -1060,9 +1038,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5061,
+          "pk": 5060,
           "fields": {
-            "question": 1024,
+            "question": 1023,
             "feedback": "Safe call. But too much of a safe call to take. Many in the public, including the Coalition front bench, are seeing this stance as weak.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.003, 0.004], // format: [issue, issue score, issue importance]
@@ -1072,9 +1050,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5062,
+          "pk": 5061,
           "fields": {
-            "question": 1025,
+            "question": 1024,
             "feedback": "The Coalition does respond back about the high interest rates and budget deficits. But Australians do remember mitigating the worst of the GFC",
             "global_effect": [201, -0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.004, 0.005], // format: [issue, issue score, issue importance]
@@ -1084,9 +1062,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5063,
+          "pk": 5062,
           "fields": {
-            "question": 1025,
+            "question": 1024,
             "feedback": "Good answer. This strikes with the core base of the party. Expect the woman vote to flock to you.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.005], // format: [issue, issue score, issue importance]
@@ -1096,9 +1074,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5064,
+          "pk": 5063,
           "fields": {
-            "question": 1025,
+            "question": 1024,
             "feedback": "This answer was to backfire badly. Sky News is having a field day with this answer.",
             "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.006, 0.007], // format: [issue, issue score, issue importance]
@@ -1108,9 +1086,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5065,
+          "pk": 5064,
           "fields": {
-            "question": 1026,
+            "question": 1024,
             "feedback": "A solid final message. However, the Coalition does attack you on the economy.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.005, -0.005], // format: [issue, issue score, issue importance]
@@ -1120,9 +1098,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5066,
+          "pk": 5065,
           "fields": {
-            "question": 1026,
+            "question": 1025,
             "feedback": "A good message with strong emphasis. This will resonate and bolster worker and union support nation wide.",
             "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.003], // format: [issue, issue score, issue importance]
@@ -1132,9 +1110,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5067,
+          "pk": 5066,
           "fields": {
-            "question": 1026,
+            "question": 1025,
             "feedback": "A strong message that will resonate with the LGBTQ community and Womens Group in the nation.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.003, 0.003], // format: [issue, issue score, issue importance]
@@ -1144,9 +1122,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5068,
+          "pk": 5067,
           "fields": {
-            "question": 1026,
+            "question": 1025,
             "feedback": "Not the best finishing message since you brutally turned against Kevin Rudd.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.004, 0.007], // format: [issue, issue score, issue importance]
@@ -1156,9 +1134,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5069,
+          "pk": 5068,
           "fields": {
-            "question": 1027,
+            "question": 1026,
             "feedback": "Sydney is an important city. Labor supporters are eager to help you on the final push there… ",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -1168,9 +1146,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5070,
+          "pk": 5069,
           "fields": {
-            "question": 1027,
+            "question": 1026,
             "feedback": "Brisbane is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -1180,9 +1158,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5071,
+          "pk": 5070,
           "fields": {
-            "question": 1027,
+            "question": 1026,
             "feedback": "Melbourne is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -1192,9 +1170,9 @@
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5072,
+          "pk": 5071,
           "fields": {
-            "question": 1027,
+            "question": 1026,
             "feedback": "Perth is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -16798,7 +16776,7 @@ return "<h3>Labor experience landslide loss against the Coalition</h3><p>The res
     }
 return "<h3>Gillard to lose the election to the Coalition in historic loss</h3><p>This was not the night you were hoping for. After a long and hard-fought campaign, things did not go your way at all, resulting in this loss, and for the first time since 1931, a Government has been defeated in its only term. The Labor supporters and volunteers are washed over in despair as the work they did to get the Government re-elected fell short.</p><p>You give a concession speech to those in Melbourne, but still cheer you after working so hard to win, even though this was not the result you had wanted. Tony Abbott gives a victory speech to those in Sydney and to the Liberal Party members. Now, the future of the Party is in doubt.</p><p>It may be unclear if the Labor Party will have you as their leader, or resort to someone else to lead them. It is still unclear, but you remain determined to stay as leader, and come 2013, win back Government. It's an uphill fight from here to hold Tony Abbott accountable.</p>"
 
-} else if (quickstats[0]>=75) {
+} else if (quickstats[0]<=75) {
     if (used != true) {
         setInterval(function () {
             used = true;
