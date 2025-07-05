@@ -409,15 +409,15 @@ campaignTrail_temp.candidate_json = [
     "model": "campaign_trail.candidate",
     "pk": 202,
     "fields": {
-      "first_name": "Australian Greens - ",
-      "last_name": "GRN",
+      "first_name": "Independents/Others - ",
+      "last_name": "IND/OTH",
       "election": 20,
       "party": "Greens",
       "state": "Canberra",
       "priority": 3,
       "description": "'",
-      "color_hex": "#19C91E",
-      "secondary_color_hex": "#19C91E",
+      "color_hex": "#8E8B8B",
+      "secondary_color_hex": "#8E8B8B",
       "is_active": 0,
       "image_url": "'",
       "electoral_victory_message": "'",
@@ -431,14 +431,14 @@ campaignTrail_temp.candidate_json = [
     "model": "campaign_trail.candidate",
     "pk": 203,
     "fields": {
-      "first_name": "Independents/Others - ",
-      "last_name": "IND/OTH",
+      "first_name": "Australian Greens - ",
+      "last_name": "GRN",
       "election": 20,
       "party": "Non-Alligned",
       "state": "Canberra",
       "priority": 4,
       "description": "'",
-      "color_hex": "#8E8B8B",
+      "color_hex": "#19C91E",
       "secondary_color_hex": "#8E8B8B",
       "is_active": 0,
       "image_url": "'",
@@ -636,5 +636,4 @@ document.body.background = "https://live-production.wcms.abc-cdn.net.au/b2cac6ab
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#444444!important;}</style>";
 
 //#endcode
-
 
