@@ -379,7 +379,7 @@
             "feedback": "Good speech emphasising how you are the first female PM. Most Australian women feel the same and this will hopefully boost your support amongst female voters.",
             "global_effect": [201, -0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.06, 0.04], // format: [issue, issue score, issue importance]
-            "description": "I will talk about how I am the first Female Prime Minister in our nation's history. Despite the fact I am a woman, I always come back stronger, even when faced with sexism and misogyny."
+            "description": "I will discuss about how I am the first Female Prime Minister in our nation's history. Women of today face sexism and misogyny in the workplace, especially here in Parliament House. It is time that these things stop. In modern day Australia, they certainly should not be our views at all."
           }
         },
     
@@ -1088,7 +1088,7 @@
           "model": "campaign_trail.answer",
           "pk": 5064,
           "fields": {
-            "question": 1024,
+            "question": 1025,
             "feedback": "A solid final message. However, the Coalition does attack you on the economy.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.005, -0.005], // format: [issue, issue score, issue importance]
@@ -11046,7 +11046,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20664,
-                "state_multiplier": 0.24
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11055,7 +11055,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20664,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.24
             }
         },
         {
@@ -11082,7 +11082,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20674,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.10
             }
         },
         {
@@ -11091,7 +11091,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20674,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.06
             }
         },
         {
@@ -11118,7 +11118,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20684,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.20
             }
         },
         {
@@ -11127,7 +11127,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20684,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11154,7 +11154,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20694,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11163,7 +11163,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20694,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11190,7 +11190,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20704,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.11
             }
         },
         {
@@ -11199,7 +11199,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20704,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11226,7 +11226,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20714,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.15
             }
         },
         {
@@ -11235,7 +11235,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20714,
-                "state_multiplier": 0.15
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11244,7 +11244,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 20724,
-                "state_multiplier": 0.44
+                "state_multiplier": 0.38
             }
         },
         {
@@ -11262,7 +11262,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20724,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.42
             }
         },
         {
@@ -11271,7 +11271,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20724,
-                "state_multiplier": 0.42
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11289,7 +11289,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 20734,
-                "state_multiplier": 0.45
+                "state_multiplier": 0.30
             }
         },
         {
@@ -11298,7 +11298,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20734,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.10
             }
         },
         {
@@ -11307,7 +11307,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20734,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11334,7 +11334,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20744,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11343,7 +11343,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20744,
-                "state_multiplier": 0.4
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11370,7 +11370,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20754,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.03
             }
         },
         {
@@ -11379,7 +11379,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20754,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.14
             }
         },
         {
@@ -11406,7 +11406,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20764,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11415,7 +11415,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20764,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -11433,7 +11433,7 @@
             "fields": {
                 "candidate": 201,
                 "state": 20774,
-                "state_multiplier": 0.21
+                "state_multiplier": 0.30
             }
         },
         {
@@ -11442,7 +11442,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20774,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.42
             }
         },
         {
@@ -11451,7 +11451,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20774,
-                "state_multiplier": 0.56
+                "state_multiplier": 0.07
             }
         },
         {
@@ -11478,7 +11478,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20784,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.33
             }
         },
         {
@@ -11487,7 +11487,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20784,
-                "state_multiplier": 0.54
+                "state_multiplier": 0.18
             }
         },
         {
@@ -11496,7 +11496,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 20794,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.36
             }
         },
         {
@@ -11514,7 +11514,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20794,
-                "state_multiplier": 0.60
+                "state_multiplier": 0.12
             }
         },
         {
@@ -11523,7 +11523,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20794,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.33
             }
         },
         {
@@ -11550,7 +11550,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20804,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.13
             }
         },
         {
@@ -11559,7 +11559,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20804,
-                "state_multiplier": 0.13
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11586,7 +11586,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20814,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.04
             }
         },
         {
@@ -11595,7 +11595,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20814,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.18
             }
         },
         {
@@ -11622,7 +11622,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20824,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.11
             }
         },
         {
@@ -11631,7 +11631,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20824,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.10
             }
         },
         {
@@ -11658,7 +11658,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20834,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.07
             }
         },
         {
@@ -11667,7 +11667,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20834,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.06
             }
         },
         {
@@ -11694,7 +11694,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20844,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11703,7 +11703,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20844,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.10
             }
         },
         {
@@ -11730,7 +11730,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20854,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.07
             }
         },
         {
@@ -11739,7 +11739,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20854,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11766,7 +11766,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20864,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11775,7 +11775,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20864,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11802,7 +11802,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20874,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.11
             }
         },
         {
@@ -11811,7 +11811,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20874,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11874,7 +11874,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20894,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.50
             }
         },
         {
@@ -11883,7 +11883,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20894,
-                "state_multiplier": 1.05
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11910,7 +11910,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20904,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11919,7 +11919,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20904,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.06
             }
         },
         {
@@ -11946,7 +11946,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20914,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.09
             }
         },
         {
@@ -11955,7 +11955,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20914,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.08
             }
         },
         {
@@ -11982,7 +11982,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20924,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.05
             }
         },
         {
@@ -11991,7 +11991,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20924,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12018,7 +12018,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20934,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12027,7 +12027,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20934,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12054,7 +12054,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20944,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.09
             }
         },
         {
@@ -12063,7 +12063,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20944,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12090,7 +12090,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20954,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12099,7 +12099,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20954,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12126,7 +12126,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20964,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.42
             }
         },
         {
@@ -12135,7 +12135,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20964,
-                "state_multiplier": 1.80
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12162,7 +12162,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20974,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.09
             }
         },
         {
@@ -12171,7 +12171,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20974,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12234,7 +12234,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20994,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.05
             }
         },
         {
@@ -12243,7 +12243,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 20994,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12270,7 +12270,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21004,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.05
             }
         },
         {
@@ -12279,7 +12279,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21004,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12306,7 +12306,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21014,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.09
             }
         },
         {
@@ -12315,7 +12315,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21014,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.12
             }
         },
         {
@@ -12342,7 +12342,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21024,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.09
             }
         },
         {
@@ -12351,7 +12351,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21024,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12378,7 +12378,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21034,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12387,7 +12387,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21034,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12414,7 +12414,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21044,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12423,7 +12423,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21044,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12450,7 +12450,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21054,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12459,7 +12459,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21054,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12486,7 +12486,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21064,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12495,7 +12495,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21064,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12522,7 +12522,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21074,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.13
             }
         },
         {
@@ -12531,7 +12531,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21074,
-                "state_multiplier": 0.13
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12558,7 +12558,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21084,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12567,7 +12567,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21084,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12594,7 +12594,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21094,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12603,7 +12603,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21094,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12666,7 +12666,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21114,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12675,7 +12675,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21114,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12702,7 +12702,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21124,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12711,7 +12711,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21124,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.06
             }
         },
         {
@@ -12738,7 +12738,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21134,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.04
             }
         },
         {
@@ -12747,7 +12747,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21134,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12774,7 +12774,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21144,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.05
             }
         },
         {
@@ -12783,7 +12783,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21144,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12810,7 +12810,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21154,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.07
             }
         },
         {
@@ -12819,7 +12819,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21154,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12846,7 +12846,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21164,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12855,7 +12855,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21164,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.10
             }
         },
         {
@@ -12918,7 +12918,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21184,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.09
             }
         },
         {
@@ -12927,7 +12927,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21184,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.08
             }
         },
         {
@@ -12954,7 +12954,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21194,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.11
             }
         },
         {
@@ -12963,7 +12963,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21194,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.04
             }
         },
         {
@@ -12990,7 +12990,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21204,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.11
             }
         },
         {
@@ -12999,7 +12999,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21204,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13026,7 +13026,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21214,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.09
             }
         },
         {
@@ -13035,7 +13035,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21214,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.12
             }
         },
         {
@@ -13062,7 +13062,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21224,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.13
             }
         },
         {
@@ -13071,7 +13071,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21224,
-                "state_multiplier": 0.13
+                "state_multiplier": 0.18
             }
         },
         {
@@ -13098,7 +13098,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21234,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.14
             }
         },
         {
@@ -13107,7 +13107,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21234,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13134,7 +13134,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21244,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.07
             }
         },
         {
@@ -13143,7 +13143,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21244,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13170,7 +13170,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21254,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.07
             }
         },
         {
@@ -13179,7 +13179,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21254,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13206,7 +13206,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21264,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.09
             }
         },
         {
@@ -13215,7 +13215,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21264,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13242,7 +13242,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21274,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.07
             }
         },
         {
@@ -13251,7 +13251,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21274,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13278,7 +13278,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21284,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13287,7 +13287,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21284,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13350,7 +13350,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21304,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.12
             }
         },
         {
@@ -13359,7 +13359,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21304,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13386,7 +13386,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21314,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13395,7 +13395,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21314,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13422,7 +13422,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21324,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.04
             }
         },
         {
@@ -13431,7 +13431,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21324,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13458,7 +13458,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21334,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13467,7 +13467,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21334,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13494,7 +13494,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21344,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.02
             }
         },
         {
@@ -13503,7 +13503,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21344,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13530,7 +13530,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21354,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.05
             }
         },
         {
@@ -13539,7 +13539,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21354,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13566,7 +13566,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21364,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.07
             }
         },
         {
@@ -13575,7 +13575,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21364,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13602,7 +13602,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21374,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.03
             }
         },
         {
@@ -13611,7 +13611,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21374,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13638,7 +13638,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21384,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.03
             }
         },
         {
@@ -13647,7 +13647,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21384,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13674,7 +13674,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21394,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.03
             }
         },
         {
@@ -13683,7 +13683,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21394,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.08
             }
         },
         {
@@ -13710,7 +13710,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21404,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.06
             }
         },
         {
@@ -13719,7 +13719,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21404,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.09
             }
         },
         {
@@ -13746,7 +13746,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21414,
-                "state_multiplier": 0.13
+                "state_multiplier": 0.04
             }
         },
         {
@@ -13755,7 +13755,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21414,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.13
             }
         },
         {
@@ -13782,7 +13782,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21424,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.05
             }
         },
         {
@@ -13791,7 +13791,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21424,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13818,7 +13818,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21434,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.11
             }
         },
         {
@@ -13827,7 +13827,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21434,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.18
             }
         },
         {
@@ -13854,7 +13854,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21444,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.05
             }
         },
         {
@@ -13863,7 +13863,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21444,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13890,7 +13890,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21454,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.05
             }
         },
         {
@@ -13899,7 +13899,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21454,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.09
             }
         },
         {
@@ -13962,7 +13962,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21474,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.04
             }
         },
         {
@@ -13971,7 +13971,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21474,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.10
             }
         },
         {
@@ -13998,7 +13998,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21484,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.03
             }
         },
         {
@@ -14007,7 +14007,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21484,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.14
             }
         },
         {
@@ -14034,7 +14034,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21494,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.02
             }
         },
         {
@@ -14043,7 +14043,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21494,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.12
             }
         },
         {
@@ -14070,7 +14070,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21504,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.03
             }
         },
         {
@@ -14079,7 +14079,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21504,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.12
             }
         },
         {
@@ -14106,7 +14106,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21514,
-                "state_multiplier": 0.30
+                "state_multiplier": 0.15
             }
         },
         {
@@ -14115,7 +14115,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21514,
-                "state_multiplier": 0.15
+                "state_multiplier": 0.30
             }
         },
         {
@@ -14142,7 +14142,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21524,
-                "state_multiplier": 0.33
+                "state_multiplier": 0.13
             }
         },
         {
@@ -14151,7 +14151,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21524,
-                "state_multiplier": 0.13
+                "state_multiplier": 0.33
             }
         },
         {
@@ -14178,7 +14178,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21534,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.12
             }
         },
         {
@@ -14187,7 +14187,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21534,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.09
             }
         },
         {
@@ -14214,7 +14214,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21544,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14223,7 +14223,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21544,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.10
             }
         },
         {
@@ -14250,7 +14250,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21554,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.04
             }
         },
         {
@@ -14259,7 +14259,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21554,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.09
             }
         },
         {
@@ -14286,7 +14286,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21564,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.04
             }
         },
         {
@@ -14295,7 +14295,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21564,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.05
             }
         },
         {
@@ -14322,7 +14322,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21574,
-                "state_multiplier": 0.09
+                "state_multiplier": 0.08
             }
         },
         {
@@ -14331,7 +14331,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21574,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.09
             }
         },
         {
@@ -14358,7 +14358,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21584,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.11
             }
         },
         {
@@ -14367,7 +14367,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21584,
-                "state_multiplier": 0.11
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14394,7 +14394,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21594,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.0
             }
         },
         {
@@ -14403,7 +14403,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21594,
-                "state_multiplier": 0.0
+                "state_multiplier": 0.10
             }
         },
         {
@@ -14430,7 +14430,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21604,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.04
             }
         },
         {
@@ -14439,7 +14439,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21604,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.20
             }
         },
         {
@@ -14466,7 +14466,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21614,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14475,7 +14475,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21614,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.16
             }
         },
         {
@@ -14502,7 +14502,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21624,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.03
             }
         },
         {
@@ -14511,7 +14511,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21624,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14538,7 +14538,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21634,
-                "state_multiplier": 0.17
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14547,7 +14547,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21634,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.17
             }
         },
         {
@@ -14574,7 +14574,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21644,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.04
             }
         },
         {
@@ -14583,7 +14583,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21644,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.20
             }
         },
         {
@@ -14610,7 +14610,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21654,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.03
             }
         },
         {
@@ -14619,7 +14619,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21654,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14646,7 +14646,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21664,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.06
             }
         },
         {
@@ -14655,7 +14655,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21664,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.16
             }
         },
         {
@@ -14682,7 +14682,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21674,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.06
             }
         },
         {
@@ -14691,7 +14691,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21674,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14718,7 +14718,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21684,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.06
             }
         },
         {
@@ -14727,7 +14727,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21684,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.16
             }
         },
         {
@@ -14754,7 +14754,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21694,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14763,7 +14763,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21694,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.14
             }
         },
         {
@@ -14790,7 +14790,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21704,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14799,7 +14799,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21704,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14826,7 +14826,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21714,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14835,7 +14835,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21714,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.14
             }
         },
         {
@@ -14862,7 +14862,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21724,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.04
             }
         },
         {
@@ -14871,7 +14871,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21724,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14898,7 +14898,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21734,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.05
             }
         },
         {
@@ -14907,7 +14907,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21734,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14916,7 +14916,7 @@
             "fields": {
                 "candidate": 200,
                 "state": 21744,
-                "state_multiplier": 0.25
+                "state_multiplier": 0.30
             }
         },
         {
@@ -14934,7 +14934,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21744,
-                "state_multiplier": 0.24
+                "state_multiplier": 0.04
             }
         },
         {
@@ -14943,7 +14943,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21744,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.18
             }
         },
         {
@@ -14970,7 +14970,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21754,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.07
             }
         },
         {
@@ -14979,7 +14979,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21754,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15006,7 +15006,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21764,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15015,7 +15015,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21764,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15042,7 +15042,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21774,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15051,7 +15051,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21774,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.16
             }
         },
         {
@@ -15078,7 +15078,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21784,
-                "state_multiplier": 0.19
+                "state_multiplier": 0.03
             }
         },
         {
@@ -15087,7 +15087,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21784,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.19
             }
         },
         {
@@ -15114,7 +15114,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21794,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15123,7 +15123,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21794,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15150,7 +15150,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21804,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15159,7 +15159,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21804,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.16
             }
         },
         {
@@ -15186,7 +15186,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21814,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15195,7 +15195,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21814,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15222,7 +15222,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21824,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.03
             }
         },
         {
@@ -15231,7 +15231,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21824,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.14
             }
         },
         {
@@ -15258,7 +15258,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21834,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15267,7 +15267,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21834,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15294,7 +15294,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21844,
-                "state_multiplier": 0.23
+                "state_multiplier": 0.02
             }
         },
         {
@@ -15303,7 +15303,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21844,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.18
             }
         },
         {
@@ -15330,7 +15330,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21854,
-                "state_multiplier": 0.25
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15339,7 +15339,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21854,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.25
             }
         },
         {
@@ -15366,7 +15366,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21864,
-                "state_multiplier": 0.24
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15375,7 +15375,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21864,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.24
             }
         },
         {
@@ -15402,7 +15402,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21874,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15411,7 +15411,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21874,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.14
             }
         },
         {
@@ -15438,7 +15438,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21884,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.04
             }
         },
         {
@@ -15447,7 +15447,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21884,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -15474,7 +15474,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21894,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15483,7 +15483,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21894,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15510,7 +15510,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21904,
-                "state_multiplier": 0.20
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15519,7 +15519,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21904,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.20
             }
         },
         {
@@ -15546,7 +15546,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21914,
-                "state_multiplier": 0.32
+                "state_multiplier": 0.07
             }
         },
         {
@@ -15555,7 +15555,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21914,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.32
             }
         },
         {
@@ -15582,7 +15582,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21924,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15591,7 +15591,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21924,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15618,7 +15618,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21934,
-                "state_multiplier": 0.45
+                "state_multiplier": 0.03
             }
         },
         {
@@ -15627,7 +15627,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21934,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.45
             }
         },
         {
@@ -15654,7 +15654,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21944,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.07
             }
         },
         {
@@ -15663,7 +15663,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21944,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15690,7 +15690,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21954,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15699,7 +15699,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21954,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.10
             }
         },
         {
@@ -15726,7 +15726,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21964,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15735,7 +15735,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21964,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         },
         {
@@ -15762,7 +15762,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21974,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.02
             }
         },
         {
@@ -15771,7 +15771,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21974,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.08
             }
         },
         {
@@ -15798,7 +15798,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21984,
-                "state_multiplier": 0.10
+                "state_multiplier": 0.04
             }
         },
         {
@@ -15807,7 +15807,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21984,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.10
             }
         },
         {
@@ -15834,7 +15834,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 21994,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15843,7 +15843,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 21994,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.06
             }
         },
         {
@@ -15870,7 +15870,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22004,
-                "state_multiplier": 0.15
+                "state_multiplier": 0.03
             }
         },
         {
@@ -15879,7 +15879,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22004,
-                "state_multiplier": 0.03
+                "state_multiplier": 0.15
             }
         },
         {
@@ -15906,7 +15906,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22014,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15915,7 +15915,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22014,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         },
         {
@@ -15942,7 +15942,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22024,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.05
             }
         },
         {
@@ -15951,7 +15951,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22024,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         },
         {
@@ -15978,7 +15978,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22034,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.02
             }
         },
         {
@@ -15987,7 +15987,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22034,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16014,7 +16014,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22044,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.02
             }
         },
         {
@@ -16023,7 +16023,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22044,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.14
             }
         },
         {
@@ -16050,7 +16050,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22054,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.04
             }
         },
         {
@@ -16059,7 +16059,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22054,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16086,7 +16086,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22064,
-                "state_multiplier": 0.18
+                "state_multiplier": 0.06
             }
         },
         {
@@ -16095,7 +16095,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22064,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.18
             }
         },
         {
@@ -16122,7 +16122,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22074,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.05
             }
         },
         {
@@ -16131,7 +16131,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22074,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16158,7 +16158,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22084,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.02
             }
         },
         {
@@ -16167,7 +16167,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22084,
-                "state_multiplier": 0.02
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16194,7 +16194,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22094,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.06
             }
         },
         {
@@ -16203,7 +16203,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22094,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16230,7 +16230,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22104,
-                "state_multiplier": 0.16
+                "state_multiplier": 0.05
             }
         },
         {
@@ -16239,7 +16239,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22104,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.16
             }
         },
         {
@@ -16266,7 +16266,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22114,
-                "state_multiplier": 0.15
+                "state_multiplier": 0.08
             }
         },
         {
@@ -16275,7 +16275,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22114,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.15
             }
         },
         {
@@ -16302,7 +16302,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22124,
-                "state_multiplier": 0.08
+                "state_multiplier": 0.04
             }
         },
         {
@@ -16311,7 +16311,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22124,
-                "state_multiplier": 0.04
+                "state_multiplier": 0.08
             }
         },
         {
@@ -16338,7 +16338,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22134,
-                "state_multiplier": 0.15
+                "state_multiplier": 0.06
             }
         },
         {
@@ -16347,7 +16347,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22134,
-                "state_multiplier": 0.06
+                "state_multiplier": 0.15
             }
         },
         {
@@ -16374,7 +16374,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22144,
-                "state_multiplier": 0.14
+                "state_multiplier": 0.07
             }
         },
         {
@@ -16383,7 +16383,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22144,
-                "state_multiplier": 0.07
+                "state_multiplier": 0.14
             }
         },
         {
@@ -16410,7 +16410,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 22154,
-                "state_multiplier": 0.12
+                "state_multiplier": 0.05
             }
         },
         {
@@ -16419,7 +16419,7 @@
             "fields": {
                 "candidate": 203,
                 "state": 22154,
-                "state_multiplier": 0.05
+                "state_multiplier": 0.12
             }
         }
     ]
@@ -16776,7 +16776,7 @@ return "<h3>Labor experience landslide loss against the Coalition</h3><p>The res
     }
 return "<h3>Gillard to lose the election to the Coalition in historic loss</h3><p>This was not the night you were hoping for. After a long and hard-fought campaign, things did not go your way at all, resulting in this loss, and for the first time since 1931, a Government has been defeated in its only term. The Labor supporters and volunteers are washed over in despair as the work they did to get the Government re-elected fell short.</p><p>You give a concession speech to those in Melbourne, but still cheer you after working so hard to win, even though this was not the result you had wanted. Tony Abbott gives a victory speech to those in Sydney and to the Liberal Party members. Now, the future of the Party is in doubt.</p><p>It may be unclear if the Labor Party will have you as their leader, or resort to someone else to lead them. It is still unclear, but you remain determined to stay as leader, and come 2013, win back Government. It's an uphill fight from here to hold Tony Abbott accountable.</p>"
 
-} else if (quickstats[0]<=75) {
+} else if (quickstats[0]<=74) {
     if (used != true) {
         setInterval(function () {
             used = true;
@@ -16799,6 +16799,7 @@ return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders 
         }, 100);
     }
 return "<h3>Gillard and Labor Re-Elected with a reduced Majority Government</h3><p>An incredible win for the true believers of the Labor Party. From projecting to lose Government only weeks ago, to now holding on, but with a reduced majority. It's just enough to get legislation passed in the Lower House.</p><p>Opposition leader, Tony Abbott calls to concede the election, wishing you the best of luck in this Parliament. The work only begins from here on out. You have been democratically elected the first female Prime Minister of Australia by the electorate. It's history in the making.</p><p>The real work begins. As you give a jubilant victory speech to supporters in Melbourne, nothing but celebrations fill the room. Now, with an economy needing work, budget downturns, and several other things that need improvements, the time is now to move Australia forward.</p>"
+
 } else if (quickstats[0] >=84) {
     if (used != true) {
         setInterval(function () {
@@ -16809,7 +16810,6 @@ return "<h3>Gillard and Labor Re-Elected with a reduced Majority Government</h3>
             }
         }, 100);
     }
-
 return "<h3>Labor sweeps in decisive landslide, beating Rudd's 2007 record</h3><p>Unbelievable. You did it. Not only did you win a second term for the Labor party, but you beat Kevin Rudd's previous majority of 82 seats in the Parliament. This is a victory for the true believers of the Labor party.</p><p>Abbott calls to concede the election, wishing you the best of luck in your term. You've made history tonight. The first Prime Minister since 1993 for Labor to win a second majority, and the first, democratically elected, female Prime Minister of Australia. Giving your victory speech in Melbourne was truly a momentus moment, with the crowds jubilant as you give your speech.</p><p>The work is only just beginning. The economy, amongst several issues, are at the forefront, including the implementations of your election promises. But with a majority like this, legislation can be easily passed. It's time to move Australia forward.</p>"
 
 } else if (quickstats[0] ==150) {
@@ -16824,7 +16824,18 @@ return "<h3>Labor sweeps in decisive landslide, beating Rudd's 2007 record</h3><
     }
 return "<h3>History in the making as Gillard and Labor win... Every seat in Parliament!</h3><p>My god, Julia... Not only have you formed a Majority, but... You've won in a super Landslide! You could compare this win to... well nothing in Australian history!</p><p>Pundits across the nation are absolutely stunned of the ripper of a voctory you have pulled. Across the nation, many Labor supportters are on the streets and chanting many songs. Every news channel has called it for you. The ABC have called it the 'Win of the new century'. This is an astounding win, and you have to rub your eyes just to see if you are seeing correctly. You pulled a comeback despite everything not going in your favour over the past few weeks. This is a historic, and resounding victory that the Liberals can't even comprehend. They're leaderless. Only Senate Liberal members are left, but you'll have a majority in the Senate after all the votes are counted.</p><p>It's time to move Australia forward, and you will do it with absolute ease.</p>"
    
-return "<h3>Congratulations! You have won the election!</h3><p>This is possibly expected (or maybe it isn't).</p><p>You will be able to enact your agenda.</p>"
+} else if (quickstats[0] ==75) {
+     if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://images.theconversation.com/files/20834/original/ytw5fc4y-1362353353.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip";
+            }
+        }, 100);
+    }
+return "<h3>The ball is in Bandt's court</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. it is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, the new member for Melbourne, Adam Bandt, from the Greens Political Party. The balance of Government rests upon him if you are to govern with his full support, but you'll need to negotiate with Greens leader Senator Bob Brown to do that.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want your Government to collpase by next year. Good luck, Mrs. Gillard.</p>"
+
 } else {
 return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
 }
