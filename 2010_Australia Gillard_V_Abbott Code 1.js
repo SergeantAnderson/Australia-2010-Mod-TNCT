@@ -308,6 +308,10 @@ var soundtracks = {
         "name": "Yolanda Be Cool & DCUP - We No Speak Americano",
         "url": "https://audio.jukehost.co.uk/ENHEPuEvKLYSy7PfG9FC0K3C6KgYp0K9"
       },
+      {
+        "name": "Empire of the Sun - Walking on a Dream",
+        "url": "https://audio.jukehost.co.uk/2XJmO8iFf6kuXbxyMLm41fPVACeEijCb"
+      },
     ]
   },
   1: {
