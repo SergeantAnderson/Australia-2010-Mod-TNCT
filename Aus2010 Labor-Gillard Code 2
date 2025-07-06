@@ -11262,7 +11262,7 @@
             "fields": {
                 "candidate": 202,
                 "state": 20724,
-                "state_multiplier": 0.42
+                "state_multiplier": 0.90
             }
         },
         {
