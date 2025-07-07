@@ -689,6 +689,7 @@ function addDynamicCSS() {
     document.head.appendChild(styleElem);
 }
 
+{
 
 addDynamicCSS();
 
@@ -696,11 +697,11 @@ tooltipList = [
     {searchString: "Kevin Rudd", explanationText: "The 26th Prime Minister of Australia, and former leader of the Australian Labor Party. Member for Griffith, Queensland, since 1998 <img src=https://images.sbs.com.au/dims4/default/e04bc1c/2147483647/strip/true/crop/800x450+0+31/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fnews%2Fpublic%2Fimages%2Fi%2Fn%2FIndigenous_4-3_13467715_1828576_20180212180224e74d006e-7611-4044-800c-239348fb3a4a.jpg_sd_800x600.jpg>"},
     {searchString: "Mr. Rudd", explanationText: "The 26th Prime Minister of Australia, and former leader of the Australian Labor Party. Member for Griffith, Queensland, since 1998 <img src=https://images.sbs.com.au/dims4/default/e04bc1c/2147483647/strip/true/crop/800x450+0+31/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fnews%2Fpublic%2Fimages%2Fi%2Fn%2FIndigenous_4-3_13467715_1828576_20180212180224e74d006e-7611-4044-800c-239348fb3a4a.jpg_sd_800x600.jpg>"},
     {searchString: "Mark Arbib", explanationText: "Labor Senator for New South Wales. Current Minister for Employment Participation. Senator since 2008. <img src=https://content.api.news/v3/images/bin/53e4d4b314efc4f6c4334fcc498ce24d>"},
-    {searchString: "National Broadband Network", explanationText: "High speed internet for Australia. <img src=https://hsmit.com.au/wp-content/uploads/2020/03/NBN.jpg>"},
+    {searchString: "National Broadband Network", explanationText: "High speed internet introduced under the Rudd Government in 2009. <img src=https://hsmit.com.au/wp-content/uploads/2020/03/NBN.jpg>"},
     {searchString: "Tony Abbott", explanationText: "Federal Opposition Leader and Former Minister under the Howard Government. Member for Warringah, New South Wales, since 1994 <img src=https://moad-electionspeeches.s3.amazonaws.com/uploads/regular_b0e08dda.jpg>"},
     {searchString: "Mr. Abbott", explanationText: "Federal Opposition Leader and Former Minister under the Howard Government. Member for Warringah, New South Wales, since 1994 <img src=https://moad-electionspeeches.s3.amazonaws.com/uploads/regular_b0e08dda.jpg>"},
     {searchString: "Governor General", explanationText: "Quentin Bryce, the first female Governor General of Australia <img src=https://upload.wikimedia.org/wikipedia/commons/8/89/Estonian_Ambassador_H.E._Mr_Andres_Unga_presents_his_credentials_to_the_Governor-General_of_Australia_H.E._Ms_Quentin_Alice_Louise_Bryce._28.03.2013_%288596664099%29_%28cropped%29.jpg>"},
-    {searchString: "Medicare", explanationText: "Healthcare service in Australia <img src=https://www.head2toe.com.au/wp-content/uploads/2023/10/physio-fixx-Medicare-Enhanced-Primary-Care-Program_sm.webp>"}, 
+    {searchString: "Medicare", explanationText: "Australia's universal health insurance scheme. It guarantees all Australians access to a wide range of health and hospital services at low or no cost. Introduced in 1984 <img src=https://www.head2toe.com.au/wp-content/uploads/2023/10/physio-fixx-Medicare-Enhanced-Primary-Care-Program_sm.webp>"}, 
     {searchString: "Great Financial Crisis", explanationText: "Financial crisis that struck the globe in Late 2007 - Early 2008"},
     {searchString: "GFC", explanationText: "Financial crisis that struck the globe in Late 2007 - Early 2008"},
     {searchString: "WorkChoices", explanationText: "Federal industrial relations laws in Australia by the Howard government in 2005. Scrapped by the Rudd Government in 2008.<img src=https://www.crikey.com.au/wp-content/uploads/sites/3/2015/08/workchoices.png>"},
@@ -718,5 +719,9 @@ tooltipList = [
   ];
 
 
+
 //#endcode
+
+
+}
 
