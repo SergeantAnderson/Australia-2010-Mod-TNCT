@@ -635,5 +635,88 @@ document.body.background = "https://live-production.wcms.abc-cdn.net.au/b2cac6ab
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#444444!important;}</style>";
 
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: lightskyblue;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: lightblue;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: lightblue;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+    {searchString: "Kevin Rudd", explanationText: "The 26th Prime Minister of Australia, and former leader of the Australian Labor Party. Member for Griffith, Queensland, since 1998 <img src=https://images.sbs.com.au/dims4/default/e04bc1c/2147483647/strip/true/crop/800x450+0+31/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fnews%2Fpublic%2Fimages%2Fi%2Fn%2FIndigenous_4-3_13467715_1828576_20180212180224e74d006e-7611-4044-800c-239348fb3a4a.jpg_sd_800x600.jpg>"},
+    {searchString: "Mr. Rudd", explanationText: "The 26th Prime Minister of Australia, and former leader of the Australian Labor Party. Member for Griffith, Queensland, since 1998 <img src=https://images.sbs.com.au/dims4/default/e04bc1c/2147483647/strip/true/crop/800x450+0+31/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fnews%2Fpublic%2Fimages%2Fi%2Fn%2FIndigenous_4-3_13467715_1828576_20180212180224e74d006e-7611-4044-800c-239348fb3a4a.jpg_sd_800x600.jpg>"},
+    {searchString: "Mark Arbib", explanationText: "Labor Senator for New South Wales. Current Minister for Employment Participation. Senator since 2008. <img src=https://content.api.news/v3/images/bin/53e4d4b314efc4f6c4334fcc498ce24d>"},
+    {searchString: "National Broadband Network", explanationText: "High speed internet for Australia. <img src=https://hsmit.com.au/wp-content/uploads/2020/03/NBN.jpg>"},
+    {searchString: "Tony Abbott", explanationText: "Federal Opposition Leader and Former Minister under the Howard Government. Member for Warringah, New South Wales, since 1994 <img src=https://moad-electionspeeches.s3.amazonaws.com/uploads/regular_b0e08dda.jpg>"},
+    {searchString: "Mr. Abbott", explanationText: "Federal Opposition Leader and Former Minister under the Howard Government. Member for Warringah, New South Wales, since 1994 <img src=https://moad-electionspeeches.s3.amazonaws.com/uploads/regular_b0e08dda.jpg>"},
+    {searchString: "Governor General", explanationText: "Quentin Bryce, the first female Governor General of Australia <img src=https://upload.wikimedia.org/wikipedia/commons/8/89/Estonian_Ambassador_H.E._Mr_Andres_Unga_presents_his_credentials_to_the_Governor-General_of_Australia_H.E._Ms_Quentin_Alice_Louise_Bryce._28.03.2013_%288596664099%29_%28cropped%29.jpg>"},
+    {searchString: "Medicare", explanationText: "Healthcare service in Australia <img src=https://www.head2toe.com.au/wp-content/uploads/2023/10/physio-fixx-Medicare-Enhanced-Primary-Care-Program_sm.webp>"}, 
+    {searchString: "Great Financial Crisis", explanationText: "Financial crisis that struck the globe in Late 2007 - Early 2008"},
+    {searchString: "GFC", explanationText: "Financial crisis that struck the globe in Late 2007 - Early 2008"},
+    {searchString: "WorkChoices", explanationText: "Federal industrial relations laws in Australia by the Howard government in 2005. Scrapped by the Rudd Government in 2008.<img src=https://www.crikey.com.au/wp-content/uploads/sites/3/2015/08/workchoices.png>"},
+    {searchString: "John Howard", explanationText: "25th Prime Minister of Australia from 1996-2007. Lost his seat of Bennelong in the last election to Labor. <img src=https://i.guim.co.uk/img/static/sys-images/Sport/Pix/pictures/2010/6/30/1277884170346/John-Howard-006.jpg?width=465&dpr=1&s=none&crop=none>"},
+    {searchString: "Mr. Howard", explanationText: "25th Prime Minister of Australia from 1996-2007. Lost his seat of Bennelong in the last election to Labor. <img src=https://i.guim.co.uk/img/static/sys-images/Sport/Pix/pictures/2010/6/30/1277884170346/John-Howard-006.jpg?width=465&dpr=1&s=none&crop=none>"},
+    {searchString: "2007 Election", explanationText: "Labor won 83 seats in this election, their best performance since 1987."},
+    {searchString: "Anna Bligh", explanationText: "37th Premier of Queensland. Has served as Premier since 2007. <img src= https://alumni.uq.edu.au/files/46090/Anna_Bligh.jpg>"},
+    {searchString: "Kristina Keneally", explanationText: "42nd Premier of New South Wales. Has served as Premier since 2009. <img src= https://bonzablogger.wordpress.com/wp-content/uploads/2010/12/keneallyinparl.jpg>"},
+    {searchString: "Brendan Nelson", explanationText: "Former Opposition leader since 2007, lead the party until 2008 and retired. Former MP for Bradfield, New South Wales, since 1996. <img src= https://live-production.wcms.abc-cdn.net.au/aa55c2061e596d0f9da8060fb401b7a7?impolicy=wcms_crop_resize&cropH=337&cropW=600&xPos=0&yPos=0&width=862&height=485>"},
+    {searchString: "Malcolm Turnbull", explanationText: "Former Oppositon leader after Nelson retired. Lead the Party from 2008 until 2009. Was spilled by Tony Abbott. Member for Wentworth, New South Wales, since 2004 <img src= https://live-production.wcms.abc-cdn.net.au/308c21aed0eed96a1fdc0544327d30c4?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
+    {searchString: "Mining Tax", explanationText: "Tax on Mining Industries which ultimately lead to the downfall of Kevin Rudd <img src= https://live-production.wcms.abc-cdn.net.au/7d64a487f99d8dd722df60d1ff0841b0?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
+    {searchString: "Barack Obama", explanationText: "44th President of the United States, sworn in last year in 2009 <img src= https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2014/January/140127/2D11437520-140124-SOTU-Obama-2010.jpg>"},
+    {searchString: "Wayne Swan", explanationText: "Former Treasurer under the Rudd Government and now current Deputy Prime Minister. Member for Lilley, Queensland, since 1998 <img src= https://live-production.wcms.abc-cdn.net.au/cbd182ef43c83f76aae0ea475070efd9?impolicy=wcms_crop_resize&cropH=1980&cropW=2974&xPos=8&yPos=0&width=862&height=575>"},
+    {searchString: "Treasurer", explanationText: "Former Treasurer under the Rudd Government and now current Deputy Prime Minister. Member for Lilley, Queensland, since 1998 <img src= https://live-production.wcms.abc-cdn.net.au/cbd182ef43c83f76aae0ea475070efd9?impolicy=wcms_crop_resize&cropH=1980&cropW=2974&xPos=8&yPos=0&width=862&height=575>"},
+  ];
+
+
 //#endcode
 
