@@ -339,7 +339,7 @@ HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
         HistName=[" Australian Labor Party - ALP"," Liberal/National Coalition - L/NP"," Independents/Others - IND/OTH"," Australian Greens - GRN"];
         HistEV=[72,72,5,1];
         HistPV=["4,711,363","5,365,529","504,134","1,458,998"];
-        HistPVP=["37.99%%","43.32%","4.05%","11.76%"];
+        HistPVP=["37.99%","43.32%","4.05%","11.76%"];
 
 
 
@@ -451,7 +451,7 @@ tooltipList = [
     {searchString: "Treasurer", explanationText: "Former and Current Treasurer under the Rudd Government and now current Deputy Prime Minister. Member for Lilley, Queensland, since 1998. <img src= https://live-production.wcms.abc-cdn.net.au/cbd182ef43c83f76aae0ea475070efd9?impolicy=wcms_crop_resize&cropH=1980&cropW=2974&xPos=8&yPos=0&width=862&height=575>"},
     {searchString: "Afghanistan", explanationText: "Australia has maintained a military presence in Afghanistan since 2001 as part of the U.S.-led coalition against terrorism."},
     {searchString: "Iraq", explanationText: "In Iraq, Australian combat troops withdrew in 2008, but some personnel remain in non-combat roles supporting reconstruction and training."},
-  
+    {searchString: "Paul Lucas", explanationText: "Current Deputy Premier of Queensland serving under Anna Bligh. State member for the seat of Lytton in the Queensland Parliament since 1996. Lucas has now been parachuted to the seat of Griffith to fill in for Kevin Rudd <img src= https://live-production.wcms.abc-cdn.net.au/f7e07311d3bd0f5cf1cb7363f0c435f7?impolicy=wcms_crop_resize&cropH=844&cropW=1500&xPos=0&yPos=0&width=862&height=485>"},
   ];
 
 
