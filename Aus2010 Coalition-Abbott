@@ -60,7 +60,7 @@ function simpleAdventure(ans) {
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.01,
-            "question_count": 23,
+            "question_count": 26,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
           }
@@ -16805,9 +16805,6 @@ cyoAdventure = function (a) {
 }
 
 
-
-
-
 getQuestionFromPk = function (pk) {
   let index = questionSheath.map((f) => f.pk).indexOf(pk);
   if (index < 0) {
@@ -16816,3 +16813,193 @@ getQuestionFromPk = function (pk) {
   return questionSheath[index];
 };
 
+function changechart(){
+  if (document.getElementById("overall_vote_statistics")!=null) {
+  overallthing=document.getElementById("overall_vote_statistics").innerHTML;
+  overallthing.toString()
+  overallthing=overallthing.replace("Electoral Votes","Seats Won")
+  document.getElementById("overall_vote_statistics").innerHTML=overallthing
+  }
+  }
+  window.setInterval(changechart,200)
+
+  construct = (a = 1) => {
+  e.page = e.page + a < e.pages.length ? e.page + a : 0
+  let html = e.header;
+  html += e.pages[e.page] + "<br>";
+  if (e.page > 0) {
+    html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
+  }
+  if (e.page < e.pages.length - 1) {
+    html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+  }
+
+  if (e.image == true)
+    setTimeout(()=>{
+      candImg = $(".person_image")[0]
+      if (candImg) {
+        candImg.remove()
+        $("#final_results_description")[0].style = `
+          text-align:center;
+          width: 70%;
+          text-overflow: ellipsis;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        `
+      }
+    }, 10)
+  else if (e.image)
+  setTimeout(()=>{
+      candImg = $(".person_image")[0];
+      if (candImg)
+        candImg.src = e.image;
+    }, 10)
+
+  return html;
+}
+
+endingConstructor = (a = 1) => {
+  $("#final_results_description")[0].innerHTML = construct(a);
+}
+
+endingPicker = (out, totv, aa, quickstats) => {
+
+endingPicker = (out, totv, aa, quickstats) => {
+
+endingConstructor = (a = 1) => {
+   $("#final_results_description")[0].innerHTML = construct(a);
+};
+
+e.multiple_endings = true;
+e.page = 0;
+e.initDC = false;
+
+campaignTrail_temp.multiple_endings = true;
+
+endingPicker = (out, totv, aa, quickstats) => {
+
+
+endingPicker = (out, totv, aa, quickstats) => {
+  const seats = quickstats[0]; // Total number of seats won
+  const answers = campaignTrail_temp.player_answers || [];
+  console.log("Custom endingPicker has been called");
+  e.header = "<h3>Header text</h3>";
+  e.image = ["image_url"];
+  e.pages = ["<p>Page content</p>"];
+  endingConstructor(0);
+};
+
+endingConstructor = (a = 1) => {
+  $("#final_results_description")[0].innerHTML = construct(a);
+}
+
+endingPicker = (out, totv, aa, quickstats) => {
+
+    endingPicker = (out, totv, aa, quickstats) => {
+
+used=false
+
+
+// Astro's Ending Template
+
+// Template 1 - Simple 1v1 races
+
+//out = "win", "loss", or "tie" for your candidate
+//totv = total votes in entire election
+//aa = all final overall results data
+//quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+
+//quickstats[0] is the default, and it tracks your electoral vote count.
+
+if (quickstats[0] < 3) {
+  //If you want to enable replacing the image based upon your performance, copy from here....
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "Image URL goes here.";
+            }
+        }, 100);
+    }
+    // to here!
+
+
+
+
+
+
+
+
+} else if (quickstats[0]<=74) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/F6GnXsX.jpeg";
+            }
+        }, 100);
+    }
+return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders look to Crossbench</h3><p>This is the moment you, and Julia Gillard have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliament since 1940. Both you and Mr. Abbott are refusing to concede defeat in the election.</p><p>The sole balance of the House of Representatives is now in the hands of the members of the crossbench. You will need to strike a deal with these members to get their support if you want to be Prime Minister still. Bob katter has expressed interest in siding with the Coalition, which leaves the other members left.</p><p>This will be a long few weeks until parliament officially resumes. Hopefully by the time that happens, you will have a deal to Govern with the crossbench with their full support.</p>"
+
+} else if (quickstats[0] >=76 ) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/M9zksbk.png";
+            }
+        }, 100);
+    }
+return "<h3>The Coalition oust Labor and win, but with a moderate sized Majority Government </h3><p>It's done. It's over for Labor. What has felt like a long night for the results to come through has finally paid off. The Coalition is back in power and has defeated an incumbent Government in it's first term. The first since 1931. This is history in the making for your party and your leadership.</p><p>Prime Minister Julia Gillard calls to concede the election to you, wishing you and your team the best of luck over the next 3 years. While she concedes to supporters in Melbourne, you give a triumphant speech to supporters in Sydney. Liberal Party Faithful are more than happy over this victory. After 3 years of recklessness, it's time to get to work at last. Now the real work is to begin. Workplace, Health, Industry Reforms to be pushed forward, along with the repealling of the mining tax. If all goes well, re-election in 2013 will be easy.</p><p>Good luck, Mr. Abbott. All the best over the next 3 years of Stable and Honest leadership.</p>"
+
+} else if (quickstats[0] >=84) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/M9zksbk.png";
+            }
+        }, 100);
+    }
+return "<h3>A decisive landslide victory for the Coalition as Labor is tossed out of Government</h3><p>The polls were projecting a hung parliament, or even a small majority Government for either side. But no, voters have delivered their verdict and have handed you a large majority Government. John Howard is proud of the work you've achieved this campaign season, potentially beating his record of election victories back in the late 1990's and 2000's</p>Prime Minister Julia Gillard calls to conede, wishing you well for the next 3 years. As she concedes to flattened Labor party supporters in Melbourne, a different story is present in Sydney. Liberal Party faithful are jubilant over this victory as you give your speech to a roaring crowd.<p><p>Now is the time to implement your policies of Reform and ensuring that Australian's have an honest and strong Government. If all goes according to plan, re-election in 2013 will be easy.</p><p>Good luck in these next 3 years, Mr. Abbott.</p>"
+
+} else if (quickstats[0] ==150) {
+     if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/M9zksbk.png";
+            }
+        }, 100);
+    }
+return "<h3>The Coalition win... Every seat in Parliament!</h3><p>My God. No. This is impossible. Not only is this a landslide, the Federal Coalition have won every seat in Parliament. But how? We're voters that angry at the incumbent Labor Government? My God. Gillard lost Lalor. Swan lost Lilley. Every seat is strong Liberal Blue.</p><p>Labor supporters are even more confused as incumbent Labor members are defeated one by one. No Labor seat was safe. Gillard concedes and steps down. All that remain are Labor members in the senate. Many are calling for South Australian Senator Penny Wong or New South Wales Senator John Faulkner to be the next leader of the Federal Labor Party.</p><p>But now, there is no Opposition in the House of Representatives. There's little in the Senate. This term, the Coalition are unstoppable. But Labor are out for vengence in 2013. Good luck these next 3 years, Mr. Abbott.</p>"
+   
+} else if (quickstats[0] ==75) {
+     if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://live-production.wcms.abc-cdn.net.au/d62899be1c9fa4a4363402a35c60459d?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485";
+            }
+        }, 100);
+    }
+return "<h3>One seat off, but Bob Katter will deliver Victory for you.</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, Independent MP, Bob Katter. The member for Kennedy in Queensland. A former member of the National Party and MP since 1993, Katter has already expressed intrest in siding with you before the election. The balance of Government rests upon him if you are to govern with his full support.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want Katter to shoot your Government down by next year. Good luck, Mr. Abbott.</p>"
+
+
+
+
+
+
+}
+}
+}
+}
+}
+}
