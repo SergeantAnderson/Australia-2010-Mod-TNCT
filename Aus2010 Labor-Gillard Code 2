@@ -1,3 +1,4 @@
+
 campaignTrail_temp.cyoa = true // NECESSARY - DO NOT LEAVE OUT
 
 {
@@ -185,23 +186,13 @@ function simpleAdventure(ans) {
           "pk": 1011,
           "fields": {
             "priority": 1,
-            "description": "You’ve been invited to a Second Community forum to debate the future of this nation. An audience of voters will be present. Of course, you’re up against once again Tony Abbott. The forum is taking place in Brisbane. Are you willing to attend?",
-            "likelihood": 1
-          }
-        },
-    
-    {
-          "model": "campaign_trail.question",
-          "pk": 1012,
-          "fields": {
-            "priority": 1,
             "description": "If the Mining Tax was legislation to think upon, there has been rumor's circulating around that a propsed 'Carbon Tax' which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a 'Disaster'. Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
             "likelihood": 1
           }
         },
     {
           "model": "campaign_trail.question",
-          "pk": 1013,
+          "pk": 1012,
           "fields": {
             "priority": 1,
             "description": "If the first leak internally didn't cause damage, this one certainly will. Leaks have reported to the media that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. It is unknown how it got to the media at this time, however, speculation is rising that Kevin Rudd was behind this in a so-called 'revenge plan'. How are you going to downplay this?",
@@ -210,7 +201,7 @@ function simpleAdventure(ans) {
         },
     {
           "model": "campaign_trail.question",
-          "pk": 1014,
+          "pk": 1013,
           "fields": {
             "priority": 1,
             "description": "In a recent TV interview, Former Prime Minister Kevin Rudd has finally dropped the bomb he's been hiding. He has admitted that he was responcible for the first internal party leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. Considering Rudd's professed innocence, do you believe someone in Cabinet leaked this information?",
@@ -220,7 +211,7 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.question",
-          "pk": 1015,
+          "pk": 1014,
           "fields": {
             "priority": 1,
             "description": "Increased boat arrivals from asylum seekers have sparked a national debate. The Coalition accuses Labor of weakening border protection, while human rights groups urge compassion and regional cooperation. How will your government address the growing number of asylum seekers arriving by boat, and do you believe offshore processing is the right solution?",
@@ -230,7 +221,7 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.question",
-          "pk": 1016,
+          "pk": 1015,
           "fields": {
             "priority": 1,
             "description": "First a Minister who supported it, now will be a Prime Minister who will distance himself from it. Tony Abbott has stated that WorkChoices, policy of the previous Coalition Government lead by John Howard, will not be implemented if the Coalition is to be elected. Considering this turn-around from the Opposition, what is the best route to take regarding his statement?",
@@ -241,7 +232,7 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.question",
-          "pk": 1017,
+          "pk": 1016,
           "fields": {
             "priority": 1,
             "description": "Since 2003, Australian Troops have been delployed in the Middle East, most notibaly in Afghanistan and Iraq. However, since 2007, 500 troops have returned from Iraq. The United States, now under President Barack Obama, is moving forward with troops being removed by next year. With the Anti-War movement still moving, and multiple Green and Progressive voices urge the Government to perform a full withdraw from Iraq. Will your Government, if re-elected, commit to this and bring Australian Troops back home ?",
@@ -251,17 +242,17 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.question",
-          "pk": 1018,
+          "pk": 1017,
           "fields": {
             "priority": 1,
-            "description": "The issue of spending pledges is gaining traction amongst the Australian public, with people now concerned about the economic outlook for the future, and if more spending will put the budget in a further decifit. Consideirng Australia mitigated the worst of the 2008 Recession, will you pledge to the people that your policies will not cause more economic hurt in spending?",
+            "description": "While the Rudd Government have had some sucesses on the health system, it is apparant that the system is struggling. With doctors under pressure, waiting lists growing and emergency departments under pressure. The Coalition have called you out on it, saying that 'it is a compleye failure on the Government's part'. What will a second Labor term do to elivate pressure of a strained Health System?",
             "likelihood": 1
           }
         },
     
     {
           "model": "campaign_trail.question",
-          "pk": 1019,
+          "pk": 1018,
           "fields": {
             "priority": 1,
             "description": "The Economy and the Budget is something that Australian's put as their most concerned issue. Despite Australia managing to mitigate the worst effects of the Financial Crisis, the issue is now on the budget. Since 2008, the budget has recorded deficit after deficit, and is projected to go higher. How can you prove to the Australian people that Labor can be trusted with the economy for the next three years?",
@@ -271,7 +262,7 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.question",
-          "pk": 1020,
+          "pk": 1019,
           "fields": {
             "priority": 1,
             "description": "Parental Leave is on the fore-front of every parents mind, as well as the new National Broadband Network being rolled out by your predecessor. These issues are now beginning to take traction amongst some Australian voters. What will be this Government's primary focus out of these two if re-elected?",
@@ -289,12 +280,12 @@ function simpleAdventure(ans) {
           }
         },
 
-{
+ {
           "model": "campaign_trail.question",
           "pk": 1025,
           "fields": {
             "priority": 1,
-            "description": "For once, it's not Labor's internal party leaks being spread out. It appears that there has been a major leak in the Coalition's budget costing for election promises. The discovery of an $840 Million hole have stopped policy submissions to the Treasury from the Opposition. Will you use this potential oppotunity to attack the Coalition on their budget estimates?",
+            "description": "You’ve been invited to a Second Community forum to debate the future of this nation. An audience of voters will be present. Of course, you’re up against once again Tony Abbott. The forum is taking place in Brisbane. Are you willing to attend?",
             "likelihood": 1
           }
         },
@@ -304,7 +295,7 @@ function simpleAdventure(ans) {
           "pk": 1026,
           "fields": {
             "priority": 1,
-            "description": "There has been concern amongst your Campaign’s image in the final stretch of the election. Abbott’s is now being seen amongst the public as a popular campaigner and also emphasising his overall fitness, which is being noticed by the electorate. To ensure your public image amomgst the nation, What will you do to boost Labor's and your, campaign image?",
+            "description": "For once, it's not Labor's internal party leaks being spread out. It appears that there has been a major leak in the Coalition's budget costing for election promises. The discovery of an $840 Million hole have stopped policy submissions to the Treasury from the Opposition. Will you use this potential oppotunity to attack the Coalition on their budget estimates?",
             "likelihood": 1
           }
         },
@@ -314,7 +305,7 @@ function simpleAdventure(ans) {
           "pk": 1027,
           "fields": {
             "priority": 1,
-            "description": "The final stretch of the campaign is upon us. Polls still remain at a tight 50/50, with potentially no winner in sight, and a Hung Parliament inbound with no clear sight aas to who will be the largest party. To retain your majority, what message will you give to Australian voters to give their first preference to Labor?",
+            "description": "There has been concern amongst your Campaign’s image in the final stretch of the election. Abbott’s is now being seen amongst the public as a popular campaigner and also emphasising his overall fitness, which is being noticed by the electorate. To ensure your public image amomgst the nation, What will you do to boost Labor's and your, campaign image?",
             "likelihood": 1
           }
         },
@@ -322,6 +313,16 @@ function simpleAdventure(ans) {
 {
           "model": "campaign_trail.question",
           "pk": 1028,
+          "fields": {
+            "priority": 1,
+            "description": "The final stretch of the campaign is upon us. Polls still remain at a tight 50/50, with potentially no winner in sight, and a Hung Parliament inbound with no clear sight aas to who will be the largest party. To retain your majority, what message will you give to Australian voters to give their first preference to Labor?",
+            "likelihood": 1
+          }
+        },
+
+{
+          "model": "campaign_trail.question",
+          "pk": 1029,
           "fields": {
             "priority": 1,
             "description": "It's the final week of the campaign. The oppotunity is now to get any last minute undecided voters to give their first preference to Labor. Now you have the opportunity to visit one final place that can decide the outcome of this election. What city will you visit to ensure Labor secures a winning majority?",
@@ -692,59 +693,12 @@ function simpleAdventure(ans) {
           }
         },
     
-    {
-          "model": "campaign_trail.answer",
-          "pk": 5029,
-          "fields": {
-            "question": 1011,
-            "feedback": "Once more, you seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
-            "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.05, -0.03], // format: [issue, issue score, issue importance]
-            "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
-          }
-        },
-    
-    {
-          "model": "campaign_trail.answer",
-          "pk": 5030,
-          "fields": {
-            "question": 1011,
-            "feedback": "Second time around, you seemed desperate to win against Mr. Abbott and it was reflected in what you said. Mr. Abbott won the forum.",
-            "global_effect": [201, 0.06], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.04, 0.004], // format: [issue, issue score, issue importance]
-            "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
-          }
-        },
-    
-    {
-          "model": "campaign_trail.answer",
-          "pk": 5031,
-          "fields": {
-            "question": 1011,
-            "feedback": "Voters were split on who to vote for and who won the debate. Overall, it was a draw. Not bad, Julia",
-            "global_effect": [201, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.001, -0.003], // format: [issue, issue score, issue importance]
-            "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
-          }
-        },
-    
-    {
-          "model": "campaign_trail.answer",
-          "pk": 5032,
-          "fields": {
-            "question": 1011,
-            "feedback": "In a crucial state like Queensland, it was a mistake to not attend the forum there. Expect a nation wide poll drop.",
-            "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
-          }
-        },
     
     {
           "model": "campaign_trail.answer",
           "pk": 5033,
           "fields": {
-            "question": 1012,
+            "question": 1011,
             "feedback": "A sigh of relief is heard across the mining industry and Australia overall. However, there is an uproar from environmentalists and the Greens.",
             "global_effect": [202, 0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [102, 0.03, 0.02], // format: [issue, issue score, issue importance]
@@ -756,7 +710,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5034,
           "fields": {
-            "question": 1012,
+            "question": 1011,
             "feedback": "Yes, you may have sided with environmentalists on this issue, but everyone else is not happy at this response and the Coalition blasts you on this response. ",
             "global_effect": [201, 0.09], // format: [candidate pk, amount of global effect]
             "issue_effect": [102, 0.08, 0.07], // format: [issue, issue score, issue importance]
@@ -768,7 +722,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5035,
           "fields": {
-            "question": 1013,
+            "question": 1012,
             "feedback": "The press conference was a little shaky. You seemed to stumble from time to time and some weren’t buying it. This isn’t good, especially now with the Coalition.",
             "global_effect": [201, 0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.07], // format: [issue, issue score, issue importance]
@@ -780,7 +734,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5036,
           "fields": {
-            "question": 1013,
+            "question": 1012,
             "feedback": "You’ve discussed with Rudd about the leaks and promise him to give him the Foreign Affairs Portfolio if Labor is to win. After a while, there has been no presumed leaks.",
             "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, -0.05, -0.05], // format: [issue, issue score, issue importance]
@@ -792,7 +746,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5037,
           "fields": {
-            "question": 1014,
+            "question": 1013,
             "feedback": "An internal party investigation is launched, but after a while, there is nothing that points to any cabinet members leaking the information.",
             "global_effect": [201, 0.03], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.05, 0.07], // format: [issue, issue score, issue importance]
@@ -804,7 +758,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5038,
           "fields": {
-            "question": 1014,
+            "question": 1013,
             "feedback": "You’ve managed to minimise the fallout of this, but however there are still scathing attacks regarding the leaks from the Coalition. ",
             "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.04], // format: [issue, issue score, issue importance]
@@ -816,7 +770,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5039,
           "fields": {
-            "question": 1015,
+            "question": 1014,
             "feedback": "This is an extreme Conservative stance you're taking. Greens and Independents see a surge in inner-city seats, whilst comparing you to Tony Abbott.",
             "global_effect": [201, 0.009], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.09, 0.05], // format: [issue, issue score, issue importance]
@@ -828,7 +782,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5040,
           "fields": {
-            "question": 1015,
+            "question": 1014,
             "feedback": "A very Progressive answer on your part, but it easily allows for a full broadside attack from the Coalition.",
             "global_effect": [201, 0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.002, 0.003], // format: [issue, issue score, issue importance]
@@ -840,7 +794,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5041,
           "fields": {
-            "question": 1015,
+            "question": 1014,
             "feedback": "This is a standard approach to this in order to not rock the boat, but does alianete more progressive voters.",
             "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.07], // format: [issue, issue score, issue importance]
@@ -852,7 +806,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5042,
           "fields": {
-            "question": 1016,
+            "question": 1015,
             "feedback": "Mr. Abbott is in a bit of a tough spot thanks to your response, and the Liberals are reported to have a slight dip in the polls.",
             "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.003, 0.04], // format: [issue, issue score, issue importance]
@@ -864,7 +818,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5043,
           "fields": {
-            "question": 1016,
+            "question": 1015,
             "feedback": "One could say exactly that to you. Considering some U-Turns the Government has now taken over policy position.",
             "global_effect": [201, 0.08], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.06, 0.05], // format: [issue, issue score, issue importance]
@@ -876,7 +830,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5044,
           "fields": {
-            "question": 1017,
+            "question": 1016,
             "feedback": "This answer has pleased the more anti-war crowd, but the Coalition does seem to want some involvement, but not a lot.",
             "global_effect": [201, -0.02], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.004, 0.08], // format: [issue, issue score, issue importance]
@@ -888,7 +842,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5045,
           "fields": {
-            "question": 1017,
+            "question": 1016,
             "feedback": "This has gotten attention from those within the Party and has made the rounds in the Media that you want to stay in Iraq, despite Rudd withdrawing a year earlier. Why the switch?.",
             "global_effect": [201, 0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.05, 0.03], // format: [issue, issue score, issue importance]
@@ -900,7 +854,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5046,
           "fields": {
-            "question": 1017,
+            "question": 1016,
             "feedback": "This is good that you are committing to the current path of the Government.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.07, 0.06], // format: [issue, issue score, issue importance]
@@ -912,11 +866,11 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5047,
           "fields": {
-            "question": 1018,
-            "feedback": "This seems to be the more appropriate answer that mostly resonates with the Australian public. Most are concered about the economy, as it is now the number one issue this election.",
+            "question": 1017,
+            "feedback": "While a good policy, Health workers and General Practitioners come out in support of this policy.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.05, 0.05], // format: [issue, issue score, issue importance]
-            "description": "Now, after the 2008 recession, the Australian economy is still recovering. We need to be wise on our spending pledges. We won’t make any big promises for the election."
+            "description": "Labor has been the party that has protected our health system. We will invest into Medicare and ensure that it is easier to see a General Practitioner in our nation, while hiring more General Practitioners so it is easy to visit one. This will elivate pressure off Emergency departments."
           }
         },
     
@@ -925,11 +879,11 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5048,
           "fields": {
-            "question": 1018,
-            "feedback": "Are you trying to run the next budget into an even worse deficit?",
-            "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
+            "question": 1017,
+            "feedback": "Labor Premiers come out in support of this policy. However, Liberal Premier's seem to give the Government the cold shoulder.",
+            "global_effect": [201, 0.001], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.009, 0.006], // format: [issue, issue score, issue importance]
-            "description": "If we spend big, we will create new projects for Australia. And for that, we create new jobs and new prosperity for Australia. That is what we want for the nation."
+            "description": "We need more doctors and nurses across the nation and more beds. Our goal is to hire 3,000 nurses by at least the middle of 2011 and add more than 1,500 beds nationwide. We will discuss with State leaders about this."
           }
         },
     
@@ -938,11 +892,11 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5049,
           "fields": {
-            "question": 1018,
-            "feedback": "You’ve tried to thread the needle carefully on this issue. It worked, but some will see you as wanting to splash more cash.",
-            "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
+            "question": 1017,
+            "feedback": "While a solid attack, this does little to nothing to distract voters from the already strained health system.",
+            "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.004, 0.003], // format: [issue, issue score, issue importance]
-            "description": "We need to carefully calculate how much our projects will spend. It’ll be nice to spend a bit on major projects to benefit Australia, but we will need to be careful with costing. Especially after the recession."
+            "description": "How can we trust the Coalition with our health? Under the Howard Government, Medicare was gutted and made to be privatised and now, Tony Abbott wants to control our health system? I say no to this. We can't trust the Liberals with our health."
           }
         },
     
@@ -950,7 +904,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5050,
           "fields": {
-            "question": 1019,
+            "question": 1018,
             "feedback": "A solid answer. But this does allow the Coalition to attack for the repeated budget deficits.",
             "global_effect": [201, 0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.005, 0.005], // format: [issue, issue score, issue importance]
@@ -962,7 +916,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5051,
           "fields": {
-            "question": 1019,
+            "question": 1018,
             "feedback": "Even with the economy slowly recovering, interest Rates and inflation are rising.",
             "global_effect": [201, 0.007], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.007, 0.004], // format: [issue, issue score, issue importance]
@@ -974,7 +928,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5052,
           "fields": {
-            "question": 1020,
+            "question": 1019,
             "feedback": "This is seen as an attack on parents, and Tony Abbott and Coalition Shadow Front benchers launch attacks on this move.",
             "global_effect": [201, 0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.02, 0.002], // format: [issue, issue score, issue importance]
@@ -986,7 +940,7 @@ function simpleAdventure(ans) {
           "model": "campaign_trail.answer",
           "pk": 5053,
           "fields": {
-            "question": 1020,
+            "question": 1019,
             "feedback": "This will definately bolster Labor's support with parents across the nation.",
             "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.007, 0.006], // format: [issue, issue score, issue importance]
@@ -1078,11 +1032,59 @@ function simpleAdventure(ans) {
           }
         },
 
-{
+  {
           "model": "campaign_trail.answer",
           "pk": 5061,
           "fields": {
             "question": 1025,
+            "feedback": "Once more, you seems to be pretty calm against Mr. Abbott considering he was desperate against you. Overall, the audience voted in your favour.",
+            "global_effect": [201, -0.008], // format: [candidate pk, amount of global effect]
+            "issue_effect": [103, -0.05, -0.03], // format: [issue, issue score, issue importance]
+            "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
+          }
+        },
+    
+    {
+          "model": "campaign_trail.answer",
+          "pk": 5062,
+          "fields": {
+            "question": 1025,
+            "feedback": "Second time around, you seemed desperate to win against Mr. Abbott and it was reflected in what you said. Mr. Abbott won the forum.",
+            "global_effect": [201, 0.06], // format: [candidate pk, amount of global effect]
+            "issue_effect": [103, 0.04, 0.004], // format: [issue, issue score, issue importance]
+            "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
+          }
+        },
+    
+    {
+          "model": "campaign_trail.answer",
+          "pk": 5063,
+          "fields": {
+            "question": 1025,
+            "feedback": "Voters were split on who to vote for and who won the debate. Overall, it was a draw. Not bad, Julia",
+            "global_effect": [201, 0.001], // format: [candidate pk, amount of global effect]
+            "issue_effect": [103, -0.001, -0.003], // format: [issue, issue score, issue importance]
+            "description": "Yes, I will attend the Community forum again. I believe we can win it and Voters will see it."
+          }
+        },
+    
+    {
+          "model": "campaign_trail.answer",
+          "pk": 5064,
+          "fields": {
+            "question": 1025,
+            "feedback": "In a crucial state like Queensland, it was a mistake to not attend the forum there. Expect a nation wide poll drop.",
+            "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
+            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5065,
+          "fields": {
+            "question": 1026,
             "feedback": "Despite the fact that the economy is not in good shape right now, it’s still a strong attack against the Coalitions previous Economic record.",
             "global_effect": [201, -0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.006, 0.005], // format: [issue, issue score, issue importance]
@@ -1092,9 +1094,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5062,
+          "pk": 5066,
           "fields": {
-            "question": 1025,
+            "question": 1026,
             "feedback": "Safe call. But too much of a safe call to take. Many in the public, including the Coalition front bench, are seeing this stance as weak.",
             "global_effect": [201, 0.05], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.003, 0.004], // format: [issue, issue score, issue importance]
@@ -1104,9 +1106,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5063,
+          "pk": 5067,
           "fields": {
-            "question": 1026,
+            "question": 1027,
             "feedback": "The Coalition does respond back about the high interest rates and budget deficits. But Australians do remember mitigating the worst of the GFC",
             "global_effect": [201, -0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.004, 0.005], // format: [issue, issue score, issue importance]
@@ -1116,9 +1118,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5064,
+          "pk": 5068,
           "fields": {
-            "question": 1026,
+            "question": 1027,
             "feedback": "Good answer. This strikes with the core base of the party. Expect the woman vote to flock to you.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.005], // format: [issue, issue score, issue importance]
@@ -1128,9 +1130,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5065,
+          "pk": 5069,
           "fields": {
-            "question": 1026,
+            "question": 1027,
             "feedback": "This answer was to backfire badly. Sky News is having a field day with this answer.",
             "global_effect": [201, 0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.006, 0.007], // format: [issue, issue score, issue importance]
@@ -1140,9 +1142,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5066,
+          "pk": 5070,
           "fields": {
-            "question": 1027,
+            "question": 1028,
             "feedback": "A solid final message. However, the Coalition does attack you on the economy.",
             "global_effect": [201, 0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.005, -0.005], // format: [issue, issue score, issue importance]
@@ -1152,9 +1154,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5067,
+          "pk": 5071,
           "fields": {
-            "question": 1027,
+            "question": 1028,
             "feedback": "A good message with strong emphasis. This will resonate and bolster worker and union support nation wide.",
             "global_effect": [201, -0.04], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.003], // format: [issue, issue score, issue importance]
@@ -1164,9 +1166,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5068,
+          "pk": 5072,
           "fields": {
-            "question": 1027,
+            "question": 1028,
             "feedback": "A strong message that will resonate with the LGBTQ community and Womens Group in the nation.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.003, 0.003], // format: [issue, issue score, issue importance]
@@ -1176,9 +1178,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5069,
+          "pk": 5073,
           "fields": {
-            "question": 1027,
+            "question": 1028,
             "feedback": "Not the best finishing message since you brutally turned against Kevin Rudd.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.004, 0.007], // format: [issue, issue score, issue importance]
@@ -1188,9 +1190,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5070,
+          "pk": 5074,
           "fields": {
-            "question": 1028,
+            "question": 1029,
             "feedback": "Sydney is an important city. Labor supporters are eager to help you on the final push there… ",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -1200,9 +1202,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5071,
+          "pk": 5075,
           "fields": {
-            "question": 1028,
+            "question": 1029,
             "feedback": "Brisbane is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -1212,9 +1214,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5072,
+          "pk": 5076,
           "fields": {
-            "question": 1028,
+            "question": 1029,
             "feedback": "Melbourne is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -1224,9 +1226,9 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5073,
+          "pk": 5077,
           "fields": {
-            "question": 1028,
+            "question": 1029,
             "feedback": "Perth is an important city. Labor supporters are eager to help you on the final push there…",
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
@@ -17043,4 +17045,3 @@ campaignTrail_temp.multiple_endings=true
 }
 }
 }
-
