@@ -24,7 +24,7 @@ quotes = [
 ]
 
 selQuote = quotes[Math.round(Math.random()*(quotes.length - 1))]
-corrr = `<h2>THE DOWN UNDER TRAIL, 2010</h2><font id="wittyquote" size="4" color="white"><em>` + selQuote + `</em></font>`
+corrr = `<h2>The 2010 Australian Federal Election</h2><font id="wittyquote" size="4" color="white"><em>` + selQuote + `</em></font>`
 $("#theme_picker")[0].style.display = "none"
 $("#bottomBar")[0].style.display = "none"
 
@@ -89,7 +89,7 @@ campaignTrail_temp.election_json = [
       "summary": "<div style='overflow-y:scroll;height:200px;'><p>Since Labor was swept into office in 2007, there has been much controversy surrounding the time of Kevin Rudd’s tenure. Now, it has gotten to the point of a leadership spill in the party. Rudd’s most loyal deputy, Julia Gillard was elected leader of Labor, and the first Female Prime Minister. Now, Gillard has made the decision to call an election, and polls are saying it will be a tight race between her, and controversial Liberal Opposition leader, Tony Abbott.</p><p><ul><li>Labor lead under Julia Gillard must fight through the controversies and darkness of the Labor factions to unite the party to win an overall majority, but that will prove difficult with a leaker.</li><li>The Liberal/National Coalition lead by Tony Abbott will need to emphasise the point of the instability within Labor, and highlight Liberal/National policy and unite the base after their 2007 loss.</li></ul><p>This election is make or break for both parties.</p></div>",
       "image_url": "https://i.imgur.com/m2oElBN.jpeg",
       "winning_electoral_vote_number": 76,
-      "advisor_url": "https://content.api.news/v3/images/bin/af91695117ab7054734ce091627ca175",
+      "advisor_url": "https://i.imgur.com/e359GWl.png",
       "recommended_reading": "",
       "has_visits": 1,
       "no_electoral_majority_image": ""
@@ -452,6 +452,8 @@ tooltipList = [
     {searchString: "Afghanistan", explanationText: "Australia has maintained a military presence in Afghanistan since 2001 as part of the U.S.-led coalition against terrorism."},
     {searchString: "Iraq", explanationText: "In Iraq, Australian combat troops withdrew in 2008, but some personnel remain in non-combat roles supporting reconstruction and training."},
     {searchString: "Paul Lucas", explanationText: "Current Deputy Premier of Queensland serving under Anna Bligh. State member for the seat of Lytton in the Queensland Parliament since 1996. Lucas has now been parachuted to the seat of Griffith to fill in for Kevin Rudd <img src= https://live-production.wcms.abc-cdn.net.au/f7e07311d3bd0f5cf1cb7363f0c435f7?impolicy=wcms_crop_resize&cropH=844&cropW=1500&xPos=0&yPos=0&width=862&height=485>"},
+    {searchString: "Barry O'Farrell", explanationText: "Current New South Wales Opposition leader, leading in opinion polls in the state heading into next year's state election. State member for Ku-ring-gai since 1999. <img src= https://images.theconversation.com/files/181/original/Barry_O_Farrell_for_Gauja.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop>"},
+    {searchString: "Campbell Newman", explanationText: "Current Queensland Opposition leader. Newman does not hold a seat in the State Parliament, but will be contesting in the 2012 State Election. <img src= https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/28/1422489277781/75879f51-7f89-4103-850c-53bf39c8351e-2060x1236.jpeg?width=465&dpr=1&s=none&crop=none>"},
   ];
 
 
