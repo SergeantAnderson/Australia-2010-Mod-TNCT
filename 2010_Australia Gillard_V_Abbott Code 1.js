@@ -15,12 +15,11 @@ let style = document.createElement('style');style.innerHTML = `#overall_result {
 
 
 quotes = [
-    `"I will not be lectured about Sexism and Misogyny by this man, I will not!" - Julia Gillard`,
-    `"HAHAHAHA, Shit Happens." - Tony Abbott`,
+    `"Through hard work and education, we can deliver a strong economy and oppotunity for all." - Julia Gillard`,
     `"Short-term thinking is the greatest enemy of good government." - Anthony Albanese`,
     `"If we boost productivity, we can improve economic growth." - Tony Abbott`,
-    `"Julia Gillard in 2010!"`,
-    `"Tony Abbott in 2010!"`,
+    `"Let's Move Australia Forward."`,
+    `"Standing up for Australia."`,
 ]
 
 selQuote = quotes[Math.round(Math.random()*(quotes.length - 1))]
