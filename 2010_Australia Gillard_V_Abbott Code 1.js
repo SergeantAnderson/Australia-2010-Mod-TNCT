@@ -454,7 +454,9 @@ tooltipList = [
     {searchString: "Paul Lucas", explanationText: "Current Deputy Premier of Queensland serving under Anna Bligh. State member for the seat of Lytton in the Queensland Parliament since 1996. Lucas has now been parachuted to the seat of Griffith to fill in for Kevin Rudd <img src= https://live-production.wcms.abc-cdn.net.au/f7e07311d3bd0f5cf1cb7363f0c435f7?impolicy=wcms_crop_resize&cropH=844&cropW=1500&xPos=0&yPos=0&width=862&height=485>"},
     {searchString: "Barry O'Farrell", explanationText: "Current New South Wales Opposition leader, leading in opinion polls in the state heading into next year's state election. State member for Ku-ring-gai since 1999. <img src= https://images.theconversation.com/files/181/original/Barry_O_Farrell_for_Gauja.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop>"},
     {searchString: "Campbell Newman", explanationText: "Current Queensland Opposition leader. Newman does not hold a seat in the State Parliament, but will be contesting in the 2012 State Election. <img src= https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/28/1422489277781/75879f51-7f89-4103-850c-53bf39c8351e-2060x1236.jpeg?width=465&dpr=1&s=none&crop=none>"},
-  ];
+    {searchString: "Shadow Treasurer", explanationText: "Joe Hockey, the Shadow Treasuer and New South Wales MP representing the seat of North Sydney. Member for the seat since 1996. <img src= https://live-production.wcms.abc-cdn.net.au/259e6eb4432ca865cd68dc85e007211a?impolicy=wcms_crop_resize&cropH=1680&cropW=2982&xPos=0&yPos=128&width=862&height=485>"},
+
+];
 
 
 
