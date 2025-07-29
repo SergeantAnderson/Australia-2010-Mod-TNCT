@@ -331,7 +331,17 @@ campaignTrail_temp.temp_election_list = [
     "display_year": "2010 - Australia"
   }
 ]
-campaignTrail_temp.credits = 'SergeantAnderson'
+
+e.credits = "<button onclick='credits()'>Various people</button>";
+  
+credits = function() {
+    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "", "MAP", "CatBox", "", "PLAYTESTERS", "To be determined"]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+}
 
 HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
 //        HistHexcolour=["#000065","#7F0000","#AAAAAA","#DCD472"]; //matching banner
