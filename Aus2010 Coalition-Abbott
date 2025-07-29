@@ -17019,7 +17019,7 @@ return "<h3>The Coalition win... Every seat in Parliament!</h3><p>My God. No. Th
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://live-production.wcms.abc-cdn.net.au/d62899be1c9fa4a4363402a35c60459d?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485";
+                imgg.src = "https://i.imgur.com/lv89pKw.png";
             }
         }, 100);
     }
