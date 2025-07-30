@@ -19,7 +19,7 @@ function simpleAdventure(ans) {
 
 {
 function simpleAdventure(ans) {
-    if (ans == 5053) {
+    if (ans == 5054) {
         for (let i = 0; i < campaignTrail_temp.questions_json.length; i++) {
             if (campaignTrail_temp.questions_json[i].pk == 1023) {
                 campaignTrail_temp.questions_json[i] = ruddCYOAQuestion;
@@ -27,7 +27,7 @@ function simpleAdventure(ans) {
             }
         }
         return false;
-    } else if (ans == 5052) {
+    } else if (ans == 5053) {
         return false;
     } else {
         return false;
@@ -866,7 +866,7 @@ function simpleAdventure(ans) {
             "feedback": "This answer seems to resonate with some members within the health profession. However, Labor and Health Union's don't buy it.",
             "global_effect": [200, 0.001], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "A Coalition Government will be looking at hiring 4,000 new beds nationwide, restore control of hospitals, new facilities regarding mental health, and train 3,000 more nurses, 2,700 more doctors, and improve rural access to medical professionals. A Coalition Government will prioritize health and expand it to create a better health system."
+            "description": "My Government will pledge to work towards delivering 4,000 new beds nation wide, and restore control of hospitals across the nation, whilst establishing more nurses and doctors in the medical field and improving rural access. These are steps we will take to protect the Australian Health System and reform it for the better."
           }     
     },
 
@@ -882,9 +882,22 @@ function simpleAdventure(ans) {
           }     
     },
 
-    {
+{
           "model": "campaign_trail.answer",
           "pk": 5049,
+          "fields": {
+            "question": 1018,
+            "feedback": "This is seen as a massive spit on the Premier's faces, both Labor and Liberal. The Government captivizes on this statement of yours and launches into a full on attack.",
+            "global_effect": [200, 0.009], // format: [candidate pk, amount of global effect]
+            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "description": "What we will do instead is be working with the State Governments and laying out Health provisions on what they should do. We can hand down recommendations to them to see if they can accept our provisions for our nations health. It's up to the states if they want to improve the quality of their health. We can only guide them."
+          }     
+    },
+
+
+    {
+          "model": "campaign_trail.answer",
+          "pk": 5050,
           "fields": {
             "question": 1019,
             "feedback": "This seems to gain traction amongst parents and rural undecided voters who need NBN connections.",
@@ -896,7 +909,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5050,
+          "pk": 5051,
           "fields": {
             "question": 1019,
             "feedback": "The issue of the Parental Leave leak is still a major issue with Australians. This only adds more fuel to a burning fire, putting the Government on edge.",
@@ -908,7 +921,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5051,
+          "pk": 5052,
           "fields": {
             "question": 1019,
             "feedback": "This is seen as a betrayal of parents and rural NBN users that Labor manages to captivate on.",
@@ -920,7 +933,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5052,
+          "pk": 5053,
           "fields": {
             "question": 1022,
             "feedback": "You couldn't believe it. Kevin Rudd has been removed as Labor's candidate for Griffith. With Queensland Deputy Premier Paul Lucas to take his spot. Now is the perfect time to attack the Government. The voters are angry.",
@@ -932,7 +945,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5053,
+          "pk": 5054,
           "fields": {
             "question": 1022,
             "feedback": "After this meeting, it was revealed that Kevin Rudd was to be appointed the Minister for Foreign Affairs if the Government wins. After a few days, the leaks die down...",
@@ -944,7 +957,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5054,
+          "pk": 5055,
           "fields": {
             "question": 1023,
             "feedback": "A scathing attack, none the less. Voters are already frustrated over the lack of transparency in the Government.",
@@ -956,7 +969,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5055,
+          "pk": 5056,
           "fields": {
             "question": 1023,
             "feedback": "It was later found that no one from the Cabinet had leaked internal documentation. However, your suspicision still remains. But it's best to move on to other issues.",
@@ -968,7 +981,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5056,
+          "pk": 5057,
           "fields": {
             "question": 1024,
             "feedback": "Many see this as a over condifence in your chances. However, the polls still remain tight. Anything can happen when Election Night arrives.",
@@ -980,7 +993,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5057,
+          "pk": 5058,
           "fields": {
             "question": 1024,
             "feedback": "Bob Katter is definately on your side. So is the WA National Party candidate if we wins in O'Connor. It's a matter of getting other MP's to join you as well. However, not making compromises if you're in Government will mean you won't last long as Prime Minister.",
@@ -992,7 +1005,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5058,
+          "pk": 5059,
           "fields": {
             "question": 1024,
             "feedback": "Confidence in your chances is always a good thing. Supporters and colleagues share the same view as you.",
@@ -1004,7 +1017,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5059,
+          "pk": 5060,
           "fields": {
             "question": 1025,
             "feedback": "Once more, you seems to be pretty calm against Mrs. Gillard. Overall, the audience voted in your favour.",
@@ -1016,7 +1029,7 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.answer",
-          "pk": 5060,
+          "pk": 5061,
           "fields": {
             "question": 1025,
             "feedback": "Second time around, you seemed desperate to win against Mrs. Gilard and it was reflected in what you said. Mrs. Gillard won the forum.",
@@ -1028,7 +1041,7 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.answer",
-          "pk": 5061,
+          "pk": 5062,
           "fields": {
             "question": 1025,
             "feedback": "Voters were split on who to vote for and who won the debate. Overall, it was a draw. Not bad, Tony.",
@@ -1040,7 +1053,7 @@ function simpleAdventure(ans) {
     
     {
           "model": "campaign_trail.answer",
-          "pk": 5062,
+          "pk": 5063,
           "fields": {
             "question": 1025,
             "feedback": "In a crucial state like Queensland, it was a mistake to not attend the forum there. Expect a nation wide poll drop.",
@@ -1052,7 +1065,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5063,
+          "pk": 5064,
           "fields": {
             "question": 1026,
             "feedback": "Some voters appreciate your confidence and your focus on different things. But Labor is not letting you get away with it this easily.",
@@ -1064,7 +1077,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5064,
+          "pk": 5065,
           "fields": {
             "question": 1026,
             "feedback": "While the base eat's this response up, it's still a pretty resonable dodge that give's Labor little to no room to attack you on.",
@@ -1076,7 +1089,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5065,
+          "pk": 5066,
           "fields": {
             "question": 1027,
             "feedback": "This is seen as a very positive image of your personal image and gives you a boost amongst more undecided voters.",
@@ -1088,7 +1101,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5066,
+          "pk": 5067,
           "fields": {
             "question": 1027,
             "feedback": "A no-nonsense tone plays well with conservative voters, but risks alienating undecided or moderate Australians who are uneasy about your tone.",
@@ -1100,7 +1113,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5067,
+          "pk": 5068,
           "fields": {
             "question": 1027,
             "feedback": "A sharp, yet aggressive tone that does energize the core base, but may not appease moderates of the party.",
@@ -1112,7 +1125,7 @@ function simpleAdventure(ans) {
 
     {
           "model": "campaign_trail.answer",
-          "pk": 5068,
+          "pk": 5069,
           "fields": {
             "question": 1028,
             "feedback": "A good way to finish off the campaign on a strong message. This see's a final boost for you in the polls.",
@@ -1124,7 +1137,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5069,
+          "pk": 5070,
           "fields": {
             "question": 1028,
             "feedback": "Focusing on your policies is always a good focus during a speech. However, Labor have the final attack oppotunity over you tying yourself closer to John Howard.",
@@ -1136,7 +1149,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5070,
+          "pk": 5071,
           "fields": {
             "question": 1028,
             "feedback": "Focusing on the Labor Government's instability always goes well with your core base. This might be the key to draw in the final undecided voters.",
@@ -1148,7 +1161,7 @@ function simpleAdventure(ans) {
 
      {
           "model": "campaign_trail.answer",
-          "pk": 5071,
+          "pk": 5072,
           "fields": {
             "question": 1028,
             "feedback": "A more balanced and inclusive approach. One that is unheard of from a Liberal Party leader. This may appeal to undecided voters, but lacks for decided Liberal Voters.",
@@ -1160,7 +1173,7 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5072,
+          "pk": 5073,
           "fields": {
             "question": 1029,
             "feedback": "Sydney is an important city. Liberal Party supporters are eager to help you on the final push there…",
@@ -1172,7 +1185,7 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5073,
+          "pk": 5074,
           "fields": {
             "question": 1029,
             "feedback": "Brisbane is an important city. Liberal National Party supporters are eager to help you on the final push there…",
@@ -1184,7 +1197,7 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5074,
+          "pk": 5075,
           "fields": {
             "question": 1029,
             "feedback": "Melbourne is an important city. Liberal Party supporters are eager to help you on the final push there…",
@@ -1196,7 +1209,7 @@ function simpleAdventure(ans) {
 
 {
           "model": "campaign_trail.answer",
-          "pk": 5075,
+          "pk": 5076,
           "fields": {
             "question": 1029,
             "feedback": "Adelaide is an important city. Liberal Party supporters are eager to help you on the final push there…",
@@ -16794,7 +16807,7 @@ cyoAdventure = function (a) {
 		console.log("rudd_answers count:")
 		console.log(rudd_answers)
 }
-	if (ans === 5053) {
+	if (ans === 5054) {
 		e.questions_json.splice(17, 0 , getQuestionFromPk(1023))
 		e.global_parameter_json[0].fields.question_count++
 		rudd_answers++
