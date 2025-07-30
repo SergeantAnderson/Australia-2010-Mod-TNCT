@@ -347,7 +347,7 @@ function simpleAdventure(ans) {
              "question": 1000,
              "feedback": "This is the right tone to hit, Mr. Abbott. However, some pundits have questioned if it was a bit too aggressive on the Government.",
              "global_effect": [200, -0.008], // format: [candidate pk, amount of global effect]
-             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.06, 0.03], // format: [issue, issue score, issue importance]
              "description": "This just goes to show the instability within the Labor Party ranks. They know they are bound to lose, that’s why they axed Kevin Rudd and replaced him with Julian Gillard. The instability within Labor is showing, and the Australian voters will reject it, and elect a stable, Coalition Government."
            }
          },
@@ -359,7 +359,7 @@ function simpleAdventure(ans) {
              "question": 1001,
              "feedback": "A good striking tone for bipartisanship with the election to be called soon.",
              "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
-             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.04, 0.07], // format: [issue, issue score, issue importance]
              "description": "Firstly, I’d like to congratulate Mrs. Gillard on becoming the First Female Prime Minister of Australia, and I look forward to being on the Campaign Trail soon."
            }
          },
@@ -371,7 +371,7 @@ function simpleAdventure(ans) {
              "question": 1001,
              "feedback": "Pundits have noticed your tougher stance on a new Government, and overconfidence in winning the election.",
              "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
-             "issue_effect": [100, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [100, 0.05, 0.06], // format: [issue, issue score, issue importance]
              "description": "I am concerned with the instability within the Labor Party that is showing itself to the Australian people. We need a new Government that is united to face the challenges ahead. I am confident in our chances of winning, and ready to stand up for Australia."
            }
          },
@@ -383,7 +383,7 @@ function simpleAdventure(ans) {
              "question": 1002,
              "feedback": "Strong talking points captivating the economy, but after the recession, things are slowly beginning to go back to normal. Maybe this can work for you?",
              "global_effect": [200, 0.008], // format: [candidate pk, amount of global effect]
-             "issue_effect": [100, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [100, 0.06, 0.05], // format: [issue, issue score, issue importance]
              "description": "Voters are begging for change from this Government. Our economy is suffering over the economic legislation that has had massive implications on Australian families. It’s simply not fair. It’s time for a change of Government, one that will make our country stronger."
            }
          },
@@ -395,7 +395,7 @@ function simpleAdventure(ans) {
              "question": 1002,
              "feedback": "Political pundits and even the Labor Party are creating a strong contrast between you and former Prime Minister John Howard. This could be for the better or for the worst.",
              "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
-             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.05, 0.06], // format: [issue, issue score, issue importance]
              "description": "I will lead a Government that will ensure that Australians can thrive. Remember the days of the Coalition Government under John Howard? We need change for the better in this nation. We are not better off under Labor. We will be better off under a Coalition Government."
            }
          },
@@ -407,7 +407,7 @@ function simpleAdventure(ans) {
              "question": 1003,
              "feedback": "Reporters take note on this. Soon, Sky News and the Herald Sun seem to be repeating the same message you stated.",
              "global_effect": [200, -0.008], // format: [candidate pk, amount of global effect]
-             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.07, 0.05], // format: [issue, issue score, issue importance]
              "description": "It is time that Australia stand up to this chaotic Government and vote them out. Labor have done more damage than good over these past 3 years under Kevin Rudd. We can't afford a second term of Labor. We need strong leadership. One that will guide Australia and stand up for Australia."
            }
          },
@@ -419,7 +419,7 @@ function simpleAdventure(ans) {
              "question": 1003,
              "feedback": "Many notice a more softer stance. But this allows for Labor to attack on the Coalitions instability, considering the party has gone through 2 previous Oppoisition leaders this Parliament.",
              "global_effect": [200, -0.008], // format: [candidate pk, amount of global effect]
-             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.05, 0.07], // format: [issue, issue score, issue importance]
              "description": "First and foremost, I welcome the news of an election being called by the Prime Minister. This election is a clear choice for Australians. Do we continue down the path or instability? Or change paths instead and focus on making sure we have a leader that stands up for our nation in times of trouble?"
            }
          },
@@ -432,7 +432,7 @@ function simpleAdventure(ans) {
              "question": 1004,
              "feedback": "Julia Gillard and Labor are on their heels, but manage to attack you over you managing to remove Malcolm Turnbull just a year prior.",
              "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-             "issue_effect": [103, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [103, 0.04, 0.06], // format: [issue, issue score, issue importance]
              "description": "Let's not forget that the Prime Minister had brutally removed Kevin Rudd from his post as Prime Minister of Australia. The insability and fractures still show in Labor. How can anyone trust this Government this far? We need strong and principled leadership for this nation."
            }
          },
@@ -444,7 +444,7 @@ function simpleAdventure(ans) {
              "question": 1004,
              "feedback": "People notice you tying yourself back to John Howard. Perhaps doing this could work amongst moderate Conservative voters.",
              "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-             "issue_effect": [100, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [100, 0.06, 0.06], // format: [issue, issue score, issue importance]
              "description": "We need a Government that will stand up for Australia. As minister under John Howard, the former Government aspired to ensure that we have econimic stability and to promote a more stornger Australia. These are the goals that I will aspire to if the Australian people give me the chance to be Prime Minister."
            }
          },
@@ -456,7 +456,7 @@ function simpleAdventure(ans) {
              "question": 1004,
              "feedback": "Highlighting your policies is always a good strategy to promote what you will do in Government. However, Labor attacks you for your promise to reduce spending.",
              "global_effect": [200, -0.001], // format: [candidate pk, amount of global effect]
-             "issue_effect": [100, 0.004, 0.03], // format: [issue, issue score, issue importance]
+             "issue_effect": [100, 0.06, 0.03], // format: [issue, issue score, issue importance]
              "description": "Our Government will stand up for Australians. We will repeal the Mining Tax introduced by Kevin Rudd. We will ensure that my Government will form a proper budget and get it back into a surplus as soon as possible. We must reduce spending in order to get it back to balanced."
            }
          },
@@ -468,7 +468,7 @@ function simpleAdventure(ans) {
             "question": 1005,
             "feedback": "You seems to be pretty calm against Mrs. Gillard considering he was desperate against you. Overall, the audience voted in your favour.",
             "global_effect": [200, -0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.06, -0.005], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.06, -0.005], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -480,7 +480,7 @@ function simpleAdventure(ans) {
             "question": 1005,
             "feedback": "You seemed desperate to win against Mrs. Gillard and it was reflected in what you said. Overall, the audience voted in favour of Mr. Abbott",
             "global_effect": [200, 0.008], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.03, -0.007], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.03, -0.007], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -492,7 +492,7 @@ function simpleAdventure(ans) {
             "question": 1005,
             "feedback": "It was a squeaker of a debate. Voters were split on who to vote for and who won the debate. Overall, it was a draw.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.008, -0.003], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.008, -0.003], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
           }
         },
@@ -504,7 +504,7 @@ function simpleAdventure(ans) {
             "question": 1005,
             "feedback": "Why wouldn’t you attend this forum? Many voters are disappointed in your actions. Labor's support has increased thanks to this move.",
             "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.09, -0.06], // format: [issue, issue score, issue importance]
             "description": "As much as I want to attend the forum, I can’t. I must be on The Campaign Trail if we want to win this election."
           }
         },
@@ -516,7 +516,7 @@ function simpleAdventure(ans) {
             "question": 1006,
             "feedback": "New South Wales is key for your campaign if you want to win back Government. However, the Liberal National Party in Queensland is dissapointed in you not travelling there.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.09, 0.07], // format: [issue, issue score, issue importance]
             "description": "Our focus has to be in New South Wales. There are many key seats that we can flip in order to win back Government. We can spend time in both urban and rural seats and talk with voters about what my Government will stand up for."
           }
         },
@@ -528,7 +528,7 @@ function simpleAdventure(ans) {
             "question": 1006,
             "feedback": "Queensland is key for your campaign if you want to win back Government. However, the Coalition branch of New South Wales is dissapointed in you not travelling there.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.09, 0.04], // format: [issue, issue score, issue importance]
             "description": "Our focus has to be in Queensland. There are many key seats that we can flip in order to win back Government. We can spend time in both urban and rural seats and talk with voters about what my Government will stand up for."
           }
         },
@@ -540,7 +540,7 @@ function simpleAdventure(ans) {
             "question": 1006,
             "feedback": "The state opposition leaders have no problem supporting your campaign. However, this is a weak move to not visit these states, which may allow Labor to retain key seats.",
             "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.09, 0.02], // format: [issue, issue score, issue importance]
             "description": "Spending time between these two will cause strain. We can discuss with the state Opposition Leaders, Barry O'Farrell and Campbell Newman to discuss Federal Coalition policies heading into the election."
           }
         },
@@ -552,7 +552,7 @@ function simpleAdventure(ans) {
             "question": 1007,
             "feedback": "The instability within Labor remains heading into the election. But the spill of Malcolm Turnbull only last year still lingers.",
             "global_effect": [200, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.09, 0.03], // format: [issue, issue score, issue importance]
             "description": "There is no disipline. Plain and simple. The Prime Minister has not been honest with the Australian people, trying to hide the instability within the Labor Caucus. We can't afford this to continue on. We need a Government that stands up for Australians."
           }
         },
@@ -564,7 +564,7 @@ function simpleAdventure(ans) {
             "question": 1007,
             "feedback": "The pivot to looking back at the Howard days does allow you to get attacked by Labor, but does resonate with the core base of your party.",
             "global_effect": [200,-0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.09, 0.03], // format: [issue, issue score, issue importance]
             "description": "Let's portray our two campaign's together. I am offering a new path for our nation. One that will restore our economy and our nation back to the Howard days. We will promote our strong policies that will benefit all Australians to build our nation better."
           }
         },
@@ -576,7 +576,7 @@ function simpleAdventure(ans) {
             "question": 1008,
             "feedback": "The leak is damaging to Labor's campaign. With this, they are seeing a drop in opinion polls and Two-Party Preferred, putting you ahead by a comfortable margin.",
             "global_effect": [200,-0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.09, 0.05], // format: [issue, issue score, issue importance]
             "description": "Well look, it's simple. This leak is damaging for the Government heading into the election. It shows that there is no credibility or accountability. Only constant dogpiling on one another. It's time we vote this Government out and have a real Government that stands up for all Australians."
           }
         },
@@ -588,7 +588,7 @@ function simpleAdventure(ans) {
             "question": 1008,
             "feedback": "Within hours, the leak's credbility is confirmed, putting you in a tough spot for not attacking.",
             "global_effect": [200,0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.04], // format: [issue, issue score, issue importance]
             "description": "I don't know the credibility of this leak. For all we know this could be something that is just whispers. I prefer to wait it out and not lash out immedately."
           }
         },
@@ -600,7 +600,7 @@ function simpleAdventure(ans) {
             "question": 1009,
             "feedback": "Mining industries haver come out in support of your campaign. This move is being portrayed more as a referendum on the Government's spending.",
             "global_effect": [200,-0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [102, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [102, 0.06, 0.04], // format: [issue, issue score, issue importance]
             "description": "The first thing we will do is repeal the Mining Tax. It has put pressure on 500,000 workers who work in Australia's mines. It is economic vandalism against Australia's most successful industry. This tax is simply poor economic management."
           }
         },
@@ -612,7 +612,7 @@ function simpleAdventure(ans) {
             "question": 1009,
             "feedback": "This is more of a progressive stance by you. It does alienate some of the base, but swings in more centre voters.",
             "global_effect": [200,-0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [101, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [101, 0.05, 0.05], // format: [issue, issue score, issue importance]
             "description": "We can look at creating an Emmissions Reduction Fund if elected to Government. What this will do is reduce Australia's CO2 emissions by 5% of CO2 per year by 2020. Climate Change is one of Australia's greatest challenges and we must combat it."
           }
         },
@@ -624,7 +624,7 @@ function simpleAdventure(ans) {
             "question": 1009,
             "feedback": "You've managed to thread the needle on this issue. It doesn't dissapoint your base, nor please your base.",
             "global_effect": [200, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [101, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [101, 0.02, 0.04], // format: [issue, issue score, issue importance]
             "description": "There needs to be a balanced approach to this. Whilst reducing carbon emissions, we must invest into our mining industry and also natural gas to further grown our capability as a nation. The lights of this nation won't be on unless these industries are running in the meantime."
           }
         },
@@ -636,7 +636,7 @@ function simpleAdventure(ans) {
             "question": 1010,
             "feedback": "This does seem to please the nation by not cutting essential services. But Labor have made worry over spending cuts, promoting that you will cut essential services.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.08, 0.08], // format: [issue, issue score, issue importance]
             "description": "We have to cut spending. The Government have balloned our deficit to record levels ever since the GFC a few years back. We need to get the economy back under control. It's a need of fiscal responcibility. If we cut back spending, we can ensure that the budget will be balance. Education, Medicare, and Health will not be cut."
           }
         },
@@ -648,7 +648,7 @@ function simpleAdventure(ans) {
             "question": 1010,
             "feedback": "Most Australians want to see an economic surplus after 3 years of deficits. Labor does attack you on your pledge of workplace reforms, siting fear of WorkChoices.",
             "global_effect": [200, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.07, 0.08], // format: [issue, issue score, issue importance]
             "description": "In order to get our economy under control, it's a matter of investing into the private sector. If we do this, we can allow for companies to expand here, allowing for more jobs and productivity. This includes reforms to our taxes, industrial relations, and workforce policy."
           }
         },
@@ -660,7 +660,7 @@ function simpleAdventure(ans) {
             "question": 1010,
             "feedback": "Introducing productivity and competitiveness is a welcoming policy for a strained economy.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, -0.09, -0.08], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.07, 0.06], // format: [issue, issue score, issue importance]
             "description": "There is simply too much red and green tape that the Rudd Government have put up. We must cut it to increase productivity and competitiveness within our nation. If we allow this, it can bring back workers to jobs and also boost GDP growth as well. My Government will strive to indroduce such measures."
           }
         },
@@ -673,7 +673,7 @@ function simpleAdventure(ans) {
             "question": 1011,
             "feedback": "Julia Gillard later rebuttled that 'There will be no Carbon Tax under a Government I lead.'",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "A Carbon Tax? Really? How many more taxes does Labor want to introduce? We're already being burdened by the Mining Tax. We don't need this Government taking more money out the pockets of Australian's."
           }
     },
@@ -685,7 +685,7 @@ function simpleAdventure(ans) {
             "question": 1011,
             "feedback": "It was an oppotunity for you to attack this so called rumor. But it's already being played down by the Government.",
             "global_effect": [200, 0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [101, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [101, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "Such a tax shouldn't be implemented. I don't know the credbility of this report. The Government would be smart to know not to introduce anything that would further strain our economy."
           }
     },
@@ -697,7 +697,7 @@ function simpleAdventure(ans) {
             "question": 1012,
             "feedback": "Julia Gillard later gives a press conference regarding the matter, downplaying it to the media. However, something may be brewing behind the scenes.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [101, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [101, 0.04, 0.09], // format: [issue, issue score, issue importance]
             "description": "This is just dissapointing from the Government. They said that they wouldn't discuss anything to do with these sectors, and yet they're questioning increases and time off for parents? This is unacceptable on the Government's part."
           }
     },
@@ -709,7 +709,7 @@ function simpleAdventure(ans) {
             "question": 1012,
             "feedback": "The Government is quiet for a few days. After a while, it is announce that Kevin Rudd will be given the Foreign Affairs portfolio if Labor is re-elected.",
             "global_effect": [200, -0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "This is just dissapointing from the Government. They said that they wouldn't discuss anything to do with these sectors, and yet they're questioning increases and time off for parents? This is unacceptable on the Government's part."
           }
     },
@@ -721,7 +721,7 @@ function simpleAdventure(ans) {
             "question": 1013,
             "feedback": "The leaks were scathing against Labor. This move adds more fuel to an already out of control fire.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "I'm not suprised it was Kevin Rudd that was responcible for the first leak. However, the issue of the second one remains. How can we trust this Government if they're questing what they're doing? We need a Government that will take action. And I will lead a Government that will do just that."
           }
     },
@@ -733,7 +733,7 @@ function simpleAdventure(ans) {
             "question": 1013,
             "feedback": "Transparency and Honesty is needed in the Government. Your move to pledge this resounds well with the public.",
             "global_effect": [200, -0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "At least Kevin Rudd admitted he was responcible for the first leak. However, the issues of leaks still makes the Government not credible in any way. My Government will be open and transparent with the Australian people. We need transperancy and honesty."
           }
     },
@@ -745,7 +745,7 @@ function simpleAdventure(ans) {
             "question": 1014,
             "feedback": "Taking a more progessive stance on immigration does alienate most of your base, but welcomes in more cetralist voters.",
             "global_effect": [200, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.07, 0.09], // format: [issue, issue score, issue importance]
             "description": "Australia is a nation built on migration. My Government will welcome in immigrants who wish to call Australia home. However, I remind people that we have a process that needs to be followed when applying for entry here in Australia."
           }
     },
@@ -757,7 +757,7 @@ function simpleAdventure(ans) {
             "question": 1014,
             "feedback": "This seems to be the perfect middle ground approach to the immigration issue. However, staunch conservatives in your party base don't approve of this.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "We will match policy with Labor. We'll pursue offshore processing in cooperation with our neighbours, mainly in Papua New Guinea to ensure orderly migration into Australia. We must have controlled, yet reduced migration into Australia."
           }
     },
@@ -769,7 +769,7 @@ function simpleAdventure(ans) {
             "question": 1014,
             "feedback": "A conservative stance that echoes the words of the Howard era immigration policy post Tampa that Labor attacks you on.",
             "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.09], // format: [issue, issue score, issue importance]
             "description": "The Rudd Government failed to do anything regarding asylum seekers entering Australia. Hundreds of people have unfortunately passed away due to boat crossings into Australia. It will be the Government's decision on who lets people into Australia."
           }
     },
@@ -781,7 +781,7 @@ function simpleAdventure(ans) {
             "question": 1015,
             "feedback": "Union's and Labor still aren't buying it since this is a major flip on previous positions after 2007. This will be a small hit for you in the polls.",
             "global_effect": [200, 0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "I promise that I will not be bringing back WorkChoices in any shape or form if I am to be elected Prime Minister. These false fear mongering tactics that Labor is using are truly child's play. WorkChoices won't be coming back under a Government I lead."
           }
     },
@@ -793,7 +793,7 @@ function simpleAdventure(ans) {
             "question": 1015,
             "feedback": "This is seen as more of an confirmation to bring it back. This was not the best answer you could give. Prepare for a brutal hit in the polls.",
             "global_effect": [200, 0.007], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.07, 0.09], // format: [issue, issue score, issue importance]
             "description": "Well, the repeal of WorkChoices allowed for Unions to run wild across Australia. My Government will back small businesses across Australia, proving new incentives for those wanting to start up. I won't allow Unions to run wild once more."
           }     
     },
@@ -805,8 +805,8 @@ function simpleAdventure(ans) {
             "question": 1016,
             "feedback": "This is a very progressive answer that makes John Howard go silent on you, with Labor calling you out on voting in favour of the Iraq War.",
             "global_effect": [200, 0.007], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "My Government will commit to a full withdrawl of Australian troops from Iraq. I don't want to beledge on John Howard, but it was a major mistake under his Government. We should have never gotten into war with Iraq."
+            "issue_effect": [100, 0.03, 0.09], // format: [issue, issue score, issue importance]
+            "description": "My Government will commit to a full withdrawl of Australian troops from Iraq. I don't want to beledge on John Howard, but it was a major mistake under his Government. We should have never gotten into war with Iraq in the first place. I comment President Barack Obama on removing troops and we will follow suite if I am to form Government."
           }     
     },
 
@@ -817,8 +817,8 @@ function simpleAdventure(ans) {
             "question": 1016,
             "feedback": "This is a middle ground answer that while it doesn't alliante no one, it doen't please anyone.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "We will mach the Government by keeping Australian troops in Iraq for peacekeeping operations and to help restore and rebuild Iraq in the aftermath of this conflict. However, the consideration of a full withdrawl from Iraq is not on the table at this moment."
+            "issue_effect": [100, 0.04, 0.09], // format: [issue, issue score, issue importance]
+            "description": "We will mach the Government by keeping Australian troops in Iraq for peacekeeping operations and to help restore and rebuild Iraq in the aftermath of this conflict. However, the consideration of a full withdrawl from Iraq is not on the table at this moment. But it is paramount we focus on rebuilding efforts across the nation there."
           }     
     },
 
@@ -829,7 +829,7 @@ function simpleAdventure(ans) {
             "question": 1017,
             "feedback": "This middle ground answer doesn't leave much room for you to go off on, but it's something that resonates with Australians.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "The budget is in a tight spot. As much as it would be good to spend on major and vital projects across the nation, we must be very careful on how money is being spent. I also urge the Government as well, to be very cautious when spending money."
           }     
     },
@@ -841,7 +841,7 @@ function simpleAdventure(ans) {
             "question": 1017,
             "feedback": "This attack against the Government's economic policy hit's home and put's Wayne Swan on his toes.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "Instead, my Government's focus will be cutting wasteful spending that the Treasurer has put forward in recent budgets. Our deficit is sky high and needs to be tamed immediatelty. If we allow the Government to continue their wild spending, our economy will end up in a far worse place."
           }     
     },
@@ -853,7 +853,7 @@ function simpleAdventure(ans) {
             "question": 1017,
             "feedback": "Whilest true, the budget is in a terrible place. And this will only further run it into a deeper deficit.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "What we need to do, is spend to ensure that our Australian money goes to important sectors such as our infrastructure, defence, schools and rural area's to ensure that Australia can pick up steam. This will create new oppotunities and jobs for people and support local communities."
           }     
     },
@@ -865,7 +865,7 @@ function simpleAdventure(ans) {
             "question": 1018,
             "feedback": "This answer seems to resonate with some members within the health profession. However, Labor and Health Union's don't buy it.",
             "global_effect": [200, 0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "My Government will pledge to work towards delivering 4,000 new beds nation wide, and restore control of hospitals across the nation, whilst establishing more nurses and doctors in the medical field and improving rural access. These are steps we will take to protect the Australian Health System and reform it for the better."
           }     
     },
@@ -877,7 +877,7 @@ function simpleAdventure(ans) {
             "question": 1018,
             "feedback": "A sort of dog pile attack on the Government may work, but it is a step to far maybe, with ads being released saying that you will be worse in regards to state relations with health.",
             "global_effect": [200, 0.006], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.09], // format: [issue, issue score, issue importance]
             "description": "It's simple, the Government have failed. Our health system is being poorly mismanaged and relationships with State Governments is unsteady. My Government will lead a clear and dirrect health system that will restore back power to health networks, while getting rid of the disaster that Labor have caused with our health."
           }     
     },
@@ -889,7 +889,7 @@ function simpleAdventure(ans) {
             "question": 1018,
             "feedback": "This is seen as a massive spit on the Premier's faces, both Labor and Liberal. The Government captivizes on this statement of yours and launches into a full on attack.",
             "global_effect": [200, 0.009], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "What we will do instead is be working with the State Governments and laying out Health provisions on what they should do. We can hand down recommendations to them to see if they can accept our provisions for our nations health. It's up to the states if they want to improve the quality of their health. We can only guide them."
           }     
     },
@@ -900,9 +900,9 @@ function simpleAdventure(ans) {
           "pk": 5050,
           "fields": {
             "question": 1019,
-            "feedback": "This seems to gain traction amongst parents and rural undecided voters who need NBN connections.",
+            "feedback": "This responce does help you out and boosts your support amongst parents and rural undecided voters who reside in non-NBN connected areas.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "We will be able to match it with that of Labor. My Government will ensure that parental leave and the National Broadbant Netowrk are fully funded to ensure parents are better off, and that people can access stable internet connection in Australia, especially in rural area's of our nation."
           }     
     },
@@ -914,7 +914,7 @@ function simpleAdventure(ans) {
             "question": 1019,
             "feedback": "The issue of the Parental Leave leak is still a major issue with Australians. This only adds more fuel to a burning fire, putting the Government on edge.",
             "global_effect": [200, -0.006], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.07, 0.09], // format: [issue, issue score, issue importance]
             "description": "The Government have failed on Parental Leave and the National Broadband Network. The leak not to long ago confirmed that the Government was questioning aspects of it. We can't forget that these leaks occured and we must have accountability on the Government. Not to mention the NBn has been blown out in regards to policy funding."
           }     
     },
@@ -938,7 +938,7 @@ function simpleAdventure(ans) {
             "question": 1022,
             "feedback": "You couldn't believe it. Kevin Rudd has been removed as Labor's candidate for Griffith. With Queensland Deputy Premier Paul Lucas to take his spot. Now is the perfect time to attack the Government. The voters are angry.",
             "global_effect": [200, -0.007], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 1.00, 0.09], // format: [issue, issue score, issue importance]
             "description": "I don't know what the Government will do regarding Kevin Rudd with this formal meeting of theirs. Let's just wait and see how things play out in the aftermath."
           }     
     },
@@ -962,7 +962,7 @@ function simpleAdventure(ans) {
             "question": 1023,
             "feedback": "A scathing attack, none the less. Voters are already frustrated over the lack of transparency in the Government.",
             "global_effect": [200, -0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.06, 0.09], // format: [issue, issue score, issue importance]
             "description": "If Kevin Rudd is truly the leaker, the Government ought to be ashamed. They will appoint the same person who was spilled by Julia Gillard. I'm sorry, but this is only going to worsen the situation and issue of transparancy within our Government."
           }     
     },
@@ -974,7 +974,7 @@ function simpleAdventure(ans) {
             "question": 1023,
             "feedback": "It was later found that no one from the Cabinet had leaked internal documentation. However, your suspicision still remains. But it's best to move on to other issues.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [103, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [103, 0.05, 0.09], // format: [issue, issue score, issue importance]
             "description": "We will just have to wait and see. However, I urge the Government to conduct a formal investigation into the matter. If you want to be re-elected on the 21st of August, you better be transparent with the people of Australia."
           }     
     },
@@ -986,7 +986,7 @@ function simpleAdventure(ans) {
             "question": 1024,
             "feedback": "Many see this as a over condifence in your chances. However, the polls still remain tight. Anything can happen when Election Night arrives.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.03, 0.09], // format: [issue, issue score, issue importance]
             "description": "I am confident that the Coalition can be able to form a Majority Government when the people cast their verdict. We have had 3 years of failure under the Rudd Government. We simply cannot allow for 3 more years. It's time Australia has a leader that will stand up for them. I will be that leader."
           }     
     },
@@ -998,7 +998,7 @@ function simpleAdventure(ans) {
             "question": 1024,
             "feedback": "Bob Katter is definately on your side. So is the WA National Party candidate if we wins in O'Connor. It's a matter of getting other MP's to join you as well. However, not making compromises if you're in Government will mean you won't last long as Prime Minister.",
             "global_effect": [200, -0.001], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.03, 0.04], // format: [issue, issue score, issue importance]
             "description": "I am concerned that the next parliament will be a hung parliament. I believe it is our best interest that we can discuss with the crossbench, mainly with Bob Katter and Tony Windsor to see if they can join us and give us condifence. However, I won't surrender any Coalition policy at all."
           }     
     },
@@ -1010,7 +1010,7 @@ function simpleAdventure(ans) {
             "question": 1024,
             "feedback": "Confidence in your chances is always a good thing. Supporters and colleagues share the same view as you.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.004], // format: [issue, issue score, issue importance]
             "description": "I am concerned that the next Government will be a hung parliament. Don't get me wrong, I think it would be best to form Government on the crossbench, but I want to make this clear. There will be no formal Coalition arrangements with the Crossbench at all. I won't stand for it. And I won't allow it to happen."
           }     
     },
@@ -1070,7 +1070,7 @@ function simpleAdventure(ans) {
             "question": 1026,
             "feedback": "Some voters appreciate your confidence and your focus on different things. But Labor is not letting you get away with it this easily.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.003, 0.005], // format: [issue, issue score, issue importance]
             "description": "Look, I stand by our parties policies heading into the election. This is only a small issue, not a crisis here. What truly matters is getting Government spending under control, and not focusing on Labor's spin or the Treasury's last minute issues. Australians know, that my Government will be better economic managers."
           }     
     },
@@ -1082,7 +1082,7 @@ function simpleAdventure(ans) {
             "question": 1026,
             "feedback": "While the base eat's this response up, it's still a pretty resonable dodge that give's Labor little to no room to attack you on.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [104, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [104, 0.005, 0.05], // format: [issue, issue score, issue importance]
             "description": "I completely acknowledge the discrepancy that was found and we will make appropriate adjustments to ensure our economic plan is responcible. However, let's not forget Labor's own track record. Ever since they came to power in 2007, Labor have repeatedly delivered deficit after decifit with Wayne Swan in charge. If anyone has lost control, it's them."
           }     
     },
@@ -1094,7 +1094,7 @@ function simpleAdventure(ans) {
             "question": 1027,
             "feedback": "This is seen as a very positive image of your personal image and gives you a boost amongst more undecided voters.",
             "global_effect": [200, -0.006], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.004], // format: [issue, issue score, issue importance]
             "description": "Our campaign is focus around strenght. I believe that I will have the leadership to be the leader that will stand for all Australians. We need this type of leadership. One that is stable and someone who can lead in times of crisis, if they are to come our way."
           }     
     },
@@ -1106,7 +1106,7 @@ function simpleAdventure(ans) {
             "question": 1027,
             "feedback": "A no-nonsense tone plays well with conservative voters, but risks alienating undecided or moderate Australians who are uneasy about your tone.",
             "global_effect": [200, 0.003], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
             "description": "This is not a popularity contest. This is about fixing the mess that the Labor Government has done. I know I am being direct and standing for what I believe in. That's what strong leadership is. We don't need 3 more years of spin and mismanagement. We need a leader who means what he says."
           }     
     },
@@ -1118,7 +1118,7 @@ function simpleAdventure(ans) {
             "question": 1027,
             "feedback": "A sharp, yet aggressive tone that does energize the core base, but may not appease moderates of the party.",
             "global_effect": [200, -0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.001], // format: [issue, issue score, issue importance]
             "description": "The Government want to distract voters from the issues that matter. Higher taxes, a broken economy. Labor can't defend their actions over spilling a Prime Minister months before the election. They can't lecture the nation about leadership. Voters need honesty. They'll get that with me as Prime Minister."
           }     
     },
@@ -1130,8 +1130,8 @@ function simpleAdventure(ans) {
             "question": 1028,
             "feedback": "A good way to finish off the campaign on a strong message. This see's a final boost for you in the polls.",
             "global_effect": [200, -0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "This election is about honesty and strenght. We need this in a Government now more than ever. This Government has not been honest with Australian's. Instability and recklessness. We need a leader who will properly stand up for our nation. One who will prioritize strenght and leadership. I will be that leader."
+            "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
+            "description": "This election is about honesty and strenght. We need this in a Government now more than ever. This Government has not been honest with Australian's. Instability and recklessness. We need a leader who will properly stand up for our nation."
           }     
     },
 
@@ -1142,7 +1142,7 @@ function simpleAdventure(ans) {
             "question": 1028,
             "feedback": "Focusing on your policies is always a good focus during a speech. However, Labor have the final attack oppotunity over you tying yourself closer to John Howard.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
             "description": "Remember the days under John Howard? We had stability and a strong economy. I will continue the legaacy of not just Mr. Howard. But all former Liberal Leaders. To guide our nation in Liberal Conservatism. Our policies of reform and cutting red and green tape will grow our nation and our economy."
           }     
     },
@@ -1154,8 +1154,8 @@ function simpleAdventure(ans) {
             "question": 1028,
             "feedback": "Focusing on the Labor Government's instability always goes well with your core base. This might be the key to draw in the final undecided voters.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "The Labor Government have failed our nation. We simply can't afford 3 more years of this reckless and unstable Government. We need change immediately or else we will continue to face economic pain and a staggering nation. I offer a different path. One of stability and honesty. That's what we need. I will provide that as Prime Minister."
+            "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
+            "description": "The Labor Government have failed our nation. We simply can't afford 3 more years of this reckless and unstable Government. We need change immediately or else we will continue to face economic pain and a staggering nation. I offer a different path. One of stability and honesty. That's what we need."
           }     
     },
 
@@ -1166,8 +1166,8 @@ function simpleAdventure(ans) {
             "question": 1028,
             "feedback": "A more balanced and inclusive approach. One that is unheard of from a Liberal Party leader. This may appeal to undecided voters, but lacks for decided Liberal Voters.",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "It is clear in this election, that no one is perfect. But we know the proper choice in who should Govern our nation for the next 3 years. We’ve listened, we’ve learned from our time in Opposition, and we’re ready to work with all Australians no matter their background. It's time we have leadership that will stand up for Australia."
+            "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
+            "description": "It is clear in this election, that no one is perfect. But we know the proper choice in who should Govern our nation for the next 3 years. We’ve listened, we’ve learned from our time in Opposition, and we’re ready to work with all Australians no matter their background. It's time we have proper leadership."
           }     
     },
 
@@ -1178,7 +1178,7 @@ function simpleAdventure(ans) {
             "question": 1029,
             "feedback": "Sydney is an important city. Liberal Party supporters are eager to help you on the final push there…",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.03], // format: [issue, issue score, issue importance]
             "description": "It's clear we need to go to Sydney. There are too many seats that are in a close race. I will help our candidates in marginal seats. And also, go to Bennelong. I think we can take back Howard's old seat."
           }     
     },
@@ -1190,7 +1190,7 @@ function simpleAdventure(ans) {
             "question": 1029,
             "feedback": "Brisbane is an important city. Liberal National Party supporters are eager to help you on the final push there…",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.03], // format: [issue, issue score, issue importance]
             "description": "Brisbane holds a clear and direct path to voctory there. We lost a few seats there in 2007. It's best to head there and campaign up to Townsville as well to take back key rural seats."
           }     
     },
@@ -1202,7 +1202,7 @@ function simpleAdventure(ans) {
             "question": 1029,
             "feedback": "Melbourne is an important city. Liberal Party supporters are eager to help you on the final push there…",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.03], // format: [issue, issue score, issue importance]
             "description": "We can try and take aim at Melbourne. It's clear there we can take a few seats there in the outer suburbs. I think we have a good chance there."
           }     
     },
@@ -1214,7 +1214,7 @@ function simpleAdventure(ans) {
             "question": 1029,
             "feedback": "Adelaide is an important city. Liberal Party supporters are eager to help you on the final push there…",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
+            "issue_effect": [100, 0.04, 0.03], // format: [issue, issue score, issue importance]
             "description": "We can head to Adelaide. There are some marginal seats there, but we campaign hard there in the final week, we could flip some of the Metropolitan seats."
           }     
     },
@@ -16318,7 +16318,7 @@ applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
             "fields": {
                 "candidate": 200,
                 "state": 22104,
-                "state_multiplier": 0.41
+                "state_multiplier": 0.43
             }
         },
         {
@@ -16327,7 +16327,7 @@ applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
             "fields": {
                 "candidate": 201,
                 "state": 22104,
-                "state_multiplier": 0.52
+                "state_multiplier": 0.45
             }
         },
         {
