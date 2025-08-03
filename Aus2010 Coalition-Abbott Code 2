@@ -1191,7 +1191,7 @@ function simpleAdventure(ans) {
             "feedback": "Brisbane is an important city. Liberal National Party supporters are eager to help you on the final push there…",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.04, 0.03], // format: [issue, issue score, issue importance]
-            "description": "Brisbane holds a clear and direct path to voctory there. We lost a few seats there in 2007. It's best to head there and campaign up to Townsville as well to take back key rural seats."
+            "description": "Brisbane holds a clear and direct path to victory there. We lost a few seats there in 2007. It's best to head there and campaign up to Townsville as well to take back key rural seats."
           }     
     },
 
