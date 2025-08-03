@@ -1167,7 +1167,7 @@ function simpleAdventure(ans) {
             "feedback": "A more balanced and inclusive approach. One that is unheard of from a Liberal Party leader. This may appeal to undecided voters, but lacks for decided Liberal Voters.",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
-            "description": "It is clear in this election, that no one is perfect. But we know the proper choice in who should Govern our nation for the next 3 years. We’ve listened, we’ve learned from our time in Opposition, and we’re ready to work with all Australians no matter their background. It's time we have proper leadership."
+            "description": "It is clear in this election, that from our time in opposition, we have reflected and we have learnt from previous mistakes made by our party. Under my leadership, it will be focuses and strenghened leadership that will focus on the issues at hand for our nation."
           }     
     },
 
@@ -1179,7 +1179,7 @@ function simpleAdventure(ans) {
             "feedback": "Sydney is an important city. Liberal Party supporters are eager to help you on the final push there…",
             "global_effect": [200, 0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.04, 0.03], // format: [issue, issue score, issue importance]
-            "description": "It's clear we need to go to Sydney. There are too many seats that are in a close race. I will help our candidates in marginal seats. And also, go to Bennelong. I think we can take back Howard's old seat."
+            "description": "It's clear we need to go to Sydney. There are too many seats that are in a close race. I will help our candidates in marginal seat and believe we can take back Howard's old seat."
           }     
     },
 
