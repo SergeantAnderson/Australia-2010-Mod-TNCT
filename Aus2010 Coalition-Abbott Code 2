@@ -1218,14 +1218,9 @@ function simpleAdventure(ans) {
             "description": "We can head to Adelaide. There are some marginal seats there, but we campaign hard there in the final week, we could flip some of the Metropolitan seats."
           }     
     },
-
-
-
-
-        
-
-        
+  
 ]
+
 
       function getTooltips(str) {
     let matches = [];
