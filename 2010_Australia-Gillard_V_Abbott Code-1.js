@@ -335,7 +335,7 @@ campaignTrail_temp.temp_election_list = [
 e.credits = "<button onclick='credits()'>Various people</button>";
   
 credits = function() {
-    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "", "MAP", "CatBox", "", "PLAYTESTERS", "TotalRozza", "Quartz",]
+    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "", "MAP", "CatBox", "", "PLAYTESTERS", "TotalRozza", "Quartz", "Killeritch",]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
@@ -473,6 +473,7 @@ tooltipList = [
 
 
 }
+
 
 
 
