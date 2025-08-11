@@ -85,7 +85,7 @@ campaignTrail_temp.election_json = [
     "pk": 20,
     "fields": {
       "year": 2010,
-      "summary": "<div style='overflow-y:scroll;height:200px;'><p>Since Labor was swept into office in 2007, there has been much controversy surrounding the time of Kevin Rudd’s tenure. Rudd’s most loyal deputy, Julia Gillard was elected leader of Labor and the first Female Prime Minister. Polls are saying it will be a tight race between her, and controversial Liberal Opposition leader, Tony Abbott.</p><p><ul><li>Labor lead under Julia Gillard must fight through the controversies and darkness of the Labor factions to unite the party to win an overall majority, but that will prove difficult with a leaker.</li><li>The Liberal/National Coalition lead by Tony Abbott will need to emphasise the point of the instability within Labor, and highlight Liberal/National policy and unite the base after their 2007 loss.</li></ul><p>This election is make or break for both parties to lead Australia into the new decade.</p></div>",
+      "summary": "<div style='overflow-y:scroll;height:200px;'><p>Since Labor was swept into office in 2007, there has been much controversy surrounding the time of Kevin Rudd’s tenure. Rudd’s most loyal deputy, Julia Gillard was elected leader of Labor and the first Female Prime Minister after a leadership spill months before the election. Polls are saying it will be a tight race between her, and controversial Liberal Opposition leader, Tony Abbott.</p><p><ul><li>Labor lead under Julia Gillard must fight through the controversies and darkness of the Labor factions to unite the party to win an overall majority, but that will prove difficult with a leaker.</li><li>The Liberal/National Coalition lead by Tony Abbott will need to emphasise the point of the instability within Labor, and highlight Liberal/National policy and unite the base after their 2007 loss.</li></ul><p>This election is make or break for both parties to lead Australia into the new decade.</p></div>",
       "image_url": "https://i.imgur.com/m2oElBN.jpeg",
       "winning_electoral_vote_number": 76,
       "advisor_url": "https://i.imgur.com/e359GWl.png",
@@ -473,6 +473,7 @@ tooltipList = [
 
 
 }
+
 
 
 
