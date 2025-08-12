@@ -243,7 +243,7 @@ function simpleAdventure(ans) {
           "pk": 1017,
           "fields": {
             "priority": 1,
-            "description": "While the Rudd Government have had some sucesses on the health system, it is apparant that the system is struggling. With doctors under pressure, waiting lists growing and emergency departments under pressure. The Coalition have called you out on it, saying that 'it is a compleye failure on the Government's part'. What will a second Labor term do to elivate pressure of a strained Health System?",
+            "description": "While the Rudd Government have had some sucesses on the health system, it is apparant that the system is struggling. With doctors under pressure, waiting lists growing and emergency departments under pressure. The Coalition have called you out on it, saying that 'it is a compleye failure on the Government's part'. What will a second Labor term do to alleviate pressure of a strained Health System?",
             "likelihood": 1
           }
         },
@@ -868,7 +868,7 @@ function simpleAdventure(ans) {
             "feedback": "While a good policy, Health workers and General Practitioners come out in support of this policy.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.05, 0.05], // format: [issue, issue score, issue importance]
-            "description": "Labor has been the party that has protected our health system. We will invest into Medicare and ensure that it is easier to see a General Practitioner in our nation, while hiring more General Practitioners so it is easy to visit one. This will elivate pressure off Emergency departments."
+            "description": "Labor has been the party that has protected our health system. We will invest into Medicare and ensure that it is easier to see a General Practitioner in our nation, while hiring more General Practitioners so it is easy to visit one. This will alleviate pressure off Emergency departments."
           }
         },
     
@@ -1119,7 +1119,7 @@ function simpleAdventure(ans) {
           "pk": 5068,
           "fields": {
             "question": 1027,
-            "feedback": "Good answer. This strikes with the core base of the party. Expect the woman vote to flock to you.",
+            "feedback": "Good answer. This strikes with the core base of the party. Expect the vote amongst women to increase in your party's favour.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.005], // format: [issue, issue score, issue importance]
             "description": "We are the party of equality. I am Australia’s first Female Prime Minister and first female leader of the Labor Party. Let's talk to the electorate that we are the party of progress and equality and we will strive to create an equal Australia when Prime Minister."
