@@ -103,7 +103,7 @@ function simpleAdventure(ans) {
            "pk": 1003,
            "fields": {
              "priority": 1,
-             "description": "It is official. Prime Minister Julia Gillard has gone to see the Governor General and has requested that Parliament be dissoloved for an election. You sit and watch the Press Conference she gives to the reporters. She has chosen the day to be Saturday, August 21st. It is crunch time for the Coalition. You meet with reporters shortly after. How do you feel about the news?",
+             "description": "It is official. Prime Minister Julia Gillard has gone to see the Governor General and has requested that Parliament be dissolved for an election. You sit and watch the Press Conference she gives to the reporters. She has chosen the day to be Saturday, August 21st. It is crunch time for the Coalition. You meet with reporters shortly after. How do you feel about the news?",
              "likelihood": 1
            }
          },
@@ -133,7 +133,7 @@ function simpleAdventure(ans) {
           "pk": 1006,
           "fields": {
             "priority": 1,
-            "description": "In 2007, the Coalition saw massive losses of seats, especially in states such as New South Wales and also Queensland. Not to mention that former Prime Minister John Howard host his seat of Bennelong 3 years ago. Which state has more priority for your campaign to win back Government?",
+            "description": "In 2007, the Coalition saw massive losses of seats, especially in states such as New South Wales and also Queensland. Not to mention that former Prime Minister John Howard lost his seat of Bennelong 3 years ago. Which state has more priority for your campaign to win back Government?",
             "likelihood": 1
           }
         },
@@ -143,7 +143,7 @@ function simpleAdventure(ans) {
           "pk": 1007,
           "fields": {
             "priority": 1,
-            "description": "Prime Minister Julia Gillard has described her campaign as 'Disiplined', yet instability remains within the Labor Party after Kevin Rudd's removal. How will you captivate on this so called movement of the Government wanting their campaign to be disiplined?",
+            "description": "Prime Minister Julia Gillard has described her campaign as 'Disciplined', yet instability remains within the Labor Party after Kevin Rudd's removal. How will you captivate on this so called movement of the Government wanting their campaign to be disciplined?",
             "likelihood": 1
           }
         },
@@ -183,7 +183,7 @@ function simpleAdventure(ans) {
           "pk": 1011,
           "fields": {
             "priority": 1,
-            "description": "There has been new rumour circulating around. If the Mining Tax was something that Labor would continue to have, there is news of a so called 'Carbob Tax' which will be introduced if Labor is re-elected to a second term. Will you respond to these alledged rumours regarding this tax the Government want to implement?",
+            "description": "There has been new rumour circulating around. If the Mining Tax was something that Labor would continue to have, there is news of a so called 'Carbon Tax' which will be introduced if Labor is re-elected to a second term. Will you respond to these alledged rumours regarding this tax the Government want to implement?",
             "likelihood": 1
           }
         },
@@ -203,7 +203,7 @@ function simpleAdventure(ans) {
           "pk": 1013,
           "fields": {
             "priority": 1,
-            "description": "It has been reported that in a recent TV interview, Kevin Rudd revealled that he was the one responcible for the first internal party leak regarding the leadership, but not the second leak. After getting news of the interview, how will you use this against the Government?",
+            "description": "It has been reported that in a recent TV interview, Kevin Rudd revealed that he was the one responsible for the first internal party leak regarding the leadership, but not the second leak. After getting news of the interview, how will you use this against the Government?",
             "likelihood": 1
           }
         },
@@ -233,7 +233,7 @@ function simpleAdventure(ans) {
           "pk": 1016,
           "fields": {
             "priority": 1,
-            "description": "Since 2003, Australian Troops have been delployed in the Middle East, most notibaly in Afghanistan and Iraq. However, since 2007, 500 troops have returned from Iraq. The United States, now under President Barack Obama, is moving forward with troops being removed by next year. Anti-War movement is growing strong in Australia, calling for a full withdrawn from Iraq. If you are elected to power, will the Coalition withdraw Australian troops from the nation?",
+            "description": "Since 2003, Australian Troops have been delployed in the Middle East, most notably in Afghanistan and Iraq. However, since 2007, 500 troops have returned from Iraq. The United States, now under President Barack Obama, is moving forward with troops being removed by next year. Anti-War movement is growing strong in Australia, calling for a full withdrawn from Iraq. If you are elected to power, will the Coalition withdraw Australian troops from the nation?",
             "likelihood": 1
           }
         },
@@ -253,7 +253,7 @@ function simpleAdventure(ans) {
           "pk": 1018,
           "fields": {
             "priority": 1,
-            "description": "The nations health system is in critical shape with hospitals understaffed, long waiting times and strained emergency departments across the nation. With the Government failing to act on these key issues, what will a Coalition Government do to elivate the pressure of emergency facilites?",
+            "description": "The nations health system is in critical shape with hospitals understaffed, long waiting times and strained emergency departments across the nation. With the Government failing to act on these key issues, what will a Coalition Government do to alleviate the pressure off emergency facilites?",
             "likelihood": 1
           }
         },
@@ -263,7 +263,7 @@ function simpleAdventure(ans) {
           "pk": 1019,
           "fields": {
             "priority": 1,
-            "description": "Parental Leave and the issue of the National Broadbant Network are beginning to gain traction with voters. Labor is committed to ensuring that both are invested properly if re-elected. However, the Coalition has not released any formal policy. If the Coalition is to be elected, what will be the policy in regards to these two policies?",
+            "description": "Parental Leave and the issue of the National Broadband Network are beginning to gain traction with voters. Labor is committed to ensuring that both are invested properly if re-elected. However, the Coalition has not released any formal policy. If the Coalition is to be elected, what will be the policy in regards to these two policies?",
             "likelihood": 1
           }
         },
@@ -313,7 +313,7 @@ function simpleAdventure(ans) {
           "pk": 1028,
           "fields": {
             "priority": 1,
-            "description": "The final stretch of the election is upon us, however the polls still remain too close to call with no clear winner in sight. As you give your final campaign speech to a crowd of Liberal Party faithful, what will your final message be to thr crowd in order to win?",
+            "description": "The final stretch of the election is upon us, however the polls still remain too close to call with no clear winner in sight. As you give your final campaign speech to a crowd of Liberal Party faithful, what will your final message be to the crowd in order to win?",
             "likelihood": 1
           }
         },
@@ -327,14 +327,6 @@ function simpleAdventure(ans) {
             "likelihood": 1
           }
         },
-
-        
-
-
-
-
-
-
 
     
          ]
@@ -466,7 +458,7 @@ function simpleAdventure(ans) {
           "pk": 5010,
           "fields": {
             "question": 1005,
-            "feedback": "You seems to be pretty calm against Mrs. Gillard considering he was desperate against you. Overall, the audience voted in your favour.",
+            "feedback": "You seems to be pretty calm against Mrs. Gillard. Overall, the audience voted in your favour.",
             "global_effect": [200, -0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.06, -0.005], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
@@ -637,7 +629,7 @@ function simpleAdventure(ans) {
             "feedback": "This does seem to please the nation by not cutting essential services. But Labor have made worry over spending cuts, promoting that you will cut essential services.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.08, 0.08], // format: [issue, issue score, issue importance]
-            "description": "We have to cut spending. The Government have balloned our deficit to record levels ever since the GFC a few years back. We need to get the economy back under control. It's a need of fiscal responcibility. If we cut back spending, we can ensure that the budget will be balance. Education, Medicare, and Health will not be cut."
+            "description": "We have to cut spending. The Government have ballooned our deficit to record levels ever since the GFC a few years back. We need to get the economy back under control. It's a need of fiscal responcibility. If we cut back spending, we can ensure that the budget will be balance. Education, Medicare, and Health will not be cut."
           }
         },
 
@@ -722,7 +714,7 @@ function simpleAdventure(ans) {
             "feedback": "The leaks were scathing against Labor. This move adds more fuel to an already out of control fire.",
             "global_effect": [200, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.06, 0.09], // format: [issue, issue score, issue importance]
-            "description": "I'm not suprised it was Kevin Rudd that was responcible for the first leak. However, the issue of the second one remains. How can we trust this Government if they're questing what they're doing? We need a Government that will take action. And I will lead a Government that will do just that."
+            "description": "I'm not suprised it was Kevin Rudd that was responsible for the first leak. However, the issue of the second one remains. How can we trust this Government if they're questioning what they're doing? We need a Government that will take action. And I will lead a Government that will do just that."
           }
     },
 
@@ -734,7 +726,7 @@ function simpleAdventure(ans) {
             "feedback": "Transparency and Honesty is needed in the Government. Your move to pledge this resounds well with the public.",
             "global_effect": [200, -0.001], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.06, 0.09], // format: [issue, issue score, issue importance]
-            "description": "At least Kevin Rudd admitted he was responcible for the first leak. However, the issues of leaks still makes the Government not credible in any way. My Government will be open and transparent with the Australian people. We need transperancy and honesty."
+            "description": "At least Kevin Rudd admitted he was responsible for the first leak. However, the issues of leaks still makes the Government not credible in any way. My Government will be open and transparent with the Australian people. We need transperancy and honesty."
           }
     },
 
@@ -806,7 +798,7 @@ function simpleAdventure(ans) {
             "feedback": "This is a very progressive answer that makes John Howard go silent on you, with Labor calling you out on voting in favour of the Iraq War.",
             "global_effect": [200, 0.007], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.03, 0.09], // format: [issue, issue score, issue importance]
-            "description": "My Government will commit to a full withdrawl of Australian troops from Iraq. I don't want to beledge on John Howard, but it was a major mistake under his Government. We should have never gotten into war with Iraq in the first place. I comment President Barack Obama on removing troops and we will follow suite if I am to form Government."
+            "description": "My Government will commit to a full withdrawl of Australian troops from Iraq. I don't want to beledge on John Howard, but it was a major mistake under his Government. We should have never gotten into war with Iraq in the first place. I commend President Barack Obama on removing troops and we will follow suite if I am to form Government."
           }     
     },
 
@@ -818,7 +810,7 @@ function simpleAdventure(ans) {
             "feedback": "This is a middle ground answer that while it doesn't alliante no one, it doen't please anyone.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.04, 0.09], // format: [issue, issue score, issue importance]
-            "description": "We will mach the Government by keeping Australian troops in Iraq for peacekeeping operations and to help restore and rebuild Iraq in the aftermath of this conflict. However, the consideration of a full withdrawl from Iraq is not on the table at this moment. But it is paramount we focus on rebuilding efforts across the nation there."
+            "description": "We will match the Government by keeping Australian troops in Iraq for peacekeeping operations and to help restore and rebuild Iraq in the aftermath of this conflict. However, the consideration of a full withdrawl from Iraq is not on the table at this moment. But it is paramount we focus on rebuilding efforts across the nation there."
           }     
     },
 
@@ -903,7 +895,7 @@ function simpleAdventure(ans) {
             "feedback": "This responce does help you out and boosts your support amongst parents and rural undecided voters who reside in non-NBN connected areas.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.05, 0.09], // format: [issue, issue score, issue importance]
-            "description": "We will be able to match it with that of Labor. My Government will ensure that parental leave and the National Broadbant Netowrk are fully funded to ensure parents are better off, and that people can access stable internet connection in Australia, especially in rural area's of our nation."
+            "description": "We will be able to match it with that of Labor. My Government will ensure that parental leave and the National Broadband Network are fully funded to ensure parents are better off, and that people can access stable internet connection in Australia, especially in rural area's of our nation."
           }     
     },
 
@@ -915,7 +907,7 @@ function simpleAdventure(ans) {
             "feedback": "The issue of the Parental Leave leak is still a major issue with Australians. This only adds more fuel to a burning fire, putting the Government on edge.",
             "global_effect": [200, -0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.07, 0.09], // format: [issue, issue score, issue importance]
-            "description": "The Government have failed on Parental Leave and the National Broadband Network. The leak not to long ago confirmed that the Government was questioning aspects of it. We can't forget that these leaks occured and we must have accountability on the Government. Not to mention the NBn has been blown out in regards to policy funding."
+            "description": "The Government have failed on Parental Leave and the National Broadband Network. The leak not to long ago confirmed that the Government was questioning aspects of it. We can't forget that these leaks occured and we must have accountability on the Government. Not to mention the NBN has been blown out in regards to policy funding."
           }     
     },
 
@@ -927,7 +919,7 @@ function simpleAdventure(ans) {
             "feedback": "This is seen as a betrayal of parents and rural NBN users that Labor manages to captivate on.",
             "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "We will seel. I will discuss with the Shadow Treasurer to allowcate funding accordingly and appropriately to these sectors. With the budget in a delicate situation, we need to accordingly put funds where they must go. "
+            "description": "We will seel. I will discuss with the Shadow Treasurer to allocate funding accordingly and appropriately to these sectors. With the budget in a delicate situation, we need to accordingly put funds where they must go. "
           }     
     },
 
@@ -984,7 +976,7 @@ function simpleAdventure(ans) {
           "pk": 5057,
           "fields": {
             "question": 1024,
-            "feedback": "Many see this as a over condifence in your chances. However, the polls still remain tight. Anything can happen when Election Night arrives.",
+            "feedback": "Many see this as a over confidence in your chances. However, the polls still remain tight. Anything can happen when Election Night arrives.",
             "global_effect": [200, 0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.03, 0.09], // format: [issue, issue score, issue importance]
             "description": "I am confident that the Coalition can be able to form a Majority Government when the people cast their verdict. We have had 3 years of failure under the Rudd Government. We simply cannot allow for 3 more years. It's time Australia has a leader that will stand up for them. I will be that leader."
@@ -999,7 +991,7 @@ function simpleAdventure(ans) {
             "feedback": "Bob Katter is definately on your side. So is the WA National Party candidate if we wins in O'Connor. It's a matter of getting other MP's to join you as well. However, not making compromises if you're in Government will mean you won't last long as Prime Minister.",
             "global_effect": [200, -0.001], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.03, 0.04], // format: [issue, issue score, issue importance]
-            "description": "I am concerned that the next parliament will be a hung parliament. I believe it is our best interest that we can discuss with the crossbench, mainly with Bob Katter and Tony Windsor to see if they can join us and give us condifence. However, I won't surrender any Coalition policy at all."
+            "description": "I am concerned that the next parliament will be a hung parliament. I believe it is our best interest that we can discuss with the crossbench, mainly with Bob Katter and Tony Windsor to see if they can join us and give us confidence. However, I won't surrender any Coalition policy at all."
           }     
     },
 
@@ -1011,7 +1003,7 @@ function simpleAdventure(ans) {
             "feedback": "Confidence in your chances is always a good thing. Supporters and colleagues share the same view as you.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.04, 0.004], // format: [issue, issue score, issue importance]
-            "description": "I am concerned that the next Government will be a hung parliament. Don't get me wrong, I think it would be best to form Government on the crossbench, but I want to make this clear. There will be no formal Coalition arrangements with the Crossbench at all. I won't stand for it. And I won't allow it to happen."
+            "description": "I am concerned that the next Government will be a hung parliament. Don't get me wrong, I think it would be best to form Government on the crossbench, but I want to make this clear, there will be no formal Coalition arrangements with the Crossbench at all. I won't stand for it. And I won't allow it to happen."
           }     
     },
 
@@ -1080,10 +1072,10 @@ function simpleAdventure(ans) {
           "pk": 5065,
           "fields": {
             "question": 1026,
-            "feedback": "While the base eat's this response up, it's still a pretty resonable dodge that give's Labor little to no room to attack you on.",
+            "feedback": "While the base eat's this response up, it's still a pretty reasonable dodge that give's Labor little to no room to attack you on.",
             "global_effect": [200, -0.003], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.005, 0.05], // format: [issue, issue score, issue importance]
-            "description": "I completely acknowledge the discrepancy that was found and we will make appropriate adjustments to ensure our economic plan is responcible. However, let's not forget Labor's own track record. Ever since they came to power in 2007, Labor have repeatedly delivered deficit after decifit with Wayne Swan in charge. If anyone has lost control, it's them."
+            "description": "I completely acknowledge the discrepancy that was found and we will make appropriate adjustments to ensure our economic plan is responsible. However, let's not forget Labor's own track record. Ever since they came to power in 2007, Labor have repeatedly delivered deficit after decifit with Wayne Swan in charge. If anyone has lost control, it's them."
           }     
     },
 
@@ -1095,7 +1087,7 @@ function simpleAdventure(ans) {
             "feedback": "This is seen as a very positive image of your personal image and gives you a boost amongst more undecided voters.",
             "global_effect": [200, -0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.04, 0.004], // format: [issue, issue score, issue importance]
-            "description": "Our campaign is focus around strenght. I believe that I will have the leadership to be the leader that will stand for all Australians. We need this type of leadership. One that is stable and someone who can lead in times of crisis, if they are to come our way."
+            "description": "Our campaign is focus around strength. I believe that I will have the leadership to be the leader that will stand for all Australians. We need this type of leadership. One that is stable and someone who can lead in times of crisis, if they are to come our way."
           }     
     },
 
@@ -16770,8 +16762,8 @@ function tunnel(new_q){
 }  
 
 questionSheath = [
-{'model': 'campaign_trail.question', 'pk': 1022, 'fields': {'priority': 1, 'description': 'The so called Revenge Plot that Kevin Rudd may have stoked up with internal leaking continues to be stoked. Leaks have still come through to the media, and it is the perfect oppotuinity to captivate on the insability within the Government. With the election fast approaching, what will be your response regarding this whole fiasco?', 'likelihood': 1}},
-{'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'After it was confirmed that Kevin Rudd would be the next Foreign Minister in the Cabinet, the leaks have stopped. The Government remains steady now after the turbulent reports, which still leave a deep scar on their campaign. Even with the leaks stopped, do you believe that it was Kevin Rudd responcible for this? How will you pose it to the Australian electorate?', 'likelihood': 1}},
+{'model': 'campaign_trail.question', 'pk': 1022, 'fields': {'priority': 1, 'description': 'The so called Revenge Plot that Kevin Rudd may have stoked up with internal leaking continues to be stoked. Leaks have still come through to the media, and it is the perfect opportunity to captivate on the instability within the Government. With the election fast approaching, what will be your response regarding this whole fiasco?', 'likelihood': 1}},
+{'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'After it was confirmed that Kevin Rudd would be the next Foreign Minister in the Cabinet, the leaks have stopped. The Government remains steady now after the turbulent reports, which still leave a deep scar on their campaign. Even with the leaks stopped, do you believe that it was Kevin Rudd responsible for this? How will you pose it to the Australian electorate?', 'likelihood': 1}},
 ]
 
 getQuestionFromPk = function (pk) {
