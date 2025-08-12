@@ -202,7 +202,7 @@ function simpleAdventure(ans) {
           "pk": 1013,
           "fields": {
             "priority": 1,
-            "description": "In a recent TV interview, Former Prime Minister Kevin Rudd has finally dropped the bomb he's been hiding. He has admitted that he was responcible for the first internal party leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. Considering Rudd's professed innocence, do you believe someone in Cabinet leaked this information?",
+            "description": "In a recent TV interview, Former Prime Minister Kevin Rudd has finally dropped the bomb he's been hiding. He has admitted that he was responsible for the first internal party leak regarding his leadership, but not the second leak within the party, which has caused scathing damage. Considering Rudd's professed innocence, do you believe someone in Cabinet leaked this information?",
             "likelihood": 1
           }
         },
@@ -963,7 +963,7 @@ function simpleAdventure(ans) {
           "pk": 5055,
           "fields": {
             "question": 1023,
-            "feedback": "Kevin Rudd concesses his innocence, saying he was only responcible for the first leak, and not the major cabinet leak. This does cool off any suspicion you may have.",
+            "feedback": "Kevin Rudd concesses his innocence, saying he was only responsible for the first leak, and not the major cabinet leak. This does cool off any suspicion you may have.",
             "global_effect": [201, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.08, 0.03], // format: [issue, issue score, issue importance]
             "description": "I did have my suspicions about Rudd, even after the leaks did stop. The cabinet has been concered about it. It's best to talk with him."
@@ -16766,7 +16766,7 @@ function tunnel(new_q){
 
 questionSheath = [
 {'model': 'campaign_trail.question', 'pk': 1022, 'fields': {'priority': 1, 'description': 'The so called Revenge Plot that Kevin Rudd may have stoked up with internal leaking continues to be stoked. Leaks have still come through to the media, and you need to give a response. With the election fast approaching, how will you be able to stop further interal party leaks?', 'likelihood': 1}},
-{'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'Internal leaking, it has come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responcible for the internal party leaks?', 'likelihood': 1}},
+{'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'Internal leaking, it has come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responsible for the internal party leaks?', 'likelihood': 1}},
 ]
 
 getQuestionFromPk = function (pk) {
