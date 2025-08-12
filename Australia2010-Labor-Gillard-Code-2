@@ -17033,7 +17033,7 @@ return "<h3>History in the making as Gillard and Labor win... Every seat in Parl
     }
 return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, the new member for Melbourne, Adam Bandt, from the Greens Political Party. The balance of Government rests upon him if you are to govern with his full support, but you'll need to negotiate with Greens leader, Senator Bob Brown to do that. Thankfully, Mr. Bandt stated he'd back Labor in the event of a Hung Parliament.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want your Government to collpase by next year. Good luck, Mrs. Gillard.</p>"
 
-} else if (campaignTrail_temp.player_answers[16] == 5056 && quickstats[0]<= 69 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
+} else if (campaignTrail_temp.player_answers[23] == 5056 && quickstats[0]<= 69 && campaignTrail_temp.running_mate_last_name == "ALP") {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
