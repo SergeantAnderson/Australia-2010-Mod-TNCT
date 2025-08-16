@@ -1,5 +1,19 @@
 campaignTrail_temp.cyoa = true // NECESSARY - DO NOT LEAVE OUT
 
+cyoAdventure = function () {
+     ans = e.player_answers[e.player_answers.length - 1];
+     if(ans == 5000) {
+        campaignTrail_temp.candidate_json[1]["fields"].first_name = "Australian Labor Party - ";
+        campaignTrail_temp.candidate_json[1]["fields"].last_name = "ALP";
+        campaignTrail_temp.candidate_json[1]["fields"].image_url = "";
+        campaignTrail_temp.candidate_json[1]["fields"].electoral_victory_message = "<h3></h3>";
+        campaignTrail_temp.candidate_json[1]["fields"].electoral_loss_message = "<h3></h3>"; 
+        campaignTrail_temp.question_number = 24;
+}
+    if(ans = 5001)
+         campaignTrail_temp.question_number = 24;
+}
+
 {
 function simpleAdventure(ans) {
     if (ans == 5035) {
@@ -1231,6 +1245,18 @@ function simpleAdventure(ans) {
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
             "description": "We have a shot in Perth. We may have lost a couple of seats there last election, but I am certain we can pull them back."
+          }
+        },
+
+{
+          "model": "campaign_trail.answer",
+          "pk": 5078,
+          "fields": {
+            "question": 1030,
+            "feedback": "The feeling of it all is too strong to ignore. As 6pm rolls around, you tune into the ABC to watch the election broadvast. Let's see where the night goes from all of this.",
+            "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
+            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
+            "description": "I hope that the people of Australia, in good faith, re-elect Labor once more to lead this country into the new decade. We have done so much and it's all at stake..."
           }
         },
        ]
@@ -16767,6 +16793,7 @@ function tunnel(new_q){
 questionSheath = [
 {'model': 'campaign_trail.question', 'pk': 1022, 'fields': {'priority': 1, 'description': 'The so called Revenge Plot that Kevin Rudd may have stoked up with internal leaking continues to be stoked. Leaks have still come through to the media, and you need to give a response. With the election fast approaching, how will you be able to stop further interal party leaks?', 'likelihood': 1}},
 {'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'Internal leaking, it has come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responsible for the internal party leaks?', 'likelihood': 1}},
+{'model': 'campaign_trail.question', 'pk': 1030, 'fields': {'priority': 1, 'description': 'The Election has been a brutal fight for your political survival, yet here we are on the 21st of August. Australians are set to cast their final ballot. You survived a leadership spill back in June, but you may not survive the election. You retreat to your electoral office in Griffith and anticipate and prepare for the worse.', 'likelihood': 1}},
 ]
 
 getQuestionFromPk = function (pk) {
@@ -16804,8 +16831,16 @@ cyoAdventure = function (a) {
 		console.log("rudd 2")   
 		console.log("rudd_answers count:")
 		console.log(rudd_answers)
-        
 }
+	if (ans === 5001) {
+		e.questions_json.splice(17, 0 , getQuestionFromPk(1030))
+		e.global_parameter_json[0].fields.question_count++
+		rudd_answers++
+		console.log("rudd 2")   
+		console.log("rudd_answers count:")
+		console.log(rudd_answers)
+        
+}    
 }
 
 getQuestionFromPk = function (pk) {
