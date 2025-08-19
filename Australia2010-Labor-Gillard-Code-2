@@ -1,17 +1,25 @@
 campaignTrail_temp.cyoa = true // NECESSARY - DO NOT LEAVE OUT
 
-cyoAdventure = function () {
+e.cyoa = true;
+
+   cyoAdventure = function () {
      ans = e.player_answers[e.player_answers.length - 1];
-     if(ans == 5000) {
+     if(ans == 5001) {
         campaignTrail_temp.candidate_json[1]["fields"].first_name = "Australian Labor Party - ";
         campaignTrail_temp.candidate_json[1]["fields"].last_name = "ALP";
         campaignTrail_temp.candidate_json[1]["fields"].image_url = "";
         campaignTrail_temp.candidate_json[1]["fields"].electoral_victory_message = "<h3></h3>";
         campaignTrail_temp.candidate_json[1]["fields"].electoral_loss_message = "<h3></h3>"; 
-        campaignTrail_temp.question_number = 24;
+        campaignTrail_temp.question_number = 25;
 }
     if(ans = 5001)
-         campaignTrail_temp.question_number = 24;
+         campaignTrail_temp.question_number = 25;
+
+    if(campaignTrail_temp.question_number >= 25){
+        hide_tip.observe(
+            document.querySelector("#game_window"),
+            {childList: true, subtree: true});
+    }
 }
 
 {
@@ -42,6 +50,23 @@ function simpleAdventure(ans) {
         }
         return false;
     } else if (ans == 5056) {
+        return false;
+    } else {
+        return false;
+    }   
+}
+
+{
+function simpleAdventure(ans) {
+    if (ans == 5001) {
+        for (let i = 0; i < campaignTrail_temp.questions_json.length; i++) {
+            if (campaignTrail_temp.questions_json[i].pk == 1030) {
+                campaignTrail_temp.questions_json[i] = ruddCYOAQuestion;
+                break;
+            }
+        }
+        return false;
+    } else if (ans == 5000) {
         return false;
     } else {
         return false;
@@ -16781,8 +16806,6 @@ applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
             }
         }
     ]
- 
-e.cyoa = true;
 
 var rudd_answers = 0;
 
@@ -17088,6 +17111,7 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
 }
 
 campaignTrail_temp.multiple_endings=true
+}
 }
 }
 }
