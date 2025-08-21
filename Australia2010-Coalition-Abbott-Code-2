@@ -16938,7 +16938,7 @@ if (quickstats[0] < 3) {
 return "<h3>Impossible. Labor achieve victory by winning all seats in Parliament!</h3><p>It can't be. Impossible. This isn't a dream. But a nightmare. The Coalition have been wiped out. No seats in the House of Representatives. The safest seats, gone to Labor. Impossible. You're shocked. Party members are shocked. This is impossible. A wicked reality plagues you and the party.</p><p>The consession call to Julia Gillard was quick. Same with your conession speech. Washed with emparrassment, you're forced to resign as you have lead the Coalition to their worst every defeat since the parties creation under Robert Menzies. The Federal Coalition is leaderless. However, some members remain in the senate.</p><p>Tasmanian Senator Eric Abetz looks to take the reisgns of the Federal Coalition and hopefully, steer it to gain some seats in 2013 and be elected in the House of Representatives. But now, your time in Parliament and as leader of the Federal Coalition, is over.</p>";
 
 
-} else if (quickstats[0] <= 60) {
+} else if (quickstats[0] <= 59 && quickstats[0] >= 1) {
     if (used != true) {
         setInterval(function () {
             used = true;
@@ -16952,7 +16952,7 @@ return "<h3>The Coalition suffer electoral landslide as Labor holds onto power o
 
 
 
-} else if (quickstats[0] <= 69) {
+} else if (quickstats[0] <= 69 && quickstats[0] >= 60) {
     if (used != true) {
         setInterval(function () {
             used = true;
@@ -16977,7 +16977,7 @@ return "<h3>Labor re-elected to Power as Coalition fail to topple Incumbent</h3>
     }
 return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders look to Crossbench</h3><p>This is the moment you, and Julia Gillard have been dreading. A hung parliament with no clear winner in sight. Both Labor and Liberal have fallen short of the mark. This is the first hung parliament since 1940. Both you and Mr. Abbott are refusing to concede defeat in the election.</p><p>The sole balance of the House of Representatives is now in the hands of the members of the crossbench. You will need to strike a deal with these members to get their support if you want to be Prime Minister still. Bob Katter has expressed interest in siding with the Coalition and Adam Bandt has expressed siding interest with Labor. which leaves the other members left.</p><p>This will be a long few weeks until parliament officially resumes. Hopefully by the time that happens, you will have a deal to Govern with the crossbench with their full support.</p>"
 
-} else if (quickstats[0] >= 76 ) {
+} else if (quickstats[0] >=76 && quickstats[0] <= 83 ) {
     if (used != true) {
         setInterval(function () {
             used = true;
@@ -16989,7 +16989,7 @@ return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders 
     }
 return "<h3>The Coalition oust Labor and win a decent Majority Government</h3><p>It's done. It's over for Labor. What has felt like a long night for the results to come through has finally paid off. The Coalition is back in power and has defeated an incumbent Government in it's first term. The first since 1931. This is history in the making for your party and your leadership.</p><p>Prime Minister Julia Gillard calls to concede the election to you, wishing you and your team the best of luck over the next 3 years. While she concedes to supporters in Melbourne, you give a triumphant speech to supporters in Sydney. Liberal Party Faithful are more than happy over this victory. After 3 years of recklessness, it's time to get to work at last. Now the real work is to begin. Workplace, Health, Industry Reforms to be pushed forward, along with the repealling of the mining tax. If all goes well, re-election in 2013 will be easy.</p><p>Good luck, Mr. Abbott. All the best over the next 3 years of Stable and Honest leadership.</p>"
 
-} else if (quickstats[0] >= 84) {
+} else if (quickstats[0] >= 84 && quickstats[0] <= 149) {
     if (used != true) {
         setInterval(function () {
             used = true;
@@ -17024,11 +17024,6 @@ return "<h3>The Coalition win... Every seat in Parliament!</h3><p>My God. No. Th
         }, 100);
     }
 return "<h3>One seat off, but Bob Katter will deliver Victory for you.</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, Independent MP, Bob Katter. The member for Kennedy in Queensland. A former member of the National Party and MP since 1993, Katter has already expressed intrest in siding with you before the election. The balance of Government rests upon him if you are to govern with his full support.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want Katter to shoot your Government down by next year. Good luck, Mr. Abbott.</p>"
-
-
-
-
-
 
 }
 }
