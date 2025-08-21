@@ -20,9 +20,12 @@ cyoAdventure = function () {
             {childList: true, subtree: true} 
     }
 
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/pBO1wtZ.png"
-campaignTrail_temp.running_mate_last_name = 'Rudd'
-campaignTrail_temp.running_mate_state_id = 21304
+    if (ans ==5001) {
+        campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/pBO1wtZ.png"
+        campaignTrail_temp.running_mate_last_name = 'Rudd'
+        campaignTrail_temp.running_mate_state_id = 21304
+    }
+
 
 var rudd_answers = 0;
 
@@ -16872,6 +16875,7 @@ endingPicker = (out, totv, aa, quickstats) => {
   let orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
   let e = campaignTrail_temp;
   let html;
+
 // Astro's Ending Template
 
 // Template 1 - Simple 1v1 races
@@ -16882,6 +16886,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 //quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
 
 //quickstats[0] is the default, and it tracks your electoral vote count.
+
 
 if (quickstats[0] < 3) {
   //If you want to enable replacing the image based upon your performance, copy from here....
@@ -16994,8 +16999,7 @@ return "<h3>History in the making as Gillard and Labor win... Every seat in Parl
     }
 return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, the new member for Melbourne, Adam Bandt, from the Greens Political Party. The balance of Government rests upon him if you are to govern with his full support, but you'll need to negotiate with Greens leader, Senator Bob Brown to do that. Thankfully, Mr. Bandt stated he'd back Labor in the event of a Hung Parliament.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want your Government to collpase by next year. Good luck, Mrs. Gillard.</p>"
 
-
-} else if (campaignTrail_temp.player_answers[28] == 5057 && quickstats[0]>=76 && quickstats[0] <= 150 && campaignTrail_temp.running_mate_last_name == "ALP") {
+} else if (quickstats[0]<= 69 && quickstats[0] >= 0 && campaignTrail_temp.player_answers[16] == 5057 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -17005,9 +17009,10 @@ return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the r
                 imgg.src = "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/c3aa9ab8-13be-4cb4-ab68-dfb0e38caf71/r0_0_2000_1377_w1200_h678_fmax.jpg";
             }
         }, 100);
+    }
 return "<h3>The move to replace Kevin Rudd is more controversial than Whitlam's dismissal in 1975</h3><p>These were the words that echoed on the news channels on election night and the newspapers the following day. Replacing Kevin Rudd with Paul Lucas proved to be a controversial move. Now, more than Gough Whitlam's dismissal in 1975.</p><p>Now the Coalition is in Government with a mandate with Tony Abbott as Prime Minister. Labor is left fractured, but it needs a new leader. After replacing Kevin Rudd, it is unlikely that you continue as leader of the Federal Labor Party. Many are pushing for Anthony Albanese to be the next Federal Opposition leader to win back Government in 2013.</p><p>But this has proven, without doubt, the most controversial political decision in Australian history. And it is one for the history books, for all the wrong reasons.</p>"
 
-} else if (campaignTrail_temp.player_answers[0] == 5001 && quickstats[0]<=69 && campaignTrail_temp.running_mate_last_name == "ALP") {
+} else if (campaignTrail_temp.player_answers[25] == 5001 && quickstats[0]<=69 && campaignTrail_temp.running_mate_last_name == "ALP") {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
@@ -17025,4 +17030,4 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
 }
 }
 }
-}
+
