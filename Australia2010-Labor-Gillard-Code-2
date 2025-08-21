@@ -29,6 +29,10 @@ cyoAdventure = function () {
 
 var rudd_answers = 0;
 
+function tunnel(new_q){
+	return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
+}  
+
 questionSheath = [
 {'model': 'campaign_trail.question', 'pk': 1022, 'fields': {'priority': 1, 'description': 'The so called Revenge Plot that Kevin Rudd may have stoked up with internal leaking continues to be stoked. Leaks have still come through to the media, and you need to give a response. With the election fast approaching, how will you be able to stop further interal party leaks?', 'likelihood': 1}},
 {'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'Internal leaking, it has come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responsible for the internal party leaks?', 'likelihood': 1}},
@@ -71,9 +75,8 @@ cyoAdventure = function (a) {
         console.log("rudd 3")
         console.log("rudd_answers count:")
         console.log(rudd_answers)
-
     }
-}
+    }
 
     if (ans == 5036) {
         changeQUsingPk(1022, rudd_answers);
@@ -375,14 +378,6 @@ cyoAdventure = function (a) {
         },
 
 
-
-
-
-
-
-
-
-
          ]
 
        campaignTrail_temp.answers_json = [
@@ -409,6 +404,18 @@ cyoAdventure = function (a) {
              "description": "I believe at the current time that a leadership contest should not commence. Mr. Rudd has been doing a perfect job at leading Australia at the current time. I believe Mr. Rudd can go on and win the election."
            }
          },
+
+         {
+          "model": "campaign_trail.answer",
+          "pk": 5002,
+          "fields": {
+            "question": 1030,
+            "feedback": "The feeling of it all is too strong to ignore. As 6pm rolls around, you tune into the ABC to watch the election broadvast. Let's see where the night goes from all of this.",
+            "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
+            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
+            "description": "I hope that the people of Australia, in good faith, re-elect Labor once more to lead this country into the new decade. We have done so much and it's all at stake..."
+          }
+        },
 
          {
           "model": "campaign_trail.answer",
@@ -1277,18 +1284,6 @@ cyoAdventure = function (a) {
             "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
             "description": "We have a shot in Perth. We may have lost a couple of seats there last election, but I am certain we can pull them back."
-          }
-        },
-
-{
-          "model": "campaign_trail.answer",
-          "pk": 5002,
-          "fields": {
-            "question": 1030,
-            "feedback": "The feeling of it all is too strong to ignore. As 6pm rolls around, you tune into the ABC to watch the election broadvast. Let's see where the night goes from all of this.",
-            "global_effect": [201, 0.00], // format: [candidate pk, amount of global effect]
-            "issue_effect": [100, -0.004, -0.004], // format: [issue, issue score, issue importance]
-            "description": "I hope that the people of Australia, in good faith, re-elect Labor once more to lead this country into the new decade. We have done so much and it's all at stake..."
           }
         },
        ]
@@ -17012,7 +17007,7 @@ return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the r
     }
 return "<h3>The move to replace Kevin Rudd is more controversial than Whitlam's dismissal in 1975</h3><p>These were the words that echoed on the news channels on election night and the newspapers the following day. Replacing Kevin Rudd with Paul Lucas proved to be a controversial move. Now, more than Gough Whitlam's dismissal in 1975.</p><p>Now the Coalition is in Government with a mandate with Tony Abbott as Prime Minister. Labor is left fractured, but it needs a new leader. After replacing Kevin Rudd, it is unlikely that you continue as leader of the Federal Labor Party. Many are pushing for Anthony Albanese to be the next Federal Opposition leader to win back Government in 2013.</p><p>But this has proven, without doubt, the most controversial political decision in Australian history. And it is one for the history books, for all the wrong reasons.</p>"
 
-} else if (campaignTrail_temp.player_answers[25] == 5001 && quickstats[0]<=69 && campaignTrail_temp.running_mate_last_name == "ALP") {
+} else if (campaignTrail_temp.player_answers[25] == 5002 && quickstats[0]<=69 && campaignTrail_temp.running_mate_last_name == "ALP") {
   //If you want to enable replacing the image based upon your performance, copy from here....
     if (used != true) {
         setInterval(function () {
