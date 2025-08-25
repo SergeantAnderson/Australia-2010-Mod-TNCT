@@ -64,7 +64,6 @@ styling.innerHTML = `
   visibility: visible;
 }
 
-
 #candidate_summary ul li:nth-child(2),
 #candidate_summary ul li:nth-child(3), #running_mate_summary ul li:nth-child(2) {
     display: none;
@@ -78,7 +77,6 @@ let z = new MutationObserver((mutationsList, observer) => {
     }
 });
 
-z.observe(document, { subtree: true, childList: true });
 
 
 campaignTrail_temp.election_json = [
@@ -87,7 +85,7 @@ campaignTrail_temp.election_json = [
     "pk": 20,
     "fields": {
       "year": 2010,
-      "summary": "<div style='overflow-y:scroll;height:200px;'><p>Since Labor was swept into office in 2007, there has been much controversy surrounding the time of Kevin Rudd’s tenure. Rudd’s most loyal deputy, Julia Gillard was elected leader of Labor and the first Female Prime Minister. Polls are saying it will be a tight race between her, and controversial Liberal Opposition leader, Tony Abbott.</p><p><ul><li>Labor lead under Julia Gillard must fight through the controversies and darkness of the Labor factions to unite the party to win an overall majority, but that will prove difficult with a leaker.</li><li>The Liberal/National Coalition lead by Tony Abbott will need to emphasise the point of the instability within Labor, and highlight Liberal/National policy and unite the base after their 2007 loss.</li></ul><p>This election is make or break for both parties to lead Australia into the new decade.</p></div>",
+      "summary": "<div style='overflow-y:scroll;height:200px;'><p>Since Labor was swept into office in 2007, there has been much controversy surrounding the time of Kevin Rudd’s tenure. Rudd’s most loyal deputy, Julia Gillard was elected leader of Labor and the first Female Prime Minister after a leadership spill months before the election. Polls are saying it will be a tight race between her, and controversial Liberal Opposition leader, Tony Abbott.</p><p><ul><li>Labor under Julia Gillard must navigate internal divisions and controversies to unite the party and secure whatever majority she can, all while managing leaks within the ranks.</li><li>The Liberal/National Coalition lead by Tony Abbott will need to emphasise the point of the instability within Labor, and highlight Liberal/National policy and unite the base after their 2007 loss.</li></ul><p>This election is a make-or-break moment for both parties as they seek to lead Australia into the new decade.</p></div>",
       "image_url": "https://i.imgur.com/m2oElBN.jpeg",
       "winning_electoral_vote_number": 76,
       "advisor_url": "https://i.imgur.com/e359GWl.png",
@@ -108,7 +106,7 @@ campaignTrail_temp.candidate_json = [
       "party": "Labor",
       "state": "Canberra",
       "priority": 1,
-      "description": "<p>**NOT CURRENTLY PLAYABLE** After 11 years in opposition, Labor was swept into power at the 2007 election under Kevin Rudd, defeating John Howard and the Liberal/National Coalition. Things seemed to go well, until the Rudd Government was facing turmoil over senate blockages thanks to the Liberals and the Greens. With this, Rudd’s leadership was in tatters, and a leadership vote was called for, resulting in Julia Gillard being elected Labor leader, and the first female Prime Minister of Australia.<p/><p>In only 3 years of Government, the party's reputation is going down the drain fast, and Labor under Gillard needs to save the party to win at the 2010 election she called. However, this will be proven difficult with a leaker at hand. With Labor narrowly leading, the party must find ways to win.<p>",
+      "description": "<p>After 11 years in opposition, Labor was swept into power at the 2007 election under Kevin Rudd, defeating John Howard and the Liberal/National Coalition. Things seemed to go well, until the Rudd Government was facing turmoil over senate blockages thanks to the Liberals and the Greens. With this, Rudd’s leadership was in tatters, and a leadership vote was called for, resulting in Julia Gillard being elected Labor leader, and the first female Prime Minister of Australia.<p/><p>In only 3 years of Government, the party's reputation is going down the drain fast, and Labor under Gillard needs to save the party to win at the 2010 election she called. However, this will be proven difficult with a leaker at hand. With Labor narrowly leading, the party must find ways to win.<p>",
       "color_hex": "#FF563E",
       "secondary_color_hex": "#FF563E",
       "is_active": 1,
@@ -187,33 +185,6 @@ campaignTrail_temp.candidate_json = [
     }
   },
 
-    {
-    "model": "campaign_trail.candidate",
-    "pk": 205,
-    "fields": {
-      "first_name": "WA Nationals - ",
-      "last_name": "WA NAT",
-      "election": 20,
-      "party": "Non-Alligned",
-      "state": "Canberra",
-      "priority": 4,
-      "description": "'",
-      "color_hex": "#204F0B",
-      "secondary_color_hex": "#204F0B",
-      "is_active": 0,
-      "image_url": "'",
-      "electoral_victory_message": "'",
-      "electoral_loss_message": "'",
-      "no_electoral_majority_message": "'",
-      "description_as_running_mate": "'",
-      "candidate_score": 1
-    }
-  },
-
-    
-
-
-
   
   {
     "model": "campaign_trail.candidate",
@@ -233,7 +204,7 @@ campaignTrail_temp.candidate_json = [
       "electoral_victory_message": "'",
       "electoral_loss_message": "'",
       "no_electoral_majority_message": "'",
-      "description_as_running_mate": "<p>**NOT CURRENTLY PLAYABLE** Once a Loyal Deputy Prime Minister, turned backstabber. On June 24th, 2010, Gillard, along with several other members of the Labor Caucus launched a leadership spill upon incumbent Prime Minister Kevin Rudd. Rudd had pulled out of the contest, leaving Gillard to win the race unopposed. With that, Gillard had faced the media, announcing she had won the ballot and became the first woman Prime Minister of Australia.<p/><p>Now, she is in a very tough spot, with the Coalition hitting at her and the party after the unstable and rocky past 3 years of the Rudd Government. Now, Gillard has called the election. This election will either make or break the Party, as Gillard's main focus is to have a disciplined campaign like in 2007, and unite the party base as a whole.</p><p>But things will be proven difficult for her, as a leaker is at hand, and the Coalition will not stop attacking the Party, and Julia herself. It will be a fight for survival.</p>",
+      "description_as_running_mate": "<p>Once a Loyal Deputy Prime Minister, turned backstabber. On June 24th, 2010, Gillard, along with several other members of the Labor Caucus launched a leadership spill upon incumbent Prime Minister Kevin Rudd. Rudd had pulled out of the contest, leaving Gillard to win the race unopposed. With that, Gillard had faced the media, announcing she had won the ballot and became the first woman Prime Minister of Australia.<p/><p>Now, she is in a very tough spot, with the Coalition hitting at her and the party after the unstable and rocky past 3 years of the Rudd Government. Now, Gillard has called the election. This election will either make or break the Party, as Gillard's main focus is to have a disciplined campaign like in 2007, and unite the party base as a whole.</p><p>But things will be proven difficult for her, as a leaker is at hand, and the Coalition will not stop attacking the Party, and Julia herself. It will be a fight for survival.</p>",
       "candidate_score": 0
     }
   },
@@ -337,7 +308,7 @@ campaignTrail_temp.temp_election_list = [
 e.credits = "<button onclick='credits()'>Various people</button>";
   
 credits = function() {
-    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "", "MAP", "CatBox", "", "PLAYTESTERS", "TotalRozza", "Quartz", "Killeritch"]
+    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "muastronaut", "", "MAP", "CatBox", "", "PLAYTESTERS", "TotalRozza", "Quartz", "Killeritch", "Jeeve", "_mango", "JustAlex"]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
@@ -444,7 +415,7 @@ tooltipList = [
     {searchString: "Kevin Rudd", explanationText: "Kevin Rudd had served as The 26th Prime Minister of Australia, and former leader of the Australian Labor Party. Rudd had held several Shadow Ministerial positions under Kim Beazley, Simon Crean and Mark Latham. Rudd is currently serving as the Member for Griffith, Queensland and has been since 1998. <img src=https://images.sbs.com.au/dims4/default/e04bc1c/2147483647/strip/true/crop/800x450+0+31/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fnews%2Fpublic%2Fimages%2Fi%2Fn%2FIndigenous_4-3_13467715_1828576_20180212180224e74d006e-7611-4044-800c-239348fb3a4a.jpg_sd_800x600.jpg>"},
     {searchString: "Mark Arbib", explanationText: "Mark Arbib serves as a Labor Senator for New South Wales. He served as the Minister for Employment Participation under the Rudd Government. Arbib has been Senator since 2008. <img src=https://content.api.news/v3/images/bin/53e4d4b314efc4f6c4334fcc498ce24d>"},
     {searchString: "National Broadband Network", explanationText: "The Rudd Government launched the National Broadband Network to deliver high-speed internet across Australia, particularly to regional and rural areas. <img src=https://hsmit.com.au/wp-content/uploads/2020/03/NBN.jpg>"},
-    {searchString: "Governor General", explanationText: "Quentin Bryce serves as the 25th Governor General of Australia. She has made history as the firsm female Governor General in Australian History. <img src=https://cef.org.au/wp-content/uploads/2014/03/The-Honourable-Dame-Quentin-Bryce-AD-CVO-blog-header.jpg>"},
+    {searchString: "Governor General", explanationText: "Quentin Bryce serves as the 25th Governor General of Australia. She has made history as the first female Governor General in Australian History. <img src=https://cef.org.au/wp-content/uploads/2014/03/The-Honourable-Dame-Quentin-Bryce-AD-CVO-blog-header.jpg>"},
     {searchString: "Medicare", explanationText: "Medicare is Australia's universal health insurance scheme. It allows a access to a wide range of health and hospital services at little to no cost. Medicare was introduced in 1984 under the Labor lead Hawke Government. <img src=https://www.head2toe.com.au/wp-content/uploads/2023/10/physio-fixx-Medicare-Enhanced-Primary-Care-Program_sm.webp>"}, 
     {searchString: "Great Financial Crisis", explanationText: "The Global Financial Crisis of 2008 had occured due to massive worldwide economic downturns and a strained Housing Market in the United States. Under the Rudd Government, Australia avoided the worst of the recession through the introduction of stimulus packages through until 2009."},
     {searchString: "GFC", explanationText: "TThe Global Financial Crisis of 2008 had occured due to massive worldwide economic downturns and a strained Housing Market in the United States. Under the Rudd Government, Australia avoided the worst of the recession through the introduction of stimulus packages through until 2009."},
@@ -457,7 +428,7 @@ tooltipList = [
     {searchString: "Brendan Nelson", explanationText: "Brendan Nelson formerly served as Opposition leader since 2007, and lead the Liberal/National Coalition until 2008 and retired. Nelson served as the MP for Bradfield, New South Wales, since 1996, retiring as member in 2009.. <img src= https://live-production.wcms.abc-cdn.net.au/aa55c2061e596d0f9da8060fb401b7a7?impolicy=wcms_crop_resize&cropH=337&cropW=600&xPos=0&yPos=0&width=862&height=485>"},
     {searchString: "Malcolm Turnbull", explanationText: "Malcolm Turnbull formerly served as Oppositon leader after Nelson retired. Turnbull has lead the Liberal/National Coalition from 2008 until 2009 until he was spilled by Tony Abbott in a leadership challenge. Turnbull serves as the current Member for Wentworth, New South Wales and has been since 2004. <img src= https://live-production.wcms.abc-cdn.net.au/308c21aed0eed96a1fdc0544327d30c4?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
     {searchString: "Mining Tax", explanationText: "The Rudd Government in 2009 had proposed a tax on mining companies super profits. This would have lead to Australians reciebing a fare share of wealth from resources. The plan backfired however from the Federal Opposition and Mining industry. Many believe that this elad to the downfall of Kevin Rudd as Prime Minister. <img src= https://live-production.wcms.abc-cdn.net.au/7d64a487f99d8dd722df60d1ff0841b0?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
-    {searchString: "Barack Obama", explanationText: "Elected in 2008, Barack Obama serves as the 44th President of the United States and the first African American President. Since being sworn hin, his focus has been on economic recovery and strenghtning alliances with nations such as Australia.<img src= https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2014/January/140127/2D11437520-140124-SOTU-Obama-2010.jpg>"},
+    {searchString: "Barack Obama", explanationText: "Elected in 2008, Barack Obama serves as the 44th President of the United States and the first African American President. Since being sworn in, his focus has been on economic recovery and strenghening alliances with nations such as Australia.<img src= https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2014/January/140127/2D11437520-140124-SOTU-Obama-2010.jpg>"},
     {searchString: "Wayne Swan", explanationText: "Wayne Swan serves as the current Treasurer and now Deputy Prime Minister under the Gillard Government. Swan held the seat of Lilley from 1993-1996, losing it in the Howard Landslide, but won it again in the 1998 Federal Election. <img src= https://live-production.wcms.abc-cdn.net.au/cbd182ef43c83f76aae0ea475070efd9?impolicy=wcms_crop_resize&cropH=1980&cropW=2974&xPos=8&yPos=0&width=862&height=575>"},
     {searchString: "Treasurer", explanationText: "Wayne Swan serves as the current Treasurer and now Deputy Prime Minister under the Gillard Government. Swan held the seat of Lilley from 1993-1996, losing it in the Howard Landslide, but won it again in the 1998 Federal Election. <img src= https://live-production.wcms.abc-cdn.net.au/cbd182ef43c83f76aae0ea475070efd9?impolicy=wcms_crop_resize&cropH=1980&cropW=2974&xPos=8&yPos=0&width=862&height=575>"},
     {searchString: "Afghanistan", explanationText: "Since 2001, Australia has kept a military presence in Afghanistan as part of the U.S. lead coalition fight on the War on Terror."},
@@ -475,6 +446,8 @@ tooltipList = [
 
 
 }
+
+
 
 
 
