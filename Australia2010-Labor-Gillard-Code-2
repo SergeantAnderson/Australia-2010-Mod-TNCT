@@ -35,7 +35,7 @@ function tunnel(new_q){
 
 questionSheath = [
 {'model': 'campaign_trail.question', 'pk': 1022, 'fields': {'priority': 1, 'description': 'The so called Revenge Plot that Kevin Rudd may have stoked up with internal leaking continues to be stoked. Leaks have still come through to the media, and you need to give a response. With the election fast approaching, how will you be able to stop further interal party leaks?', 'likelihood': 1}},
-{'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'Internal leaking, it has come to a stop. It seems like a breath of fresh air for your party, but it seems off. After talking with Kevin Rudd about wanting him as Foreign Minister, the leaks stopped. Do you have reason to suspect that Kevin Rudd was responsible for the internal party leaks?', 'likelihood': 1}},
+{'model': 'campaign_trail.question', 'pk': 1023, 'fields': {'priority': 1, 'description': 'Internal leaks have stopped, which feels like a breath of fresh air for your party, but something seems off. After discussing the foreign minister position with Kevin, the leaks stopped. Do you have a reason to suspect that Rudd was responsible?', 'likelihood': 1}},
 {'model': 'campaign_trail.question', 'pk': 1030, 'fields': {'priority': 1, 'description': 'The Election has been a brutal fight for your political survival, yet here we are on the 21st of August. Australians are set to cast their final ballot. You survived a leadership spill back in June, but you may not survive the election. You retreat to your electoral office in Griffith and anticipate and prepare for the worse.', 'likelihood': 1}},
 ]
 
@@ -152,7 +152,7 @@ cyoAdventure = function (a) {
           "pk": 1003,
           "fields": {
             "priority": 1,
-            "description": "Like any Prime Minister after 3 years, you’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for an official election. The date you had in mind? Saturday, the 21st of August. It’s now crunch time, Mrs. Gillard.",
+            "description": "Like any Prime Minister after 3 years, you’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for an official election. The date you had in mind? Saturday, the 21st of August. It’s now crunch time, Prime Minister.",
             "likelihood": 1
           }
         },
@@ -162,7 +162,7 @@ cyoAdventure = function (a) {
           "pk": 1004,
           "fields": {
             "priority": 1,
-            "description": "The date is set. August 21st will be when Australians cast their ballot to decide this nations fate. As you have called the election, many internally are suggesting to go down the path of promoting Labor as 'Disiplined'. It is your choice. What will be your message to voters leading up to the August Election?",
+            "description": "The date is set, August 21st will be when Australians cast their ballots to decide this nations fate the future direction of this country. As you have called the election, some within your party are suggesting promoting Labor as 'Disciplined'. It is your choice. What will be your message to voters leading up to the August Election?",
             "likelihood": 1
           }
         },
@@ -213,7 +213,7 @@ cyoAdventure = function (a) {
           "pk": 1009,
           "fields": {
             "priority": 1,
-            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you telling Mr. Rudd months before the election to 'Reverse the Polling Trend'. This is being labled as desperate from the Murdoch Press, and Tony Abbott is critising you on this move. What are your comments?",
+            "description": "If the polling was one thing to be worried about, leaks are another. The media has caught wind of you telling Kevin months before the election to 'Reverse the Polling Trend'. This is being labeled as a desperate move from by the Murdoch Media and Tony Abbott is criticizing you on this move. What are your comments How do you respond??",
             "likelihood": 1
           }
         },
@@ -233,7 +233,7 @@ cyoAdventure = function (a) {
           "pk": 1011,
           "fields": {
             "priority": 1,
-            "description": "If the Mining Tax was legislation to think upon, there has been rumor's circulating around that a propsed 'Carbon Tax' which will be introduced if Labor is re-elected to a second term. The Coalition are attacking in a frenzy over this, labelling it a 'Disaster'. Is it confirmed if this Carbon Tax will be passed in a second Labor Term?",
+            "description": "If the Mining Tax was a legislation to think upon, there has been rumors circulating around that a propsed proposed 'Carbon Tax' which will be introduced if Labor is reelected to a second term. The Coalition are attacking in a frenzy over this, labelling it a 'disaster'. Can you confirm whether this Carbon Tax will be introduced?",
             "likelihood": 1
           }
         },
@@ -271,7 +271,7 @@ cyoAdventure = function (a) {
           "pk": 1015,
           "fields": {
             "priority": 1,
-            "description": "First a Minister who supported it, now will be a Prime Minister who will distance himself from it. Tony Abbott has stated that WorkChoices, policy of the previous Coalition Government lead by John Howard, will not be implemented if the Coalition is to be elected. Considering this turn-around from the Opposition, what is the best route to take regarding his statement?",
+            "description": "First a Minister who supported it, now will be a Prime Minister who will distance himself from it. Tony Abbott has stated that WorkChoices, a policy of the previous Coalition Government led by John Howard, will not be implemented reinstated if the Coalition is to be elected. Considering this turn-around from the Opposition Leader, what is the best route to take regarding his statement?",
             "likelihood": 1
           }
         },
@@ -282,7 +282,7 @@ cyoAdventure = function (a) {
           "pk": 1016,
           "fields": {
             "priority": 1,
-            "description": "Since 2003, Australian Troops have been delployed in the Middle East, most notibaly in Afghanistan and Iraq. However, since 2007, 500 troops have returned from Iraq. The United States, now under President Barack Obama, is moving forward with troops being removed by next year. With the Anti-War movement still moving, and multiple Green and Progressive voices urge the Government to perform a full withdraw from Iraq. Will your Government, if re-elected, commit to this and bring Australian Troops back home ?",
+            "description": "Since 2003, Australian troops have been delployed in the Middle East, most notably in Afghanistan and Iraq. However, since 2007, 500 troops have returned from Iraq. The United States, now under led by President Barack Obama is moving forward with troops being removed by next year plans to begin withdrawing its troops next year. With the Anti-War movement still strong, and multiple Green and Progressive voices urging the government to perform a full withdrawal from Iraq. Will your government, if re-elected, commit to this and bring Australian troops back home?",
             "likelihood": 1
           }
         },
@@ -292,7 +292,7 @@ cyoAdventure = function (a) {
           "pk": 1017,
           "fields": {
             "priority": 1,
-            "description": "While the Rudd Government have had some sucesses on the health system, it is apparant that the system is struggling. With doctors under pressure, waiting lists growing and emergency departments under pressure. The Coalition have called you out on it, saying that 'it is a compleye failure on the Government's part'. What will a second Labor term do to alleviate pressure of a strained Health System?",
+            "description": "While the Rudd Government has had some successes on the health system, it is apparant apparent that the system is struggling, with doctors under pressure, waiting list growing and emergency departments stretched thin, the Coalition have called you out on it saying that it is a complete failure on the Government's  part. What will a second Labor term do to alleviate pressure of a strained health system?",
             "likelihood": 1
           }
         },
@@ -386,7 +386,7 @@ cyoAdventure = function (a) {
            "pk": 5000,
            "fields": {
              "question": 1000,
-             "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Mrs. Gillard.",
+             "feedback": "Mark Arbib and several other Labor members work in the shadows to get the leadership challenge on the road. Things might just go your way, Prime Minister.",
              "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
              "issue_effect": [100, 0.004, 0.03], // format: [issue, issue score, issue importance]
              "description": "I most certainly am. I believe that Labor needs a new voice for the leadership of the party. I have emailed Mr. Rudd in regards to this matter. A leadership challenge will commence."
@@ -482,7 +482,7 @@ cyoAdventure = function (a) {
           "pk": 5008,
           "fields": {
             "question": 1003,
-            "feedback": "Your spirits are high and thats for certain, Mrs. Gillard. However, you’re gonna have to make some ground if you want to retain your majority in Parliament.",
+            "feedback": "Your spirits are high and thats for certain, Prime Minister. However, you’re gonna have to make some ground if you want to retain your majority in Parliament.",
             "global_effect": [201, -0.001], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, -0.002, -0.004], // format: [issue, issue score, issue importance]
             "description": "I believe that we can win this election and keep going with the good work that Labor has done over the past 3 years. It will be a tough election to handle, but I believe that we can do it. "
@@ -518,7 +518,7 @@ cyoAdventure = function (a) {
           "pk": 5011,
           "fields": {
             "question": 1004,
-            "feedback": "I wouldn’t call your campaign “Disciplined” at the current time, Mrs. Gillard considering what is happening behind closed doors.",
+            "feedback": "I wouldn’t call your campaign “Disciplined” at the current time, Prime Minister considering what is happening behind closed doors.",
             "global_effect": [201, 0.006], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.06], // format: [issue, issue score, issue importance]
             "description": "The message we will need to run is a disciplined campaign. I know that the party is facing some rough bumps at the current time. But I believe that we can get through this issue as a united party and win this election. I’m sure the Australian People can Trust Labor once again."
@@ -614,7 +614,7 @@ cyoAdventure = function (a) {
           "pk": 5019,
           "fields": {
             "question": 1007,
-            "feedback": "Good thinking of travelling to Sydney, Mrs. Gillard. However, the Queensland Labor Branch is a little disappointed that you didn’t consider travelling there.",
+            "feedback": "Good thinking of travelling to Sydney, Prime Minister. However, the Queensland Labor Branch is a little disappointed that you didn’t consider travelling there.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, -0.03, -0.006], // format: [issue, issue score, issue importance]
             "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in the Sydney Metro Area and the surrounding suburbs, as they contain key seats that will determine the election."
@@ -626,7 +626,7 @@ cyoAdventure = function (a) {
           "pk": 5020,
           "fields": {
             "question": 1007,
-            "feedback": "Good thinking travelling to Brisbane, Mrs. Gillard. However, the New South Wales Labor Branch is a little disappointed that you didn’t consider travelling there.",
+            "feedback": "Good thinking travelling to Brisbane, Prime Minister. However, the New South Wales Labor Branch is a little disappointed that you didn’t consider travelling there.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.04, 0.03], // format: [issue, issue score, issue importance]
             "description": "My colleagues' seats are on the line. I believe it is best to campaign extensively in Brisbane and the Upper Coast there, as they contain key seats that will determine the election."
@@ -1308,7 +1308,7 @@ function onAnswer(answer_pk) {
 
 
 
-        function getTooltips(str) {
+function getTooltips(str) {
     let matches = [];
 
     tooltipList.forEach((tooltip, index) => {
@@ -16992,7 +16992,7 @@ return "<h3>History in the making as Gillard and Labor win... Every seat in Parl
             }
         }, 100);
     }
-return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, the new member for Melbourne, Adam Bandt, from the Greens Political Party. The balance of Government rests upon him if you are to govern with his full support, but you'll need to negotiate with Greens leader, Senator Bob Brown to do that. Thankfully, Mr. Bandt stated he'd back Labor in the event of a Hung Parliament.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want your Government to collpase by next year. Good luck, Mrs. Gillard.</p>"
+return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, the new member for Melbourne, Adam Bandt, from the Greens Political Party. The balance of Government rests upon him if you are to govern with his full support, but you'll need to negotiate with Greens leader, Senator Bob Brown to do that. Thankfully, Mr. Bandt stated he'd back Labor in the event of a Hung Parliament.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want your Government to collpase by next year. Good luck, Madam Prime Minister.</p>"
 
 } else if (quickstats[0]<= 69 && quickstats[0] >= 0 && e.player_answers.includes(5057) && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
   //If you want to enable replacing the image based upon your performance, copy from here....
