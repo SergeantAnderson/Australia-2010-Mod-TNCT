@@ -224,7 +224,7 @@ cyoAdventure = function (a) {
           "pk": 1010,
           "fields": {
             "priority": 1,
-            "description": "Rudd as Prime Minister has always backed the environment, including yourself. However, the domino that collapse, which started this all, was the proposal of a 'Mining Tax' a super-profits tax on Carbon from mining corperations. Considering that the Greens in inner-city seats across the nation are seeing a rise in support, will you consider passing something similar?",
+            "description": "Rudd, as Prime Minister, had always supported environmental initiatives, and you have too. But the controversy that began with his proposal of a 'Mining Tax' a super-profits tax on carbon from mining, sparked a political backlash and drew millions in attack funding from mining lobby groups. With Greens support rising in inner-city seats across the nation, will you consider introducing a similar measure?",
             "likelihood": 1
           }
         },
@@ -243,7 +243,7 @@ cyoAdventure = function (a) {
           "pk": 1012,
           "fields": {
             "priority": 1,
-            "description": "If the first leak internally didn't cause damage, this one certainly will. Leaks have reported to the media that you and the Cabinet have been questioning pension increases and aspects of the parental leave scheme. It is unknown how it got to the media at this time, however, speculation is rising that Kevin Rudd was behind this in a so-called 'revenge plan'. How are you going to downplay this?",
+            "description": "If the first internal leak didn’t cause much damage, this one certainly will. Leaks to the media suggest that you and the Cabinet have been raising questions about pension increases and aspects of the parental leave scheme. It’s unclear how the information reached the press, but speculation is growing that Kevin Rudd is behind it as part of a so-called 'revenge plan' How will you respond?",
             "likelihood": 1
           }
         },
@@ -919,7 +919,7 @@ cyoAdventure = function (a) {
           "pk": 5048,
           "fields": {
             "question": 1017,
-            "feedback": "While a good policy, Health workers and General Practitioners come out in support of this policy.",
+            "feedback": "This policy has been well received, with health workers and general practitioners backing it.",
             "global_effect": [201, -0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [104, 0.05, 0.05], // format: [issue, issue score, issue importance]
             "description": "Labor has been the party that has protected our health system. We will invest into Medicare and ensure that it is easier to see a General Practitioner in our nation, while hiring more General Practitioners so it is easy to visit one. This will alleviate pressure off Emergency departments."
