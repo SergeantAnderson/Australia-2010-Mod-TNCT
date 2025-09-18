@@ -13,6 +13,23 @@ campaignTrail_temp.premier_ab_test_version = -1;
 
 let style = document.createElement('style');style.innerHTML = `#overall_result {overflow: auto;}`;document.head.appendChild(style);
 
+campaignTrail_temp.achievements = {
+    "A Ruddless Victory" : {
+        "image" : "https://i.imgur.com/ClPV9fn.png",
+        "description" : "As Julia Gillard, win the election by dumping Kevin Rudd as Labors candidate for the seat of Griffith.",
+        "cannotBeCheated" : true
+    },
+    "The Taxing Queen" : {
+        "image" : "https://i.imgur.com/niM87y7.png",
+        "description" : "As Julia Gillard, win the elction while promitising to introduce a Carbon Tax and Mining Tax.",
+        "cannotBeCheated" : true
+    },
+    "The More, The Merrier" : {
+        "image" : "https://i.imgur.com/e0LvfTc.png",
+        "description" : "As Julia Gillard, win more than 83 seats, beating Rudd's 2007 margin.",
+        "cannotBeCheated" : true
+    },
+}
 
 quotes = [
     `"Through hard work and education, we can deliver a strong economy and oppotunity for all." - Julia Gillard`,
@@ -77,7 +94,7 @@ let z = new MutationObserver((mutationsList, observer) => {
     }
 });
 
-
+z.observe(document, { subtree: true, childList: true });
 
 campaignTrail_temp.election_json = [
   {
