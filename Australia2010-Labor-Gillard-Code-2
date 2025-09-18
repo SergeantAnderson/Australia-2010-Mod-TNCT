@@ -17,7 +17,7 @@ if (campaignTrail_temp.player_answers[5] == 5029 && 5035 && quickstats[0] >= 76)
     }
 
 if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 83) {
-    ctsAchievement("The more, the merrier");
+    ctsAchievement("The More, The Merrier");
     }
 
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
