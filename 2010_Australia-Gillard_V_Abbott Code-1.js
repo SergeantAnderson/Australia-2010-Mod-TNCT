@@ -29,6 +29,22 @@ campaignTrail_temp.achievements = {
         "description" : "As Julia Gillard, win more than 83 seats, beating Rudd's 2007 margin.",
         "cannotBeCheated" : true
     },
+
+     "Finish What You Started" : {
+        "image" : "https://i.imgur.com/XGoGdRA.png",
+        "description" : "As Tony Abbott, win the election and win more than 94 seats, beating John Howards 1996 record.",
+        "cannotBeCheated" : true
+    },
+     "The Independent Kingmaker" : {
+        "image" : "https://i.imgur.com/1l9Biep.png",
+        "description" : "As Tony Abbott, win at least 75 seats and get Bob Katter to give condifence and supply.",
+        "cannotBeCheated" : true
+    },
+     "The Coal-Free Liberal" : {
+        "image" : "https://i.imgur.com/TmLvqvR.png",
+        "description" : "As Tony Abbott, win while backing major climate iniciatives.",
+        "cannotBeCheated" : true
+    },
 }
 
 quotes = [
