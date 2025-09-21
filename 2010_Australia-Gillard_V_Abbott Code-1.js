@@ -1,3 +1,13 @@
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#444444",
+     "header_text_color": "#000000",
+     "description_text_color": "#0f0f0f",
+     "description_background_color": "#ffffff",
+     "main_color": "#7c7c7c",
+     "secondary_color": "#444444",
+     "ui_text_color": "#ffffff"
+}
+
 const introTitle = document.querySelector("#inner_window_1 h3");
 if (introTitle) {
 	introTitle.textContent = "Do you have what it takes to win the 2010 Federal Election?";
