@@ -493,7 +493,7 @@ cyoAdventure = function (_a) {
           "pk": 5010,
           "fields": {
             "question": 1005,
-            "feedback": "You seems to be pretty calm against Mrs. Gillard. Overall, the audience voted in your favour.",
+            "feedback": "You seems to be pretty calm against the Prime Minister. Overall, the audience voted in your favour.",
             "global_effect": [200, -0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.06, -0.005], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
@@ -505,7 +505,7 @@ cyoAdventure = function (_a) {
           "pk": 5011,
           "fields": {
             "question": 1005,
-            "feedback": "You seemed desperate to win against Mrs. Gillard and it was reflected in what you said. Overall, the audience voted in favour of Mr. Abbott",
+            "feedback": "You seemed desperate to win against the Prime Minister and it was reflected in what you said. Overall, the audience voted in favour of the Prime Minister.",
             "global_effect": [200, 0.008], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.03, -0.007], // format: [issue, issue score, issue importance]
             "description": "Yes, I will attend the Community forum. I believe we can win it and Voters will see it."
