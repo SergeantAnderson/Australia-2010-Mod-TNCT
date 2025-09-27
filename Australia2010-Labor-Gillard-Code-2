@@ -16923,7 +16923,7 @@ if (quickstats[0] < 3) {
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/owrD0Qv.png";
+                imgg.src = "https://i.imgur.com/HgvUJyc.png";
             }
         }, 100);
     }
@@ -16936,7 +16936,7 @@ return "<h3>From everything, all the way down to nothing</h3><p>How could this h
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/Rtu29Qu.png";
+                imgg.src = "https://i.imgur.com/kb0mv73.png";
             }
         }, 100);
     }
@@ -16949,7 +16949,7 @@ return "<h3>Coming Back from this defeat will be a mamoth task ahead</h3><p>The 
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/M9zksbk.png";
+                imgg.src = "https://i.imgur.com/cbMnKxt.png";
             }
         }, 100);
     }
@@ -16985,7 +16985,7 @@ return "<h3>Scraping by with the bare minimum to be on our own</h3><p>An incredi
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/5rt4n5d.png";
+                imgg.src = "https://i.imgur.com/eJTHfsc.png";
             }
         }, 100);
     }
@@ -16997,7 +16997,7 @@ return "<h3>Beating the previous record holder, moving Australia forward</h3><p>
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/vD18qlT.png";
+                imgg.src = "https://i.imgur.com/HlveUa4.png";
             }
         }, 100);
     }
