@@ -16907,7 +16907,7 @@ if (quickstats[0] < 3) {
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/vD18qlT.png";
+                imgg.src = "https://i.imgur.com/HlveUa4.png";
             }
         }, 100);
     }
@@ -16920,7 +16920,7 @@ return "<h3>Washed away and never to return</h3><p>It can't be. Impossible. This
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/5rt4n5d.png";
+                imgg.src = "https://i.imgur.com/eJTHfsc.png";
             }
         }, 100);
     }
@@ -16959,7 +16959,7 @@ return "<h3>Hung Parliament looms, as neither parties reach 76 as Major Leaders 
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/Rtu29Qu.png";
+                imgg.src = "https://i.imgur.com/cbMnKxt.png";
             }
         }, 100);
     }
@@ -16971,11 +16971,11 @@ return "<h3>The return of the prodigy of John Howard</h3><p>It's done. It's over
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/M9zksbk.png";
+                imgg.src = "https://i.imgur.com/kb0mv73.png";
             }
         }, 100);
     }
-return "<h3>Truly, Standing up for Australia</h3><p>The polls were projecting a hung parliament, or even a small majority Government for either side. But no, voters have delivered their verdict and have handed you a large majority Government. John Howard is proud of the work you've achieved this campaign season, potentially beating his record of election victories back in the late 1990's and 2000's</p>Prime Minister Julia Gillard calls to conede, wishing you well for the next 3 years. As she concedes to flattened Labor party supporters in Melbourne, a different story is present in Sydney. Liberal Party faithful are jubilant over this victory as you give your speech to a roaring crowd.<p><p>Now is the time to implement your policies of Reform and ensuring that Australian's have an honest and strong Government. If all goes according to plan, re-election in 2013 will be easy.</p><p>Good luck in these next 3 years, Mr. Abbott.</p>"
+return "<h3>Truly, Standing up for Australia</h3><p>The polls were projecting a hung parliament, or even a small majority Government for either side. But no, voters have delivered their verdict and have handed you a large majority Government. John Howard is proud of the work you've achieved this campaign season, potentially beating his record of election victories back in the late 1990's and 2000's.</p><p>Prime Minister Julia Gillard calls to conede, wishing you well for the next 3 years. As she concedes to flattened Labor party supporters in Melbourne, a different story is present in Sydney. Liberal Party faithful are jubilant over this victory as you give your speech to a roaring crowd.<p><p>Now is the time to implement your policies of Reform and ensuring that Australian's have an honest and strong Government. If all goes according to plan, re-election in 2013 will be easy.</p><p>Good luck in these next 3 years, Mr. Abbott.</p>"
 
 } else if (quickstats[0] == 150) {
      if (used != true) {
@@ -16983,7 +16983,7 @@ return "<h3>Truly, Standing up for Australia</h3><p>The polls were projecting a 
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/owrD0Qv.png";
+                imgg.src = "https://i.imgur.com/HgvUJyc.png";
             }
         }, 100);
     }
