@@ -31,7 +31,7 @@ campaignTrail_temp.achievements = {
     },
     "The Taxing Queen" : {
         "image" : "https://i.imgur.com/niM87y7.png",
-        "description" : "As Julia Gillard, win the elction while promitising to introduce a Carbon Tax and Mining Tax.",
+        "description" : "As Julia Gillard, win the elction while promising to introduce a Carbon Tax and Mining Tax.",
         "cannotBeCheated" : true
     },
     "The More, The Merrier" : {
@@ -133,7 +133,7 @@ campaignTrail_temp.election_json = [
       "image_url": "https://i.imgur.com/m2oElBN.jpeg",
       "winning_electoral_vote_number": 76,
       "advisor_url": "https://i.imgur.com/e359GWl.png",
-      "recommended_reading": "<h4 style=\\\"margin-top: 0.5em;\\\">The 2010 Australian Federal Election</h4> <h4 style=\\\"margin-top: 0.5em;\\\">Sources</h4> <a href=\\\"https://www.sbs.com.au/news/article/timeline-key-events-in-2010-election-campaign/03xlcybaq\\\" target=\\\"_blank\\\">Timeline: Key events in 2010 election campaign</a><br><a href=\\\"https://australianpolitics.com/elections/federal-2010\\\" target=\\\"_blank\\\">AustralianPolitics.com</a><br><a href=\\\"https://www.youtube.com/watch?v=Mq7UloltBeA\\\" target=\\\"_blank\\\">Does Labor like Julia Gillard? - Mr. M History</a><br><a href=\\\"https://www.youtube.com/watch?v=yLbqNuOdoCU\\\" target=\\\"_blank\\\">The Australian Election of 2010: (S. 3, Ep. 13, All Australian Elections) - Sormon</a><h4>A Message to All</h4><p>Once again, thank you all for playing 2010 Australia<br>It is a massive honor one more to give this mod to the community I enjoy so much<br>Stay tuned for new mods in the future!<br> - Sergeant Anderson<br><br><img src=\\\"https://i.imgur.com/eJfi9DU.png\\\" width=\\\"120px\\\"></p>",
+      "recommended_reading": "<div style='overflow-y:scroll;height:350px;'><h4 style=\"margin-top: 0.5em;\">The 2010 Australian Federal Election</h4> <h4 style=\"margin-top: 0.5em;\">Sources</h4> <a href=\"https://www.sbs.com.au/news/article/timeline-key-events-in-2010-election-campaign/03xlcybaq\" target=\"_blank\">Timeline: Key events in 2010 election campaign</a><br><a href=\"https://australianpolitics.com/elections/federal-2010\" target=\"_blank\">AustralianPolitics.com</a><br><a href=\"https://www.youtube.com/watch?v=Mq7UloltBeA\" target=\"_blank\">Does Labor like Julia Gillard? - Mr. M History</a><br><a href=\"https://www.youtube.com/watch?v=yLbqNuOdoCU\" target=\"_blank\">The Australian Election of 2010: (S. 3, Ep. 13, All Australian Elections) - Sormon</a><h4>A Message to All</h4><p>G'day all! Thank you all for playing 2010 Australia<br>It is a massive honor once more to give this mod to a great community.<br>I want to thank all who contributed to this mod, coders, playtesters and all. You guys are legends for helping.<br>Stay tuned for new mods in the future! And once again, thank you.<br> - Sergeant Anderson<br><br><img src=\"https://i.imgur.com/JtI6Etw.png\" width=\"120px\"></p></div>",
       "has_visits": 1,
       "no_electoral_majority_image": ""
     }
