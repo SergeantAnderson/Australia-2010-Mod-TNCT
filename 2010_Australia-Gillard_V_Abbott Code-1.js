@@ -133,7 +133,7 @@ campaignTrail_temp.election_json = [
       "winning_electoral_vote_number": 76,
       "advisor_url": "https://i.imgur.com/e359GWl.png",
       "recommended_reading": "",
-      "has_visits": 0,
+      "has_visits": 1,
       "no_electoral_majority_image": ""
     }
   }
@@ -367,8 +367,7 @@ HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
         HistPVP=["37.99%","43.32%","4.05%","11.76%"];
 
 const touched = new WeakSet();
-
-const changeTextObs = new MutationObserver(() => {
+const prevContent = new WeakMap();
     const el = document.querySelector("#state_info > p:nth-of-type(2)");
 
     if (el && !touched.has(el)) {
@@ -376,24 +375,35 @@ const changeTextObs = new MutationObserver(() => {
         touched.add(el);
     }
 
+const replaceTextContent = (el, find, replace) => {
+    el.textContent = el.textContent.replace(find, replace);
+}
+
+const changeTextObs = new MutationObserver(() => {
     const els = [
-        { selector: "#state_info > h3", find: "STATE", replace: "SEAT" },
-        { selector: "#state_info > p:nth-of-type(2)", find: "Electoral Votes:", replace: "Seats:" },
-        { selector: "#pvswitcher", find: "State", replace: "Seat" },
-        { selector: "#ev_est", find: "Electoral Vote", replace: "Total Seat" },
+        { selector: "#state_info > h3", change: (el) => el.textContent = "SEAT SUMMARY" },
+        { selector: "#state_info > p:nth-of-type(2)", change: (el) => replaceTextContent(el, "Electoral Votes:", "Seats") },
+        { selector: "#pvswitcher", change: (el) => replaceTextContent(el, "State", "Seat"), persist: true },
+        { selector: "#ev_est", change: (el) => replaceTextContent(el, "Electoral Vote", "Total Seat") },
     ];
 
-    for (const { selector, find, replace } of els) {
+    for (const { selector, change, persist = false } of els) {
         const el = document.querySelector(selector);
+        if (!el) continue;
 
-        if (el && !touched.has(el) && el.textContent.includes(find)) {
-            el.textContent = el.textContent.replace(find, replace);
+        if (persist) {
+            const prev = prevContent.get(el);
+            if (el.textContent !== prev) {
+                change(el);
+                prevContent.set(el, el.textContent);
+            }
+        }
+        else if (!touched.has(el)) {
+            change(el);
             touched.add(el);
         }
     }
 });
-
-
 const target = document.getElementById("game_window");
 
 changeTextObs.observe(target, {
