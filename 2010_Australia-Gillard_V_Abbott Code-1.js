@@ -39,7 +39,11 @@ campaignTrail_temp.achievements = {
         "description" : "As Julia Gillard, win more than 83 seats, beating Rudd's 2007 margin.",
         "cannotBeCheated" : true
     },
-
+    "The Green Stalemate" : {
+        "image" : "https://i.imgur.com/f2kEly2.png",
+        "description" : "As Julia Gillard, win at least 75 seats in a Hung Parliament and get Adam Bandt to give confidence and supply.",
+        "cannotBeCheated" : true
+    },
      "Finish What You Started" : {
         "image" : "https://i.imgur.com/XGoGdRA.png",
         "description" : "As Tony Abbott, win the election and win more than 94 seats, beating John Howards 1996 record.",
@@ -47,7 +51,7 @@ campaignTrail_temp.achievements = {
     },
      "The Independent Kingmaker" : {
         "image" : "https://i.imgur.com/1l9Biep.png",
-        "description" : "As Tony Abbott, win at least 75 seats and get Bob Katter to give condifence and supply.",
+        "description" : "As Tony Abbott, win at least 75 seats in a Hung Parliament and get Bob Katter to give condifence and supply.",
         "cannotBeCheated" : true
     },
      "The Coal-Free Liberal" : {
@@ -382,6 +386,8 @@ const replaceTextContent = (el, find, replace) => {
 const changeTextObs = new MutationObserver(() => {
     const els = [
         { selector: "#state_info > h3", change: (el) => el.textContent = "SEAT SUMMARY" },
+        { selector: "#state_results > h3", change: (el) => el.textContent = "STATE RESULTS" },
+        { selector: "#electoral_votes > h3", change: (el) => el.textContent = "SEAT RESULTS" },
         { selector: "#state_info > p:nth-of-type(2)", change: (el) => replaceTextContent(el, "Electoral Votes:", "Seats") },
         { selector: "#pvswitcher", change: (el) => replaceTextContent(el, "State", "Seat"), persist: true },
         { selector: "#ev_est", change: (el) => replaceTextContent(el, "Electoral Vote", "Total Seat") },
