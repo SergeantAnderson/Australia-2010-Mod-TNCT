@@ -16834,15 +16834,6 @@ applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
         }
     ]
 
-function changechart(){
-    if (document.getElementById("overall_vote_statistics")!=null) {
-      overallthing=document.getElementById("overall_vote_statistics").innerHTML;
-      overallthing.toString()
-      overallthing=overallthing.replace("Electoral Votes","Seats Won")
-      document.getElementById("overall_vote_statistics").innerHTML=overallthing
-    }
-}
-window.setInterval(changechart,200)
 
 construct = (a = 1) => {
     e.page = e.page + a < e.pages.length ? e.page + a : 0
@@ -17049,3 +17040,20 @@ return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the 
 }
 }
 }
+
+e.multiple_endings=true
+
+function changechart() {
+    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
+    for(let id of elementIDs) {
+        let element = document.getElementById(id);
+        if (element) {
+            let overallthing = element.innerHTML;
+            overallthing = overallthing.replace("Electoral Votes","Seats Won");
+            overallthing = overallthing.replace("Candidate","Party");
+            element.innerHTML = overallthing;
+
+        }
+    }
+}
+window.setInterval(changechart,200)
