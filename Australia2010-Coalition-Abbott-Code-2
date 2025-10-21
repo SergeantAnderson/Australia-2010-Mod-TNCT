@@ -19,6 +19,14 @@ if (campaignTrail_temp.player_answers[5] == 5021 && 5032 && quickstats[0] >= 76)
         ctsAchievement("The Coal-Free Liberal");
     }
 
+if (campaignTrail_temp.player_answers[5] == 5015 && quickstats[0] <= 69) {
+        ctsAchievement("Opposition Henchman");
+    }
+
+if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 76) {
+    ctsAchievement("Standing Up for Australia");
+    }
+
 
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 campaignTrail_temp.player_answers = [];
