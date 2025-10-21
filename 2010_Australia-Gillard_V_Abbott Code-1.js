@@ -24,6 +24,11 @@ campaignTrail_temp.premier_ab_test_version = -1;
 let style = document.createElement('style');style.innerHTML = `#overall_result {overflow: auto;}`;document.head.appendChild(style);
 
 campaignTrail_temp.achievements = {
+    "Lets Move Australia Forward" : {
+        "image" : "https://i.imgur.com/VL1Gt99.png",
+        "description" : "As Julia Gillard, win the 2010 Federal Election.",
+        "cannotBeCheated" : true
+    },
     "A Ruddless Victory" : {
         "image" : "https://i.imgur.com/ClPV9fn.png",
         "description" : "As Julia Gillard, win the election by dumping Kevin Rudd as Labors candidate for the seat of Griffith.",
@@ -44,6 +49,11 @@ campaignTrail_temp.achievements = {
         "description" : "As Julia Gillard, win at least 75 seats in a Hung Parliament and get Adam Bandt to give confidence and supply.",
         "cannotBeCheated" : true
     },
+     "Standing Up For Australia" : {
+        "image" : "https://i.imgur.com/WKeoVgp.png",
+        "description" : "As Tony Abbott, win the 2010 Federal Election.",
+        "cannotBeCheated" : true
+    },
      "Finish What You Started" : {
         "image" : "https://i.imgur.com/XGoGdRA.png",
         "description" : "As Tony Abbott, win the election and win more than 94 seats, beating John Howards 1996 record.",
@@ -57,6 +67,11 @@ campaignTrail_temp.achievements = {
      "The Coal-Free Liberal" : {
         "image" : "https://i.imgur.com/TmLvqvR.png",
         "description" : "As Tony Abbott, win while backing major climate iniciatives.",
+        "cannotBeCheated" : true
+    },
+    "Opposition Henchmen" : {
+        "image" : "https://i.imgur.com/1PnfBup.png",
+        "description" : "As Tony Abbott, use the two Liberal Opposition leaders on the Campaign Trail, and lose.",
         "cannotBeCheated" : true
     },
 }
