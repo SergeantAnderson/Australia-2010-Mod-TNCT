@@ -23,6 +23,10 @@ if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] == 75) {
     ctsAchievement("The Green Stalemate");
     }
 
+if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 76) {
+    ctsAchievement("Lets Move Australia Forward");
+    }
+
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 campaignTrail_temp.player_answers = [];
 campaignTrail_temp.cyoa = true; // NECESSARY - DO NOT LEAVE OUT
