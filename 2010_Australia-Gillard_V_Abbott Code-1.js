@@ -513,7 +513,7 @@ tooltipList = [
     {searchString: "Governor General", explanationText: "Quentin Bryce serves as the 25th Governor General of Australia. She has made history as the first female Governor General in Australian History. <img src=https://cef.org.au/wp-content/uploads/2014/03/The-Honourable-Dame-Quentin-Bryce-AD-CVO-blog-header.jpg>"},
     {searchString: "Medicare", explanationText: "Medicare is Australia's universal health insurance scheme. It allows a access to a wide range of health and hospital services at little to no cost. Medicare was introduced in 1984 under the Labor lead Hawke Government. <img src=https://www.head2toe.com.au/wp-content/uploads/2023/10/physio-fixx-Medicare-Enhanced-Primary-Care-Program_sm.webp>"}, 
     {searchString: "Great Financial Crisis", explanationText: "The Global Financial Crisis of 2008 had occured due to massive worldwide economic downturns and a strained Housing Market in the United States. Under the Rudd Government, Australia avoided the worst of the recession through the introduction of stimulus packages through until 2009."},
-    {searchString: "GFC", explanationText: "TThe Global Financial Crisis of 2008 had occured due to massive worldwide economic downturns and a strained Housing Market in the United States. Under the Rudd Government, Australia avoided the worst of the recession through the introduction of stimulus packages through until 2009."},
+    {searchString: "GFC", explanationText: "The Global Financial Crisis of 2008 had occured due to massive worldwide economic downturns and a strained Housing Market in the United States. Under the Rudd Government, Australia avoided the worst of the recession through the introduction of stimulus packages through until 2009."},
     {searchString: "2008", explanationText: "The Global Financial Crisis of 2008 had occured due to massive worldwide economic downturns and a strained Housing Market in the United States. Under the Rudd Government, Australia avoided the worst of the recession through the introduction of stimulus packages through until 2009."},
     {searchString: "WorkChoices", explanationText: "Federal industrial relations laws in Australia by the Howard government in 2005. Scrapped by the Rudd Government in 2008.<img src=https://www.crikey.com.au/wp-content/uploads/sites/3/2015/08/workchoices.png>"},
     {searchString: "John Howard", explanationText: "John Howard served as the 25th Prime Minister of Australia from 1996 to 2007. He lost his seat of Bennelong in the 2007 election to Labor's Maxine McKew. Howard served under multiple ministerial positions through the 1970s and shadow ministerial positions in the 1980s and 1990s. His experience in these roles culminated in his first elevation to the leadership of the Liberal Party, where he led the Coalition to defeat in 1987. Howard served in Parliament from 1974 until 2007. <img src=https://i.guim.co.uk/img/static/sys-images/Sport/Pix/pictures/2010/6/30/1277884170346/John-Howard-006.jpg?width=465&dpr=1&s=none&crop=none>"},
@@ -541,6 +541,7 @@ tooltipList = [
 
 
 }
+
 
 
 
