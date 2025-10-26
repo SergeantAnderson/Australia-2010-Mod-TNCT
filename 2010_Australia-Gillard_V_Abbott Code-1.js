@@ -406,6 +406,8 @@ const changeTextObs = new MutationObserver(() => {
         { selector: "#state_info > p:nth-of-type(2)", change: (el) => replaceTextContent(el, "Electoral Votes:", "Seats") },
         { selector: "#pvswitcher", change: (el) => replaceTextContent(el, "State", "Seat"), persist: true },
         { selector: "#ev_est", change: (el) => replaceTextContent(el, "Electoral Vote", "Total Seat") },
+		{ selector: "#overall_result > h3", change: (el) => el.textContent = "SEAT COUNT" },
+		{ selector: "#state_result > h3", change: (el) => el.textContent = "SEAT RESULTS" },
     ];
 
     for (const { selector, change, persist = false } of els) {
