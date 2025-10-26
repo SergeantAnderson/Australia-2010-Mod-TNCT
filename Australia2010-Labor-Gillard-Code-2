@@ -16984,7 +16984,7 @@ return "<h3>Scraping by with the bare minimum to be on our own</h3><p>An incredi
             used = true;
             imgg = document.getElementsByClassName("person_image")[0];
             if (imgg != null) {
-                imgg.src = "https://i.imgur.com/eJTHfsc.png";
+                imgg.src = "https://i.imgur.com/z1WfQCc.png";
             }
         }, 100);
     }
