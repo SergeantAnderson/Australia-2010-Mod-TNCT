@@ -24,11 +24,6 @@ campaignTrail_temp.premier_ab_test_version = -1;
 let style = document.createElement('style');style.innerHTML = `#overall_result {overflow: auto;}`;document.head.appendChild(style);
 
 campaignTrail_temp.achievements = {
-    "Lets Move Australia Forward" : {
-        "image" : "https://i.imgur.com/VL1Gt99.png",
-        "description" : "As Julia Gillard, win the 2010 Federal Election.",
-        "cannotBeCheated" : true
-    },
     "A Ruddless Victory" : {
         "image" : "https://i.imgur.com/ClPV9fn.png",
         "description" : "As Julia Gillard, win the election by dumping Kevin Rudd as Labors candidate for the seat of Griffith.",
@@ -36,7 +31,7 @@ campaignTrail_temp.achievements = {
     },
     "The Taxing Queen" : {
         "image" : "https://i.imgur.com/niM87y7.png",
-        "description" : "As Julia Gillard, win the elction while promitising to introduce a Carbon Tax and Mining Tax.",
+        "description" : "As Julia Gillard, win the elction while promising to introduce a Carbon Tax and Mining Tax.",
         "cannotBeCheated" : true
     },
     "The More, The Merrier" : {
@@ -44,16 +39,7 @@ campaignTrail_temp.achievements = {
         "description" : "As Julia Gillard, win more than 83 seats, beating Rudd's 2007 margin.",
         "cannotBeCheated" : true
     },
-    "The Green Stalemate" : {
-        "image" : "https://i.imgur.com/f2kEly2.png",
-        "description" : "As Julia Gillard, win at least 75 seats in a Hung Parliament and get Adam Bandt to give confidence and supply.",
-        "cannotBeCheated" : true
-    },
-     "Standing Up For Australia" : {
-        "image" : "https://i.imgur.com/WKeoVgp.png",
-        "description" : "As Tony Abbott, win the 2010 Federal Election.",
-        "cannotBeCheated" : true
-    },
+
      "Finish What You Started" : {
         "image" : "https://i.imgur.com/XGoGdRA.png",
         "description" : "As Tony Abbott, win the election and win more than 94 seats, beating John Howards 1996 record.",
@@ -61,17 +47,12 @@ campaignTrail_temp.achievements = {
     },
      "The Independent Kingmaker" : {
         "image" : "https://i.imgur.com/1l9Biep.png",
-        "description" : "As Tony Abbott, win at least 75 seats in a Hung Parliament and get Bob Katter to give condifence and supply.",
+        "description" : "As Tony Abbott, win at least 75 seats and get Bob Katter to give condifence and supply.",
         "cannotBeCheated" : true
     },
      "The Coal-Free Liberal" : {
         "image" : "https://i.imgur.com/TmLvqvR.png",
         "description" : "As Tony Abbott, win while backing major climate iniciatives.",
-        "cannotBeCheated" : true
-    },
-    "Opposition Henchmen" : {
-        "image" : "https://i.imgur.com/1PnfBup.png",
-        "description" : "As Tony Abbott, use the two Liberal Opposition leaders on the Campaign Trail, and lose.",
         "cannotBeCheated" : true
     },
 }
@@ -141,6 +122,7 @@ let z = new MutationObserver((mutationsList, observer) => {
 
 z.observe(document, { subtree: true, childList: true });
 
+RecReading=true
 campaignTrail_temp.election_json = [
   {
     "model": "campaign_trail.election",
@@ -151,12 +133,13 @@ campaignTrail_temp.election_json = [
       "image_url": "https://i.imgur.com/m2oElBN.jpeg",
       "winning_electoral_vote_number": 76,
       "advisor_url": "https://i.imgur.com/e359GWl.png",
-      "recommended_reading": "",
+      "recommended_reading": "<div style='overflow-y:scroll;height:350px;'><h4 style=\"margin-top: 0.5em;\">The 2010 Australian Federal Election</h4> <h4 style=\"margin-top: 0.5em;\">Sources</h4> <a href=\"https://www.sbs.com.au/news/article/timeline-key-events-in-2010-election-campaign/03xlcybaq\" target=\"_blank\">Timeline: Key events in 2010 election campaign</a><br><a href=\"https://australianpolitics.com/elections/federal-2010\" target=\"_blank\">AustralianPolitics.com</a><br><a href=\"https://www.youtube.com/watch?v=Mq7UloltBeA\" target=\"_blank\">Does Labor like Julia Gillard? - Mr. M History</a><br><a href=\"https://www.youtube.com/watch?v=yLbqNuOdoCU\" target=\"_blank\">The Australian Election of 2010: (S. 3, Ep. 13, All Australian Elections) - Sormon</a><h4>A Message to All</h4><p>G'day all! Thank you all for playing 2010 Australia<br>It is a massive honor once more to give this mod to a great community.<br>I want to thank all who contributed to this mod, coders, playtesters and all. You guys are legends for helping.<br>Stay tuned for new mods in the future! And once again, thank you.<br> - Sergeant Anderson<br><br><img src=\"https://i.imgur.com/JtI6Etw.png\" width=\"120px\"></p></div>",
       "has_visits": 1,
       "no_electoral_majority_image": ""
     }
   }
 ]
+
 campaignTrail_temp.candidate_json = [
   {
     "model": "campaign_trail.candidate",
@@ -387,9 +370,9 @@ HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
 
 const touched = new WeakSet();
 const prevContent = new WeakMap();
-    const el = document.querySelector("#state_info > p:nth-of-type(2)");
+const el = document.querySelector("#state_info > p:nth-of-type(2)");
 
-    if (el && !touched.has(el)) {
+ if (el && !touched.has(el)) {
         el.textContent = el.textContent.replace(/Electoral Votes:/, "Seat:")
         touched.add(el);
     }
@@ -406,8 +389,8 @@ const changeTextObs = new MutationObserver(() => {
         { selector: "#state_info > p:nth-of-type(2)", change: (el) => replaceTextContent(el, "Electoral Votes:", "Seats") },
         { selector: "#pvswitcher", change: (el) => replaceTextContent(el, "State", "Seat"), persist: true },
         { selector: "#ev_est", change: (el) => replaceTextContent(el, "Electoral Vote", "Total Seat") },
-		{ selector: "#overall_result > h3", change: (el) => el.textContent = "SEAT COUNT" },
-		{ selector: "#state_result > h3", change: (el) => el.textContent = "SEAT RESULTS" },
+		    { selector: "#overall_result > h3", change: (el) => el.textContent !== "ESTIMATED SUPPORT" && (el.textContent = "SEAT COUNT")},
+		    { selector: "#state_result > h3", change: (el) => el.textContent = "SEAT RESULTS" },
     ];
 
     for (const { selector, change, persist = false } of els) {
@@ -558,7 +541,6 @@ tooltipList = [
 
 
 }
-
 
 
 
