@@ -19,8 +19,12 @@ if (campaignTrail_temp.player_answers[5] == 5021 && 5032 && quickstats[0] >= 76)
         ctsAchievement("The Coal-Free Liberal");
     }
 
-if (campaignTrail_temp.player_answers[5] == 5015 && quickstats[0] <= 69) {
+if (campaignTrail_temp.player_answers[5] == 5015 && quickstats[0]) {
         ctsAchievement("Opposition Henchman");
+    }
+
+if (campaignTrail_temp.player_answers[5] == 5009 && 5020 && 5023 && 5045 && 5052 && 5070 && quickstats[0] >= 76) {
+        ctsAchievement("Axe It!");
     }
 
 if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 76) {
@@ -962,7 +966,7 @@ cyoAdventure = function (_a) {
             "feedback": "This is seen as a betrayal of parents and rural NBN users that Labor manages to captivate on.",
             "global_effect": [200, 0.005], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.08, 0.09], // format: [issue, issue score, issue importance]
-            "description": "We will see. I will discuss with the Shadow Treasurer to allocate funding accordingly and appropriately to these sectors. With the budget in a delicate situation, we need to accordingly put funds where they must go. "
+            "description": "We will see. I will discuss with the Shadow Treasurer to allocate funding accordingly and appropriately to these sectors. With the budget in a delicate situation, we need to accordingly put funds where they must go, and cut where nessesary. "
           }     
     },
 
@@ -16839,12 +16843,26 @@ endingConstructor = (a = 1) => {
 
 endingPicker = (_out, _totv, _aa, _quickstats) => {
 
-endingPicker = (_out, _totv, _aa, _quickstats) => {
 
 endingConstructor = (a = 1) => {
    $("#final_results_description")[0].innerHTML = construct(a);
 };
 
+function changechart() {
+    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
+    for(let id of elementIDs) {
+        let element = document.getElementById(id);
+        if (element) {
+            let overallthing = element.innerHTML;
+            overallthing = overallthing.replace("Electoral Votes","Seats Won");
+            overallthing = overallthing.replace("Candidate","Party");
+            element.innerHTML = overallthing;
+
+        }
+    }
+}
+
+window.setInterval(changechart,200)
 e.multiple_endings = true;
 e.page = 0;
 e.initDC = false;
@@ -17004,19 +17022,4 @@ return "<h3>One seat off, but Bob Katter will deliver Victory for you.</h3><p>El
 }
 }
 }
-}
 
-function changechart() {
-    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
-    for(let id of elementIDs) {
-        let element = document.getElementById(id);
-        if (element) {
-            let overallthing = element.innerHTML;
-            overallthing = overallthing.replace("Electoral Votes","Seats Won");
-            overallthing = overallthing.replace("Candidate","Party");
-            element.innerHTML = overallthing;
-
-        }
-    }
-}
-window.setInterval(changechart,200)
