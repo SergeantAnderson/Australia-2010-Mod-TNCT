@@ -74,6 +74,11 @@ campaignTrail_temp.achievements = {
         "description" : "As Tony Abbott, use the two Liberal Opposition leaders on the Campaign Trail.",
         "cannotBeCheated" : true
     },
+    "Axe it!" : {
+        "image" : "https://i.imgur.com/8Yb2CaW.png",
+        "description" : "As Tony Abbott, campaign on cutting services and win the election.",
+        "cannotBeCheated" : true
+    },
 }
 
 
@@ -541,7 +546,7 @@ tooltipList = [
     {searchString: "Anna Bligh", explanationText: "Bligh serves as the 37th Premier of Queensland, taking over from Peter Beattie. Bligh lead Labor to victory in 2009, having made history as the first woman Premier of Queensland being elected. <img src= https://alumni.uq.edu.au/files/46090/Anna_Bligh.jpg>"},
     {searchString: "Kristina Keneally", explanationText: "Keneally serves as the 42nd Premier of New South Wales. After former Premier Nathan Rees resigned, she took on the role of leading an unpopular Government due to internal party unrest and corruption. Ahead of the 2011 State election, she faces challenges due to voter dissatisfaction and instability within the Government.<img src= https://bonzablogger.wordpress.com/wp-content/uploads/2010/12/keneallyinparl.jpg>"},
     {searchString: "Brendan Nelson", explanationText: "Brendan Nelson formerly served as Opposition leader since 2007, and lead the Liberal/National Coalition until 2008 and retired. Nelson served as the MP for Bradfield, New South Wales, since 1996, retiring as member in 2009.. <img src= https://live-production.wcms.abc-cdn.net.au/aa55c2061e596d0f9da8060fb401b7a7?impolicy=wcms_crop_resize&cropH=337&cropW=600&xPos=0&yPos=0&width=862&height=485>"},
-    {searchString: "Malcolm Turnbull", explanationText: "Malcolm Turnbull formerly served as Opposition Leader after Nelson retired. Turnbull has led the Coalition* from 2008 to 2009nwhen he was narrowly defeated by Tony Abbott in a leadership spill by just one vote. He has been the Member for Wentworth since 2004. <img src= https://live-production.wcms.abc-cdn.net.au/308c21aed0eed96a1fdc0544327d30c4?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
+    {searchString: "Malcolm Turnbull", explanationText: "Malcolm Turnbull formerly served as Opposition Leader after Nelson retired. Turnbull has led the Coalition from 2008 to 2009 when he was narrowly defeated by Tony Abbott in a leadership spill by just one vote. He has been the Member for Wentworth since 2004. <img src= https://live-production.wcms.abc-cdn.net.au/308c21aed0eed96a1fdc0544327d30c4?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
     {searchString: "Mining Tax", explanationText: "The Rudd Government in 2009 had proposed a tax on mining companies super profits. This would have lead to Australians reciebing a fare share of wealth from resources. The plan backfired however from the Federal Opposition and Mining industry. Many believe that this elad to the downfall of Kevin Rudd as Prime Minister. <img src= https://live-production.wcms.abc-cdn.net.au/7d64a487f99d8dd722df60d1ff0841b0?impolicy=wcms_crop_resize&cropH=472&cropW=840&xPos=0&yPos=0&width=862&height=485>"},
     {searchString: "Barack Obama", explanationText: "Elected in 2008, Barack Obama serves as the 44th President of the United States and the first African American President. Since being sworn in, his focus has been on economic recovery and strenghening alliances with nations such as Australia.<img src= https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2014/January/140127/2D11437520-140124-SOTU-Obama-2010.jpg>"},
     {searchString: "Wayne Swan", explanationText: "Wayne Swan serves as the current Treasurer and now Deputy Prime Minister under the Gillard Government. Swan held the seat of Lilley from 1993-1996, losing it in the Howard Landslide, but won it again in the 1998 Federal Election. <img src= https://live-production.wcms.abc-cdn.net.au/cbd182ef43c83f76aae0ea475070efd9?impolicy=wcms_crop_resize&cropH=1980&cropW=2974&xPos=8&yPos=0&width=862&height=575>"},
