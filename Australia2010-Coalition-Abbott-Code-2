@@ -16862,6 +16862,157 @@ function changechart() {
     }
 }
 
+
+
+const partyLeaders = [
+    { party: 200, partyName: 'Australian Labor Party - ALP', leaderName: 'Mrs. Gillard', fullLeaderName: 'Julia Gillard', image: 'https://i.imgur.com/YMkANqC.png' },
+    { party: 201, partyName: 'Liberal/National Coalition - L/NP ', leaderName: 'Mr. Abbott', fullLeaderName: 'Tony Abbott', image: 'https://moad-electionspeeches.s3.amazonaws.com/uploads/regular_b0e08dda.jpg' },
+    { party: 202, partyName: 'Independents/Others - IND/OTH', leaderName: 'No Leader', fullLeaderName: 'No Leader', image: 'https://i.guim.co.uk/img/media/ef2317b31802d0dcc0297786658ffdec8766b21c/0_0_2432_2429/master/2432.jpg?width=445&dpr=1&s=none&crop=none' },
+    { party: 203, partyName: 'Australian Greens - GRN', leaderName: 'Mr. Brown', fullLeaderName: 'Bob Brown', image: 'https://live-production.wcms.abc-cdn.net.au/c84b774777dd2e952224052f97c7476f?impolicy=wcms_crop_resize&cropH=3770&cropW=2823&xPos=8&yPos=275&width=862&height=1149' },
+]
+
+const observer = new MutationObserver((mutations, obs) => {
+        // Check for the final results table
+        const finalResultsTable = document.querySelector('.final_results_table');
+        if (finalResultsTable) {
+            const headerRow = finalResultsTable.querySelector('tr:first-child');
+            const leaderHeaderExists = Array.from(headerRow.children).some(th => 
+                th.textContent.trim() === 'Leader'
+            );
+            
+            if (!leaderHeaderExists) {
+                addLeaderColumn(finalResultsTable);
+            }
+        }
+        
+        // Check for the overall election details table
+        const overallTable = document.querySelector('#overall_election_details table');
+        if (overallTable) {
+            const headerRow = overallTable.querySelector('tr:first-child');
+            const leaderHeaderExists = Array.from(headerRow.children).some(th => 
+                th.textContent.trim() === 'Leader'
+            );
+            
+            if (!leaderHeaderExists) {
+                addLeaderColumn(overallTable);
+            }
+        }
+    });
+
+    // Start observing the document body for changes
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+
+    function addLeaderColumn(table) {
+        // Double-check that Leader column doesn't exist
+        const headerRow = table.querySelector('tr:first-child');
+        const leaderHeaderExists = Array.from(headerRow.children).some(th => 
+            th.textContent.trim() === 'Leader'
+        );
+        
+        if (leaderHeaderExists) {
+            return; // Column already exists, exit early
+        }
+        
+        // Add header for Leader column
+        const leaderHeader = document.createElement('th');
+        leaderHeader.textContent = 'Leader';
+        headerRow.insertBefore(leaderHeader, headerRow.children[1]);
+        
+        // Add leader data to each party row
+        const dataRows = table.querySelectorAll('tr:not(:first-child)');
+        dataRows.forEach(row => {
+            const partyCell = row.querySelector('td:first-child');
+            if (partyCell) {
+                const partyText = partyCell.textContent.trim();
+                const partyData = partyLeaders.find(p => partyText.includes(p.partyName));
+                
+                const leaderCell = document.createElement('td');
+                if (partyData) {
+                    leaderCell.textContent = partyData.fullLeaderName;
+                } else {
+                    leaderCell.textContent = 'Unknown';
+                }
+                
+                row.insertBefore(leaderCell, row.children[1]);
+            }
+        });
+    }
+
+    const replacement2010TableHTML = `<table>
+        <tbody>
+            <tr>
+                <th>Party</th>
+                <th>Leader</th>
+                <th>Seats Won</th>
+                <th>Popular Votes</th>
+                <th>Popular Vote %</th>
+            </tr>
+            <tr><td style="text-align: left;"><span style="background-color: #FF563E; color: #FF563E;">----</span>
+                ALP
+            </td><td>Julia Gillard</td><td></td><td>3</td><td></td></tr>
+            
+            <tr><td style="text-align: left;"><span style="background-color: #336DCF; color: #336DCF;">----</span>
+                LNP
+            </td><td>Tony Abbott</td><td></td><td></td><td></td></tr>
+            
+            <tr><td style="text-align: left;"><span style="background-color: #8E8B8B; color: #8E8B8B;">----</span>
+                IND/OTH
+            </td><td>No Leader</td><td>24</td><td></td><td></td></tr>
+            
+            <tr><td style="text-align: left;"><span style="background-color: #19C91E; color: #19C91E;">----</span>
+                GRN
+            </td><td>Bob Brown</td><td>23</td><td>1,431,413</td><td></td></tr>
+        </tbody>
+    </table>`;
+
+    // Wait for the overall_election_details div with "Results - Historical" header
+    const replaceObserver = new MutationObserver((mutations, obs) => {
+        // Make main_content_area scrollable as soon as it exists
+        const mainContentArea = document.getElementById('main_content_area');
+        if (mainContentArea && !mainContentArea.style.overflowY) {
+            mainContentArea.style.overflowY = 'auto';
+            mainContentArea.style.maxHeight = '100vh';
+        }
+        
+        // Get all divs with id 'overall_election_details'
+        const allDivs = document.querySelectorAll('#overall_election_details');
+        
+        // Find the one with "Results - Historical" header
+        allDivs.forEach(div => {
+            const h4 = div.querySelector('h4');
+            if (h4 && h4.textContent.includes('Results - Historical')) {
+                const oldTable = div.querySelector('table');
+                
+                if (oldTable) {
+                    // Check if the table has already been replaced by looking for our replacement marker
+                    if (oldTable.hasAttribute('data-replaced')) {
+                        return; // Already replaced, skip
+                    }
+                    
+                    // Remove the old table
+                    oldTable.remove();
+                    
+                    // Insert the replacement table directly after the h4 header
+                    h4.insertAdjacentHTML('afterend', replacement2010TableHTML);
+                    
+                    // Mark the new table as replaced
+                    const newTable = div.querySelector('table');
+                    if (newTable) {
+                        newTable.setAttribute('data-replaced', 'true');
+                    }
+                }
+            }
+        });
+    });
+
+replaceObserver.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+
 window.setInterval(changechart,200)
 e.multiple_endings = true;
 e.page = 0;
@@ -17022,4 +17173,3 @@ return "<h3>One seat off, but Bob Katter will deliver Victory for you.</h3><p>El
 }
 }
 }
-
