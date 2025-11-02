@@ -386,8 +386,8 @@ credits = function() {
     alert(text)
 }
 
-HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
-//        HistHexcolour=["#000065","#7F0000","#AAAAAA","#DCD472"]; //matching banner
+        HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
+//       HistHexcolour=["#000065","#7F0000","#AAAAAA","#DCD472"]; //matching banner
         HistName=[" Australian Labor Party - ALP"," Liberal/National Coalition - L/NP"," Independents/Others - IND/OTH"," Australian Greens - GRN"];
         HistEV=[72,72,5,1];
         HistPV=["4,711,363","5,365,529","504,134","1,458,998"];
@@ -416,7 +416,10 @@ const changeTextObs = new MutationObserver(() => {
         { selector: "#ev_est", change: (el) => replaceTextContent(el, "Electoral Vote", "Total Seat") },
 		    { selector: "#overall_result > h3", change: (el) => el.textContent !== "ESTIMATED SUPPORT" && (el.textContent = "SEAT COUNT")},
 		    { selector: "#state_result > h3", change: (el) => el.textContent = "SEAT RESULTS" },
+        { selector: "#select_a_state > h3", change: (el) => el.textContent = "Select a Seat" },
+        { selector: "#results_by_state > h3", change: (el) => el.textContent = "Results by Seat" },
     ];
+
 
     for (const { selector, change, persist = false } of els) {
         const el = document.querySelector(selector);
@@ -566,7 +569,6 @@ tooltipList = [
 
 
 }
-
 
 
 
