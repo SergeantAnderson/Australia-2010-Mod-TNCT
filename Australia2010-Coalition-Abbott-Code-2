@@ -16697,7 +16697,7 @@ applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
                     oldTable.remove();
                     
                     // Insert the replacement table directly after the h4 header
-                    h4.insertAdjacentHTML('afterend', replacement2002TableHTML);
+                    h4.insertAdjacentHTML('afterend', replacement2010TableHTML);
                     
                     // Mark the new table as replaced
                     const newTable = div.querySelector('table');
@@ -16949,97 +16949,57 @@ applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
     ]
 
 
-  construct = (a = 1) => {
-  e.page = e.page + a < e.pages.length ? e.page + a : 0
-  let html = e.header;
-  html += e.pages[e.page] + "<br>";
-  if (e.page > 0) {
-    html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
-  }
-  if (e.page < e.pages.length - 1) {
-    html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
-  }
-
-  if (e.image == true)
-    setTimeout(()=>{
-      candImg = $(".person_image")[0]
-      if (candImg) {
-        candImg.remove()
-        $("#final_results_description")[0].style = `
-          text-align:center;
-          width: 70%;
-          text-overflow: ellipsis;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        `
-      }
-    }, 10)
-  else if (e.image)
-  setTimeout(()=>{
-      candImg = $(".person_image")[0];
-      if (candImg)
-        candImg.src = e.image;
-    }, 10)
-
-  return html;
-}
-
-endingConstructor = (a = 1) => {
-  $("#final_results_description")[0].innerHTML = construct(a);
-}
-
-endingPicker = (_out, _totv, _aa, _quickstats) => {
-
-
-endingConstructor = (a = 1) => {
-   $("#final_results_description")[0].innerHTML = construct(a);
-};
-
-function changechart() {
-    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
-    for(let id of elementIDs) {
-        let element = document.getElementById(id);
-        if (element) {
-            let overallthing = element.innerHTML;
-            overallthing = overallthing.replace("Electoral Votes","Seats Won");
-            overallthing = overallthing.replace("Candidate","Party");
-            element.innerHTML = overallthing;
-
-        }
+construct = (a = 1) => {
+    e.page = e.page + a < e.pages.length ? e.page + a : 0
+    let html = e.header;
+    html += e.pages[e.page] + "<br>";
+    if (e.page > 0) {
+        html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
     }
+    if (e.page < e.pages.length - 1) {
+        html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+    }
+
+    if (e.image == true) {
+        setTimeout(() => {
+            candImg = $(".person_image")[0]
+            if (candImg) {
+                candImg.remove()
+                $("#final_results_description")[0].style = `
+                    text-align:center;
+                    width: 70%;
+                    text-overflow: ellipsis;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                `
+            }
+        }, 10)
+    } else if (e.image) {
+        setTimeout(() => {
+            candImg = $(".person_image")[0];
+            if (candImg)
+                candImg.src = e.image;
+        }, 10)
+    }
+
+    return html;
 }
 
-window.setInterval(changechart,200)
-e.multiple_endings = true;
+endingConstructor = (a = 1) => {
+    $("#final_results_description")[0].innerHTML = construct(a);
+}
+
 e.page = 0;
 e.initDC = false;
 
 campaignTrail_temp.multiple_endings = true;
 
-endingPicker = (_out, _totv, _aa, _quickstats) => {
-
-
-endingPicker = (_out, _totv, _aa, quickstats) => {
-  let seats = quickstats[0]; // Total number of seats won
-  const answers = campaignTrail_temp.player_answers || [];
-  console.log("Custom endingPicker has been called");
-  e.header = "<h3>Header text</h3>";
-  e.image = ["image_url"];
-  e.pages = ["<p>Page content</p>"];
-  endingConstructor(0);
-};
-
-endingConstructor = (a = 1) => {
-  $("#final_results_description")[0].innerHTML = construct(a);
-}
-
-endingPicker = (_out, _totv, _aa, _quickstats) => {
-
-    endingPicker = (_out, _totv, _aa, quickstats) => {
-
-used=false
-
+endingPicker = (out, totv, aa, quickstats) => {
+  let used = false;
+  let orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
+  let e = campaignTrail_temp;
+  let html;
 
 // Astro's Ending Template
 
@@ -17164,9 +17124,23 @@ return "<h3>Not a splash of red to be seen across the nation</h3><p>My God. No. 
         }, 100);
     }
 return "<h3>One seat off, but Bob Katter will deliver Victory for you.</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, Independent MP, Bob Katter. The member for Kennedy in Queensland. A former member of the National Party and MP since 1993, Katter has already expressed intrest in siding with you before the election. The balance of Government rests upon him if you are to govern with his full support.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want Katter to shoot your Government down by next year. Good luck, Mr. Abbott.</p>"
+}
+}
 
+
+e.multiple_endings=true
+
+function changechart() {
+    const elementIDs = ["overall_vote_statistics", "state_result_data_summary", "overall_details_container"];
+    for(let id of elementIDs) {
+        let element = document.getElementById(id);
+        if (element) {
+            let overallthing = element.innerHTML;
+            overallthing = overallthing.replace("Electoral Votes","Seats Won");
+            overallthing = overallthing.replace("Candidate","Party");
+            element.innerHTML = overallthing;
+
+        }
+    }
 }
-}
-}
-}
-}
+window.setInterval(changechart,200)
