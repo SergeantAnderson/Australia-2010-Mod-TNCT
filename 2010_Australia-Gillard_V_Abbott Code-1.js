@@ -244,7 +244,7 @@ campaignTrail_temp.candidate_json = [
       "priority": 4,
       "description": "'",
       "color_hex": "#19C91E",
-      "secondary_color_hex": "#8E8B8B",
+      "secondary_color_hex": "#19C91E",
       "is_active": 0,
       "image_url": "'",
       "electoral_victory_message": "'",
