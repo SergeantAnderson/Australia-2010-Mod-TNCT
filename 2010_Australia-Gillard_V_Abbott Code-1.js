@@ -244,7 +244,7 @@ campaignTrail_temp.candidate_json = [
       "priority": 4,
       "description": "'",
       "color_hex": "#19C91E",
-      "secondary_color_hex": "#19C91E",
+      "secondary_color_hex": "#8E8B8B",
       "is_active": 0,
       "image_url": "'",
       "electoral_victory_message": "'",
@@ -378,7 +378,7 @@ campaignTrail_temp.temp_election_list = [
 e.credits = "<button onclick='credits()'>Various people</button>";
   
 credits = function() {
-    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "muastronaut", "", "MAP", "CatBox", "", "PLAYTESTERS", "TotalRozza", "Quartz", "Killeritch", "Jeeve", "_mango", "JustAlex", "", "CODE USED", "For Leaders - Netherlands 2003", ]
+    credits = ["LEAD DEVELOPER", "SergeantAnderson", "", "WRITING", "SergeantAnderson", "", "CODE", "SergeantAnderson", "CatBox", "muastronaut", "strawberrymaster", "", "MAP", "CatBox", "", "PLAYTESTERS", "TotalRozza", "Quartz", "Killeritch", "Jeeve", "_mango", "JustAlex", "", "CODE USED", "For Leaders - 2003 Netherlands - All Credit to Creator", "For Code 2 Seat Summary Results - 2025 Canada - All Credit to Creator",]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
@@ -386,8 +386,8 @@ credits = function() {
     alert(text)
 }
 
-        HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
-//       HistHexcolour=["#000065","#7F0000","#AAAAAA","#DCD472"]; //matching banner
+HistHexcolour=["#FF563E","#336DCF","#8E8B8B","#19C91E"]; // party logo colours
+//        HistHexcolour=["#000065","#7F0000","#AAAAAA","#DCD472"]; //matching banner
         HistName=[" Australian Labor Party - ALP"," Liberal/National Coalition - L/NP"," Independents/Others - IND/OTH"," Australian Greens - GRN"];
         HistEV=[72,72,5,1];
         HistPV=["4,711,363","5,365,529","504,134","1,458,998"];
@@ -409,17 +409,8 @@ const replaceTextContent = (el, find, replace) => {
 const changeTextObs = new MutationObserver(() => {
     const els = [
         { selector: "#state_info > h3", change: (el) => el.textContent = "SEAT SUMMARY" },
-        { selector: "#state_results > h3", change: (el) => el.textContent = "STATE RESULTS" },
         { selector: "#electoral_votes > h3", change: (el) => el.textContent = "SEAT RESULTS" },
-        { selector: "#state_info > p:nth-of-type(2)", change: (el) => replaceTextContent(el, "Electoral Votes:", "Seats") },
-        { selector: "#pvswitcher", change: (el) => replaceTextContent(el, "State", "Seat"), persist: true },
-        { selector: "#ev_est", change: (el) => replaceTextContent(el, "Electoral Vote", "Total Seat") },
-		    { selector: "#overall_result > h3", change: (el) => el.textContent !== "ESTIMATED SUPPORT" && (el.textContent = "SEAT COUNT")},
-		    { selector: "#state_result > h3", change: (el) => el.textContent = "SEAT RESULTS" },
-        { selector: "#select_a_state > h3", change: (el) => el.textContent = "Select a Seat" },
-        { selector: "#results_by_state > h3", change: (el) => el.textContent = "Results by Seat" },
     ];
-
 
     for (const { selector, change, persist = false } of els) {
         const el = document.querySelector(selector);
@@ -569,6 +560,7 @@ tooltipList = [
 
 
 }
+
 
 
 
