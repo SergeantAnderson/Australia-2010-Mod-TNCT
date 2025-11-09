@@ -7,6 +7,7 @@ const partyLeaders = [
     { party: 203, partyName: 'Australian Greens', leaderName: 'Brown', fullLeaderName: 'Bob Brown'},
 ]
 
+
 function ctsAchievement(achievement, difficultyChecker = true){
   if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker)
     if(campaignTrail_temp.CTS){
@@ -56,11 +57,23 @@ cyoAdventure = function () {
             {childList: true, subtree: true} 
     }
 
-    if (ans ==5001) {
+    if (ans == 5001) {
         campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/pBO1wtZ.png"
         campaignTrail_temp.running_mate_last_name = 'Rudd'
         campaignTrail_temp.running_mate_state_id = 21304
     }
+
+    if (ans == 5001) {
+        window.setTimeout(e.vpSwitcher, 20)
+        campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/K17Wilc.jpg';
+        campaignTrail_temp.candidate_last_name = 'Labor';
+        WiegelReturns = true;
+        var leader200 = partyLeaders.find((leader) => leader.party === 200);
+        leader200.leaderName = 'Rudd';
+        leader200.fullLeaderName = 'Kevin Rudd';
+        leader200.image = 'https://i.imgur.com/pBO1wtZ.png';
+    }
+
 
 
 var rudd_answers = 0;
@@ -17220,6 +17233,10 @@ endingPicker = (out, totv, aa, quickstats) => {
   let e = campaignTrail_temp;
   let html;
 
+endingPicker = (out, totv, aa, quickstats) => {
+
+used=false
+
 // Astro's Ending Template
 
 // Template 1 - Simple 1v1 races
@@ -17245,6 +17262,30 @@ if (quickstats[0] < 3) {
     }
     // to here!
 
+} else if (campaignTrail_temp.player_answers[22] == 5057 && quickstats[0]<= 69 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/OZvdPKd.png";
+            }
+        }, 100);
+    }
+return "<h3>The move to replace Kevin Rudd is more controversial than Whitlam's dismissal in 1975</h3><p>These were the words that echoed on the news channels on election night and the newspapers the following day. Replacing Kevin Rudd with Paul Lucas proved to be a controversial move. Now, more than Gough Whitlam's dismissal in 1975.</p><p>Now the Coalition is in Government with a mandate with Tony Abbott as Prime Minister. Labor is left fractured, but it needs a new leader. After replacing Kevin Rudd, it is unlikely that you continue as leader of the Federal Labor Party. Many are pushing for Anthony Albanese to be the next Federal Opposition leader to win back Government in 2013.</p><p>But this has proven, without doubt, the most controversial political decision in Australian history. And it is one for the history books, for all the wrong reasons.</p>"
+
+} if (campaignTrail_temp.player_answers[0] == 5001 && quickstats[0] <= 69 && quickstats[0] >= 0 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/OZvdPKd.png";
+            }
+        }, 100);
+    }
+return "<h3>No matter the record, Politics is a brutal game</h3><p>It was past 9:45pm on the East Coast when the major networks called the election for the Coalition. Since 1931, Labor has lost Government in it's first term against the Opposition as the Liberals wash over Australia.</p><p>As Kevin Rudd concedes and resigns as Labor leader to a crowd of pensive Labor members in Brisbane, Tony Abbott gives a firey speech to Liberal Party faithful in Sydney. It was all over, but many behind the decision desks on the network thing; Was it possible if Julia Gillard attempted a Leadership spill they could have achieved a second term?</p><p>Even with this loss, it means Julia Gillard will be elected leader of the Labor Party once Parliament resumes and the first female leader of the Federal Labor party, making history. Now, the focus is on 2013 and keeping the Government to account.</p>"
+
 } else if (quickstats[0]== 0) {
     if (used != true) {
         setInterval(function () {
@@ -17257,7 +17298,6 @@ if (quickstats[0] < 3) {
     }
 return "<h3>From everything, all the way down to nothing</h3><p>How could this have happened? From it to be a hung parliament to Labor completely having no seats in the House of Representatives, including your own seat of Lalor in Victoria. This is impossible. Something had to happen.</p><p>Labor supporters and candidates are left bewildered as they either lost their seats or didn't win against an incumbent Liberal. But one thing is certain, the leaderrship is vacant, and only Senate Labor members are left to clean up the mess. South Australian Senator, Penny Wong is considering to take the reigns of the party as only Senate members are left from the Labor Party, but severly weakened. But for now, this loss has left Labor shaken to its core, a result unlike any other in Australian political history.</p>";
 
-
 } else if (quickstats[0]<= 59 && quickstats[0] >= 1) {
     if (used != true) {
         setInterval(function () {
@@ -17269,7 +17309,6 @@ return "<h3>From everything, all the way down to nothing</h3><p>How could this h
         }, 100);
     }
 return "<h3>Coming Back from this defeat will be a mamoth task ahead</h3><p>The result was not as expected. It was worse. Labor has been completely wiped out in an electoral landslide, and to make matters worse? It was the first time since  that the Government was defeated in its first term. This was not the result you and the party had worked so hard for.</p><p>You concede to Tony Abbott before giving a concession speech to the nation and to the party faithful at your venue in Melbourne. Tony abbott gives his victory speech in Sydney to jubilant crowd of Liberal Party supporters. The election result was one that not many people had expected to see. Now, the future of the party remains in the balance, whether they'll keep you as leader, orhave someone else. But you're confident to remain leader, and come 2013, win back Government.</p><p>Now is the time to focus on Government accountability, and hold Tony Abbott to account, and come 2013, hopefully win back Government. The road ahead is long...</p>"
-
 
 } else if (quickstats[0] <= 69 && quickstats[0] >= 60) {
     if (used != true) {
@@ -17343,36 +17382,11 @@ return "<h3>Every seat in Parliament has fallen into Labor's collumn</h3><p>My g
     }
 return "<h3>The decision is now up to Adam Bandt</h3><p>Election night saw the result of a Hung Parliament, the first since 1940. However, you were the close victor on Saturday night. Now with exactly 75 seats, you are one off from Governing with a full majority. It is not what you planned, but the Australian people have spoken.</p><p>Many within your party are looking to the crossbench, notabally, the new member for Melbourne, Adam Bandt, from the Greens Political Party. The balance of Government rests upon him if you are to govern with his full support, but you'll need to negotiate with Greens leader, Senator Bob Brown to do that. Thankfully, Mr. Bandt stated he'd back Labor in the event of a Hung Parliament.</p><p>The road ahead is long, and there will be some concessions being made with your policy. That's if you don't want your Government to collpase by next year. Good luck, Madam Prime Minister.</p>"
 
-} else if (campaignTrail_temp.player_answers[22] == 5057 && quickstats[0]<= 69 && campaignTrail_temp.running_mate_last_name == "ALP") {
-  //If you want to enable replacing the image based upon your performance, copy from here....
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/OZvdPKd.png";
-            }
-        }, 100);
-    }
-return "<h3>The move to replace Kevin Rudd is more controversial than Whitlam's dismissal in 1975</h3><p>These were the words that echoed on the news channels on election night and the newspapers the following day. Replacing Kevin Rudd with Paul Lucas proved to be a controversial move. Now, more than Gough Whitlam's dismissal in 1975.</p><p>Now the Coalition is in Government with a mandate with Tony Abbott as Prime Minister. Labor is left fractured, but it needs a new leader. After replacing Kevin Rudd, it is unlikely that you continue as leader of the Federal Labor Party. Many are pushing for Anthony Albanese to be the next Federal Opposition leader to win back Government in 2013.</p><p>But this has proven, without doubt, the most controversial political decision in Australian history. And it is one for the history books, for all the wrong reasons.</p>"
-
-} else if (e.player_answers.includes(5001) && quickstats[0]<= 69 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
-  //If you want to enable replacing the image based upon your performance, copy from here....
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://i.imgur.com/fwbvV9w.png";
-            }
-        }, 100);
-return "<h3>Rudd loses the Top Job to Tony Abbott in historic Loss</h3><p>It was past 9:45pm on the East Coast when the major networks called the election for the Coalition. Since 1931, Labor has lost Government in it's first term against the Opposition as the Liberals wash over Australia.</p><p>As Kevin Rudd concedes and resigns as Labor leader to a crowd of pensive Labor members in Brisbane, Tony Abbott gives a firey speech to Liberal Party faithful in Sydney. It was all over, but many behind the decision desks on the network thing; Was it possible if Julia Gillard attempted a Leadership spill they could have achieved a second term?</p><p>Even with this loss, it means Julia Gillard will be elected leader of the Labor Party once Parliament resumes and the first female leader of the Federal Labor party, making history. Now, the focus is on 2013 and keeping the Government to account.</p>"
-
 } else {
 return "<h3>That's odd. The mod seems broken.</h3><p>Contact the creator of the mod. Congrats if you won, better luck next time if you lost.</p>"
 }
 }
-}
+
 
 e.multiple_endings=true
 
@@ -17390,3 +17404,5 @@ function changechart() {
     }
 }
 window.setInterval(changechart,200)
+}
+
