@@ -15,31 +15,6 @@ const partyLeaders = [
 ]
 
 
-if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 94) {
-        ctsAchievement("Finish What You Started");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] == 75) {
-        ctsAchievement("The Independent Kingmaker");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5021 && 5032 && quickstats[0] >= 76) {
-        ctsAchievement("The Coal-Free Liberal");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5015 && quickstats[0]) {
-        ctsAchievement("Opposition Henchman");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5009 && 5020 && 5023 && 5045 && 5052 && 5070 && quickstats[0] >= 76) {
-        ctsAchievement("Axe It!");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 76) {
-    ctsAchievement("Standing Up for Australia");
-    }
-
-
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 campaignTrail_temp.player_answers = [];
 campaignTrail_temp.cyoa = true // NECESSARY - DO NOT LEAVE OUT
@@ -1178,7 +1153,7 @@ cyoAdventure = function (_a) {
             "feedback": "A good way to finish off the campaign on a strong message. This see's a final boost for you in the polls.",
             "global_effect": [200, -0.004], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
-            "description": "This election is about honesty and strenght. We need this in a Government now more than ever. This Government has not been honest with Australian's. Instability and recklessness. We need a leader who will properly stand up for our nation."
+            "description": "This election is about honesty and strength. We need this in a Government now more than ever. This Government has not been honest with Australian's. Instability and recklessness. We need a leader who will properly stand up for our nation."
           }     
     },
 
@@ -1190,7 +1165,7 @@ cyoAdventure = function (_a) {
             "feedback": "Focusing on your policies is always a good focus during a speech. However, Labor have the final attack oppotunity over you tying yourself closer to John Howard.",
             "global_effect": [200, -0.002], // format: [candidate pk, amount of global effect]
             "issue_effect": [100, 0.002, 0.009], // format: [issue, issue score, issue importance]
-            "description": "Remember the days under John Howard? We had stability and a strong economy. I will continue the legaacy of not just Mr. Howard. But all former Liberal Leaders. To guide our nation in Liberal Conservatism. Our policies of reform and cutting red and green tape will grow our nation and our economy."
+            "description": "Remember the days under John Howard? We had stability and a strong economy. I will continue the legacy of not just Mr. Howard. But all former Liberal Leaders. To guide our nation in Liberal Conservatism. Our policies of reform and cutting red and green tape will grow our nation and our economy."
           }     
     },
 
@@ -17131,6 +17106,28 @@ endingPicker = (out, totv, aa, quickstats) => {
   let e = campaignTrail_temp;
   let html;
 
+if (quickstats[0] >= 94) {
+	ctsAchievement("Finish What You Started"); 
+}
+
+if (quickstats[0] == 75) {
+        ctsAchievement("The Independent Kingmaker");
+    }
+
+if((quickstats[0] >= 76) && (campaignTrail_temp.player_answers.includes(5021) && campaignTrail_temp.player_answers.includes(5032))) {
+        ctsAchievement("The Coal-Free Liberal");
+    }
+
+if((quickstats[0] >= 76) && (campaignTrail_temp.player_answers.includes(5015))) {
+		ctsAchievement("Opposition Henchmen");
+    }
+
+if((quickstats[0] >= 76) && (campaignTrail_temp.player_answers.includes(5009) && campaignTrail_temp.player_answers.includes(5020) && campaignTrail_temp.player_answers.includes(5023) && campaignTrail_temp.player_answers.includes(5045) && campaignTrail_temp.player_answers.includes(5052) && campaignTrail_temp.player_answers.includes(5070))) {
+        ctsAchievement("Axe It!");
+    }
+if (quickstats[0] >= 76) {
+	ctsAchievement("Standing Up For Australia"); 
+}
 used=false
 
 // Astro's Ending Template
