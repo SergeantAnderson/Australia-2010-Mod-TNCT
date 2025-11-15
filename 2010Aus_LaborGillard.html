@@ -14,27 +14,6 @@ const partyLeaders = [
     { party: 203, partyName: 'Australian Greens', leaderName: 'Brown', fullLeaderName: 'Bob Brown'},
 ]
 
-
-if (campaignTrail_temp.player_answers[5] == 5057 && quickstats[0] >= 76) {
-        ctsAchievement("A Ruddless Victory");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5029 && 5035 && quickstats[0] >= 76) {
-        ctsAchievement("The Taxing Queen");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 83) {
-    ctsAchievement("The More, The Merrier");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] == 75) {
-    ctsAchievement("The Green Stalemate");
-    }
-
-if (campaignTrail_temp.player_answers[5] == 5000 && quickstats[0] >= 76) {
-    ctsAchievement("Lets Move Australia Forward");
-    }
-
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 campaignTrail_temp.player_answers = [];
 campaignTrail_temp.cyoa = true; // NECESSARY - DO NOT LEAVE OUT
@@ -171,7 +150,7 @@ cyoAdventure = function (a) {
            "pk": 1000,
            "fields": {
              "priority": 1,
-             "description": "[24th June, 2010] Kevin Rudd’s leadership is in tatters at the current moment. Polls are showing a dip in Labor’s Primary support, and the Coalition leading in Two-Party Preferred before the election. Mrs. Gillard, the time has come. Are you willing to announce a Leadership Challenge against Prime Minister Kevin Rudd?",
+             "description": "[24th June, 2010] Kevin Rudd’s leadership is in tatters at the current moment. Polls are showing a dip in Labor’s Primary support, and the Coalition leading in Two-Party Preferred before the election. Mrs. Gillard, are you willing to announce a Leadership Challenge against Prime Minister Kevin Rudd?",
              "likelihood": 1
            }
          },
@@ -181,7 +160,7 @@ cyoAdventure = function (a) {
           "pk": 1001,
           "fields": {
             "priority": 1,
-            "description": "[24th June, 2010] Mrs Gillard, you’ve been elected unopposed as leader of the Federal Labor Party and subsequently, the first Female Prime Minister of Australia. Mr. Rudd has already tendered his resignation to the Governor General. Now, you have been officially sworn in and now stand in front of the Parliament Press Room as Prime Minister. What will you say as this nations new Prime Minister?",
+            "description": "[24th June, 2010] Mrs Gillard, you’ve been   elected unopposed as leader of the Federal Labor Party and subsequently, the first Female Prime Minister of Australia. Mr. Rudd has already tendered his resignation to the Governor General. Now, you have been officially sworn in and now stand in front of the Parliament Press Room as Prime Minister. What will you say as this nations new Prime Minister?",
             "likelihood": 1
           }
         },
@@ -201,7 +180,7 @@ cyoAdventure = function (a) {
           "pk": 1003,
           "fields": {
             "priority": 1,
-            "description": "Like any Prime Minister after 3 years, you’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for an official election. The date you had in mind? Saturday, the 21st of August. It’s now crunch time, Prime Minister.",
+            "description": "Having just been appointed Prime Minister, you’ve gone to Governor General Quentin Bryce to seek to dissolve the Parliament and half the senate for snap election. The date now being set out is Saturday, the 21st of August. It’s now crunch time, Prime Minister.",
             "likelihood": 1
           }
         },
@@ -687,7 +666,7 @@ cyoAdventure = function (a) {
           "pk": 5021,
           "fields": {
             "question": 1007,
-            "feedback": "Even though the Premiers are happy to support your campaign, this is a weak move to not visit these states, and seats will flip, potentially costing you a Majority.",
+            "feedback": "Even though the Premiers are happy to support your campaign, this is a weak move to not visit. However, this move will come at a cost, as both Keneally & Bligh face potential election losses in the future.",
             "global_effect": [201, 0.09], // format: [candidate pk, amount of global effect]
             "issue_effect": [103, 0.07, 0.09], // format: [issue, issue score, issue importance]
             "description": "The focus can be on the Premiers on the state to help with our message. I'll talk with Kristina Keneally and Anna Bligh to help with our messaging across these states. I can only do so much between these two."
@@ -17187,6 +17166,26 @@ endingPicker = (out, totv, aa, quickstats) => {
   let e = campaignTrail_temp;
   let html;
 
+if((quickstats[0] >= 76) && (campaignTrail_temp.player_answers.includes(5057))) {
+        ctsAchievement("A Ruddless Victory");
+    }
+
+if((quickstats[0] >= 76) && (campaignTrail_temp.player_answers.includes(5029) && campaignTrail_temp.player_answers.includes(5035))) {
+        ctsAchievement("The Taxing Queen");
+    }
+
+if (quickstats[0] >= 83) {
+    ctsAchievement("The More, The Merrier");
+    }
+
+if (quickstats[0] == 75) {
+    ctsAchievement("The Green Stalemate");
+    }
+
+if (quickstats[0] >= 76) {
+    ctsAchievement("Lets Move Australia Forward");
+    }
+
 used=false
 
 // Astro's Ending Template
@@ -17237,6 +17236,18 @@ return "<h3>The move to replace Kevin Rudd is more controversial than Whitlam's 
         }, 100);
     }
 return "<h3>No matter the record, Politics is a brutal game</h3><p>It was past 9:45pm on the East Coast when the major networks called the election for the Coalition. Since 1931, Labor has lost Government in it's first term against the Opposition as the Liberals wash over Australia.</p><p>As Kevin Rudd concedes and resigns as Labor leader to a crowd of pensive Labor members in Brisbane, Tony Abbott gives a firey speech to Liberal Party faithful in Sydney. It was all over, but many behind the decision desks on the network thing; Was it possible if Julia Gillard attempted a Leadership spill they could have achieved a second term?</p><p>Even with this loss, it means Julia Gillard will be elected leader of the Labor Party once Parliament resumes and the first female leader of the Federal Labor party, making history. Now, the focus is on 2013 and keeping the Government to account.</p>"
+
+} if (campaignTrail_temp.player_answers[0] == 5001 && quickstats[0] >= 76 && quickstats[0] >= 150 && campaignTrail_temp.running_mate_last_name == "PlaceLastNameHere") {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/9d5nuph.png";
+            }
+        }, 100);
+    }
+return "<h3>Rudd's return has marked a new era in Australian Politics</h3><p>With the past 3 and a half years of Governence being dilled with the noise of political instability within the Labor Party, Kevin Rudd has defied the polls and has won a second term for the Federal Labor Party.</p><p>Pundits had believed that earlier in the year, he would have been axed as Prime Minister, but he stayed on. Even with the polls going against Labor through the campaign, they have risen to defy the odds. With Opposition Leader Tony Abbott conceding the election, it only made things better for the party. Winning a second term for the first time since 1984.</p><p>The real work for a second term was to begin as Australia was to make it's way out of an economic scare, which it still faces with a high cost of living. But for now, victory is all that matters for Kevin Rudd.</p>"
 
 } else if (quickstats[0]== 0) {
     if (used != true) {
